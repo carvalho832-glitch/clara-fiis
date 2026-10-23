@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Validação simples antes do deploy."""
 import json
+import importlib.util
+from unittest import mock
 import pathlib
 import re
 import subprocess
@@ -20,5 +22,16 @@ for fund in radar["funds"]:
     assert fund.get("price") is None or fund["price"]>0
     assert fund.get("vacancy_pct") is None or 0 <= fund["vacancy_pct"] <= 100
     assert fund.get("next_payment") is None or re.fullmatch(r"\d{4}-\d{2}-\d{2}",fund["next_payment"])
-    if fund.get("next_payment"): assert fund["next_payment"]>=radar["generated_at"][:10]
+    if fund.get("next_payment"):
+        assert fund["next_payment"]>radar["generated_at"][:10], "Pagamento futuro precisa ser após hoje"
+        assert fund["next_payment"] != fund.get("last_payment"), "Pagamento duplicado em próximo e histórico"
 print("Verificações OK:",len(radar["funds"]),"fundos.")
+
+# Regressão: API de indicador com valor aninhado em "ultimo" deve ser lida corretamente.
+spec = importlib.util.spec_from_file_location("clara_collector", root / "scripts" / "update.py")
+collector = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(collector)
+with mock.patch.object(collector, "safe", return_value={"ultimo":{"valor":13.75, "data":collector.TODAY.isoformat()}}):
+    result = collector.macro_series("selic-meta")
+assert result["value"] == 13.75 and result["date"] == collector.TODAY.isoformat()
+print("Regressão Selic aninhada: OK")
