@@ -1,5 +1,67 @@
-# Clara FIIs
+# Clara FIIs 📈
 
-Painel semanal de análise de fundos imobiliários brasileiros, com dados públicos, fontes rastreáveis, calendário de proventos e simulador de dividendos. A seleção é baseada em critérios quantitativos e **não constitui recomendação individual de investimento**.
+**Aplicativo web responsivo** para acompanhar fundos imobiliários brasileiros, comparar indicadores, consultar notícias e simular rendimentos.
 
-Documentação, configurações e instruções adicionais serão adicionadas na implementação.
+**Acessar:** https://carvalho832-glitch.github.io/clara-fiis/
+
+## O que já funciona
+
+- **Radar semanal** com 12 FIIs de diferentes segmentos, pontuação quantitativa, preço de referência e link para a fonte.
+- **Notícias dos FIIs** e manchetes econômicas com data, veículo e link original.
+- **Vacância física** com data de referência, quando a fonte disponibiliza esse indicador.
+- **Simulador de dividendos**: valor disponível, fundo, cotas inteiras, saldo e renda mensal indicativa.
+- **Agenda de proventos**: somente pagamentos futuros com dados estruturados, nunca datas futuras presumidas.
+- **Atualização automática** toda segunda-feira às 08h15 (horário de Brasília) com GitHub Actions, além de execução manual.
+- **Uso no celular**, pelo navegador, com possibilidade de adicionar à tela inicial.
+
+## Fontes
+
+1. [Capital Agora](https://capitalagora.com.br/api): cotação de fechamento da B3, dados de informe mensal, P/VP, renda percentual e manchetes.
+2. [CVM](https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal): origem dos informes periódicos. A data de referência pode ser anterior à cotação.
+3. [brapi](https://brapi.dev/docs/fiis): proventos exatos por cota, data-com, pagamentos e vacância. Sem token, a API pública permite demonstração com HGLG11 e MXRF11. Dados completos de todos os FIIs requerem plano **Pro** da brapi.
+
+**Precisão:** quando a fonte fornece só o rendimento percentual do informe, e não o valor anunciado por cota, a calculadora usa preço x percentual / 100 como uma **simulação**. Isso não é anúncio de dividendo, nem promessa de pagamento.
+
+**Datas não são inventadas.** Ausência de data futura verificável aparece como **A confirmar**. Taxas de vacância apenas aparecem com dados estruturados; não são aplicadas como se fossem equivalentes em FIIs de recebíveis.
+
+## Critérios automáticos de triagem
+
+- P/VP: peso 35.
+- Rendimento mensal do informe: peso 25.
+- Número de cotistas: peso 10.
+- Patrimônio: peso 10.
+- Vacância física: peso 20, apenas quando for aplicável e estiver disponível.
+
+Campos ausentes não recebem valores inventados. Informe muito antigo reduz a pontuação. A pontuação **não** substitui análise de crédito, concentração, dívida, emissões, contratos de aluguel e notícias recentes. O sistema apresenta riscos e fontes para revisão antes de cada compra.
+
+## Ativar proventos e vacância de todos os fundos (opcional)
+
+Pode exigir assinatura paga na brapi. Confirme o plano antes de contratar.
+
+1. Obtenha sua chave da brapi: https://brapi.dev/
+2. Abra o repositório no GitHub: **Settings → Secrets and variables → Actions → New repository secret**.
+3. Crie o secret **BRAPI_TOKEN** com sua chave.
+4. Vá para **Actions → Atualizar radar e publicar aplicativo → Run workflow**.
+
+Nunca publique a chave no código, arquivo de dados, navegador ou README.
+
+## Rodar localmente
+
+Exige Python 3.12 ou superior e internet:
+
+1. Execute: python scripts/update.py
+2. Execute: python -m http.server 8000
+3. Abra: http://localhost:8000
+
+O coletor usa biblioteca padrão do Python. A interface usa HTML, CSS e JavaScript sem instalação de pacotes.
+
+## Limitações e segurança
+
+- Mercado e relatórios têm atrasos diferentes: confira sempre suas datas.
+- As notícias são manchetes e links, não resumos inventados nem análises de IA.
+- Datas futuras só aparecem quando anunciadas e documentadas na fonte integrada.
+- Sem disponibilidade do provedor, o campo mostra indisponível. Não se reutilizam cotações velhas como atuais.
+- Nenhuma compra automática. Não solicita senha de corretora.
+- Sem reserva de emergência, vender ativos durante uma queda pode causar perdas.
+
+Projeto educativo/informativo. **Não é consultoria regulamentada, recomendação individual ou garantia de rentabilidade.**
