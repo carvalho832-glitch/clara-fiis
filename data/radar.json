@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:10:27+00:00",
+  "generated_at": "2026-10-23T19:02:54+00:00",
   "quote_date": "2026-10-22",
   "weekly_status": "Atualizado",
   "funds": [
@@ -597,6 +597,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "FIIs ALZR11, XPML11 e SNEL11 pagam dividendos nesta sexta-feira (23); veja valores",
+          "url": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
+          "source": "InfoMoney",
+          "date": "2026-10-23"
+        },
+        {
           "title": "XPML11 reúne 26 shoppings e mais de 733 mil cotistas; conheça o fundo",
           "url": "https://www.suno.com.br/noticias/xpml11-carteira-numeros-dividendos-fii/",
           "source": "Suno Notícias",
@@ -606,12 +612,6 @@
           "title": "Safra passa a tesoura em preços-alvo e rebaixa recomendações de fundos imobiliários (FIIs)",
           "url": "https://www.moneytimes.com.br/safra-passa-a-tesoura-em-precos-alvo-e-rebaixa-recomendacoes-de-fundos-imobiliarios-fiis-igdl/",
           "source": "Money Times",
-          "date": "2026-10-19"
-        },
-        {
-          "title": "Dividendos do XPML11 são anunciados; confira o retorno mensal",
-          "url": "https://www.suno.com.br/noticias/xpml11-dividendos-23-outubro-2026/",
-          "source": "Suno Notícias",
           "date": "2026-10-19"
         }
       ],
@@ -631,21 +631,21 @@
   ],
   "headlines": [
     {
-      "title": "Tomate fica 24,5% mais caro em um mês e puxa a prévia da inflação de outubro",
-      "url": "https://economiareal.uol.com.br/noticia/economia/tomate-fica-245-mais-caro-em-um-mes-e-puxa-a-previa-da-inflacao-de-outubro-2146?utm_source=Feed%20UOL&utm_medium=site&xid=1237",
+      "title": "Ouro fecha em queda e perde 4% na semana com alta no petróleo",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/23/ouro-fecha-em-queda-e-perde-4-na-semana-com-alta-no-petroleo.htm",
       "source": "UOL Economia • Brasil",
       "date": "2026-10-23"
     },
     {
-      "title": "Prévia da inflação em outubro sobe com disparada dos alimentos",
-      "url": "https://www.gazetadopovo.com.br/economia/ipca-15-previa-inflacao-outubro-sobe-disparada-alimentos/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "Ouro cai com petróleo e acumula perda de 4% na semana",
+      "url": "https://www.moneytimes.com.br/ouro-23-10-26-lils/",
+      "source": "Money Times • Brasil",
       "date": "2026-10-23"
     },
     {
-      "title": "O que o IPCA-15 indica sobre os próximos cortes de juros? Veja avaliação de economista",
-      "url": "https://www.moneytimes.com.br/o-que-o-ipca-15-indica-sobre-os-proximos-cortes-de-juros-veja-avaliacao-de-economista-mlem/",
-      "source": "Money Times • Brasil",
+      "title": "Flávio Bolsonaro projeta nova lei para ampliar liberdade econômica no Brasil",
+      "url": "https://www.gazetadopovo.com.br/economia/flavio-bolsonaro-projeta-nova-lei-para-ampliar-liberdade-economica-no-brasil/",
+      "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-10-23"
     },
     {
@@ -661,21 +661,21 @@
       "date": "2026-10-19"
     },
     {
-      "title": "Finlândia - Ações fecharam o pregão em queda e o Índice OMX Helsinki 25 recuou 0,40%",
-      "url": "https://br.investing.com/news/stock-market-news/finlandia--acoes-fecharam-o-pregao-em-queda-e-o-indice-omx-helsinki-25-recuou-040-2101490",
-      "source": "Investing.com Brasil",
+      "title": "TSE informa que não determinou a retirada de nenhum canal de WhatsApp do ar",
+      "url": "https://www.infomoney.com.br/politica/tse-informa-que-nao-determinou-a-retirada-de-nenhum-canal-de-whatsapp-do-ar/",
+      "source": "InfoMoney",
       "date": "2026-10-23"
     },
     {
-      "title": "Ações da CrowdStrike disparam com otimismo em segurança cibernética",
-      "url": "https://br.investing.com/news/stock-market-news/acoes-da-crowdstrike-disparam-com-otimismo-em-seguranca-cibernetica-93CH-2101488",
-      "source": "Investing.com Brasil",
+      "title": "Petrobras (PETR4) lidera 4 perfis de investidores; veja as 10 ações mais negociadas da B3",
+      "url": "https://www.suno.com.br/noticias/acoes-mais-negociadas-b3-setembro-2026-petrobras/",
+      "source": "Suno Notícias",
       "date": "2026-10-23"
     },
     {
-      "title": "EUA autorizam liberação emergencial de até 400 mil barris de petróleo da reserva estratégica",
-      "url": "https://br.investing.com/news/stock-market-news/eua-autorizam-liberacao-emergencial-de-ate-400-mil-barris-de-petroleo-da-reserva-estrategica-2101487",
-      "source": "Investing.com Brasil",
+      "title": "Primeira carga de diesel russo do acordo Putin-Trump está a caminho dos EUA",
+      "url": "https://www.infomoney.com.br/mundo/primeira-carga-de-diesel-russo-do-acordo-putin-trump-esta-a-caminho-dos-eua/",
+      "source": "InfoMoney",
       "date": "2026-10-23"
     }
   ],
