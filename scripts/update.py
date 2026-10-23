@@ -160,6 +160,29 @@ def curated_events():
                        "verifiedOn": date_only(e.get("verified_on") or raw.get("updated_at"))})
     return events
 
+def reviewed_vacancies():
+    path = ROOT / "data" / "vacancias-revisadas.json"
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    records = {}
+    for entry in raw.get("items", []):
+        ticker = entry.get("ticker")
+        rate = valid_num(entry.get("vacancy_pct"), 0, 100)
+        reference = date_only(entry.get("reference"))
+        source = entry.get("source") or ""
+        if ticker not in WATCH or rate is None or not reference or not source.startswith("https://"):
+            continue
+        try:
+            age = (TODAY - dt.date.fromisoformat(reference)).days
+        except ValueError:
+            continue
+        if age < 0 or age > 150:
+            continue
+        records[ticker] = dict(entry, vacancy_pct=rate, reference=reference)
+    return records
+
 def fundamental_context(f):
     observations, cautions = [], []
     pvp = f.get("pvp")
@@ -178,7 +201,9 @@ def fundamental_context(f):
         if vacancy is None:
             cautions.append("Vacância não encontrada em fonte estruturada")
         else:
-            observations.append("Vacância física informada: " + format(vacancy, ".1f") + "%")
+            observations.append("Vacância " + (f.get("vacancy_kind") or "física").lower() + " informada: " + format(vacancy, ".1f") + "%")
+            if (f.get("vacancy_kind") or "Física") != "Física":
+                cautions.append("Indicador de vacância diferente do padrão físico; não comparar diretamente")
             if vacancy > 12:
                 cautions.append("Vacância física acima de 12%")
     else:
@@ -195,6 +220,8 @@ def fundamental_context(f):
                        ("alavancagem", "Manchete sobre alavancagem: checar dívidas")]:
         if tag in f.get("news_topics", []):
             cautions.append(issue)
+    if f.get("report_risk_note"):
+        cautions.insert(0, f["report_risk_note"])
     cautions.append("Antes de comprar: ler relatório gerencial, contratos e alavancagem")
     return observations[:3], cautions[:5]
 
@@ -235,7 +262,7 @@ def score_fund(f):
         possible += 10
         pts += 10 if equity >= 1e9 else 6 if equity >= 3e8 else 2
     vacancy = f.get("vacancy_pct")
-    if vacancy is not None and f["sector"] != "Recebíveis":
+    if vacancy is not None and f["sector"] != "Recebíveis" and (f.get("vacancy_kind") or "Física") == "Física":
         possible += 20
         pts += 20 if vacancy <= 5 else 15 if vacancy <= 10 else 7 if vacancy <= 20 else 0
         reasons.append("Vacância " + format(vacancy, ".1f") + "%")
@@ -251,7 +278,7 @@ def score_fund(f):
     missing = []
     if f.get("price") is None: missing.append("cotação")
     if f.get("yield_month_pct") is None: missing.append("rendimento")
-    if f["sector"] != "Recebíveis" and f.get("vacancy_pct") is None: missing.append("vacância")
+    if f["sector"] != "Recebíveis" and (f.get("vacancy_pct") is None or f.get("vacancy_kind") != "Física"): missing.append("vacância física")
     f["score"], f["missing"], f["notes"] = score, missing, reasons
     f["classification"] = "Revisar fontes" if missing else "Monitorar"
     return f
@@ -261,6 +288,7 @@ def main():
     try: previous = json.loads(OUT.read_text(encoding="utf-8"))
     except (OSError, ValueError): pass
     rows, quote_date = fundamentals()
+    manual_vacancies = reviewed_vacancies()
     brdiv = brapi("dividends", list(WATCH))
     brvac = brapi("properties", list(WATCH))
     div_index, vac_index = {}, {}
@@ -291,6 +319,7 @@ def main():
             "investors": valid_num(r.get("cotistas"), 0),
             "source_url": r.get("url") or "https://capitalagora.com.br/fiis/" + ticker,
             "vacancy_pct": None, "vacancy_reference": None, "vacancy_source": None,
+            "vacancy_kind": None, "report_risk_note": None, "report_url": None,
             "last_dividend": None, "dividend_reference": None,
             "last_payment": None, "last_com_date": None, "next_payment": None, "next_ex_date": None,
             "next_dividend": None, "dividend_source_type": None,
@@ -303,6 +332,16 @@ def main():
             fund["vacancy_pct"] = round(100 * vacrate, 2)
             fund["vacancy_reference"] = date_only(v.get("referenceDate"))
             fund["vacancy_source"] = "https://brapi.dev/docs/fiis/imoveis"
+            fund["vacancy_kind"] = "Física"
+        reviewed = manual_vacancies.get(ticker)
+        if reviewed and (not fund["vacancy_reference"] or reviewed["reference"] > fund["vacancy_reference"]):
+            fund["vacancy_pct"] = reviewed["vacancy_pct"]
+            fund["vacancy_kind"] = reviewed.get("vacancy_kind") or "Física"
+            fund["vacancy_reference"] = reviewed["reference"]
+            fund["vacancy_source"] = reviewed["source"]
+        if reviewed:
+            fund["report_url"] = reviewed["source"]
+            fund["report_risk_note"] = reviewed.get("note")
         dated = sorted(div_index.get(ticker, []), key=lambda x: date_only(x.get("paymentDate")) or "", reverse=True)
         for d in dated:
             pay = date_only(d.get("paymentDate"))
@@ -351,7 +390,8 @@ def main():
         "data_providers": [
             {"name": "Capital Agora (B3 / CVM)", "url": "https://capitalagora.com.br/api"},
             {"name": "CVM - informes de FIIs", "url": "https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal"},
-            {"name": "brapi (opcional, Pro)", "url": "https://brapi.dev/docs/fiis"}
+            {"name": "brapi (opcional, Pro)", "url": "https://brapi.dev/docs/fiis"},
+            {"name": "Relatórios gerenciais revisados (fontes nos cards)", "url": "https://fnet.bmfbovespa.com.br/fnet/publico/"}
         ],
         "warnings": [
             "Ranking automatizado, não é análise individual nem recomendação de compra.",
