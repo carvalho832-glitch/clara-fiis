@@ -25,8 +25,11 @@
     .badge{font-size:11px;padding:6px 9px;border-radius:8px;background:#23463d;color:#a5efd0;display:inline-block}.badge.grey{color:#d1cdc3;background:#393b35}
     .news-mini{font-size:12px;color:#accac0;padding-top:9px;border-top:1px solid #24493f;margin-top:13px}.news-mini a{color:#a5efd0;text-decoration:underline;text-underline-offset:3px}
     .foot{color:#83a49a;font-size:12px;text-align:center;margin-top:45px;line-height:1.7}.foot a{color:#a5ecd0}.hidden{display:none!important}.flex-between{display:flex;align-items:center;justify-content:space-between;gap:12px}.source-list{line-height:1.9;color:#aacaBE}.source-list a{color:#97f2c3;text-decoration:underline}
+    .weekly-summary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;border:1px solid #476952;background:linear-gradient(115deg,#163f35,#0d2927);padding:18px 20px;border-radius:18px;margin-bottom:18px}.weekly-summary h3{margin:0 0 7px;font-size:17px}.weekly-summary p{margin:0;color:#b4d1c4;font-size:13px;line-height:1.5}
+    .fund-bullets{display:grid;gap:6px;margin-top:15px}.fund-bullets p{margin:0;font-size:12px;line-height:1.5;color:#c8dacf}.fund-bullets p.alert{color:#ead9b7}.fund-bullets strong{color:#a2f4c8}
+    .compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.compare-item{border:1px solid #2a5649;background:#0b2423;border-radius:13px;padding:13px;min-width:0}.compare-item .pair{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin:8px 0;color:#cbded7}.compare-item .value{font-size:19px;font-weight:800;color:#b1f5d2}.compare-item small{font-size:11px;color:#a8bdb5;line-height:1.5;display:block}.event-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.event{border:1px solid #345b51;background:#092421;border-radius:14px;padding:15px;min-width:0}.event-head{display:flex;justify-content:space-between;align-items:center;gap:10px}.event-title{font-size:19px;font-weight:850}.event .event-details{font-size:12px;line-height:1.8;margin-top:12px;color:#d2e7db}.event a{color:#9ef1c5;text-decoration:underline;font-size:12px;display:inline-block;margin-top:10px}.mini-muted{font-size:11px;color:#97b4a8}.badge-risk{padding:5px 8px;border-radius:7px;background:#4e3927;font-size:11px;color:#ffdbab}.btn:focus-visible,.tab:focus-visible,a:focus-visible{outline:2px solid #b6ffda;outline-offset:3px}
     @media(max-width:900px){.hero{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.calculator{grid-template-columns:1fr}.hero-primary{min-height:230px}.metric-grid{grid-template-columns:repeat(4,1fr)}.metric-side{gap:12px}.metric-side .stroke{margin:0}}
-    @media(max-width:650px){.shell{padding:16px 14px 65px}.top{margin-bottom:20px}.top-right .chip:first-child{display:none}.hero-primary{padding:25px 21px;min-height:225px}.hero h1{font-size:35px}.metric-side{padding:20px}.metric-grid{grid-template-columns:repeat(2,1fr)}.cards,.cols{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.filter{width:100%}.tab{padding:11px 12px}.calculator .fields{grid-template-columns:1fr}.top-right{justify-content:end}.logo{font-size:19px}.card{padding:18px}.calc-summary{grid-template-columns:1fr 1fr}}
+    @media(max-width:650px){.compare-grid,.event-list{grid-template-columns:1fr}.weekly-summary{grid-template-columns:1fr}.card .links{flex-wrap:wrap}.tile-stats .stat-val{font-size:18px}.calc-value{overflow-wrap:anywhere}.top-right .chip{font-size:11px}.top{align-items:flex-start}.shell{padding:16px 14px 65px}.top{margin-bottom:20px}.top-right .chip:first-child{display:none}.hero-primary{padding:25px 21px;min-height:225px}.hero h1{font-size:35px}.metric-side{padding:20px}.metric-grid{grid-template-columns:repeat(2,1fr)}.cards,.cols{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.filter{width:100%}.tab{padding:11px 12px}.calculator .fields{grid-template-columns:1fr}.top-right{justify-content:end}.logo{font-size:19px}.card{padding:18px}.calc-summary{grid-template-columns:1fr 1fr}}
   </style>
 </head>
 <body>
@@ -61,6 +64,7 @@
     <section id="radar">
       <div class="section-head"><div><h2>Fundos sob observação</h2><p>Ordenação quantitativa semanal. Pontuação não é sinal de compra e depende da cobertura disponível.</p></div>
         <select class="filter" id="sectorFilter" aria-label="Filtrar setor"><option value="Todos">Todos os segmentos</option></select></div>
+      <div id="weeklyPick" class="weekly-summary" role="status"><div><h3>🔎 Panorama da semana</h3><p>Conferindo a consistência dos dados...</p></div></div>
       <div class="cards" id="fundCards"><div class="empty">Buscando os dados do radar...</div></div>
       <div class="cols" style="margin-top:23px">
         <section class="panel"><h3>📰 Notícias dos fundos</h3><div id="fundNews" class="muted">Aguardando...</div></section>
@@ -74,32 +78,34 @@
           <div class="fields">
             <div class="field"><label for="amount">Valor para investir (R$)</label><input id="amount" type="number" min="0" step="10" value="1000" inputmode="decimal"></div>
             <div class="field"><label for="fundChoose">Fundo imobiliário</label><select id="fundChoose"></select></div>
+            <div class="field"><label for="calcMode">Base de cálculo</label><select id="calcMode"><option value="latest">Último rendimento por cota divulgado</option><option value="manual">Informar valor por cota manualmente</option><option value="indicative">Cenário usando informe (aproximação)</option></select></div>
+            <div class="field hidden" id="manualField"><label for="manualDiv">Valor por cota informado (R$)</label><input id="manualDiv" type="number" min="0" step="0.01" value="0.80" inputmode="decimal"></div>
           </div>
           <div class="flex-between" style="margin-bottom:15px;flex-wrap:wrap"><span class="muted" style="font-size:12px">Valores rápidos</span><div style="display:flex;gap:7px"><button class="btn btn-secondary" data-amount="100">R$ 100</button><button class="btn btn-secondary" data-amount="500">R$ 500</button><button class="btn btn-secondary" data-amount="1000">R$ 1.000</button></div></div>
           <div class="empty" style="font-size:12px">O simulador compra apenas cotas inteiras matematicamente. Não inclui corretagem, impostos ou oscilações. Rendimentos de fundos imobiliários variam.</div>
         </div>
         <div class="panel">
-          <div class="calc-kpi"><div class="mini-title" style="color:#d5f2e6">Rendimento mensal indicativo</div><div class="calc-value" id="calcIncome">—</div><div id="calcBasis" style="font-size:12px;color:#c9e9dd">Escolha um fundo para simular.</div></div>
+          <div class="calc-kpi"><div class="mini-title" id="calcTitle" style="color:#d5f2e6">Renda mensal ilustrativa</div><div class="calc-value" id="calcIncome">—</div><div id="calcBasis" style="font-size:12px;color:#c9e9dd">Escolha um fundo para simular.</div><a id="calcSourceLink" style="display:none;color:#aff6d4;font-size:12px;margin-top:10px;text-decoration:underline" target="_blank" rel="noopener noreferrer">Conferir origem do rendimento ↗</a></div>
           <div class="calc-summary">
             <div><span class="mini-title">Cotas inteiras</span><strong id="calcUnits">—</strong></div>
             <div><span class="mini-title">Saldo não investido</span><strong id="calcChange">—</strong></div>
             <div><span class="mini-title">Total aplicado</span><strong id="calcInvested">—</strong></div>
-            <div><span class="mini-title">Pagamento anunciado</span><strong id="calcPay" style="font-size:15px">A confirmar</strong></div>
+            <div><span class="mini-title">Próximo pagamento divulgado</span><strong id="calcPay" style="font-size:15px">A confirmar</strong></div>
           </div>
           <div class="disclaimer" id="calcWarning">Projeções baseadas em indicadores publicados podem não corresponder à próxima distribuição.</div>
         </div>
       </div>
-      <section class="panel" style="margin-top:20px"><h3>Comparação com o mesmo valor investido</h3><div class="table-wrap"><table class="table"><thead><tr><th>FII</th><th>Preço da cota</th><th>Cotas</th><th>Renda indicativa / mês</th><th>Base do cálculo</th></tr></thead><tbody id="compareRows"></tbody></table></div></section>
+      <section class="panel" style="margin-top:20px"><h3>Comparação dos fundos com o mesmo valor</h3><p class="muted" style="font-size:12px">A comparação usa apenas o último valor por cota divulgado. Se não estiver disponível, não inventamos um provento.</p><div id="compareCards" class="compare-grid"></div></section>
     </section>
     <section id="calendario" class="hidden">
-      <div class="section-head"><div><h2>Agenda de rendimentos</h2><p>Próximos pagamentos anunciados, quando a fonte informa data-com e data de pagamento.</p></div></div>
+      <div class="section-head"><div><h2>Agenda de rendimentos</h2><p>Datas oficialmente divulgadas e últimos pagamentos informados pelas fontes integradas.</p></div></div>
       <div class="panel"><div id="calendarBody" class="muted">Carregando eventos...</div><div class="disclaimer">A data-com define quem tem direito ao provento anunciado. Prazos passados não são usados para prever datas futuras. Confira sempre o comunicado do administrador.</div></div>
     </section>
     <section id="fontes" class="hidden">
       <div class="section-head"><div><h2>Transparência antes de tudo</h2><p>O radar só vale a pena se você souber de onde vêm os números e o que ainda falta verificar.</p></div></div>
       <div class="cols">
-        <article class="panel"><h3>Como pontuamos</h3><p class="source-list">O índice usa P/VP (35 pontos), rendimento mensal informado no relatório (25), número de cotistas (10), patrimônio (10) e vacância (20 pontos, apenas para imóveis físicos quando disponível). Pesos ausentes não são inventados. Informe muito antigo reduz a nota.</p><p class="source-list">A nota é uma <strong>triagem automática</strong>, não previsão de retorno. Um P/VP baixo pode refletir problemas reais. Os riscos e notícias exigem leitura do relatório do administrador.</p></article>
-        <article class="panel"><h3>Origem dos dados</h3><div id="sourceLinks" class="source-list"></div><p class="source-list">Para datas de pagamentos confirmadas, vacância estruturada e valores exatos por cota de todos os FIIs, o projeto aceita opcionalmente um token <strong>brapi Pro</strong> no GitHub Actions. Sem esse acesso, campos sem comprovação ficam como <strong>não confirmados</strong>, nunca preenchidos por suposição.</p></article>
+        <article class="panel"><h3>Como pontuamos</h3><p class="source-list">O indicador automático usa P/VP (35 pontos), rendimento do informe (25), número de cotistas (10), patrimônio (10) e vacância (20 pontos quando aplicável). Dados ausentes não pontuam. Relatórios antigos reduzem a nota. Não é uma classificação de segurança, uma previsão nem uma recomendação de compra.</p><p class="source-list">A nota é uma <strong>triagem automática</strong>, não previsão de retorno. Um P/VP baixo pode refletir problemas reais. Os riscos e notícias exigem leitura do relatório do administrador.</p></article>
+        <article class="panel"><h3>Origem dos dados</h3><div id="sourceLinks" class="source-list"></div><p class="source-list">Para proventos recentes de alguns FIIs, há anúncios revisados com fontes e validade limitada. Para dados mais abrangentes e automáticos de proventos e vacância, o projeto aceita opcionalmente um token <strong>brapi Pro</strong> no GitHub Actions. Sem esse acesso, campos sem comprovação ficam como <strong>não confirmados</strong>, nunca preenchidos por suposição.</p></article>
       </div>
       <div class="panel" style="margin-top:18px"><h3>Estado das integrações</h3><div id="systemStatus" class="source-list"></div></div>
       <div class="disclaimer">Atenção: você optou por priorizar FIIs sem reserva de emergência. A volatilidade pode obrigar a venda com prejuízo caso precise do dinheiro. Não invista capital essencial. Dados não constituem recomendação personalizada. Nenhuma transação é feita pelo aplicativo.</div>
