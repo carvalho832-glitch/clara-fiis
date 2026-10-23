@@ -25,6 +25,14 @@ for fund in radar["funds"]:
     if fund.get("next_payment"):
         assert fund["next_payment"]>radar["generated_at"][:10], "Pagamento futuro precisa ser após hoje"
         assert fund["next_payment"] != fund.get("last_payment"), "Pagamento duplicado em próximo e histórico"
+    if fund.get("upcoming_com_date"):
+        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", fund["upcoming_com_date"])
+        assert fund["upcoming_com_date"]>=radar["generated_at"][:10], "Não mostrar data-com vencida como oportunidade"
+        if fund.get("upcoming_payment_date"):
+            assert fund["upcoming_payment_date"]>=fund["upcoming_com_date"]
+        if fund.get("upcoming_ex_date"):
+            assert fund["upcoming_ex_date"]>fund["upcoming_com_date"]
+        assert (fund.get("upcoming_source") or "").startswith("https://"), "Toda data-com futura exige fonte"
 print("Verificações OK:",len(radar["funds"]),"fundos.")
 
 # Regressão: API de indicador com valor aninhado em "ultimo" deve ser lida corretamente.
