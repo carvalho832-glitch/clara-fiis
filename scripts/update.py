@@ -128,11 +128,13 @@ def score_fund(f):
         possible += 20
         pts += 20 if vacancy <= 5 else 15 if vacancy <= 10 else 7 if vacancy <= 20 else 0
         reasons.append("Vacância " + format(vacancy, ".1f") + "%")
-    score = round(100 * pts / possible) if possible else None
+    full_weight = 80 if f["sector"] == "Recebíveis" else 100
+    score = round(100 * pts / full_weight) if possible else None
     if f.get("source_reference"):
         try:
             age = (TODAY - dt.date.fromisoformat(f["source_reference"])).days
-            if age > 180 and score is not None: score = max(0, score - 15)
+            if age > 180 and score is not None: score = max(0, score - 20)
+            elif age > 90 and score is not None: score = max(0, score - 10)
             if age > 100: reasons.append("Informe antigo: " + str(age) + " dias")
         except ValueError: pass
     missing = []
