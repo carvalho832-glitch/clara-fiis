@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:02:54+00:00",
+  "generated_at": "2026-10-23T19:08:22+00:00",
   "quote_date": "2026-10-22",
   "weekly_status": "Atualizado",
   "funds": [
@@ -21,8 +21,11 @@
       "last_dividend": 1.17,
       "dividend_reference": "2026-10-15",
       "last_payment": "2026-10-15",
+      "last_com_date": "2026-09-30",
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": "Base de proventos brapi",
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
@@ -56,7 +59,18 @@
         "Vacância 2.4%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Monitorar"
+      "classification": "Monitorar",
+      "observations": [
+        "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade",
+        "Valor por cota divulgado: R$ 1,17",
+        "Vacância física informada: 2.4%"
+      ],
+      "cautions": [
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 6,
+      "data_quality": "Parcial"
     },
     {
       "ticker": "MXRF11",
@@ -76,8 +90,11 @@
       "last_dividend": 0.1,
       "dividend_reference": "2026-10-15",
       "last_payment": "2026-10-15",
+      "last_com_date": "2026-09-30",
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": "Base de proventos brapi",
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
@@ -107,7 +124,17 @@
         "Rendimento mensal do informe: 0.81%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Monitorar"
+      "classification": "Monitorar",
+      "observations": [
+        "Valor por cota divulgado: R$ 0,10"
+      ],
+      "cautions": [
+        "Conferir inadimplência, garantias e concentração dos CRIs",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 6,
+      "data_quality": "Parcial"
     },
     {
       "ticker": "KNCR11",
@@ -124,12 +151,15 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
+      "last_dividend": 1.13,
+      "dividend_reference": "2026-10-14",
+      "last_payment": "2026-10-14",
+      "last_com_date": "2026-09-30",
       "next_payment": null,
       "next_ex_date": null,
-      "payment_source": null,
+      "next_dividend": null,
+      "dividend_source_type": "Anúncio revisado manualmente",
+      "payment_source": "https://www.fundsexplorer.com.br/noticias/kncr11-dividendos-outubro",
       "news": [
         {
           "title": "Juros em queda: o que pode mudar para o KNCR11 e seus dividendos?",
@@ -158,7 +188,17 @@
         "Rendimento mensal do informe: 1.22%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Monitorar"
+      "classification": "Monitorar",
+      "observations": [
+        "Valor por cota divulgado: R$ 1,13"
+      ],
+      "cautions": [
+        "Conferir inadimplência, garantias e concentração dos CRIs",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 6,
+      "data_quality": "Parcial"
     },
     {
       "ticker": "RBRR11",
@@ -178,8 +218,11 @@
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
+      "last_com_date": null,
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
       "payment_source": null,
       "news": [
         {
@@ -209,7 +252,18 @@
         "Rendimento mensal do informe: 0.00%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Monitorar"
+      "classification": "Monitorar",
+      "observations": [
+        "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade"
+      ],
+      "cautions": [
+        "Rendimento recente por cota ainda não verificado",
+        "Conferir inadimplência, garantias e concentração dos CRIs",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Parcial"
     },
     {
       "ticker": "BTLG11",
@@ -226,12 +280,15 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
-      "next_payment": null,
-      "next_ex_date": null,
-      "payment_source": null,
+      "last_dividend": 0.81,
+      "dividend_reference": "2026-10-23",
+      "last_payment": "2026-10-23",
+      "last_com_date": "2026-10-15",
+      "next_payment": "2026-10-23",
+      "next_ex_date": "2026-10-15",
+      "next_dividend": 0.81,
+      "dividend_source_type": "Anúncio revisado manualmente",
+      "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
           "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
@@ -266,7 +323,85 @@
         "Rendimento mensal do informe: 0.95%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Revisar fontes"
+      "classification": "Revisar fontes",
+      "observations": [
+        "Valor por cota divulgado: R$ 0,81"
+      ],
+      "cautions": [
+        "Vacância não encontrada em fonte estruturada",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Notícia sobre emissão: avaliar diluição e uso do capital",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 6,
+      "data_quality": "Em revisão"
+    },
+    {
+      "ticker": "XPML11",
+      "name": "PENINSULA FII RL",
+      "sector": "Shoppings",
+      "price": 104.7,
+      "pvp": null,
+      "yield_month_pct": 0.6393,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 5072222384.55,
+      "investors": 11.0,
+      "source_url": "https://capitalagora.com.br/fiis/XPML11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": 0.92,
+      "dividend_reference": "2026-10-23",
+      "last_payment": "2026-10-23",
+      "last_com_date": "2026-10-16",
+      "next_payment": "2026-10-23",
+      "next_ex_date": "2026-10-16",
+      "next_dividend": 0.92,
+      "dividend_source_type": "Anúncio revisado manualmente",
+      "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
+      "news": [
+        {
+          "title": "FIIs ALZR11, XPML11 e SNEL11 pagam dividendos nesta sexta-feira (23); veja valores",
+          "url": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
+          "source": "InfoMoney",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "XPML11 reúne 26 shoppings e mais de 733 mil cotistas; conheça o fundo",
+          "url": "https://www.suno.com.br/noticias/xpml11-carteira-numeros-dividendos-fii/",
+          "source": "Suno Notícias",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "Safra passa a tesoura em preços-alvo e rebaixa recomendações de fundos imobiliários (FIIs)",
+          "url": "https://www.moneytimes.com.br/safra-passa-a-tesoura-em-precos-alvo-e-rebaixa-recomendacoes-de-fundos-imobiliarios-fiis-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-19"
+        }
+      ],
+      "news_topics": [
+        "rebaixamento"
+      ],
+      "score": 21,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "Rendimento mensal do informe: 0.64%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes",
+      "observations": [
+        "Valor por cota divulgado: R$ 0,92"
+      ],
+      "cautions": [
+        "Vacância não encontrada em fonte estruturada",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Em revisão"
     },
     {
       "ticker": "XPLG11",
@@ -286,8 +421,11 @@
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
+      "last_com_date": null,
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
       "payment_source": null,
       "news": [
         {
@@ -321,7 +459,16 @@
         "Rendimento mensal do informe: 0.78%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Revisar fontes"
+      "classification": "Revisar fontes",
+      "observations": [],
+      "cautions": [
+        "Rendimento recente por cota ainda não verificado",
+        "Vacância não encontrada em fonte estruturada",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Em revisão"
     },
     {
       "ticker": "VISC11",
@@ -341,8 +488,11 @@
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
+      "last_com_date": null,
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
       "payment_source": null,
       "news": [
         {
@@ -374,7 +524,16 @@
         "Rendimento mensal do informe: 0.73%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Revisar fontes"
+      "classification": "Revisar fontes",
+      "observations": [],
+      "cautions": [
+        "Rendimento recente por cota ainda não verificado",
+        "Vacância não encontrada em fonte estruturada",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Em revisão"
     },
     {
       "ticker": "KNRI11",
@@ -394,8 +553,11 @@
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
+      "last_com_date": null,
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
       "payment_source": null,
       "news": [
         {
@@ -423,7 +585,16 @@
         "Rendimento mensal do informe: 0.67%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Revisar fontes"
+      "classification": "Revisar fontes",
+      "observations": [],
+      "cautions": [
+        "Rendimento recente por cota ainda não verificado",
+        "Vacância não encontrada em fonte estruturada",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Em revisão"
     },
     {
       "ticker": "HGRU11",
@@ -443,8 +614,11 @@
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
+      "last_com_date": null,
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
       "payment_source": null,
       "news": [
         {
@@ -476,7 +650,16 @@
         "Rendimento mensal do informe: 0.74%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Revisar fontes"
+      "classification": "Revisar fontes",
+      "observations": [],
+      "cautions": [
+        "Rendimento recente por cota ainda não verificado",
+        "Vacância não encontrada em fonte estruturada",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Em revisão"
     },
     {
       "ticker": "VILG11",
@@ -496,8 +679,11 @@
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
+      "last_com_date": null,
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
       "payment_source": null,
       "news": [
         {
@@ -531,7 +717,18 @@
         "Rendimento mensal do informe: 0.75%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Revisar fontes"
+      "classification": "Revisar fontes",
+      "observations": [
+        "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade"
+      ],
+      "cautions": [
+        "Rendimento recente por cota ainda não verificado",
+        "Vacância não encontrada em fonte estruturada",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Em revisão"
     },
     {
       "ticker": "PVBI11",
@@ -551,8 +748,11 @@
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
+      "last_com_date": null,
       "next_payment": null,
       "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
       "payment_source": null,
       "news": [
         {
@@ -572,61 +772,18 @@
         "Rendimento mensal do informe: 0.43%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Revisar fontes"
-    },
-    {
-      "ticker": "XPML11",
-      "name": "PENINSULA FII RL",
-      "sector": "Shoppings",
-      "price": 104.7,
-      "pvp": null,
-      "yield_month_pct": 0.6393,
-      "source_reference": "2026-07-01",
-      "quote_date": "2026-10-22",
-      "equity": 5072222384.55,
-      "investors": 11.0,
-      "source_url": "https://capitalagora.com.br/fiis/XPML11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
-      "next_payment": null,
-      "next_ex_date": null,
-      "payment_source": null,
-      "news": [
-        {
-          "title": "FIIs ALZR11, XPML11 e SNEL11 pagam dividendos nesta sexta-feira (23); veja valores",
-          "url": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
-          "source": "InfoMoney",
-          "date": "2026-10-23"
-        },
-        {
-          "title": "XPML11 reúne 26 shoppings e mais de 733 mil cotistas; conheça o fundo",
-          "url": "https://www.suno.com.br/noticias/xpml11-carteira-numeros-dividendos-fii/",
-          "source": "Suno Notícias",
-          "date": "2026-10-21"
-        },
-        {
-          "title": "Safra passa a tesoura em preços-alvo e rebaixa recomendações de fundos imobiliários (FIIs)",
-          "url": "https://www.moneytimes.com.br/safra-passa-a-tesoura-em-precos-alvo-e-rebaixa-recomendacoes-de-fundos-imobiliarios-fiis-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-19"
-        }
+      "classification": "Revisar fontes",
+      "observations": [
+        "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade"
       ],
-      "news_topics": [
-        "rebaixamento"
+      "cautions": [
+        "Rendimento recente por cota ainda não verificado",
+        "Vacância não encontrada em fonte estruturada",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
       ],
-      "score": 21,
-      "missing": [
-        "vacância"
-      ],
-      "notes": [
-        "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 114 dias"
-      ],
-      "classification": "Revisar fontes"
+      "evidence_count": 5,
+      "data_quality": "Em revisão"
     }
   ],
   "headlines": [
@@ -661,20 +818,20 @@
       "date": "2026-10-19"
     },
     {
-      "title": "TSE informa que não determinou a retirada de nenhum canal de WhatsApp do ar",
-      "url": "https://www.infomoney.com.br/politica/tse-informa-que-nao-determinou-a-retirada-de-nenhum-canal-de-whatsapp-do-ar/",
+      "title": "Copa BTG Trader: cinco finalistas disputam R$ 1 milhão após competição com 15 mil inscritos",
+      "url": "https://www.moneytimes.com.br/copa-btg-trader-cinco-finalistas-disputam-r-1-milhao-apos-competicao-com-15-mil-inscritos/",
+      "source": "Money Times",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Brasileira morre em lua de mel em Portugal após reação alérgica; entenda",
+      "url": "https://www.infomoney.com.br/minhas-financas/brasileira-morre-lua-de-mel-portugal/",
       "source": "InfoMoney",
       "date": "2026-10-23"
     },
     {
-      "title": "Petrobras (PETR4) lidera 4 perfis de investidores; veja as 10 ações mais negociadas da B3",
-      "url": "https://www.suno.com.br/noticias/acoes-mais-negociadas-b3-setembro-2026-petrobras/",
-      "source": "Suno Notícias",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "Primeira carga de diesel russo do acordo Putin-Trump está a caminho dos EUA",
-      "url": "https://www.infomoney.com.br/mundo/primeira-carga-de-diesel-russo-do-acordo-putin-trump-esta-a-caminho-dos-eua/",
+      "title": "Patrimônio no exterior: veja quando considerar a abertura de uma “offshore”",
+      "url": "https://www.infomoney.com.br/mercados/patrimonio-no-exterior-veja-quando-considerar-a-abertura-de-uma-offshore/",
       "source": "InfoMoney",
       "date": "2026-10-23"
     }
@@ -706,6 +863,7 @@
   "warnings": [
     "Ranking automatizado, não é análise individual nem recomendação de compra.",
     "Taxa mensal do informe não é dividendo anunciado nem garantia de pagamento.",
+    "Anúncios revisados manualmente expiram após 65 dias; confira a atualização e o documento da fonte.",
     "Vacância e próximas datas de pagamento só aparecem quando confirmadas por fonte estruturada.",
     "Uma compra realizada após a data-com anunciada não recebe aquele provento."
   ],
