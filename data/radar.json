@@ -1,8 +1,82 @@
 {
-  "generated_at": "2026-10-23T19:12:44+00:00",
+  "generated_at": "2026-10-23T19:13:55+00:00",
   "quote_date": "2026-10-22",
   "weekly_status": "Atualizado",
   "funds": [
+    {
+      "ticker": "BTLG11",
+      "name": "BTGP LOGISTICA FII",
+      "sector": "Logística",
+      "price": 104.32,
+      "pvp": 0.976,
+      "yield_month_pct": 0.9476,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 7580921710.93,
+      "investors": 515243.0,
+      "source_url": "https://capitalagora.com.br/fiis/BTLG11",
+      "vacancy_pct": 1.2,
+      "vacancy_reference": "2026-08-31",
+      "vacancy_source": "https://www.clubefii.com.br/fundo_comunicados_embed?cod_neg=BTLG11%3Futm_source%3Dsitemap&id=1306411",
+      "vacancy_kind": "Física",
+      "report_risk_note": "17ª emissão de cotas e aquisições em discussão; acompanhar diluição, caixa e novos contratos.",
+      "report_url": "https://www.clubefii.com.br/fundo_comunicados_embed?cod_neg=BTLG11%3Futm_source%3Dsitemap&id=1306411",
+      "last_dividend": 0.81,
+      "dividend_reference": "2026-10-23",
+      "last_payment": "2026-10-23",
+      "last_com_date": "2026-10-15",
+      "next_payment": "2026-10-23",
+      "next_ex_date": "2026-10-15",
+      "next_dividend": 0.81,
+      "dividend_source_type": "Anúncio revisado manualmente",
+      "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
+      "news": [
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "BTLG11 anuncia novos dividendos para outubro; veja quem recebe",
+          "url": "https://www.suno.com.br/noticias/btlg11-distribui-rendimentos-outubro-2026/",
+          "source": "Suno Notícias",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para novas aquisições",
+          "url": "https://www.infomoney.com.br/onde-investir/fii-btlg11-aprova-17a-emissao-e-pode-captar-ate-r-12-bilhao-para-novas-aquisicoes/",
+          "source": "InfoMoney",
+          "date": "2026-10-08"
+        }
+      ],
+      "news_topics": [
+        "emissão de cotas",
+        "vacância",
+        "aquisições"
+      ],
+      "score": 90,
+      "missing": [],
+      "notes": [
+        "P/VP 0.98",
+        "Rendimento mensal do informe: 0.95%",
+        "Vacância 1.2%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Monitorar",
+      "observations": [
+        "Valor por cota divulgado: R$ 0,81",
+        "Vacância física informada: 1.2%"
+      ],
+      "cautions": [
+        "17ª emissão de cotas e aquisições em discussão; acompanhar diluição, caixa e novos contratos.",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Notícia sobre emissão: avaliar diluição e uso do capital",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 6,
+      "data_quality": "Parcial"
+    },
     {
       "ticker": "HGLG11",
       "name": "PÁTRIA LOG - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
@@ -15,9 +89,12 @@
       "equity": 7589554105.43,
       "investors": 608345.0,
       "source_url": "https://capitalagora.com.br/fiis/HGLG11",
-      "vacancy_pct": 2.41,
-      "vacancy_reference": "2026-06-30",
-      "vacancy_source": "https://brapi.dev/docs/fiis/imoveis",
+      "vacancy_pct": 2.7,
+      "vacancy_reference": "2026-09-30",
+      "vacancy_source": "https://www.clubefii.com.br/fundo_comunicados_embed?cod=0&cod_neg=HGLG11&id=1348097&tipo_comunicado=relatorio_gerencial_relatorios",
+      "vacancy_kind": "Física",
+      "report_risk_note": "Em setembro, resultado de R$ 0,89/cota ficou abaixo da distribuição de R$ 1,17/cota; alavancagem financeira de 8,7% (10,3% com SPE).",
+      "report_url": "https://www.clubefii.com.br/fundo_comunicados_embed?cod=0&cod_neg=HGLG11&id=1348097&tipo_comunicado=relatorio_gerencial_relatorios",
       "last_dividend": 1.17,
       "dividend_reference": "2026-10-15",
       "last_payment": "2026-10-15",
@@ -56,16 +133,17 @@
       "notes": [
         "P/VP 0.94",
         "Rendimento mensal do informe: 0.70%",
-        "Vacância 2.4%",
+        "Vacância 2.7%",
         "Informe antigo: 114 dias"
       ],
       "classification": "Monitorar",
       "observations": [
         "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade",
         "Valor por cota divulgado: R$ 1,17",
-        "Vacância física informada: 2.4%"
+        "Vacância física informada: 2.7%"
       ],
       "cautions": [
+        "Em setembro, resultado de R$ 0,89/cota ficou abaixo da distribuição de R$ 1,17/cota; alavancagem financeira de 8,7% (10,3% com SPE).",
         "Informe de patrimônio/rendimentos com mais de 90 dias",
         "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
       ],
@@ -87,6 +165,9 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
+      "vacancy_kind": null,
+      "report_risk_note": null,
+      "report_url": null,
       "last_dividend": 0.1,
       "dividend_reference": "2026-10-15",
       "last_payment": "2026-10-15",
@@ -151,6 +232,9 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
+      "vacancy_kind": null,
+      "report_risk_note": null,
+      "report_url": null,
       "last_dividend": 1.13,
       "dividend_reference": "2026-10-14",
       "last_payment": "2026-10-14",
@@ -201,6 +285,142 @@
       "data_quality": "Parcial"
     },
     {
+      "ticker": "XPLG11",
+      "name": "XP LOG FII RL",
+      "sector": "Logística",
+      "price": 100.67,
+      "pvp": 0.96,
+      "yield_month_pct": 0.7807,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 5390513988.23,
+      "investors": 370912.0,
+      "source_url": "https://capitalagora.com.br/fiis/XPLG11",
+      "vacancy_pct": 3.8,
+      "vacancy_reference": "2026-09-30",
+      "vacancy_source": "https://www.clubefii.com.br/fiis/XPLG11?avaliar=true",
+      "vacancy_kind": "Física",
+      "report_risk_note": "Conferir qualidade das locações, concentração de locatários e estrutura de passivos.",
+      "report_url": "https://www.clubefii.com.br/fiis/XPLG11?avaliar=true",
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "last_com_date": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Dezenas de FIIs pagam dividendos hoje; veja valores de MXRF11, TRXF11 e XPLG11",
+          "url": "https://www.infomoney.com.br/onde-investir/dezenas-de-fiis-pagam-dividendos-hoje-veja-valores-de-mxrf11-trxf11-e-xplg11/",
+          "source": "InfoMoney",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
+          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-01"
+        }
+      ],
+      "news_topics": [
+        "vacância"
+      ],
+      "score": 90,
+      "missing": [],
+      "notes": [
+        "P/VP 0.96",
+        "Rendimento mensal do informe: 0.78%",
+        "Vacância 3.8%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Monitorar",
+      "observations": [
+        "Vacância física informada: 3.8%"
+      ],
+      "cautions": [
+        "Conferir qualidade das locações, concentração de locatários e estrutura de passivos.",
+        "Rendimento recente por cota ainda não verificado",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Parcial"
+    },
+    {
+      "ticker": "KNRI11",
+      "name": "KINEA RENDA IMOBILIARIA FII RESPONSABILIDADE LIMITADA",
+      "sector": "Híbrido",
+      "price": 162.7,
+      "pvp": 0.996,
+      "yield_month_pct": 0.6727,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 4608084808.54,
+      "investors": 313347.0,
+      "source_url": "https://capitalagora.com.br/fiis/KNRI11",
+      "vacancy_pct": 1.84,
+      "vacancy_reference": "2026-09-30",
+      "vacancy_source": "https://brfiis.com.br/fundos/KNRI11/documentos/2026-out-02/relatorio-gerencial-1338388",
+      "vacancy_kind": "Física",
+      "report_risk_note": "Vacância física caiu após venda de imóvel; considerar esse efeito de carteira ao comparar períodos.",
+      "report_url": "https://brfiis.com.br/fundos/KNRI11/documentos/2026-out-02/relatorio-gerencial-1338388",
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "last_com_date": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
+          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-01"
+        }
+      ],
+      "news_topics": [
+        "vacância"
+      ],
+      "score": 90,
+      "missing": [],
+      "notes": [
+        "P/VP 1.00",
+        "Rendimento mensal do informe: 0.67%",
+        "Vacância 1.8%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Monitorar",
+      "observations": [
+        "Vacância física informada: 1.8%"
+      ],
+      "cautions": [
+        "Vacância física caiu após venda de imóvel; considerar esse efeito de carteira ao comparar períodos.",
+        "Rendimento recente por cota ainda não verificado",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Parcial"
+    },
+    {
       "ticker": "RBRR11",
       "name": "PATRIA HIGH G FII",
       "sector": "Recebíveis",
@@ -215,6 +435,9 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
+      "vacancy_kind": null,
+      "report_risk_note": null,
+      "report_url": null,
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
@@ -266,75 +489,63 @@
       "data_quality": "Parcial"
     },
     {
-      "ticker": "BTLG11",
-      "name": "BTGP LOGISTICA FII",
-      "sector": "Logística",
-      "price": 104.32,
-      "pvp": 0.976,
-      "yield_month_pct": 0.9476,
+      "ticker": "PVBI11",
+      "name": "VBI PRIME FII RL",
+      "sector": "Lajes corporativas",
+      "price": 76.11,
+      "pvp": 0.728,
+      "yield_month_pct": 0.4291,
       "source_reference": "2026-07-01",
       "quote_date": "2026-10-22",
-      "equity": 7580921710.93,
-      "investors": 515243.0,
-      "source_url": "https://capitalagora.com.br/fiis/BTLG11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
-      "last_dividend": 0.81,
-      "dividend_reference": "2026-10-23",
-      "last_payment": "2026-10-23",
-      "last_com_date": "2026-10-15",
-      "next_payment": "2026-10-23",
-      "next_ex_date": "2026-10-15",
-      "next_dividend": 0.81,
-      "dividend_source_type": "Anúncio revisado manualmente",
-      "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
+      "equity": 2835393868.28,
+      "investors": 181927.0,
+      "source_url": "https://capitalagora.com.br/fiis/PVBI11",
+      "vacancy_pct": 20.0,
+      "vacancy_reference": "2026-09-30",
+      "vacancy_source": "https://brfiis.com.br/fundos/PVBI11/documentos/2026-out-21/relatorio-gerencial-1356186",
+      "vacancy_kind": "Física",
+      "report_risk_note": "Vacância financeira informada de 30,4% e concentração relevante de receita potencial em um locatário.",
+      "report_url": "https://brfiis.com.br/fundos/PVBI11/documentos/2026-out-21/relatorio-gerencial-1356186",
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "last_com_date": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
+      "payment_source": null,
       "news": [
         {
-          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
-          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-22"
-        },
-        {
-          "title": "BTLG11 anuncia novos dividendos para outubro; veja quem recebe",
-          "url": "https://www.suno.com.br/noticias/btlg11-distribui-rendimentos-outubro-2026/",
+          "title": "6 FIIs comunicam rebalanceamento de índices internacionais; veja quais",
+          "url": "https://www.suno.com.br/noticias/rebalanceamento-de-indices-fundos-imobiliarios/",
           "source": "Suno Notícias",
-          "date": "2026-10-16"
-        },
-        {
-          "title": "FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para novas aquisições",
-          "url": "https://www.infomoney.com.br/onde-investir/fii-btlg11-aprova-17a-emissao-e-pode-captar-ate-r-12-bilhao-para-novas-aquisicoes/",
-          "source": "InfoMoney",
-          "date": "2026-10-08"
+          "date": "2026-09-18"
         }
       ],
-      "news_topics": [
-        "emissão de cotas",
-        "vacância",
-        "aquisições"
-      ],
-      "score": 70,
-      "missing": [
-        "vacância"
-      ],
+      "news_topics": [],
+      "score": 42,
+      "missing": [],
       "notes": [
-        "P/VP 0.98",
-        "Rendimento mensal do informe: 0.95%",
+        "P/VP 0.73",
+        "Rendimento mensal do informe: 0.43%",
+        "Vacância 20.0%",
         "Informe antigo: 114 dias"
       ],
-      "classification": "Revisar fontes",
+      "classification": "Monitorar",
       "observations": [
-        "Valor por cota divulgado: R$ 0,81"
+        "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade",
+        "Vacância física informada: 20.0%"
       ],
       "cautions": [
-        "Vacância não encontrada em fonte estruturada",
+        "Vacância financeira informada de 30,4% e concentração relevante de receita potencial em um locatário.",
+        "Rendimento recente por cota ainda não verificado",
+        "Vacância física acima de 12%",
         "Informe de patrimônio/rendimentos com mais de 90 dias",
-        "Notícia sobre emissão: avaliar diluição e uso do capital",
         "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
       ],
-      "evidence_count": 6,
-      "data_quality": "Em revisão"
+      "evidence_count": 5,
+      "data_quality": "Parcial"
     },
     {
       "ticker": "XPML11",
@@ -348,9 +559,12 @@
       "equity": 5072222384.55,
       "investors": 11.0,
       "source_url": "https://capitalagora.com.br/fiis/XPML11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
+      "vacancy_pct": 5.1,
+      "vacancy_reference": "2026-08-31",
+      "vacancy_source": "https://brfiis.com.br/fundos/XPML11/documentos/2026-out-07/relatorio-gerencial-1342555",
+      "vacancy_kind": "Média da carteira",
+      "report_risk_note": "Vacância média de shopping não deve ser comparada diretamente à vacância física dos galpões.",
+      "report_url": "https://brfiis.com.br/fundos/XPML11/documentos/2026-out-07/relatorio-gerencial-1342555",
       "last_dividend": 0.92,
       "dividend_reference": "2026-10-23",
       "last_payment": "2026-10-23",
@@ -385,7 +599,7 @@
       ],
       "score": 21,
       "missing": [
-        "vacância"
+        "vacância física"
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
@@ -393,77 +607,12 @@
       ],
       "classification": "Revisar fontes",
       "observations": [
-        "Valor por cota divulgado: R$ 0,92"
+        "Valor por cota divulgado: R$ 0,92",
+        "Vacância média da carteira informada: 5.1%"
       ],
       "cautions": [
-        "Vacância não encontrada em fonte estruturada",
-        "Informe de patrimônio/rendimentos com mais de 90 dias",
-        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
-      ],
-      "evidence_count": 5,
-      "data_quality": "Em revisão"
-    },
-    {
-      "ticker": "XPLG11",
-      "name": "XP LOG FII RL",
-      "sector": "Logística",
-      "price": 100.67,
-      "pvp": 0.96,
-      "yield_month_pct": 0.7807,
-      "source_reference": "2026-07-01",
-      "quote_date": "2026-10-22",
-      "equity": 5390513988.23,
-      "investors": 370912.0,
-      "source_url": "https://capitalagora.com.br/fiis/XPLG11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
-      "last_com_date": null,
-      "next_payment": null,
-      "next_ex_date": null,
-      "next_dividend": null,
-      "dividend_source_type": null,
-      "payment_source": null,
-      "news": [
-        {
-          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
-          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-22"
-        },
-        {
-          "title": "Dezenas de FIIs pagam dividendos hoje; veja valores de MXRF11, TRXF11 e XPLG11",
-          "url": "https://www.infomoney.com.br/onde-investir/dezenas-de-fiis-pagam-dividendos-hoje-veja-valores-de-mxrf11-trxf11-e-xplg11/",
-          "source": "InfoMoney",
-          "date": "2026-10-15"
-        },
-        {
-          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
-          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-01"
-        }
-      ],
-      "news_topics": [
-        "vacância"
-      ],
-      "score": 70,
-      "missing": [
-        "vacância"
-      ],
-      "notes": [
-        "P/VP 0.96",
-        "Rendimento mensal do informe: 0.78%",
-        "Informe antigo: 114 dias"
-      ],
-      "classification": "Revisar fontes",
-      "observations": [],
-      "cautions": [
-        "Rendimento recente por cota ainda não verificado",
-        "Vacância não encontrada em fonte estruturada",
+        "Vacância média de shopping não deve ser comparada diretamente à vacância física dos galpões.",
+        "Indicador de vacância diferente do padrão físico; não comparar diretamente",
         "Informe de patrimônio/rendimentos com mais de 90 dias",
         "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
       ],
@@ -485,6 +634,9 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
+      "vacancy_kind": null,
+      "report_risk_note": null,
+      "report_url": null,
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
@@ -517,72 +669,11 @@
       "news_topics": [],
       "score": 70,
       "missing": [
-        "vacância"
+        "vacância física"
       ],
       "notes": [
         "P/VP 0.98",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 114 dias"
-      ],
-      "classification": "Revisar fontes",
-      "observations": [],
-      "cautions": [
-        "Rendimento recente por cota ainda não verificado",
-        "Vacância não encontrada em fonte estruturada",
-        "Informe de patrimônio/rendimentos com mais de 90 dias",
-        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
-      ],
-      "evidence_count": 5,
-      "data_quality": "Em revisão"
-    },
-    {
-      "ticker": "KNRI11",
-      "name": "KINEA RENDA IMOBILIARIA FII RESPONSABILIDADE LIMITADA",
-      "sector": "Híbrido",
-      "price": 162.7,
-      "pvp": 0.996,
-      "yield_month_pct": 0.6727,
-      "source_reference": "2026-07-01",
-      "quote_date": "2026-10-22",
-      "equity": 4608084808.54,
-      "investors": 313347.0,
-      "source_url": "https://capitalagora.com.br/fiis/KNRI11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
-      "last_com_date": null,
-      "next_payment": null,
-      "next_ex_date": null,
-      "next_dividend": null,
-      "dividend_source_type": null,
-      "payment_source": null,
-      "news": [
-        {
-          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
-          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-22"
-        },
-        {
-          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
-          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-01"
-        }
-      ],
-      "news_topics": [
-        "vacância"
-      ],
-      "score": 70,
-      "missing": [
-        "vacância"
-      ],
-      "notes": [
-        "P/VP 1.00",
-        "Rendimento mensal do informe: 0.67%",
         "Informe antigo: 114 dias"
       ],
       "classification": "Revisar fontes",
@@ -611,6 +702,9 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
+      "vacancy_kind": null,
+      "report_risk_note": null,
+      "report_url": null,
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
@@ -643,7 +737,7 @@
       "news_topics": [],
       "score": 70,
       "missing": [
-        "vacância"
+        "vacância física"
       ],
       "notes": [
         "P/VP 0.97",
@@ -676,6 +770,9 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
+      "vacancy_kind": null,
+      "report_risk_note": null,
+      "report_url": null,
       "last_dividend": null,
       "dividend_reference": null,
       "last_payment": null,
@@ -710,66 +807,11 @@
       ],
       "score": 70,
       "missing": [
-        "vacância"
+        "vacância física"
       ],
       "notes": [
         "P/VP 0.93",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 114 dias"
-      ],
-      "classification": "Revisar fontes",
-      "observations": [
-        "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade"
-      ],
-      "cautions": [
-        "Rendimento recente por cota ainda não verificado",
-        "Vacância não encontrada em fonte estruturada",
-        "Informe de patrimônio/rendimentos com mais de 90 dias",
-        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
-      ],
-      "evidence_count": 5,
-      "data_quality": "Em revisão"
-    },
-    {
-      "ticker": "PVBI11",
-      "name": "VBI PRIME FII RL",
-      "sector": "Lajes corporativas",
-      "price": 76.11,
-      "pvp": 0.728,
-      "yield_month_pct": 0.4291,
-      "source_reference": "2026-07-01",
-      "quote_date": "2026-10-22",
-      "equity": 2835393868.28,
-      "investors": 181927.0,
-      "source_url": "https://capitalagora.com.br/fiis/PVBI11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
-      "last_com_date": null,
-      "next_payment": null,
-      "next_ex_date": null,
-      "next_dividend": null,
-      "dividend_source_type": null,
-      "payment_source": null,
-      "news": [
-        {
-          "title": "6 FIIs comunicam rebalanceamento de índices internacionais; veja quais",
-          "url": "https://www.suno.com.br/noticias/rebalanceamento-de-indices-fundos-imobiliarios/",
-          "source": "Suno Notícias",
-          "date": "2026-09-18"
-        }
-      ],
-      "news_topics": [],
-      "score": 35,
-      "missing": [
-        "vacância"
-      ],
-      "notes": [
-        "P/VP 0.73",
-        "Rendimento mensal do informe: 0.43%",
         "Informe antigo: 114 dias"
       ],
       "classification": "Revisar fontes",
@@ -858,6 +900,10 @@
     {
       "name": "brapi (opcional, Pro)",
       "url": "https://brapi.dev/docs/fiis"
+    },
+    {
+      "name": "Relatórios gerenciais revisados (fontes nos cards)",
+      "url": "https://fnet.bmfbovespa.com.br/fnet/publico/"
     }
   ],
   "warnings": [
