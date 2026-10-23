@@ -2,12 +2,14 @@
 """Atualização semanal: dados públicos + proventos/vacância opcionais via brapi Pro."""
 import datetime as dt
 import json
+import email.utils
 import os
 import pathlib
 import re
 import sys
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "radar.json"
@@ -71,6 +73,47 @@ def news_for(ticker):
         items.append({"title": title[:220], "url": url, "source": n.get("veiculo", "Veículo"), "date": published})
         if len(items) == 3: break
     return items
+
+def topics_in_news(news):
+    keywords = [
+        ("emiss", "emissão de cotas"),
+        ("vacância", "vacância"),
+        ("inadimpl", "inadimplência"),
+        ("aquisi", "aquisições"),
+        ("alavanc", "alavancagem"),
+        ("distribuição", "distribuição"),
+        ("rebaix", "rebaixamento"),
+        ("dívida", "dívidas"),
+    ]
+    text = " ".join(n["title"].casefold() for n in news)
+    return [label for key, label in keywords if key in text][:4]
+
+def rss_search(query, label, limit=3):
+    # RSS público de manchetes: sempre mostrar fonte, data e link original.
+    args = urllib.parse.urlencode({"q": query, "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"})
+    url = "https://news.google.com/rss/search?" + args
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (ClaraFIIs)"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            root = ET.fromstring(resp.read(250000))
+        result = []
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            link = item.findtext("link") or ""
+            if not title or not link.startswith("https://"): continue
+            dateval = None
+            try:
+                dateval = email.utils.parsedate_to_datetime(item.findtext("pubDate")).date().isoformat()
+                if not 0 <= (TODAY - dt.date.fromisoformat(dateval)).days <= 21: continue
+            except (ValueError, TypeError, OverflowError):
+                continue
+            source = (item.findtext("source") or label).strip()
+            result.append({"title": title[:220], "url": link, "source": source + " • " + label, "date": dateval})
+            if len(result) >= limit: break
+        return result
+    except Exception as exc:
+        ERRORS.append("Google News RSS: " + type(exc).__name__)
+        return []
 
 def macro_series(slug):
     d = safe("https://capitalagora.com.br/api/indicador/" + slug)
@@ -184,6 +227,7 @@ def main():
             "last_payment": None, "next_payment": None, "next_ex_date": None,
             "payment_source": None, "news": news_for(ticker)
         }
+        fund["news_topics"] = topics_in_news(fund["news"])
         v = vac_index.get(ticker, {})
         vacrate = valid_num((v.get("summary") or {}).get("vacancyRate"), 0, 1)
         if vacrate is not None:
@@ -209,6 +253,9 @@ def main():
         if n.get("titulo") and (n.get("url") or "").startswith("https://"):
             headlines.append({"title": n["titulo"][:220], "url": n["url"], "source": n.get("veiculo", "Fonte"), "date": date_only(n.get("publicado"))})
         if len(headlines) == 6: break
+    headlines = (rss_search("Selic Copom inflação economia Brasil", "Brasil", 2)
+                 + rss_search("Federal Reserve juros Estados Unidos economia", "Exterior", 2)
+                 + headlines)[:8]
     out = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "quote_date": date_only(quote_date),
