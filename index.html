@@ -215,7 +215,7 @@
       const pay=upcoming?f.next_payment:f.last_payment;
       const cutoff=upcoming?f.next_ex_date:f.last_com_date;
       const amount=upcoming?f.next_dividend:f.last_dividend;
-      return '<article class="event"><div class="event-head"><span class="event-title">'+esc(f.ticker)+'</span><span class="badge '+(upcoming?"":"grey")+'">'+(upcoming?"Anunciado":"Último registro")+'</span></div><div class="event-details">Data-com: <strong>'+date(cutoff)+'</strong><br>Pagamento informado: <strong>'+date(pay)+'</strong><br>Rendimento por cota: <strong>'+money(amount)+'</strong></div><a href="'+safeUrl(f.payment_source)+'" target="_blank" rel="noopener noreferrer">Ver fonte ↗</a></article>';
+      return '<article class="event"><div class="event-head"><span class="event-title">'+esc(f.ticker)+'</span><span class="badge '+(upcoming?"":"grey")+'">'+(upcoming?"Anunciado":"Último registro")+'</span></div><div class="event-details">Data-com: <strong>'+date(cutoff)+'</strong><br>Pagamento informado: <strong>'+date(pay)+'</strong><br>Rendimento por cota: <strong>'+money(amount)+'</strong></div>'+(cutoff&&dayAge(cutoff)>=0?'<div class="disclaimer" style="margin-top:9px">A data-com já passou: novas compras não têm direito a esta distribuição.</div>':'')+'<a href="'+safeUrl(f.payment_source)+'" target="_blank" rel="noopener noreferrer">Ver fonte ↗</a></article>';
     }
     function renderCalendar(){
       const future=(appData.funds||[]).filter(f=>f.next_payment).sort((a,b)=>a.next_payment.localeCompare(b.next_payment));
