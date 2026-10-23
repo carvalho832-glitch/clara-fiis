@@ -1,9 +1,646 @@
 {
-  "generated_at": null,
-  "quote_date": null,
-  "weekly_status": "Aguardando primeira atualização",
-  "funds": [],
-  "headlines": [],
+  "generated_at": "2026-10-23T16:00:59+00:00",
+  "quote_date": "2026-10-22",
+  "weekly_status": "Atualizado",
+  "funds": [
+    {
+      "ticker": "MXRF11",
+      "name": "FII MAXI RENDA RL",
+      "sector": "Recebíveis",
+      "price": 9.48,
+      "pvp": 1.023,
+      "yield_month_pct": 0.808,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 5253747540.01,
+      "investors": 1509087.0,
+      "source_url": "https://capitalagora.com.br/fiis/MXRF11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Dezenas de FIIs pagam dividendos hoje; veja valores de MXRF11, TRXF11 e XPLG11",
+          "url": "https://www.infomoney.com.br/onde-investir/dezenas-de-fiis-pagam-dividendos-hoje-veja-valores-de-mxrf11-trxf11-e-xplg11/",
+          "source": "InfoMoney",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "MXRF11 e outros FIIs pagam dividendos hoje (15); veja quais",
+          "url": "https://www.suno.com.br/noticias/dividendos-hoje-fundos-imobiliarios-lista-2/",
+          "source": "Suno Notícias",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "MXRF11, BRCO11 e mais FIIs: semana terá 180 pagamentos de dividendos",
+          "url": "https://www.suno.com.br/noticias/dividendos-de-fiis-outubro-2026/",
+          "source": "Suno Notícias",
+          "date": "2026-10-13"
+        }
+      ],
+      "score": 86,
+      "missing": [],
+      "notes": [
+        "P/VP 1.02",
+        "Rendimento mensal do informe: 0.81%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Monitorar"
+    },
+    {
+      "ticker": "KNCR11",
+      "name": "KINEA RENDIMENTOS IMOBILIARIOS FII RESPONSABILIDADE LIMITADA",
+      "sector": "Recebíveis",
+      "price": 105.7,
+      "pvp": 1.031,
+      "yield_month_pct": 1.2197,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 10978689824.66,
+      "investors": 578802.0,
+      "source_url": "https://capitalagora.com.br/fiis/KNCR11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Juros em queda: o que pode mudar para o KNCR11 e seus dividendos?",
+          "url": "https://www.suno.com.br/noticias/kncr11-renda-cdi-riscos-dados/",
+          "source": "Suno Notícias",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Dividendos do KNCR11 superam lucro de setembro e rendem 1,11% no mês",
+          "url": "https://www.suno.com.br/noticias/kncr11-distribui-r-121-mi/",
+          "source": "Suno Notícias",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "KNCR11 registra dividendos com retorno acima de 1% em setembro",
+          "url": "https://www.suno.com.br/noticias/kncr11-resultado-setembro-2026-distribuicao/",
+          "source": "Suno Notícias",
+          "date": "2026-10-15"
+        }
+      ],
+      "score": 79,
+      "missing": [],
+      "notes": [
+        "P/VP 1.03",
+        "Rendimento mensal do informe: 1.22%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Monitorar"
+    },
+    {
+      "ticker": "RBRR11",
+      "name": "PATRIA HIGH G FII",
+      "sector": "Recebíveis",
+      "price": 74.86,
+      "pvp": 0.815,
+      "yield_month_pct": 0.0,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 1498092893.79,
+      "investors": 143338.0,
+      "source_url": "https://capitalagora.com.br/fiis/RBRR11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Gigante à vista: Patria fica a um passo de unir quatro fundos imobiliários (FIIs) em um só",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/gigante-vista-patria-fica-um-passo-unir-quatro-fundos-imobiliarios-fiis-em-um-igdl/",
+          "source": "Seu Dinheiro",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "RBRR11: fundo imobiliário divulga novos dividendos; confira valor",
+          "url": "https://www.suno.com.br/noticias/rbrr11-fundo-imobiliario-divulga-novos-dividendos-confira-valor/",
+          "source": "Suno Notícias",
+          "date": "2026-10-12"
+        },
+        {
+          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
+          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-01"
+        }
+      ],
+      "score": 78,
+      "missing": [],
+      "notes": [
+        "P/VP 0.81",
+        "Rendimento mensal do informe: 0.00%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Monitorar"
+    },
+    {
+      "ticker": "BTLG11",
+      "name": "BTGP LOGISTICA FII",
+      "sector": "Logística",
+      "price": 104.32,
+      "pvp": 0.976,
+      "yield_month_pct": 0.9476,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 7580921710.93,
+      "investors": 515243.0,
+      "source_url": "https://capitalagora.com.br/fiis/BTLG11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "BTLG11 anuncia novos dividendos para outubro; veja quem recebe",
+          "url": "https://www.suno.com.br/noticias/btlg11-distribui-rendimentos-outubro-2026/",
+          "source": "Suno Notícias",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para novas aquisições",
+          "url": "https://www.infomoney.com.br/onde-investir/fii-btlg11-aprova-17a-emissao-e-pode-captar-ate-r-12-bilhao-para-novas-aquisicoes/",
+          "source": "InfoMoney",
+          "date": "2026-10-08"
+        }
+      ],
+      "score": 100,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 0.98",
+        "Rendimento mensal do informe: 0.95%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "HGLG11",
+      "name": "PÁTRIA LOG - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "sector": "Logística",
+      "price": 157.04,
+      "pvp": 0.944,
+      "yield_month_pct": 0.7023,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 7589554105.43,
+      "investors": 608345.0,
+      "source_url": "https://capitalagora.com.br/fiis/HGLG11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "HGLG11 amplia portfólio com aquisição no Parque Logístico Guarulhos",
+          "url": "https://www.suno.com.br/noticias/hglg11-compra-patio-gru-guarulhos/",
+          "source": "Suno Notícias",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "HGLG11 reúne 41 imóveis e patrimônio de R$ 7,59 bilhões; conheça o fundo",
+          "url": "https://www.suno.com.br/noticias/hglg11-portfolio-vacancia-e-dividendos/",
+          "source": "Suno Notícias",
+          "date": "2026-10-19"
+        }
+      ],
+      "score": 100,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 0.94",
+        "Rendimento mensal do informe: 0.70%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "XPLG11",
+      "name": "XP LOG FII RL",
+      "sector": "Logística",
+      "price": 100.67,
+      "pvp": 0.96,
+      "yield_month_pct": 0.7807,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 5390513988.23,
+      "investors": 370912.0,
+      "source_url": "https://capitalagora.com.br/fiis/XPLG11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Dezenas de FIIs pagam dividendos hoje; veja valores de MXRF11, TRXF11 e XPLG11",
+          "url": "https://www.infomoney.com.br/onde-investir/dezenas-de-fiis-pagam-dividendos-hoje-veja-valores-de-mxrf11-trxf11-e-xplg11/",
+          "source": "InfoMoney",
+          "date": "2026-10-15"
+        },
+        {
+          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
+          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-01"
+        }
+      ],
+      "score": 100,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 0.96",
+        "Rendimento mensal do informe: 0.78%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "VISC11",
+      "name": "VINCI SHOPPING CENTERS FUNDO DE INVESTIMENTO IMOBILIÁRIO-FII",
+      "sector": "Shoppings",
+      "price": 113.55,
+      "pvp": 0.984,
+      "yield_month_pct": 0.7298,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 3327943047.27,
+      "investors": 346986.0,
+      "source_url": "https://capitalagora.com.br/fiis/VISC11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "MXRF11, BRCO11 e mais FIIs: semana terá 180 pagamentos de dividendos",
+          "url": "https://www.suno.com.br/noticias/dividendos-de-fiis-outubro-2026/",
+          "source": "Suno Notícias",
+          "date": "2026-10-13"
+        },
+        {
+          "title": "Dividendo de 11,3%: Estes são os fundos imobiliários (FIIs) recomendados pelo BTG para outubro",
+          "url": "https://www.moneytimes.com.br/dividendo-de-113-estes-sao-os-fiis-recomendados-pelo-btg-para-outubro-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-01"
+        },
+        {
+          "title": "Dividendos do VISC11 já foram divulgados; descubra quanto",
+          "url": "https://www.suno.com.br/noticias/dividendos-do-visc11-outubro-2026/",
+          "source": "Suno Notícias",
+          "date": "2026-10-01"
+        }
+      ],
+      "score": 100,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 0.98",
+        "Rendimento mensal do informe: 0.73%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "KNRI11",
+      "name": "KINEA RENDA IMOBILIARIA FII RESPONSABILIDADE LIMITADA",
+      "sector": "Híbrido",
+      "price": 162.7,
+      "pvp": 0.996,
+      "yield_month_pct": 0.6727,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 4608084808.54,
+      "investors": 313347.0,
+      "source_url": "https://capitalagora.com.br/fiis/KNRI11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
+          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-01"
+        }
+      ],
+      "score": 100,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 1.00",
+        "Rendimento mensal do informe: 0.67%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "HGRU11",
+      "name": "PÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "sector": "Renda urbana",
+      "price": 124.9,
+      "pvp": 0.974,
+      "yield_month_pct": 0.7392,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 3183738355.82,
+      "investors": 231215.0,
+      "source_url": "https://capitalagora.com.br/fiis/HGRU11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Carrefour notifica ao Cade venda de 22 imóveis a fundo imobiliário do Patria",
+          "url": "https://www.moneytimes.com.br/carrefour-notifica-ao-cade-venda-de-22-imoveis-a-fundo-de-investimento-imobiliario-patria-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "6 FIIs comunicam rebalanceamento de índices internacionais; veja quais",
+          "url": "https://www.suno.com.br/noticias/rebalanceamento-de-indices-fundos-imobiliarios/",
+          "source": "Suno Notícias",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "HGRU11: FII mantém dividendo de R$ 0,95 mesmo com resultado menor do que o distribuído",
+          "url": "https://www.suno.com.br/noticias/hgru11-fii-mantem-dividendo-de-r-095-mesmo-com-resultado-menor-do-que-o-distribuido/",
+          "source": "Suno Notícias",
+          "date": "2026-09-17"
+        }
+      ],
+      "score": 100,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 0.97",
+        "Rendimento mensal do informe: 0.74%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "VILG11",
+      "name": "VINCI LOGISTICA FUNDO DE INVESTIMENTO IMOBILIARIO",
+      "sector": "Logística",
+      "price": 102.0,
+      "pvp": 0.933,
+      "yield_month_pct": 0.7501,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 1639545786.55,
+      "investors": 149265.0,
+      "source_url": "https://capitalagora.com.br/fiis/VILG11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "FII da Vinci adiciona galpão de R$ 140 mi à carteira; Shopee está entre locatários",
+          "url": "https://www.infomoney.com.br/onde-investir/fii-da-vinci-conclui-compra-de-galpao-em-campinas-locado-para-shopee-por-r-140-mi/",
+          "source": "InfoMoney",
+          "date": "2026-10-02"
+        },
+        {
+          "title": "Fundo imobiliário desembolsa R$ 140 milhões por complexo logístico locado à MBRF (MBRF3) e Shopee",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-desembolsa-r-140-milhoes-por-complexo-logistico-locado-a-mbrf-mbrf3-e-shopee-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-02"
+        }
+      ],
+      "score": 100,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 0.93",
+        "Rendimento mensal do informe: 0.75%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "XPML11",
+      "name": "PENINSULA FII RL",
+      "sector": "Shoppings",
+      "price": 104.7,
+      "pvp": null,
+      "yield_month_pct": 0.6393,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 5072222384.55,
+      "investors": 11.0,
+      "source_url": "https://capitalagora.com.br/fiis/XPML11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "XPML11 reúne 26 shoppings e mais de 733 mil cotistas; conheça o fundo",
+          "url": "https://www.suno.com.br/noticias/xpml11-carteira-numeros-dividendos-fii/",
+          "source": "Suno Notícias",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "Safra passa a tesoura em preços-alvo e rebaixa recomendações de fundos imobiliários (FIIs)",
+          "url": "https://www.moneytimes.com.br/safra-passa-a-tesoura-em-precos-alvo-e-rebaixa-recomendacoes-de-fundos-imobiliarios-fiis-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-19"
+        },
+        {
+          "title": "Dividendos do XPML11 são anunciados; confira o retorno mensal",
+          "url": "https://www.suno.com.br/noticias/xpml11-dividendos-23-outubro-2026/",
+          "source": "Suno Notícias",
+          "date": "2026-10-19"
+        }
+      ],
+      "score": 69,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "Rendimento mensal do informe: 0.64%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "PVBI11",
+      "name": "VBI PRIME FII RL",
+      "sector": "Lajes corporativas",
+      "price": 76.11,
+      "pvp": 0.728,
+      "yield_month_pct": 0.4291,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 2835393868.28,
+      "investors": 181927.0,
+      "source_url": "https://capitalagora.com.br/fiis/PVBI11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "6 FIIs comunicam rebalanceamento de índices internacionais; veja quais",
+          "url": "https://www.suno.com.br/noticias/rebalanceamento-de-indices-fundos-imobiliarios/",
+          "source": "Suno Notícias",
+          "date": "2026-09-18"
+        }
+      ],
+      "score": 56,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 0.73",
+        "Rendimento mensal do informe: 0.43%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    }
+  ],
+  "headlines": [
+    {
+      "title": "Australiana identifica 21 novos alvos de cobre e ouro no Pará",
+      "url": "https://www.cnnbrasil.com.br/infra/australiana-identifica-21-novos-alvos-de-cobre-e-ouro-no-para/",
+      "source": "CNN Brasil",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "MiniMax conclui registro de exportação para modelos de IA de código aberto no exterior",
+      "url": "https://br.investing.com/news/stock-market-news/minimax-conclui-registro-de-exportacao-para-modelos-de-ia-de-codigo-aberto-no-exterior-2101481",
+      "source": "Investing.com Brasil",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Casas Bahia anuncia Camille Faria para liderar negociações de recuperação judicial",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/10/casas-bahia-anuncia-camille-faria-para-liderar-negociacoes-de-recuperacao-judicial.shtml",
+      "source": "Folha · Mercado",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Wells Fargo aponta Amazon como principal escolha antes do 3º tri",
+      "url": "https://br.investing.com/news/stock-market-news/wells-fargo-aponta-amazon-como-principal-escolha-antes-do-3o-tri-2101479",
+      "source": "Investing.com Brasil",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Truist destaca ações de energia limpa para acompanhar antes da temporada de balanços do 3º tri",
+      "url": "https://br.investing.com/news/stock-market-news/truist-destaca-acoes-de-energia-limpa-para-acompanhar-antes-da-temporada-de-balancos-do-3o-tri-2101478",
+      "source": "Investing.com Brasil",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Entenda o que campanhas apresentaram ao TSE sobre quebras de sigilo",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/entenda-o-que-campanhas-apresentaram-ao-tse-sobre-quebras-de-sigilo/",
+      "source": "CNN Brasil",
+      "date": "2026-10-23"
+    }
+  ],
   "macro": {
     "selic": {
       "value": null,
@@ -16,16 +653,26 @@
   },
   "data_providers": [
     {
-      "name": "Capital Agora",
+      "name": "Capital Agora (B3 / CVM)",
       "url": "https://capitalagora.com.br/api"
     },
     {
-      "name": "CVM",
+      "name": "CVM - informes de FIIs",
       "url": "https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal"
+    },
+    {
+      "name": "brapi (opcional, Pro)",
+      "url": "https://brapi.dev/docs/fiis"
     }
   ],
+  "warnings": [
+    "Ranking automatizado, não é análise individual nem recomendação de compra.",
+    "Taxa mensal do informe não é dividendo anunciado nem garantia de pagamento.",
+    "Vacância e próximas datas de pagamento só aparecem quando confirmadas por fonte estruturada.",
+    "Uma compra realizada após a data-com anunciada não recebe aquele provento."
+  ],
   "provider_status": {
-    "capital_agora": false,
+    "capital_agora": true,
     "brapi_full": false,
     "errors": []
   }
