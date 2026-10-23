@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071c1c">
+  <meta name="description" content="Clara FIIs: radar semanal, riscos, vacância, dividendos e calendário para investir com mais informação.">
+  <title>Clara FIIs | Radar de investimentos</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <style>
+    :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#effbf7;background:#071717;font-synthesis:none}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(1000px 520px at 85% -10%,#17584777,transparent),radial-gradient(800px 400px at -5% 20%,#19474655,transparent),#071717}
+    a{color:inherit;text-decoration:none}button,input,select{font:inherit}button{cursor:pointer}.shell{max-width:1240px;margin:auto;padding:26px 24px 100px}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:35px}.logo{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:850;letter-spacing:-.8px}.mark{display:grid;place-items:center;background:linear-gradient(135deg,#82f5cb,#1a967d);color:#052b25;width:43px;height:43px;border-radius:14px;box-shadow:0 10px 30px #0cf1aa28;font-weight:950;font-size:24px}
+    .brand-sub{display:block;font-size:10px;font-weight:700;letter-spacing:2px;color:#8cabaa;text-transform:uppercase}.top-right{display:flex;align-items:center;gap:13px;flex-wrap:wrap}.chip{display:inline-flex;align-items:center;gap:7px;padding:9px 12px;background:#163431;border:1px solid #2a4f48;border-radius:999px;font-size:12px;color:#cee2dd}.dot{width:7px;height:7px;border-radius:99px;background:#7aedb6}.muted{color:#99b4b0}.hero{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(280px,.85fr);gap:18px;margin-bottom:24px}
+    .hero-primary{background:linear-gradient(115deg,#17443b,#0d2e2c 65%,#0b2223);border:1px solid #2c554c;border-radius:27px;min-height:259px;padding:31px 33px;position:relative;overflow:hidden}.hero-primary:after{content:"↗";position:absolute;color:#b3ffd40b;font-size:300px;line-height:1;right:5px;bottom:-88px;font-weight:900}.eyebrow{font-size:11px;text-transform:uppercase;color:#8bf5c8;letter-spacing:2px;font-weight:800}.hero h1{font-size:clamp(32px,3.5vw,49px);line-height:1.12;letter-spacing:-1.5px;margin:16px 0;max-width:580px}.hero p{margin:0;color:#b2cfca;line-height:1.6;max-width:580px}.hero-primary>*{position:relative;z-index:1}
+    .metric-side{background:#0c2928;border:1px solid #25534a;border-radius:26px;padding:25px;display:flex;flex-direction:column;justify-content:space-between}.metric-grid{display:grid;grid-template-columns:1fr 1fr;gap:19px}.number{font-size:29px;font-weight:850;letter-spacing:-1px;margin:6px 0;color:#effff8}.mini-title{font-size:12px;color:#9fc3ba}.stroke{height:1px;background:#27514a;margin:21px 0}.notice{font-size:12px;color:#abccc2;line-height:1.6}
+    .nav{display:flex;gap:7px;margin-bottom:26px;padding:5px;border:1px solid #22413d;border-radius:16px;background:#102a29;width:max-content;max-width:100%;overflow:auto}.tab{border:0;background:transparent;color:#a6c0ba;padding:12px 18px;border-radius:12px;font-size:13px;font-weight:720;white-space:nowrap}.tab[aria-selected="true"]{background:#8ff3c8;color:#06382e;box-shadow:0 4px 20px #1ba6743c}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin:16px 0 18px}.section-head h2{font-size:26px;letter-spacing:-.9px;margin:0}.section-head p{font-size:13px;color:#94b1aa;line-height:1.6;margin:5px 0 0}.filter{color:#e8f7f1;background:#14302e;border:1px solid #33544c;border-radius:11px;padding:10px 13px;min-width:170px;max-width:100%}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{background:linear-gradient(180deg,#12332f,#0d2525);border:1px solid #254c44;border-radius:21px;padding:19px;min-width:0}.card:hover{border-color:#4d967d}.card-head{display:flex;justify-content:space-between;gap:8px;align-items:start}.ticker{font-weight:850;font-size:25px;letter-spacing:-.8px}.sector{font-size:12px;color:#a0bfb4;margin-top:4px}.score{font-size:12px;border:1px solid #42715f;border-radius:9px;padding:6px 8px;color:#9af0c2;white-space:nowrap}.score.low{border-color:#5a5141;color:#d5b38b}
+    .tile-stats{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:18px 0 15px}.stat-label{display:block;color:#8baea6;font-size:11px;margin-bottom:5px}.stat-val{font-weight:800;font-size:20px}.risk{background:#172f2d;border-left:3px solid #e2bb75;border-radius:7px;padding:10px;color:#bcd4cd;font-size:12px;line-height:1.55;min-height:69px}.meta{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}.pill{border-radius:6px;padding:5px 7px;background:#204138;color:#c0e8d9;font-size:10px}.pill.warn{background:#473625;color:#ffe2b4}.links{display:flex;gap:9px;margin-top:16px;align-items:center}.btn{border:0;border-radius:11px;padding:11px 15px;color:#062d27;background:#91f3c5;font-weight:800;font-size:12px}.btn-secondary{background:#1a403b;color:#d5f9e8;border:1px solid #356457}.btn:hover{filter:brightness(1.07)}.empty{border:1px dashed #386058;border-radius:17px;padding:25px;color:#a9c6be;background:#102727;line-height:1.6}
+    .cols{display:grid;grid-template-columns:1fr 1fr;gap:17px}.panel{background:#102c2a;border:1px solid #274b43;border-radius:21px;padding:23px;min-width:0}.panel h3{font-size:17px;margin:0 0 14px}.bullet{padding:11px 0;border-bottom:1px solid #24433d}.bullet:last-child{border:0}.bullet a{font-weight:700;line-height:1.45;display:block}.bullet a:hover{color:#8bf5c8}.bullet small{font-size:11px;color:#9ebbb2;margin-top:6px;display:block}
+    .field{display:flex;flex-direction:column;gap:8px}.field label{font-size:12px;color:#b8d7cc;font-weight:750}.field input,.field select{min-width:0;background:#092422;border:1px solid #376157;border-radius:12px;color:#f1fff8;padding:15px 14px;outline:0}.field input:focus,.field select:focus{border-color:#89ecbe}.calculator{display:grid;grid-template-columns:.92fr 1.08fr;gap:20px}.calculator .fields{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}.calc-kpi{border-radius:18px;padding:22px;background:linear-gradient(120deg,#1a5541,#144036);border:1px solid #32795c}.calc-value{font-size:clamp(29px,4.2vw,49px);letter-spacing:-2px;font-weight:850;margin:10px 0}.calc-summary{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:19px;font-size:14px}.calc-summary strong{display:block;margin:5px 0;font-size:20px}.disclaimer{background:#3a3221;border:1px solid #725c32;color:#edd5a6;padding:13px;border-radius:12px;font-size:12px;line-height:1.6;margin-top:16px}
+    .table-wrap{overflow:auto}.table{width:100%;border-collapse:collapse;min-width:640px;text-align:left;font-size:13px}.table th{color:#9bbab0;font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.6px;border-bottom:1px solid #34574d;padding:13px 10px}.table td{padding:15px 10px;border-bottom:1px solid #23473f}.table td:first-child{font-weight:850;font-size:14px}.table small{display:block;color:#93b0a7;font-size:10px;margin-top:3px}
+    .badge{font-size:11px;padding:6px 9px;border-radius:8px;background:#23463d;color:#a5efd0;display:inline-block}.badge.grey{color:#d1cdc3;background:#393b35}
+    .news-mini{font-size:12px;color:#accac0;padding-top:9px;border-top:1px solid #24493f;margin-top:13px}.news-mini a{color:#a5efd0;text-decoration:underline;text-underline-offset:3px}
+    .foot{color:#83a49a;font-size:12px;text-align:center;margin-top:45px;line-height:1.7}.foot a{color:#a5ecd0}.hidden{display:none!important}.flex-between{display:flex;align-items:center;justify-content:space-between;gap:12px}.source-list{line-height:1.9;color:#aacaBE}.source-list a{color:#97f2c3;text-decoration:underline}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.calculator{grid-template-columns:1fr}.hero-primary{min-height:230px}.metric-grid{grid-template-columns:repeat(4,1fr)}.metric-side{gap:12px}.metric-side .stroke{margin:0}}
+    @media(max-width:650px){.shell{padding:16px 14px 65px}.top{margin-bottom:20px}.top-right .chip:first-child{display:none}.hero-primary{padding:25px 21px;min-height:225px}.hero h1{font-size:35px}.metric-side{padding:20px}.metric-grid{grid-template-columns:repeat(2,1fr)}.cards,.cols{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.filter{width:100%}.tab{padding:11px 12px}.calculator .fields{grid-template-columns:1fr}.top-right{justify-content:end}.logo{font-size:19px}.card{padding:18px}.calc-summary{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <div class="logo"><span class="mark">C</span><div>clara<span style="color:#85ecc1">.fiis</span><span class="brand-sub">inteligência para investir</span></div></div>
+      <div class="top-right"><span class="chip"><span class="dot"></span> Radar semanal</span><span class="chip" id="stamp">Carregando...</span></div>
+    </header>
+    <section class="hero">
+      <div class="hero-primary">
+        <div class="eyebrow">Seu radar do mercado imobiliário</div>
+        <h1>Invista com dados.<br><span style="color:#9ff4cc">Não com palpites.</span></h1>
+        <p>Compare fundamentos, vacância, notícias e rendimentos. Entenda a oportunidade antes de tomar uma decisão.</p>
+      </div>
+      <aside class="metric-side">
+        <div class="metric-grid">
+          <div><div class="mini-title">Fundos no radar</div><div class="number" id="fundCount">—</div></div>
+          <div><div class="mini-title">Com dados de vacância</div><div class="number" id="vacCount">—</div></div>
+          <div><div class="mini-title">Selic-meta</div><div class="number" id="selic" style="font-size:24px">—</div></div>
+          <div><div class="mini-title">Dados de cotação</div><div class="number" id="quotation" style="font-size:17px">—</div></div>
+        </div>
+        <div class="stroke"></div>
+        <div class="notice" id="freshness">Dados sujeitos à disponibilidade e aos atrasos das fontes. Nenhuma cota é comprada automaticamente.</div>
+      </aside>
+    </section>
+    <nav class="nav" aria-label="Seções">
+      <button class="tab" data-tab="radar" aria-selected="true">✦ Radar semanal</button>
+      <button class="tab" data-tab="calculadora" aria-selected="false">▤ Simulador</button>
+      <button class="tab" data-tab="calendario" aria-selected="false">▦ Pagamentos</button>
+      <button class="tab" data-tab="fontes" aria-selected="false">ⓘ Fontes e critérios</button>
+    </nav>
+    <section id="radar">
+      <div class="section-head"><div><h2>Fundos sob observação</h2><p>Ordenação quantitativa semanal. Pontuação não é sinal de compra e depende da cobertura disponível.</p></div>
+        <select class="filter" id="sectorFilter" aria-label="Filtrar setor"><option value="Todos">Todos os segmentos</option></select></div>
+      <div class="cards" id="fundCards"><div class="empty">Buscando os dados do radar...</div></div>
+      <div class="cols" style="margin-top:23px">
+        <section class="panel"><h3>📰 Notícias dos fundos</h3><div id="fundNews" class="muted">Aguardando...</div></section>
+        <section class="panel"><h3>🌎 Cenário e notícias econômicas</h3><div id="marketNews" class="muted">Aguardando...</div></section>
+      </div>
+    </section>
+    <section id="calculadora" class="hidden">
+      <div class="section-head"><div><h2>Calculadora de dividendos</h2><p>Veja quantas cotas cabem no seu orçamento e simule os rendimentos, sem confundir histórico com garantia.</p></div></div>
+      <div class="calculator">
+        <div class="panel">
+          <div class="fields">
+            <div class="field"><label for="amount">Valor para investir (R$)</label><input id="amount" type="number" min="0" step="10" value="1000" inputmode="decimal"></div>
+            <div class="field"><label for="fundChoose">Fundo imobiliário</label><select id="fundChoose"></select></div>
+          </div>
+          <div class="flex-between" style="margin-bottom:15px;flex-wrap:wrap"><span class="muted" style="font-size:12px">Valores rápidos</span><div style="display:flex;gap:7px"><button class="btn btn-secondary" data-amount="100">R$ 100</button><button class="btn btn-secondary" data-amount="500">R$ 500</button><button class="btn btn-secondary" data-amount="1000">R$ 1.000</button></div></div>
+          <div class="empty" style="font-size:12px">O simulador compra apenas cotas inteiras matematicamente. Não inclui corretagem, impostos ou oscilações. Rendimentos de fundos imobiliários variam.</div>
+        </div>
+        <div class="panel">
+          <div class="calc-kpi"><div class="mini-title" style="color:#d5f2e6">Rendimento mensal indicativo</div><div class="calc-value" id="calcIncome">—</div><div id="calcBasis" style="font-size:12px;color:#c9e9dd">Escolha um fundo para simular.</div></div>
+          <div class="calc-summary">
+            <div><span class="mini-title">Cotas inteiras</span><strong id="calcUnits">—</strong></div>
+            <div><span class="mini-title">Saldo não investido</span><strong id="calcChange">—</strong></div>
+            <div><span class="mini-title">Total aplicado</span><strong id="calcInvested">—</strong></div>
+            <div><span class="mini-title">Pagamento anunciado</span><strong id="calcPay" style="font-size:15px">A confirmar</strong></div>
+          </div>
+          <div class="disclaimer" id="calcWarning">Projeções baseadas em indicadores publicados podem não corresponder à próxima distribuição.</div>
+        </div>
+      </div>
+      <section class="panel" style="margin-top:20px"><h3>Comparação com o mesmo valor investido</h3><div class="table-wrap"><table class="table"><thead><tr><th>FII</th><th>Preço da cota</th><th>Cotas</th><th>Renda indicativa / mês</th><th>Base do cálculo</th></tr></thead><tbody id="compareRows"></tbody></table></div></section>
+    </section>
+    <section id="calendario" class="hidden">
+      <div class="section-head"><div><h2>Agenda de rendimentos</h2><p>Próximos pagamentos anunciados, quando a fonte informa data-com e data de pagamento.</p></div></div>
+      <div class="panel"><div id="calendarBody" class="muted">Carregando eventos...</div><div class="disclaimer">A data-com define quem tem direito ao provento anunciado. Prazos passados não são usados para prever datas futuras. Confira sempre o comunicado do administrador.</div></div>
+    </section>
+    <section id="fontes" class="hidden">
+      <div class="section-head"><div><h2>Transparência antes de tudo</h2><p>O radar só vale a pena se você souber de onde vêm os números e o que ainda falta verificar.</p></div></div>
+      <div class="cols">
+        <article class="panel"><h3>Como pontuamos</h3><p class="source-list">O índice usa P/VP (35 pontos), rendimento mensal informado no relatório (25), número de cotistas (10), patrimônio (10) e vacância (20 pontos, apenas para imóveis físicos quando disponível). Pesos ausentes não são inventados. Informe muito antigo reduz a nota.</p><p class="source-list">A nota é uma <strong>triagem automática</strong>, não previsão de retorno. Um P/VP baixo pode refletir problemas reais. Os riscos e notícias exigem leitura do relatório do administrador.</p></article>
+        <article class="panel"><h3>Origem dos dados</h3><div id="sourceLinks" class="source-list"></div><p class="source-list">Para datas de pagamentos confirmadas, vacância estruturada e valores exatos por cota de todos os FIIs, o projeto aceita opcionalmente um token <strong>brapi Pro</strong> no GitHub Actions. Sem esse acesso, campos sem comprovação ficam como <strong>não confirmados</strong>, nunca preenchidos por suposição.</p></article>
+      </div>
+      <div class="panel" style="margin-top:18px"><h3>Estado das integrações</h3><div id="systemStatus" class="source-list"></div></div>
+      <div class="disclaimer">Atenção: você optou por priorizar FIIs sem reserva de emergência. A volatilidade pode obrigar a venda com prejuízo caso precise do dinheiro. Não invista capital essencial. Dados não constituem recomendação personalizada. Nenhuma transação é feita pelo aplicativo.</div>
+    </section>
+    <footer class="foot">Clara FIIs • Projeto pessoal de pesquisa • Dados com atraso possível • <a href="https://github.com/carvalho832-glitch/clara-fiis" target="_blank" rel="noopener noreferrer">Código-fonte no GitHub ↗</a></footer>
+  </main>
+  <script>
+    "use strict";
+    let appData = {funds:[],headlines:[]}, activeTab = "radar";
+    const $ = id => document.getElementById(id);
+    const money = x => x == null || !Number.isFinite(Number(x)) ? "—" : Number(x).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+    const pct = x => x == null || !Number.isFinite(Number(x)) ? "—" : Number(x).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2})+"%";
+    const date = x => { if(!x) return "A confirmar"; const d = new Date(x.slice(0,10)+"T12:00:00Z"); return Number.isNaN(d.getTime()) ? "A confirmar" : d.toLocaleDateString("pt-BR",{timeZone:"UTC"}); };
+    const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    const safeUrl = x => typeof x === "string" && /^https:\/\//.test(x) ? esc(x) : "#";
+    const fresh = f => f.source_reference ? "Informe "+date(f.source_reference) : "Informe indisponível";
+    const fundBasis = f => f.last_dividend != null ? "Último rendimento confirmado: "+money(f.last_dividend)+"/cota ("+date(f.last_payment)+")" : f.yield_month_pct != null ? "Projeção usando "+pct(f.yield_month_pct)+" do informe "+date(f.source_reference) : "Rendimento não disponível";
+    const estimate = f => f.last_dividend != null ? f.last_dividend : f.price != null && f.yield_month_pct != null ? f.price*f.yield_month_pct/100 : null;
+    function showTab(tab){
+      activeTab=tab;
+      for(const id of ["radar","calculadora","calendario","fontes"]){ $(id).classList.toggle("hidden",id!==tab); }
+      document.querySelectorAll(".tab").forEach(el=>el.setAttribute("aria-selected",String(el.dataset.tab===tab)));
+      if(tab==="calculadora") calc();
+    }
+    document.querySelectorAll(".tab").forEach(el=>el.addEventListener("click",()=>showTab(el.dataset.tab)));
+    function renderCards(){
+      const sector = $("sectorFilter").value, funds = appData.funds.filter(f=>sector==="Todos"||f.sector===sector);
+      if(!funds.length){ $("fundCards").innerHTML='<div class="empty">Nenhum fundo com informação para este filtro.</div>';return; }
+      $("fundCards").innerHTML=funds.map((f,i)=>{
+        const warning=f.missing&&f.missing.length?"Faltam dados: "+f.missing.join(", ")+". Consulte o relatório do administrador antes de comprar.":"Indicadores disponíveis para triagem. Ainda exige avaliação qualitativa.";
+        const news=f.news&&f.news[0];
+        return '<article class="card"><div class="card-head"><div><div class="ticker">'+esc(f.ticker)+'</div><div class="sector">'+esc(f.sector)+'</div></div><span class="score '+(f.missing&&f.missing.length?"low":"")+'">'+(f.score==null?"Sem nota":f.score+"/100")+'</span></div>'
+         +'<div class="tile-stats"><div><span class="stat-label">Cotação • '+esc(date(f.quote_date))+'</span><span class="stat-val">'+money(f.price)+'</span></div><div><span class="stat-label">P/VP</span><span class="stat-val">'+(f.pvp==null?"—":Number(f.pvp).toFixed(2))+'</span></div><div><span class="stat-label">Renda mês (informe)</span><span class="stat-val">'+pct(f.yield_month_pct)+'</span></div><div><span class="stat-label">Vacância física</span><span class="stat-val">'+pct(f.vacancy_pct)+'</span></div></div>'
+         +'<div class="risk">'+esc(warning)+'</div><div class="meta"><span class="pill">'+esc(fresh(f))+'</span><span class="pill '+(f.next_payment?"":"warn")+'">'+(f.next_payment?"Pagamento: "+date(f.next_payment):"Próximo pagamento a confirmar")+'</span></div>'
+         +(news?'<div class="news-mini"><a href="'+safeUrl(news.url)+'" target="_blank" rel="noopener noreferrer">'+esc(news.title)+'</a><div class="muted">'+esc(news.source||"Notícia")+' • '+date(news.date)+'</div></div>':"")
+         +'<div class="links"><button class="btn" data-sim="'+esc(f.ticker)+'">Simular renda ↗</button><a class="btn btn-secondary" target="_blank" rel="noopener noreferrer" href="'+safeUrl(f.source_url)+'">Ver dados ↗</a></div></article>';
+      }).join("");
+      document.querySelectorAll("[data-sim]").forEach(el=>el.addEventListener("click",()=>{ $("fundChoose").value=el.dataset.sim;showTab("calculadora");window.scrollTo({top:0,behavior:"smooth"});}));
+    }
+    function calc(){
+      const amount=Math.max(0,Number($("amount").value)||0), f=appData.funds.find(x=>x.ticker===$("fundChoose").value);
+      if(!f){$("calcIncome").textContent="—";return;}
+      const units=f.price>0?Math.floor(amount/f.price):0, invested=units*(f.price||0), monthly=estimate(f);
+      $("calcIncome").textContent=monthly==null?"Sem dados":money(monthly*units);
+      $("calcBasis").textContent=fundBasis(f);
+      $("calcUnits").textContent=units.toLocaleString("pt-BR");
+      $("calcChange").textContent=f.price>0?money(amount-invested):"—";
+      $("calcInvested").textContent=f.price>0?money(invested):"—";
+      $("calcPay").textContent=f.next_payment?date(f.next_payment):"A confirmar";
+      $("calcWarning").textContent=f.last_dividend!=null?"Usa o último pagamento confirmado como hipótese. O valor seguinte pode ser diferente. "+(f.next_ex_date?"Data-com: "+date(f.next_ex_date)+".":"Sem nova data-com confirmada."):f.yield_month_pct!=null?"ESTIMATIVA: usa o percentual do último informe disponível aplicado à cotação. Isso NÃO é provento anunciado, nem informação de quanto será depositado.":"Não há dados suficientes para estimar pagamentos deste fundo.";
+      $("compareRows").innerHTML=appData.funds.map(x=>{
+        const n=x.price>0?Math.floor(amount/x.price):0, dv=estimate(x);
+        return '<tr><td>'+esc(x.ticker)+'<small>'+esc(x.sector)+'</small></td><td>'+money(x.price)+'</td><td>'+n+'</td><td>'+ (dv==null?"Não calculável":money(n*dv))+'</td><td>'+esc(x.last_dividend!=null?"Último provento":x.yield_month_pct!=null?"Simulação por informe":"Sem dados")+'</td></tr>';
+      }).join("");
+    }
+    function renderCalendar(){
+      const future=appData.funds.filter(f=>f.next_payment).sort((a,b)=>a.next_payment.localeCompare(b.next_payment));
+      $("calendarBody").innerHTML=future.length?'<div class="table-wrap"><table class="table"><thead><tr><th>Fundo</th><th>Data-com</th><th>Pagamento</th><th>Origem</th></tr></thead><tbody>'+future.map(f=>'<tr><td>'+esc(f.ticker)+'</td><td>'+date(f.next_ex_date)+'</td><td>'+date(f.next_payment)+'</td><td><a href="'+safeUrl(f.payment_source)+'" target="_blank" rel="noopener noreferrer">Fonte ↗</a></td></tr>').join("")+'</tbody></table></div>':'<div class="empty">Nenhuma data FUTURA de pagamento foi confirmada pela fonte estruturada na última atualização. Não inventamos calendário usando pagamentos passados. Consulte os comunicados oficiais dos administradores.</div>';
+    }
+    function renderNews(list,id){
+      $(id).innerHTML=list.length?list.slice(0,7).map(n=>'<div class="bullet"><a href="'+safeUrl(n.url)+'" target="_blank" rel="noopener noreferrer">'+esc(n.title)+'</a><small>'+esc(n.source||"Fonte")+' • '+date(n.date)+'</small></div>').join(""):'<div class="empty">Não foi possível confirmar notícias recentes nessa atualização.</div>';
+    }
+    function render(){
+      const f=appData.funds||[];
+      $("fundCount").textContent=f.length;
+      $("vacCount").textContent=f.filter(x=>x.vacancy_pct!=null).length;
+      $("selic").textContent=appData.macro&&appData.macro.selic&&appData.macro.selic.value!=null?pct(appData.macro.selic.value):"—";
+      $("quotation").textContent=date(appData.quote_date);
+      $("stamp").textContent=appData.generated_at?"Atualização: "+date(appData.generated_at):"Aguardando atualização";
+      const age=appData.generated_at?Math.floor((Date.now()-new Date(appData.generated_at).getTime())/86400000):999;
+      $("freshness").textContent=(age>9?"⚠ Dados com mais de 9 dias. ":"")+"Última coleta: "+date(appData.generated_at)+". Os indicadores de informes são normalmente mais antigos que a cotação. Consulte as datas em cada card.";
+      const sectors=[...new Set(f.map(x=>x.sector))].sort();
+      $("sectorFilter").innerHTML='<option value="Todos">Todos os segmentos</option>'+sectors.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
+      $("fundChoose").innerHTML=f.map(x=>'<option value="'+esc(x.ticker)+'">'+esc(x.ticker)+" • "+esc(x.sector)+'</option>').join("");
+      if(f.some(x=>x.ticker==="BTLG11")) $("fundChoose").value="BTLG11";
+      renderCards();renderCalendar();calc();
+      renderNews(f.flatMap(x=>(x.news||[]).slice(0,1)), "fundNews");
+      renderNews(appData.headlines||[], "marketNews");
+      $("sourceLinks").innerHTML=(appData.data_providers||[]).map(s=>'<div>↗ <a href="'+safeUrl(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.name)+'</a></div>').join("");
+      const status=appData.provider_status||{};
+      $("systemStatus").textContent="Cotações públicas: "+(status.capital_agora?"disponíveis":"indisponíveis")+". Dados aprofundados brapi Pro: "+(status.brapi_full?"token configurado":"não configurado")+". "+((status.errors||[]).length?"Algumas consultas falharam.":"");
+    }
+    $("sectorFilter").addEventListener("change",renderCards);
+    $("amount").addEventListener("input",calc);
+    $("fundChoose").addEventListener("change",calc);
+    document.querySelectorAll("[data-amount]").forEach(b=>b.addEventListener("click",()=>{$("amount").value=b.dataset.amount;calc();}));
+    fetch("./data/radar.json?ts="+Date.now(),{cache:"no-store"}).then(x=>{if(!x.ok)throw Error("Arquivo de dados indisponível");return x.json();}).then(data=>{appData=data;render();}).catch(e=>{$("fundCards").innerHTML='<div class="empty">Ainda não há uma atualização semanal válida. O código já está publicado; confira a execução do GitHub Actions. '+esc(e.message)+'</div>';$("freshness").textContent="A atualização semanal precisa executar antes de exibir dados.";});
+    if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+  </script>
+</body>
+</html>
