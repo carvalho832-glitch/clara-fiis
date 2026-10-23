@@ -6,11 +6,11 @@
 
 ## O que já funciona
 
-- **Radar semanal** com 12 FIIs de diferentes segmentos, pontuação quantitativa, preço de referência e link para a fonte.
+- **Radar semanal** com 12 FIIs de diferentes segmentos, dados pontuados, posição na triagem, breve leitura automática do que precisa ser investigado (dívidas, vacância, informes antigos, temas de manchetes) e link para a fonte. Três nomes aparecem como candidatos para estudo, nunca como ordem de compra.
 - **Notícias dos FIIs** e manchetes econômicas com data, veículo e link original.
-- **Vacância física** com data de referência, quando a fonte disponibiliza esse indicador.
-- **Simulador de dividendos**: valor disponível, fundo, cotas inteiras, saldo e renda mensal indicativa.
-- **Agenda de proventos**: somente pagamentos futuros com dados estruturados, nunca datas futuras presumidas.
+- **Vacância física** com data de referência, quando a fonte disponibiliza esse indicador. A ausência é explicitamente sinalizada.
+- **Simulador em três modos**: último rendimento por cota divulgado com fonte e data, cenário manual em R$/cota, ou cenário aproximado com percentual de informe (sem tratar esse cenário como pagamento anunciado). Mostra cotas inteiras, saldo e valor investido.
+- **Agenda de proventos**: próximos pagamentos divulgados e últimos rendimentos registrados, com data-com, valor e fonte. Uma data-com vencida é destacada para que ninguém confunda com direito a receber após comprar.
 - **Atualização automática** toda segunda-feira às 08h15 (horário de Brasília) com GitHub Actions, além de execução manual.
 - **Uso no celular**, pelo navegador, com possibilidade de adicionar à tela inicial.
 
@@ -19,6 +19,7 @@
 1. [Capital Agora](https://capitalagora.com.br/api): cotação de fechamento da B3, dados de informe mensal, P/VP, renda percentual e manchetes.
 2. [CVM](https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal): origem dos informes periódicos. A data de referência pode ser anterior à cotação.
 3. [brapi](https://brapi.dev/docs/fiis): proventos exatos por cota, data-com, pagamentos e vacância. Sem token, a API pública permite demonstração com HGLG11 e MXRF11. Dados completos de todos os FIIs requerem plano **Pro** da brapi.
+4. [data/proventos-verificados.json](data/proventos-verificados.json): anúncios específicos de outubro de 2026 revisados com referência jornalística e identificados como conferência manual. Os eventos deixam de ser exibidos após 65 dias, se não houver notícia posterior. Eles **não** são uma integração automática para todos os fundos.
 
 **Precisão:** quando a fonte fornece só o rendimento percentual do informe, e não o valor anunciado por cota, a calculadora usa preço x percentual / 100 como uma **simulação**. Isso não é anúncio de dividendo, nem promessa de pagamento.
 
@@ -32,7 +33,7 @@
 - Patrimônio: peso 10.
 - Vacância física: peso 20, apenas quando for aplicável e estiver disponível.
 
-Campos ausentes não recebem valores inventados. Informe muito antigo reduz a pontuação. A pontuação **não** substitui análise de crédito, concentração, dívida, emissões, contratos de aluguel e notícias recentes. O sistema apresenta riscos e fontes para revisão antes de cada compra.
+Campos ausentes não recebem valores inventados. Informe muito antigo reduz a pontuação. A pontuação **não** substitui análise de crédito, concentração, dívida, emissões, contratos de aluguel e notícias recentes. O painel lê manchetes e indicadores estruturados, **não os relatórios gerenciais completos**, e por isso a classificação é apenas uma triagem. O sistema apresenta riscos e fontes para revisão antes de cada compra.
 
 ## Ativar proventos e vacância de todos os fundos (opcional)
 
