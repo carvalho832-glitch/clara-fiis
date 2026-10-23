@@ -1,0 +1,54 @@
+{
+  "updated_at": "2026-10-23",
+  "description": "Indicadores conferidos em resumos de relatórios gerenciais. Dados datados, não atualização automática.",
+  "items": [
+    {
+      "ticker": "BTLG11",
+      "vacancy_pct": 1.2,
+      "vacancy_kind": "Física",
+      "reference": "2026-08-31",
+      "source": "https://www.clubefii.com.br/fundo_comunicados_embed?cod_neg=BTLG11%3Futm_source%3Dsitemap&id=1306411",
+      "note": "17ª emissão de cotas e aquisições em discussão; acompanhar diluição, caixa e novos contratos."
+    },
+    {
+      "ticker": "HGLG11",
+      "vacancy_pct": 2.7,
+      "vacancy_kind": "Física",
+      "reference": "2026-09-30",
+      "source": "https://www.clubefii.com.br/fundo_comunicados_embed?cod=0&cod_neg=HGLG11&id=1348097&tipo_comunicado=relatorio_gerencial_relatorios",
+      "note": "Em setembro, resultado de R$ 0,89/cota ficou abaixo da distribuição de R$ 1,17/cota; alavancagem financeira de 8,7% (10,3% com SPE)."
+    },
+    {
+      "ticker": "XPLG11",
+      "vacancy_pct": 3.8,
+      "vacancy_kind": "Física",
+      "reference": "2026-09-30",
+      "source": "https://www.clubefii.com.br/fiis/XPLG11?avaliar=true",
+      "note": "Conferir qualidade das locações, concentração de locatários e estrutura de passivos."
+    },
+    {
+      "ticker": "KNRI11",
+      "vacancy_pct": 1.84,
+      "vacancy_kind": "Física",
+      "reference": "2026-09-30",
+      "source": "https://brfiis.com.br/fundos/KNRI11/documentos/2026-out-02/relatorio-gerencial-1338388",
+      "note": "Vacância física caiu após venda de imóvel; considerar esse efeito de carteira ao comparar períodos."
+    },
+    {
+      "ticker": "PVBI11",
+      "vacancy_pct": 20,
+      "vacancy_kind": "Física",
+      "reference": "2026-09-30",
+      "source": "https://brfiis.com.br/fundos/PVBI11/documentos/2026-out-21/relatorio-gerencial-1356186",
+      "note": "Vacância financeira informada de 30,4% e concentração relevante de receita potencial em um locatário."
+    },
+    {
+      "ticker": "XPML11",
+      "vacancy_pct": 5.1,
+      "vacancy_kind": "Média da carteira",
+      "reference": "2026-08-31",
+      "source": "https://brfiis.com.br/fundos/XPML11/documentos/2026-out-07/relatorio-gerencial-1342555",
+      "note": "Vacância média de shopping não deve ser comparada diretamente à vacância física dos galpões."
+    }
+  ]
+}
