@@ -253,7 +253,12 @@ def main():
         if n.get("titulo") and (n.get("url") or "").startswith("https://"):
             headlines.append({"title": n["titulo"][:220], "url": n["url"], "source": n.get("veiculo", "Fonte"), "date": date_only(n.get("publicado"))})
         if len(headlines) == 6: break
-    headlines = (rss_search("Selic Copom inflação economia Brasil", "Brasil", 2)
+    econnews = []
+    for n in get_items(safe("https://capitalagora.com.br/api/noticias?tema=economia&limite=8")):
+        if n.get("titulo") and (n.get("url") or "").startswith("https://"):
+            econnews.append({"title": n["titulo"][:220], "url": n["url"], "source": n.get("veiculo", "Fonte") + " • Brasil", "date": date_only(n.get("publicado"))})
+        if len(econnews) == 3: break
+    headlines = (econnews
                  + rss_search("Federal Reserve juros Estados Unidos economia", "Exterior", 2)
                  + headlines)[:8]
     out = {
