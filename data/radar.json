@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:02:59+00:00",
+  "generated_at": "2026-10-23T16:05:15+00:00",
   "quote_date": "2026-10-22",
   "weekly_status": "Atualizado",
   "funds": [
@@ -44,7 +44,7 @@
           "date": "2026-10-19"
         }
       ],
-      "score": 100,
+      "score": 90,
       "missing": [],
       "notes": [
         "P/VP 0.94",
@@ -95,7 +95,7 @@
           "date": "2026-10-13"
         }
       ],
-      "score": 86,
+      "score": 76,
       "missing": [],
       "notes": [
         "P/VP 1.02",
@@ -145,7 +145,7 @@
           "date": "2026-10-15"
         }
       ],
-      "score": 79,
+      "score": 69,
       "missing": [],
       "notes": [
         "P/VP 1.03",
@@ -195,7 +195,7 @@
           "date": "2026-10-01"
         }
       ],
-      "score": 78,
+      "score": 68,
       "missing": [],
       "notes": [
         "P/VP 0.81",
@@ -245,7 +245,7 @@
           "date": "2026-10-08"
         }
       ],
-      "score": 100,
+      "score": 70,
       "missing": [
         "vacância"
       ],
@@ -297,7 +297,7 @@
           "date": "2026-10-01"
         }
       ],
-      "score": 100,
+      "score": 70,
       "missing": [
         "vacância"
       ],
@@ -349,7 +349,7 @@
           "date": "2026-10-01"
         }
       ],
-      "score": 100,
+      "score": 70,
       "missing": [
         "vacância"
       ],
@@ -395,7 +395,7 @@
           "date": "2026-10-01"
         }
       ],
-      "score": 100,
+      "score": 70,
       "missing": [
         "vacância"
       ],
@@ -447,7 +447,7 @@
           "date": "2026-09-17"
         }
       ],
-      "score": 100,
+      "score": 70,
       "missing": [
         "vacância"
       ],
@@ -499,13 +499,53 @@
           "date": "2026-10-02"
         }
       ],
-      "score": 100,
+      "score": 70,
       "missing": [
         "vacância"
       ],
       "notes": [
         "P/VP 0.93",
         "Rendimento mensal do informe: 0.75%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Revisar fontes"
+    },
+    {
+      "ticker": "PVBI11",
+      "name": "VBI PRIME FII RL",
+      "sector": "Lajes corporativas",
+      "price": 76.11,
+      "pvp": 0.728,
+      "yield_month_pct": 0.4291,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 2835393868.28,
+      "investors": 181927.0,
+      "source_url": "https://capitalagora.com.br/fiis/PVBI11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": null,
+      "news": [
+        {
+          "title": "6 FIIs comunicam rebalanceamento de índices internacionais; veja quais",
+          "url": "https://www.suno.com.br/noticias/rebalanceamento-de-indices-fundos-imobiliarios/",
+          "source": "Suno Notícias",
+          "date": "2026-09-18"
+        }
+      ],
+      "score": 35,
+      "missing": [
+        "vacância"
+      ],
+      "notes": [
+        "P/VP 0.73",
+        "Rendimento mensal do informe: 0.43%",
         "Informe antigo: 114 dias"
       ],
       "classification": "Revisar fontes"
@@ -551,52 +591,12 @@
           "date": "2026-10-19"
         }
       ],
-      "score": 69,
+      "score": 21,
       "missing": [
         "vacância"
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 114 dias"
-      ],
-      "classification": "Revisar fontes"
-    },
-    {
-      "ticker": "PVBI11",
-      "name": "VBI PRIME FII RL",
-      "sector": "Lajes corporativas",
-      "price": 76.11,
-      "pvp": 0.728,
-      "yield_month_pct": 0.4291,
-      "source_reference": "2026-07-01",
-      "quote_date": "2026-10-22",
-      "equity": 2835393868.28,
-      "investors": 181927.0,
-      "source_url": "https://capitalagora.com.br/fiis/PVBI11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
-      "next_payment": null,
-      "next_ex_date": null,
-      "payment_source": null,
-      "news": [
-        {
-          "title": "6 FIIs comunicam rebalanceamento de índices internacionais; veja quais",
-          "url": "https://www.suno.com.br/noticias/rebalanceamento-de-indices-fundos-imobiliarios/",
-          "source": "Suno Notícias",
-          "date": "2026-09-18"
-        }
-      ],
-      "score": 56,
-      "missing": [
-        "vacância"
-      ],
-      "notes": [
-        "P/VP 0.73",
-        "Rendimento mensal do informe: 0.43%",
         "Informe antigo: 114 dias"
       ],
       "classification": "Revisar fontes"
