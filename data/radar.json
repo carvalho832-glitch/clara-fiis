@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T20:30:24+00:00",
+  "generated_at": "2026-10-23T20:39:05+00:00",
   "quote_date": "2026-10-22",
   "weekly_status": "Atualizado",
   "funds": [
@@ -29,6 +29,16 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": "Anúncio revisado manualmente",
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": "2026-10-15",
+      "com_date_history": [
+        "2026-10-15"
+      ],
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
@@ -103,6 +113,21 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": "Base de proventos brapi",
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": "2026-09-30",
+      "com_date_history": [
+        "2026-09-30",
+        "2026-08-31",
+        "2026-07-31",
+        "2026-06-30",
+        "2026-05-29",
+        "2026-04-30"
+      ],
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
@@ -176,6 +201,21 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": "Base de proventos brapi",
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": "2026-09-30",
+      "com_date_history": [
+        "2026-09-30",
+        "2026-08-31",
+        "2026-07-31",
+        "2026-06-30",
+        "2026-05-29",
+        "2026-04-30"
+      ],
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
@@ -243,6 +283,16 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": "Anúncio revisado manualmente",
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": "2026-09-30",
+      "com_date_history": [
+        "2026-09-30"
+      ],
       "payment_source": "https://www.fundsexplorer.com.br/noticias/kncr11-dividendos-outubro",
       "news": [
         {
@@ -310,6 +360,14 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": null,
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": null,
+      "com_date_history": [],
       "payment_source": null,
       "news": [
         {
@@ -381,6 +439,14 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": null,
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": null,
+      "com_date_history": [],
       "payment_source": null,
       "news": [
         {
@@ -446,6 +512,14 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": null,
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": null,
+      "com_date_history": [],
       "payment_source": null,
       "news": [
         {
@@ -514,6 +588,14 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": null,
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": null,
+      "com_date_history": [],
       "payment_source": null,
       "news": [
         {
@@ -573,6 +655,16 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": "Anúncio revisado manualmente",
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": "2026-10-16",
+      "com_date_history": [
+        "2026-10-16"
+      ],
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
@@ -645,6 +737,14 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": null,
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": null,
+      "com_date_history": [],
       "payment_source": null,
       "news": [
         {
@@ -713,6 +813,14 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": null,
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": null,
+      "com_date_history": [],
       "payment_source": null,
       "news": [
         {
@@ -781,6 +889,14 @@
       "next_ex_date": null,
       "next_dividend": null,
       "dividend_source_type": null,
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": null,
+      "com_date_history": [],
       "payment_source": null,
       "news": [
         {
@@ -860,20 +976,20 @@
       "date": "2026-10-19"
     },
     {
-      "title": "Dólar fecha abaixo de R$ 5 e Bolsa sobe no último pregão antes da eleição",
-      "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/23/fecha-dolar-bolsa-hoje-23-10-2026.htm",
+      "title": "Metade dos investidores vê Bolsa subir mais de 5% se Flávio vencer",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/10/23/metade-dos-investidores-ve-bolsa-subir-mais-de-5-se-flavio-vencer.htm",
       "source": "UOL Economia",
       "date": "2026-10-23"
     },
     {
-      "title": "Dólar cai e fecha abaixo de R$ 5 no último pregão antes do segundo turno",
-      "url": "https://www.moneytimes.com.br/dolar-23-10-26-lils/",
-      "source": "Money Times",
+      "title": "Flávio aciona novamente TSE contra Lula e alega abuso de poder em comunicação digital",
+      "url": "https://www.infomoney.com.br/politica/flavio-aciona-novamente-tse-contra-lula-e-alega-abuso-de-poder-em-comunicacao-digital/",
+      "source": "InfoMoney",
       "date": "2026-10-23"
     },
     {
-      "title": "Investidor opta por segurança depois da ‘euforia’ do 1º turno nas opções do EWZ, mas volume supera em 5 vezes 2022",
-      "url": "https://www.moneytimes.com.br/investidor-opta-por-seguranca-depois-da-euforia-do-1o-turno-nas-opcoes-do-ewz-mas-volume-supera-em-5-vezes-2022/",
+      "title": "TSE afirma que não mandou derrubar canais políticos do WhatsApp na reta final da disputa eleitoral",
+      "url": "https://www.moneytimes.com.br/tse-afirma-que-nao-mandou-derrubar-canais-politicos-do-whatsapp-na-reta-final-da-disputa-eleitoral-davs/",
       "source": "Money Times",
       "date": "2026-10-23"
     }
