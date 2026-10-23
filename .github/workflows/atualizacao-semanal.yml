@@ -44,6 +44,8 @@ jobs:
           python -m compileall -q scripts
           python scripts/check.py
       - name: Registrar dados atualizados
+        # Em pushes de codigo, publica snapshot no Pages sem criar outro commit concorrido.
+        if: github.event_name != 'push'
         run: |
           git config user.name "clara-fiis-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
