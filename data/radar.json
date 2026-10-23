@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:05:59+00:00",
+  "generated_at": "2026-10-23T16:08:07+00:00",
   "quote_date": "2026-10-22",
   "weekly_status": "Atualizado",
   "funds": [
@@ -43,6 +43,10 @@
           "source": "Suno Notícias",
           "date": "2026-10-19"
         }
+      ],
+      "news_topics": [
+        "vacância",
+        "aquisições"
       ],
       "score": 90,
       "missing": [],
@@ -95,6 +99,7 @@
           "date": "2026-10-13"
         }
       ],
+      "news_topics": [],
       "score": 76,
       "missing": [],
       "notes": [
@@ -145,6 +150,7 @@
           "date": "2026-10-15"
         }
       ],
+      "news_topics": [],
       "score": 69,
       "missing": [],
       "notes": [
@@ -195,6 +201,7 @@
           "date": "2026-10-01"
         }
       ],
+      "news_topics": [],
       "score": 68,
       "missing": [],
       "notes": [
@@ -244,6 +251,11 @@
           "source": "InfoMoney",
           "date": "2026-10-08"
         }
+      ],
+      "news_topics": [
+        "emissão de cotas",
+        "vacância",
+        "aquisições"
       ],
       "score": 70,
       "missing": [
@@ -297,6 +309,9 @@
           "date": "2026-10-01"
         }
       ],
+      "news_topics": [
+        "vacância"
+      ],
       "score": 70,
       "missing": [
         "vacância"
@@ -349,6 +364,7 @@
           "date": "2026-10-01"
         }
       ],
+      "news_topics": [],
       "score": 70,
       "missing": [
         "vacância"
@@ -394,6 +410,9 @@
           "source": "Money Times",
           "date": "2026-10-01"
         }
+      ],
+      "news_topics": [
+        "vacância"
       ],
       "score": 70,
       "missing": [
@@ -447,6 +466,7 @@
           "date": "2026-09-17"
         }
       ],
+      "news_topics": [],
       "score": 70,
       "missing": [
         "vacância"
@@ -499,6 +519,9 @@
           "date": "2026-10-02"
         }
       ],
+      "news_topics": [
+        "vacância"
+      ],
       "score": 70,
       "missing": [
         "vacância"
@@ -539,6 +562,7 @@
           "date": "2026-09-18"
         }
       ],
+      "news_topics": [],
       "score": 35,
       "missing": [
         "vacância"
@@ -591,6 +615,9 @@
           "date": "2026-10-19"
         }
       ],
+      "news_topics": [
+        "rebaixamento"
+      ],
       "score": 21,
       "missing": [
         "vacância"
@@ -604,39 +631,51 @@
   ],
   "headlines": [
     {
-      "title": "Australiana identifica 21 novos alvos de cobre e ouro no Pará",
-      "url": "https://www.cnnbrasil.com.br/infra/australiana-identifica-21-novos-alvos-de-cobre-e-ouro-no-para/",
-      "source": "CNN Brasil",
-      "date": "2026-10-23"
+      "title": "Petróleo caro e inflação persistente tornam juros mais incertos nos Estados Unidos e no Brasil - Gente Seguradora",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTlJqVjVjeEdNSWpBeEZfX2ZOQ25SWE80UFFhMDdLOVJ4M3lWVE5zdlhGOG1pZkR6cWlBa0VCc3hCN18zdERLNFh4Zkd3bXpzZmg4RkxJYlhMV2xWWHEyLU50MVM1eXRleGhYLTBpRURYSHllZkpNQzNlSDZZdzZuZWVNNDNYVE9pamtsUFMwQTROaEZ6R1Fyb3JodUJrdW9yaWwyR0UxSVRnWS0xZmc2Ry0wMGxmX2l1MTVNaVdWS1lNVndJ?oc=5",
+      "source": "Gente Seguradora • Exterior",
+      "date": "2026-10-20"
     },
     {
-      "title": "MiniMax conclui registro de exportação para modelos de IA de código aberto no exterior",
-      "url": "https://br.investing.com/news/stock-market-news/minimax-conclui-registro-de-exportacao-para-modelos-de-ia-de-codigo-aberto-no-exterior-2101481",
+      "title": "Fed vê boom da IA agravando dor de cabeça da inflação, mas outros podem ter que arcar com o remédio - Money Times",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSWtaT0ZXLWxZanFJUTJtM3NsSDJKVktpNHRwU2w3YzBLeHNFYi1tdmhjNHNCYThTMGNlcnNlXzI2eTdjZDJKNjQyWHJGRzlFYXN5cGNzeDdFUF9jMFdCX3M0bjZyWlJqTHVzMEgtdy1VMDJKbHlsSzBOWnR5QTdTajFaQzRUZUFLcUlkdDcza3JfbE9pYUNrSzZkOUVKY0FaczJiT1NpOHVOaGpoQnB3OFdxck1pOVdIMjd3ZFZDNDVuSmU5MkE5N0pibU1tUFE?oc=5",
+      "source": "Money Times • Exterior",
+      "date": "2026-10-19"
+    },
+    {
+      "title": "Finlândia - Ações fecharam o pregão em queda e o Índice OMX Helsinki 25 recuou 0,40%",
+      "url": "https://br.investing.com/news/stock-market-news/finlandia--acoes-fecharam-o-pregao-em-queda-e-o-indice-omx-helsinki-25-recuou-040-2101490",
       "source": "Investing.com Brasil",
       "date": "2026-10-23"
     },
     {
-      "title": "Casas Bahia anuncia Camille Faria para liderar negociações de recuperação judicial",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/10/casas-bahia-anuncia-camille-faria-para-liderar-negociacoes-de-recuperacao-judicial.shtml",
+      "title": "Ações da CrowdStrike disparam com otimismo em segurança cibernética",
+      "url": "https://br.investing.com/news/stock-market-news/acoes-da-crowdstrike-disparam-com-otimismo-em-seguranca-cibernetica-93CH-2101488",
+      "source": "Investing.com Brasil",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "EUA autorizam liberação emergencial de até 400 mil barris de petróleo da reserva estratégica",
+      "url": "https://br.investing.com/news/stock-market-news/eua-autorizam-liberacao-emergencial-de-ate-400-mil-barris-de-petroleo-da-reserva-estrategica-2101487",
+      "source": "Investing.com Brasil",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Nem Lula, nem Flávio Bolsonaro 'têm estômago' para reforma que Brasil precisa, diz Economist",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/nem-lula-nem-flavio-bolsonaro-tem-estomago-para-reforma-que-brasil-precisa-diz-economist.shtml",
       "source": "Folha · Mercado",
       "date": "2026-10-23"
     },
     {
-      "title": "Wells Fargo aponta Amazon como principal escolha antes do 3º tri",
-      "url": "https://br.investing.com/news/stock-market-news/wells-fargo-aponta-amazon-como-principal-escolha-antes-do-3o-tri-2101479",
-      "source": "Investing.com Brasil",
+      "title": "Da Argentina ao Sri Lanka, descontentamento cresce em economias em recuperação",
+      "url": "https://www.infomoney.com.br/mundo/da-argentina-ao-sri-lanka-descontentamento-cresce-em-economias-em-recuperacao/",
+      "source": "InfoMoney",
       "date": "2026-10-23"
     },
     {
-      "title": "Truist destaca ações de energia limpa para acompanhar antes da temporada de balanços do 3º tri",
-      "url": "https://br.investing.com/news/stock-market-news/truist-destaca-acoes-de-energia-limpa-para-acompanhar-antes-da-temporada-de-balancos-do-3o-tri-2101478",
-      "source": "Investing.com Brasil",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "Entenda o que campanhas apresentaram ao TSE sobre quebras de sigilo",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/entenda-o-que-campanhas-apresentaram-ao-tse-sobre-quebras-de-sigilo/",
-      "source": "CNN Brasil",
+      "title": "Google derruba ilegalmente 250 mil árvores na Finlândia para construir data center",
+      "url": "https://www.infomoney.com.br/business/google-derruba-ilegalmente-250-mil-arvores-na-finlandia-para-construir-data-center/",
+      "source": "InfoMoney",
       "date": "2026-10-23"
     }
   ],
