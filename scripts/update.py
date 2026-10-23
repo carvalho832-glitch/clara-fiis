@@ -130,6 +130,74 @@ def brapi(endpoint, symbols):
     auth = {"Authorization": "Bearer " + TOKEN} if TOKEN else None
     return safe("https://brapi.dev/api/v2/fii/" + endpoint + "?" + qs, auth)
 
+def curated_events():
+    """Anúncios revisados manualmente, válidos apenas por um período curto."""
+    path = ROOT / "data" / "proventos-verificados.json"
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    events = []
+    for e in raw.get("events", []):
+        ticker = e.get("ticker")
+        payment = date_only(e.get("payment_date"))
+        cutoff = date_only(e.get("ex_right_date"))
+        rate = valid_num(e.get("per_share"), 0.00001, 1000)
+        source = e.get("source") or ""
+        if ticker not in WATCH or not payment or not cutoff or rate is None:
+            continue
+        if not source.startswith("https://") or cutoff > payment:
+            continue
+        try:
+            age = (TODAY - dt.date.fromisoformat(payment)).days
+            if age > 65 or age < -120:
+                continue
+        except ValueError:
+            continue
+        events.append({"symbol": ticker, "rate": rate, "paymentDate": payment,
+                       "lastDatePrior": cutoff, "sourceUrl": source,
+                       "sourceKind": "Anúncio revisado manualmente",
+                       "verifiedOn": date_only(e.get("verified_on") or raw.get("updated_at"))})
+    return events
+
+def fundamental_context(f):
+    observations, cautions = [], []
+    pvp = f.get("pvp")
+    if pvp is not None:
+        if pvp <= .95:
+            observations.append("Cota abaixo do valor patrimonial, mas desconto não garante oportunidade")
+        elif pvp >= 1.07:
+            cautions.append("Negocia acima do valor patrimonial contábil")
+    if f.get("last_dividend") is not None:
+        observations.append("Valor por cota divulgado: R$ " +
+                            format(f["last_dividend"], ".2f").replace(".", ","))
+    else:
+        cautions.append("Rendimento recente por cota ainda não verificado")
+    if f["sector"] != "Recebíveis":
+        vacancy = f.get("vacancy_pct")
+        if vacancy is None:
+            cautions.append("Vacância não encontrada em fonte estruturada")
+        else:
+            observations.append("Vacância física informada: " + format(vacancy, ".1f") + "%")
+            if vacancy > 12:
+                cautions.append("Vacância física acima de 12%")
+    else:
+        cautions.append("Conferir inadimplência, garantias e concentração dos CRIs")
+    if f.get("source_reference"):
+        try:
+            age = (TODAY - dt.date.fromisoformat(f["source_reference"])).days
+            if age > 90:
+                cautions.append("Informe de patrimônio/rendimentos com mais de 90 dias")
+        except ValueError:
+            cautions.append("Verificar data do informe")
+    for tag, issue in [("emissão de cotas", "Notícia sobre emissão: avaliar diluição e uso do capital"),
+                       ("inadimplência", "Manchete sobre inadimplência: apurar fatos nos relatórios"),
+                       ("alavancagem", "Manchete sobre alavancagem: checar dívidas")]:
+        if tag in f.get("news_topics", []):
+            cautions.append(issue)
+    cautions.append("Antes de comprar: ler relatório gerencial, contratos e alavancagem")
+    return observations[:3], cautions[:5]
+
 def fundamentals():
     base = safe("https://capitalagora.com.br/api/fiis?limite=200")
     results = {}
@@ -196,7 +264,7 @@ def main():
     brdiv = brapi("dividends", list(WATCH))
     brvac = brapi("properties", list(WATCH))
     div_index, vac_index = {}, {}
-    for d in brdiv.get("dividends", []):
+    for d in brdiv.get("dividends", []) + curated_events():
         if d.get("symbol") not in WATCH or d.get("label") != "RENDIMENTO": continue
         if d.get("remarks") and "backfilled" in str(d.get("remarks")).lower(): continue
         amount = valid_num(d.get("rate"), 0, 1000)
@@ -224,7 +292,8 @@ def main():
             "source_url": r.get("url") or "https://capitalagora.com.br/fiis/" + ticker,
             "vacancy_pct": None, "vacancy_reference": None, "vacancy_source": None,
             "last_dividend": None, "dividend_reference": None,
-            "last_payment": None, "next_payment": None, "next_ex_date": None,
+            "last_payment": None, "last_com_date": None, "next_payment": None, "next_ex_date": None,
+            "next_dividend": None, "dividend_source_type": None,
             "payment_source": None, "news": news_for(ticker)
         }
         fund["news_topics"] = topics_in_news(fund["news"])
@@ -239,14 +308,25 @@ def main():
             pay = date_only(d.get("paymentDate"))
             if not pay: continue
             amount = round(float(d["rate"]), 5)
-            if pay > str(TODAY) and not fund["next_payment"]:
-                fund["next_payment"], fund["next_ex_date"], fund["payment_source"] = pay, date_only(d.get("lastDatePrior")), "https://brapi.dev/docs/fiis/dividendos"
-            elif pay <= str(TODAY) and fund["last_dividend"] is None:
+            source = d.get("sourceUrl") or "https://brapi.dev/docs/fiis/dividendos"
+            source_type = d.get("sourceKind") or "Base de proventos brapi"
+            if pay >= str(TODAY) and not fund["next_payment"]:
+                fund["next_payment"] = pay
+                fund["next_ex_date"] = date_only(d.get("lastDatePrior"))
+                fund["next_dividend"] = amount
+                fund["payment_source"] = source
+            if pay <= str(TODAY) and fund["last_dividend"] is None:
                 fund["last_dividend"], fund["last_payment"], fund["dividend_reference"] = amount, pay, pay
-                fund["payment_source"] = "https://brapi.dev/docs/fiis/dividendos"
+                fund["last_com_date"] = date_only(d.get("lastDatePrior"))
+                fund["payment_source"] = source
+                fund["dividend_source_type"] = source_type
         # Nenhuma data de pagamento é presumida com base no calendário anterior.
-        funds.append(score_fund(fund))
-    funds.sort(key=lambda f: (len(f["missing"]) == 0, f["score"] if f["score"] is not None else -1), reverse=True)
+        fund = score_fund(fund)
+        fund["observations"], fund["cautions"] = fundamental_context(fund)
+        fund["evidence_count"] = sum(1 for key in ("price", "pvp", "yield_month_pct", "equity", "investors", "last_dividend") if fund.get(key) is not None)
+        fund["data_quality"] = "Em revisão" if fund.get("missing") or fund["evidence_count"] < 5 else "Parcial"
+        funds.append(fund)
+    funds.sort(key=lambda f: (len(f["missing"]) == 0, f["last_dividend"] is not None, f["score"] if f["score"] is not None else -1), reverse=True)
     headlines = []
     rawnews = safe("https://capitalagora.com.br/api/noticias?tema=mercados&limite=12")
     for n in get_items(rawnews):
@@ -276,6 +356,7 @@ def main():
         "warnings": [
             "Ranking automatizado, não é análise individual nem recomendação de compra.",
             "Taxa mensal do informe não é dividendo anunciado nem garantia de pagamento.",
+            "Anúncios revisados manualmente expiram após 65 dias; confira a atualização e o documento da fonte.",
             "Vacância e próximas datas de pagamento só aparecem quando confirmadas por fonte estruturada.",
             "Uma compra realizada após a data-com anunciada não recebe aquele provento."
         ],
