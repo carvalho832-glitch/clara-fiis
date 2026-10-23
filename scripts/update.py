@@ -154,7 +154,7 @@ def curated_events():
                 continue
         except ValueError:
             continue
-        events.append({"symbol": ticker, "rate": rate, "paymentDate": payment,
+        events.append({"symbol": ticker, "label": "RENDIMENTO", "rate": rate, "paymentDate": payment,
                        "lastDatePrior": cutoff, "sourceUrl": source,
                        "sourceKind": "Anúncio revisado manualmente",
                        "verifiedOn": date_only(e.get("verified_on") or raw.get("updated_at"))})
