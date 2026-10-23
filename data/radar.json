@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:13:55+00:00",
+  "generated_at": "2026-10-23T20:27:31+00:00",
   "quote_date": "2026-10-22",
   "weekly_status": "Atualizado",
   "funds": [
@@ -25,9 +25,9 @@
       "dividend_reference": "2026-10-23",
       "last_payment": "2026-10-23",
       "last_com_date": "2026-10-15",
-      "next_payment": "2026-10-23",
-      "next_ex_date": "2026-10-15",
-      "next_dividend": 0.81,
+      "next_payment": null,
+      "next_ex_date": null,
+      "next_dividend": null,
       "dividend_source_type": "Anúncio revisado manualmente",
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
@@ -569,9 +569,9 @@
       "dividend_reference": "2026-10-23",
       "last_payment": "2026-10-23",
       "last_com_date": "2026-10-16",
-      "next_payment": "2026-10-23",
-      "next_ex_date": "2026-10-16",
-      "next_dividend": 0.92,
+      "next_payment": null,
+      "next_ex_date": null,
+      "next_dividend": null,
       "dividend_source_type": "Anúncio revisado manualmente",
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
@@ -830,6 +830,12 @@
   ],
   "headlines": [
     {
+      "title": "Restituição IR 2026: lote extra é liberado para consulta e pagamento será no dia 30",
+      "url": "https://www.gazetadopovo.com.br/economia/restituicao-ir-2026-como-consultar-lote-extra/",
+      "source": "Gazeta do Povo · Economia • Brasil",
+      "date": "2026-10-23"
+    },
+    {
       "title": "Ouro fecha em queda e perde 4% na semana com alta no petróleo",
       "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/23/ouro-fecha-em-queda-e-perde-4-na-semana-com-alta-no-petroleo.htm",
       "source": "UOL Economia • Brasil",
@@ -839,12 +845,6 @@
       "title": "Ouro cai com petróleo e acumula perda de 4% na semana",
       "url": "https://www.moneytimes.com.br/ouro-23-10-26-lils/",
       "source": "Money Times • Brasil",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "Flávio Bolsonaro projeta nova lei para ampliar liberdade econômica no Brasil",
-      "url": "https://www.gazetadopovo.com.br/economia/flavio-bolsonaro-projeta-nova-lei-para-ampliar-liberdade-economica-no-brasil/",
-      "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-10-23"
     },
     {
@@ -860,32 +860,34 @@
       "date": "2026-10-19"
     },
     {
-      "title": "Copa BTG Trader: cinco finalistas disputam R$ 1 milhão após competição com 15 mil inscritos",
-      "url": "https://www.moneytimes.com.br/copa-btg-trader-cinco-finalistas-disputam-r-1-milhao-apos-competicao-com-15-mil-inscritos/",
+      "title": "Dólar fecha abaixo de R$ 5 e Bolsa sobe no último pregão antes da eleição",
+      "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/23/fecha-dolar-bolsa-hoje-23-10-2026.htm",
+      "source": "UOL Economia",
+      "date": "2026-10-23"
+    },
+    {
+      "title": "Dólar cai e fecha abaixo de R$ 5 no último pregão antes do segundo turno",
+      "url": "https://www.moneytimes.com.br/dolar-23-10-26-lils/",
       "source": "Money Times",
       "date": "2026-10-23"
     },
     {
-      "title": "Brasileira morre em lua de mel em Portugal após reação alérgica; entenda",
-      "url": "https://www.infomoney.com.br/minhas-financas/brasileira-morre-lua-de-mel-portugal/",
-      "source": "InfoMoney",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "Patrimônio no exterior: veja quando considerar a abertura de uma “offshore”",
-      "url": "https://www.infomoney.com.br/mercados/patrimonio-no-exterior-veja-quando-considerar-a-abertura-de-uma-offshore/",
-      "source": "InfoMoney",
+      "title": "Investidor opta por segurança depois da ‘euforia’ do 1º turno nas opções do EWZ, mas volume supera em 5 vezes 2022",
+      "url": "https://www.moneytimes.com.br/investidor-opta-por-seguranca-depois-da-euforia-do-1o-turno-nas-opcoes-do-ewz-mas-volume-supera-em-5-vezes-2022/",
+      "source": "Money Times",
       "date": "2026-10-23"
     }
   ],
   "macro": {
     "selic": {
-      "value": null,
-      "date": null
+      "value": 13.75,
+      "date": "2026-10-23",
+      "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
-      "value": null,
-      "date": null
+      "value": 4.58,
+      "date": "2026-09-01",
+      "source": "https://capitalagora.com.br/api/indicador/ipca-12m"
     }
   },
   "data_providers": [
