@@ -343,6 +343,10 @@ def main():
             "last_dividend": None, "dividend_reference": None,
             "last_payment": None, "last_com_date": None, "next_payment": None, "next_ex_date": None,
             "next_dividend": None, "dividend_source_type": None,
+            "upcoming_com_date": None, "upcoming_ex_date": None,
+            "upcoming_payment_date": None, "upcoming_per_share": None,
+            "upcoming_source": None, "upcoming_source_type": None,
+            "latest_com_date": None, "com_date_history": [],
             "payment_source": None, "news": news_for(ticker)
         }
         fund["news_topics"] = topics_in_news(fund["news"])
@@ -362,6 +366,37 @@ def main():
         if reviewed:
             fund["report_url"] = reviewed["source"]
             fund["report_risk_note"] = reviewed.get("note")
+        valid_events = []
+        for d in div_index.get(ticker, []):
+            com = date_only(d.get("lastDatePrior"))
+            payment = date_only(d.get("paymentDate"))
+            ex = date_only(d.get("exDate"))
+            amount = valid_num(d.get("rate"), 0.00001, 1000)
+            if not com or amount is None:
+                continue
+            try:
+                com_date = dt.date.fromisoformat(com)
+                if payment and dt.date.fromisoformat(payment) < com_date:
+                    continue
+                if ex and dt.date.fromisoformat(ex) <= com_date:
+                    ex = None  # Alguns provedores preenchem exDate com a própria data-com
+            except ValueError:
+                continue
+            valid_events.append((d, com, ex, payment, amount))
+        # Mais recente data-com primeiro, independente do dia de pagamento.
+        valid_events.sort(key=lambda item: (item[1], item[3] or ""), reverse=True)
+        fund["com_date_history"] = sorted({x[1] for x in valid_events if x[1] <= str(TODAY)}, reverse=True)[:6]
+        fund["latest_com_date"] = fund["com_date_history"][0] if fund["com_date_history"] else None
+        # "Próxima compra até" usa somente anúncios confirmados que ainda não perderam a data-com.
+        upcoming = [x for x in valid_events if x[1] >= str(TODAY)]
+        if upcoming:
+            d, com, ex, payment, amount = min(upcoming, key=lambda item: item[1])
+            fund["upcoming_com_date"] = com
+            fund["upcoming_ex_date"] = ex
+            fund["upcoming_payment_date"] = payment
+            fund["upcoming_per_share"] = round(amount, 5)
+            fund["upcoming_source"] = d.get("sourceUrl") or "https://brapi.dev/docs/fiis/dividendos"
+            fund["upcoming_source_type"] = d.get("sourceKind") or "Base de proventos brapi"
         dated = sorted(div_index.get(ticker, []), key=lambda x: date_only(x.get("paymentDate")) or "", reverse=True)
         for d in dated:
             pay = date_only(d.get("paymentDate"))
@@ -379,7 +414,9 @@ def main():
                 fund["last_com_date"] = date_only(d.get("lastDatePrior"))
                 fund["payment_source"] = source
                 fund["dividend_source_type"] = source_type
-        # Nenhuma data de pagamento é presumida com base no calendário anterior.
+        # A data-com é tratada separadamente da data de pagamento. Mesmo se o valor
+        # entrar na conta num dia futuro, comprar após a data-com não dá direito.
+        # Não prever próximos dias-com a partir do último mês.
         fund = score_fund(fund)
         fund["observations"], fund["cautions"] = fundamental_context(fund)
         fund["evidence_count"] = sum(1 for key in ("price", "pvp", "yield_month_pct", "equity", "investors", "last_dividend") if fund.get(key) is not None)
