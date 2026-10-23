@@ -113,90 +113,155 @@
     <footer class="foot">Clara FIIs • Projeto pessoal de pesquisa • Dados com atraso possível • <a href="https://github.com/carvalho832-glitch/clara-fiis" target="_blank" rel="noopener noreferrer">Código-fonte no GitHub ↗</a></footer>
   </main>
   <script>
+
     "use strict";
     let appData = {funds:[],headlines:[]}, activeTab = "radar";
     const $ = id => document.getElementById(id);
-    const money = x => x == null || !Number.isFinite(Number(x)) ? "—" : Number(x).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
-    const pct = x => x == null || !Number.isFinite(Number(x)) ? "—" : Number(x).toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2})+"%";
-    const date = x => { if(!x) return "A confirmar"; const d = new Date(x.slice(0,10)+"T12:00:00Z"); return Number.isNaN(d.getTime()) ? "A confirmar" : d.toLocaleDateString("pt-BR",{timeZone:"UTC"}); };
-    const esc = s => String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-    const safeUrl = x => typeof x === "string" && /^https:\/\//.test(x) ? esc(x) : "#";
-    const fresh = f => f.source_reference ? "Informe "+date(f.source_reference) : "Informe indisponível";
-    const fundBasis = f => f.last_dividend != null ? "Último rendimento confirmado: "+money(f.last_dividend)+"/cota ("+date(f.last_payment)+")" : f.yield_month_pct != null ? "Projeção usando "+pct(f.yield_month_pct)+" do informe "+date(f.source_reference) : "Rendimento não disponível";
-    const estimate = f => f.last_dividend != null ? f.last_dividend : f.price != null && f.yield_month_pct != null ? f.price*f.yield_month_pct/100 : null;
+    const fmt = (x, style = "currency") => Number(x).toLocaleString("pt-BR", style === "currency" ? {style:"currency",currency:"BRL"} : {minimumFractionDigits:2,maximumFractionDigits:2});
+    const money = x => x == null || !Number.isFinite(Number(x)) ? "—" : fmt(x);
+    const pct = x => x == null || !Number.isFinite(Number(x)) ? "—" : fmt(x, "decimal")+"%";
+    const date = x => {
+      if (typeof x !== "string" || !/^\d{4}-\d{2}-\d{2}/.test(x)) return "A confirmar";
+      const d = new Date(x.slice(0,10)+"T12:00:00Z");
+      return Number.isNaN(d.getTime()) ? "A confirmar" : d.toLocaleDateString("pt-BR",{timeZone:"UTC"});
+    };
+    const esc = value => String(value == null ? "" : value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    const safeUrl = x => typeof x === "string" && /^https:\/\/[^/\s]+/i.test(x) ? esc(x) : "#";
+    const dayAge = x => x ? Math.round((Date.now()-new Date(x.slice(0,10)+"T12:00:00Z").getTime())/86400000) : 9999;
+    const recentPayout = f => f.last_dividend != null && f.last_payment && dayAge(f.last_payment) <= 65 && dayAge(f.last_payment) >= 0;
+    const basisLabel = f => recentPayout(f) ? "Último provento anunciado: "+money(f.last_dividend)+"/cota; pagamento indicado em "+date(f.last_payment) : "Valor por cota recente não confirmado neste painel";
     function showTab(tab){
-      activeTab=tab;
-      for(const id of ["radar","calculadora","calendario","fontes"]){ $(id).classList.toggle("hidden",id!==tab); }
+      activeTab = tab;
+      for (const id of ["radar","calculadora","calendario","fontes"]) $(id).classList.toggle("hidden",id!==tab);
       document.querySelectorAll(".tab").forEach(el=>el.setAttribute("aria-selected",String(el.dataset.tab===tab)));
-      if(tab==="calculadora") calc();
+      if (tab==="calculadora") calc();
     }
     document.querySelectorAll(".tab").forEach(el=>el.addEventListener("click",()=>showTab(el.dataset.tab)));
+    function renderPick(){
+      const f=(appData.funds||[]).filter(x=>x.price>0 && x.score!=null).slice(0,3);
+      const old=dayAge(appData.generated_at)>9;
+      if(!f.length){$("weeklyPick").innerHTML="<div><h3>Sem seleção validada</h3><p>As fontes de mercado não retornaram cotações confiáveis nesta atualização. Não use números antigos para decidir compras.</p></div>";return;}
+      $("weeklyPick").innerHTML='<div><h3>🔎 3 fundos para investigar nesta semana</h3><p>'+f.map(x=>'<strong style="color:#a9f3d0">'+esc(x.ticker)+'</strong>').join(" • ")+'. Uma pré-seleção quantitativa, <strong>não</strong> ordem de compra. '+(old?'⚠ Dados com mais de nove dias. ':'')+'Compare relatórios, vacância, dívida e valor anunciado antes de investir. Você ainda não tem reserva de emergência.</p></div><button class="btn btn-secondary" id="reviewSources">Ver critérios ↗</button>';
+      $("reviewSources").addEventListener("click",()=>showTab("fontes"));
+    }
     function renderCards(){
-      const sector = $("sectorFilter").value, funds = appData.funds.filter(f=>sector==="Todos"||f.sector===sector);
-      if(!funds.length){ $("fundCards").innerHTML='<div class="empty">Nenhum fundo com informação para este filtro.</div>';return; }
+      const sector=$("sectorFilter").value, funds=(appData.funds||[]).filter(f=>sector==="Todos"||f.sector===sector);
+      if(!funds.length){$("fundCards").innerHTML='<div class="empty">Nenhum fundo disponível neste segmento.</div>';return;}
       $("fundCards").innerHTML=funds.map((f,i)=>{
-        const warning=f.missing&&f.missing.length?"Faltam dados: "+f.missing.join(", ")+". Consulte o relatório do administrador antes de comprar.":"Indicadores disponíveis para triagem. Ainda exige avaliação qualitativa.";
-        const news=f.news&&f.news[0];
-        return '<article class="card"><div class="card-head"><div><div style="font-size:10px;font-weight:800;color:#78dcb3;letter-spacing:1px;margin-bottom:5px">POSIÇÃO '+(i+1)+' DO RADAR</div><div class="ticker">'+esc(f.ticker)+'</div><div class="sector">'+esc(f.sector)+'</div></div><span class="score '+(f.missing&&f.missing.length?"low":"")+'">'+(f.score==null?"Sem nota":f.score+"/100")+'</span></div>'
-         +'<div class="tile-stats"><div><span class="stat-label">Cotação • '+esc(date(f.quote_date))+'</span><span class="stat-val">'+money(f.price)+'</span></div><div><span class="stat-label">P/VP</span><span class="stat-val">'+(f.pvp==null?"—":Number(f.pvp).toFixed(2))+'</span></div><div><span class="stat-label">Renda mês (informe)</span><span class="stat-val">'+pct(f.yield_month_pct)+'</span></div><div><span class="stat-label">Vacância • '+date(f.vacancy_reference)+'</span><span class="stat-val">'+pct(f.vacancy_pct)+'</span></div></div>'
-         +'<div class="risk">'+esc(warning)+'</div><div class="meta"><span class="pill">'+esc(fresh(f))+'</span><span class="pill '+(f.next_payment?"":"warn")+'">'+(f.next_payment?"Pagamento: "+date(f.next_payment):"Próximo pagamento a confirmar")+'</span>'+(f.news_topics||[]).map(t=>'<span class="pill warn">Notícia: '+esc(t)+'</span>').join("")+'</div>'
-         +(news?'<div class="news-mini"><a href="'+safeUrl(news.url)+'" target="_blank" rel="noopener noreferrer">'+esc(news.title)+'</a><div class="muted">'+esc(news.source||"Notícia")+' • '+date(news.date)+'</div></div>':"")
-         +'<div class="links"><button class="btn" data-sim="'+esc(f.ticker)+'">Simular renda ↗</button><a class="btn btn-secondary" target="_blank" rel="noopener noreferrer" href="'+safeUrl(f.source_url)+'">Ver dados ↗</a></div></article>';
+        const first=(f.news||[])[0], cautions=(f.cautions||[]).slice(0,3);
+        const missing=f.missing&&f.missing.length ? "Dado ausente: "+f.missing.join(", ")+". " : "";
+        const observation=(f.observations||[]).slice(0,2);
+        const risk=missing+"Triagem automatizada. Verifique o relatório gerencial e riscos do fundo antes de comprar.";
+        const payout=recentPayout(f) ? '<span class="pill">Último valor: '+money(f.last_dividend)+'/cota</span>' : '<span class="pill warn">Provento por cota não confirmado</span>';
+        return '<article class="card"><div class="card-head"><div><div style="font-size:10px;font-weight:800;color:#78dcb3;letter-spacing:1px;margin-bottom:5px">POSIÇÃO '+(i+1)+' DA TRIAGEM</div><div class="ticker">'+esc(f.ticker)+'</div><div class="sector">'+esc(f.sector)+'</div></div><span class="score '+((f.missing||[]).length?"low":"")+'">'+(f.score==null?"Sem nota":"Triagem "+f.score+"/100")+'</span></div>'
+          +'<div class="tile-stats"><div><span class="stat-label">Fechamento '+date(f.quote_date)+'</span><span class="stat-val">'+money(f.price)+'</span></div><div><span class="stat-label">P/VP</span><span class="stat-val">'+(f.pvp==null?"—":Number(f.pvp).toFixed(2))+'</span></div><div><span class="stat-label">Renda do informe ('+date(f.source_reference)+')</span><span class="stat-val">'+pct(f.yield_month_pct)+'</span></div><div><span class="stat-label">Vacância física ('+date(f.vacancy_reference)+')</span><span class="stat-val">'+(f.sector==="Recebíveis"?"N/A":pct(f.vacancy_pct))+'</span></div></div>'
+          +'<div class="risk">'+esc(risk)+'</div>'
+          +(observation.length||cautions.length ? '<div class="fund-bullets">'+observation.map(o=>'<p><strong>✓</strong> '+esc(o)+'</p>').join("")+cautions.map(c=>'<p class="alert">⚠ '+esc(c)+'</p>').join("")+'</div>':"")
+          +'<div class="meta"><span class="pill">'+esc(f.source_reference?"Informe: "+date(f.source_reference):"Sem informe")+'</span>'+payout+'<span class="pill '+(f.next_payment?"":"warn")+'">'+(f.next_payment?"Pgto anunciado: "+date(f.next_payment):"Próximo pagamento: não confirmado")+'</span>'
+          +(f.news_topics||[]).slice(0,2).map(t=>'<span class="pill warn">Manchete: '+esc(t)+'</span>').join("")+'</div>'
+          +(first?'<div class="news-mini"><a href="'+safeUrl(first.url)+'" target="_blank" rel="noopener noreferrer">'+esc(first.title)+'</a><div class="muted">'+esc(first.source||"Notícia")+' • '+date(first.date)+'</div></div>':"")
+          +'<div class="links"><button class="btn" data-sim="'+esc(f.ticker)+'">Simular renda ↗</button><a class="btn btn-secondary" target="_blank" rel="noopener noreferrer" href="'+safeUrl(f.source_url)+'">Dados ↗</a></div></article>';
       }).join("");
-      document.querySelectorAll("[data-sim]").forEach(el=>el.addEventListener("click",()=>{ $("fundChoose").value=el.dataset.sim;showTab("calculadora");window.scrollTo({top:0,behavior:"smooth"});}));
+      document.querySelectorAll("[data-sim]").forEach(el=>el.addEventListener("click",()=>{$("fundChoose").value=el.dataset.sim;$("calcMode").value="latest";showTab("calculadora");window.scrollTo({top:0,behavior:"smooth"});}));
+    }
+    function getEstimate(f,mode){
+      if(!f || f.price==null) return null;
+      if(mode==="manual"){
+        const value=Number($("manualDiv").value);
+        return Number.isFinite(value)&&value>=0?value:null;
+      }
+      if(mode==="latest") return recentPayout(f)?Number(f.last_dividend):null;
+      if(mode==="indicative"){
+        const rate=Number(f.yield_month_pct);
+        return f.yield_month_pct!=null && dayAge(f.source_reference)<=180 && Number.isFinite(rate) && rate>=0?Number(f.price)*rate/100:null;
+      }
+      return null;
+    }
+    function renderCompare(amount){
+      $("compareCards").innerHTML=(appData.funds||[]).map(f=>{
+        const units=f.price>0?Math.floor(amount/f.price):0;
+        const value=recentPayout(f)?Number(f.last_dividend):null;
+        return '<article class="compare-item"><div class="event-head"><strong>'+esc(f.ticker)+'</strong><span class="mini-muted">'+esc(f.sector)+'</span></div><div class="pair"><span>'+money(f.price)+'/cota</span><span>'+units+' cotas</span></div><div class="value">'+(value!=null?money(value*units):"Sem valor confirmado")+'</div><small>'+(value!=null?'Hipótese: último provento de '+money(value)+'/cota ('+date(f.last_payment)+')':'Não calculamos renda sem provento recente por cota')+'</small></article>';
+      }).join("");
     }
     function calc(){
-      const amount=Math.max(0,Number($("amount").value)||0), f=appData.funds.find(x=>x.ticker===$("fundChoose").value);
-      if(!f){$("calcIncome").textContent="—";return;}
-      const units=f.price>0?Math.floor(amount/f.price):0, invested=units*(f.price||0), monthly=estimate(f);
-      $("calcIncome").textContent=monthly==null?"Sem dados":money(monthly*units);
-      $("calcBasis").textContent=fundBasis(f);
+      const amount=Math.max(0,Number($("amount").value)||0),mode=$("calcMode").value,f=(appData.funds||[]).find(x=>x.ticker===$("fundChoose").value);
+      $("manualField").classList.toggle("hidden",mode!=="manual");
+      if(!f){$("calcIncome").textContent="—";$("compareCards").innerHTML="";return;}
+      const units=f.price>0?Math.floor(amount/f.price):0,invested=units*(f.price||0),perShare=getEstimate(f,mode);
+      $("calcIncome").textContent=perShare==null?"Sem dados":money(perShare*units);
+      $("calcTitle").textContent=mode==="manual"?"Cenário personalizado":mode==="indicative"?"Projeção ilustrativa por informe":"Hipótese com último rendimento anunciado";
       $("calcUnits").textContent=units.toLocaleString("pt-BR");
       $("calcChange").textContent=f.price>0?money(amount-invested):"—";
       $("calcInvested").textContent=f.price>0?money(invested):"—";
       $("calcPay").textContent=f.next_payment?date(f.next_payment):"A confirmar";
-      $("calcWarning").textContent=f.last_dividend!=null?"Usa o último pagamento confirmado como hipótese. O valor seguinte pode ser diferente. "+(f.next_ex_date?"Data-com: "+date(f.next_ex_date)+".":"Sem nova data-com confirmada."):f.yield_month_pct!=null?"ESTIMATIVA: usa o percentual do último informe disponível aplicado à cotação. Isso NÃO é provento anunciado, nem informação de quanto será depositado.":"Não há dados suficientes para estimar pagamentos deste fundo.";
-      $("compareRows").innerHTML=appData.funds.map(x=>{
-        const n=x.price>0?Math.floor(amount/x.price):0, dv=estimate(x);
-        return '<tr><td>'+esc(x.ticker)+'<small>'+esc(x.sector)+'</small></td><td>'+money(x.price)+'</td><td>'+n+'</td><td>'+ (dv==null?"Não calculável":money(n*dv))+'</td><td>'+esc(x.last_dividend!=null?"Último provento":x.yield_month_pct!=null?"Simulação por informe":"Sem dados")+'</td></tr>';
-      }).join("");
+      let context;
+      if(mode==="manual")context="Você informou "+money(perShare)+" por cota. O sistema não verificou esse valor em nenhuma fonte.";
+      else if(mode==="indicative")context=perShare==null?"Informe indisponível ou antigo demais para esta simulação.":"Cenário baseado em "+pct(f.yield_month_pct)+" de um informe de "+date(f.source_reference)+", aplicado à cotação de "+date(f.quote_date)+".";
+      else context=basisLabel(f);
+      $("calcBasis").textContent=context;
+      $("calcWarning").textContent=(mode==="latest"&&perShare==null?"Não há rendimento por cota suficientemente recente verificado para este fundo. Escolha cenário manual se tiver o comunicado oficial. ":"")
+        +(mode==="indicative"?"Este número NÃO é dividendo anunciado e não informa quanto será depositado. ":"")
+        +(mode==="manual"?"Valor fornecido pelo usuário, sem verificação. ":"")
+        +"O rendimento seguinte pode ser diferente e depende de possuir as cotas na data-com. Simulação sem garantia e sem taxas, impostos ou mudança da cotação.";
+      const link=$("calcSourceLink");
+      if(mode==="latest"&&perShare!=null&&f.payment_source){link.style.display="inline-block";link.href=safeUrl(f.payment_source);}
+      else if(mode==="indicative"&&f.source_url){link.style.display="inline-block";link.href=safeUrl(f.source_url);}
+      else{link.style.display="none";link.removeAttribute("href");}
+      renderCompare(amount);
+    }
+    function eventHTML(f,kind){
+      const upcoming=kind==="next";
+      const pay=upcoming?f.next_payment:f.last_payment;
+      const cutoff=upcoming?f.next_ex_date:f.last_com_date;
+      const amount=upcoming?f.next_dividend:f.last_dividend;
+      return '<article class="event"><div class="event-head"><span class="event-title">'+esc(f.ticker)+'</span><span class="badge '+(upcoming?"":"grey")+'">'+(upcoming?"Anunciado":"Último registro")+'</span></div><div class="event-details">Data-com: <strong>'+date(cutoff)+'</strong><br>Pagamento informado: <strong>'+date(pay)+'</strong><br>Rendimento por cota: <strong>'+money(amount)+'</strong></div><a href="'+safeUrl(f.payment_source)+'" target="_blank" rel="noopener noreferrer">Ver fonte ↗</a></article>';
     }
     function renderCalendar(){
-      const future=appData.funds.filter(f=>f.next_payment).sort((a,b)=>a.next_payment.localeCompare(b.next_payment));
-      const historic=appData.funds.filter(f=>f.last_dividend!=null&&f.last_payment).sort((a,b)=>b.last_payment.localeCompare(a.last_payment));
-      const upcoming=future.length?'<div class="table-wrap"><table class="table"><thead><tr><th>Fundo</th><th>Data-com</th><th>Pagamento futuro</th><th>Origem</th></tr></thead><tbody>'+future.map(f=>'<tr><td>'+esc(f.ticker)+'</td><td>'+date(f.next_ex_date)+'</td><td>'+date(f.next_payment)+'</td><td><a href="'+safeUrl(f.payment_source)+'" target="_blank" rel="noopener noreferrer">Fonte ↗</a></td></tr>').join("")+'</tbody></table></div>':'<div class="empty">Nenhuma data FUTURA de pagamento foi confirmada na última atualização. Não estimamos calendário a partir de datas passadas. Consulte o comunicado oficial do fundo. <a style="color:#9ff4cc;text-decoration:underline" href="https://usequantor.app/dividendos" target="_blank" rel="noopener noreferrer">Consultar agenda pública ↗</a></div>';
-      const previous=historic.length?'<h3 style="margin-top:26px">Últimos pagamentos registrados (histórico)</h3><div class="table-wrap"><table class="table"><thead><tr><th>Fundo</th><th>Último pagamento</th><th>Valor / cota</th><th>Fonte</th></tr></thead><tbody>'+historic.map(f=>'<tr><td>'+esc(f.ticker)+'</td><td>'+date(f.last_payment)+'</td><td>'+money(f.last_dividend)+'</td><td><a href="'+safeUrl(f.payment_source)+'" target="_blank" rel="noopener noreferrer">Fonte ↗</a></td></tr>').join("")+'</tbody></table></div>':"";
+      const future=(appData.funds||[]).filter(f=>f.next_payment).sort((a,b)=>a.next_payment.localeCompare(b.next_payment));
+      const historic=(appData.funds||[]).filter(f=>recentPayout(f)).sort((a,b)=>b.last_payment.localeCompare(a.last_payment));
+      const upcoming=future.length?'<div class="event-list">'+future.map(f=>eventHTML(f,"next")).join("")+'</div>':'<div class="empty">Nenhum pagamento futuro com data verificada na atualização. Isso não significa que o fundo deixará de distribuir rendimentos; significa apenas que ainda não temos o anúncio confirmado.</div>';
+      const previous=historic.length?'<h3 style="margin-top:26px">Últimos rendimentos divulgados</h3><div class="event-list">'+historic.map(f=>eventHTML(f,"last")).join("")+'</div>':"";
       $("calendarBody").innerHTML=upcoming+previous;
     }
     function renderNews(list,id){
-      $(id).innerHTML=list.length?list.slice(0,7).map(n=>'<div class="bullet"><a href="'+safeUrl(n.url)+'" target="_blank" rel="noopener noreferrer">'+esc(n.title)+'</a><small>'+esc(n.source||"Fonte")+' • '+date(n.date)+'</small></div>').join(""):'<div class="empty">Não foi possível confirmar notícias recentes nessa atualização.</div>';
+      $(id).innerHTML=list.length?list.slice(0,8).map(n=>'<div class="bullet"><a href="'+safeUrl(n.url)+'" target="_blank" rel="noopener noreferrer">'+esc(n.title)+'</a><small>'+esc(n.source||"Fonte")+' • '+date(n.date)+'</small></div>').join(""):'<div class="empty">Não foi possível localizar notícias recentes nesta atualização.</div>';
     }
     function render(){
       const f=appData.funds||[];
       $("fundCount").textContent=f.length;
       $("vacCount").textContent=f.filter(x=>x.vacancy_pct!=null).length;
-      $("selic").textContent=appData.macro&&appData.macro.selic&&appData.macro.selic.value!=null?pct(appData.macro.selic.value):"—";
+      const selic=appData.macro&&appData.macro.selic;
+      $("selic").textContent=selic&&selic.value!=null?pct(selic.value):"—";
       $("quotation").textContent=date(appData.quote_date);
       $("stamp").textContent=appData.generated_at?"Atualização: "+date(appData.generated_at):"Aguardando atualização";
-      const age=appData.generated_at?Math.floor((Date.now()-new Date(appData.generated_at).getTime())/86400000):999;
-      $("freshness").textContent=(age>9?"⚠ Dados com mais de 9 dias. ":"")+"Última coleta: "+date(appData.generated_at)+". Os indicadores de informes são normalmente mais antigos que a cotação. Consulte as datas em cada card.";
-      const sectors=[...new Set(f.map(x=>x.sector))].sort();
-      $("sectorFilter").innerHTML='<option value="Todos">Todos os segmentos</option>'+sectors.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
+      const age=dayAge(appData.generated_at);
+      $("freshness").textContent=(age>9?"⚠ Coleta com mais de 9 dias. ":"")+
+        "Cotação de "+date(appData.quote_date)+". Relatórios e dados de vacância podem ser anteriores; cada fundo mostra sua referência.";
+      $("sectorFilter").innerHTML='<option value="Todos">Todos os segmentos</option>'+[...new Set(f.map(x=>x.sector))].sort().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
       $("fundChoose").innerHTML=f.map(x=>'<option value="'+esc(x.ticker)+'">'+esc(x.ticker)+" • "+esc(x.sector)+'</option>').join("");
-      if(f.some(x=>x.ticker==="BTLG11")) $("fundChoose").value="BTLG11";
-      renderCards();renderCalendar();calc();
-      renderNews(f.flatMap(x=>(x.news||[]).slice(0,1)), "fundNews");
-      renderNews(appData.headlines||[], "marketNews");
-      $("sourceLinks").innerHTML=(appData.data_providers||[]).map(s=>'<div>↗ <a href="'+safeUrl(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.name)+'</a></div>').join("");
-      const status=appData.provider_status||{};
-      $("systemStatus").textContent="Cotações públicas: "+(status.capital_agora?"disponíveis":"indisponíveis")+". Dados aprofundados brapi Pro: "+(status.brapi_full?"token configurado":"não configurado")+". "+((status.errors||[]).length?"Algumas consultas falharam.":"");
+      if(f.some(x=>x.ticker==="BTLG11"))$("fundChoose").value="BTLG11";
+      renderPick();renderCards();renderCalendar();calc();
+      renderNews(f.flatMap(x=>(x.news||[]).slice(0,1)),"fundNews");
+      renderNews(appData.headlines||[],"marketNews");
+      $("sourceLinks").innerHTML=(appData.data_providers||[]).map(x=>'<div>↗ <a href="'+safeUrl(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.name)+'</a></div>').join("");
+      const st=appData.provider_status||{};
+      $("systemStatus").textContent="Cotação pública: "+(st.capital_agora?"ativa":"indisponível")+". Integração brapi Pro: "+(st.brapi_full?"configurada":"não configurada")+
+         ". "+((st.errors||[]).length?((st.errors||[]).length+" consultas com erro."):"Sem falhas de coleta registradas.");
     }
     $("sectorFilter").addEventListener("change",renderCards);
     $("amount").addEventListener("input",calc);
     $("fundChoose").addEventListener("change",calc);
+    $("calcMode").addEventListener("change",calc);
+    $("manualDiv").addEventListener("input",calc);
     document.querySelectorAll("[data-amount]").forEach(b=>b.addEventListener("click",()=>{$("amount").value=b.dataset.amount;calc();}));
-    fetch("./data/radar.json?ts="+Date.now(),{cache:"no-store"}).then(x=>{if(!x.ok)throw Error("Arquivo de dados indisponível");return x.json();}).then(data=>{appData=data;render();}).catch(e=>{$("fundCards").innerHTML='<div class="empty">Ainda não há uma atualização semanal válida. O código já está publicado; confira a execução do GitHub Actions. '+esc(e.message)+'</div>';$("freshness").textContent="A atualização semanal precisa executar antes de exibir dados.";});
-    if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+    fetch("./data/radar.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Arquivo de dados indisponível");return r.json();}).then(data=>{appData=data;render();}).catch(e=>{
+      $("fundCards").innerHTML='<div class="empty">Os dados ainda não estão disponíveis. Consulte a última execução do GitHub Actions. '+esc(e.message)+'</div>';
+      $("freshness").textContent="Erro ao carregar atualização semanal.";
+      $("weeklyPick").textContent="Sem dados atuais para classificar os fundos.";
+    });
+    if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+
   </script>
 </body>
 </html>
