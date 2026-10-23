@@ -116,11 +116,31 @@ def rss_search(query, label, limit=3):
         return []
 
 def macro_series(slug):
-    d = safe("https://capitalagora.com.br/api/indicador/" + slug)
-    if not isinstance(d, dict): return {"value": None, "date": None}
-    # Conserva fonte e data sem inferir formato quando provider muda.
-    value = d.get("valor", d.get("value", d.get("ultimo_valor")))
-    return {"value": valid_num(value), "date": date_only(d.get("data", d.get("date")))}
+    """Extrai o último indicador confirmado sem aceitar observações futuras."""
+    url = "https://capitalagora.com.br/api/indicador/" + slug
+    d = safe(url)
+    if isinstance(d, dict):
+        latest = d.get("ultimo")
+        record = latest if isinstance(latest, dict) else d
+        value = valid_num(record.get("valor", record.get("value", record.get("ultimo_valor"))))
+        date = date_only(record.get("data", record.get("date")))
+        if value is not None and date and date <= str(TODAY):
+            return {"value": value, "date": date, "source": url}
+    # A série 432 do Banco Central é a meta Selic; 433 seria IPCA mensal,
+    # portanto não serve para substituir o indicador IPCA acumulado em 12 meses.
+    if slug == "selic-meta":
+        bcb_url = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
+        response = safe(bcb_url)
+        if isinstance(response, list) and response:
+            item = response[-1]
+            value = valid_num(item.get("valor"), 0, 100)
+            try:
+                reference = dt.datetime.strptime(item.get("data", ""), "%d/%m/%Y").date()
+            except (TypeError, ValueError):
+                reference = None
+            if value is not None and reference and reference <= TODAY:
+                return {"value": value, "date": reference.isoformat(), "source": bcb_url}
+    return {"value": None, "date": None, "source": url}
 
 def brapi(endpoint, symbols):
     allowed = symbols if TOKEN else [x for x in symbols if x in {"MXRF11", "HGLG11"}]
@@ -349,7 +369,7 @@ def main():
             amount = round(float(d["rate"]), 5)
             source = d.get("sourceUrl") or "https://brapi.dev/docs/fiis/dividendos"
             source_type = d.get("sourceKind") or "Base de proventos brapi"
-            if pay >= str(TODAY) and not fund["next_payment"]:
+            if pay > str(TODAY) and not fund["next_payment"]:
                 fund["next_payment"] = pay
                 fund["next_ex_date"] = date_only(d.get("lastDatePrior"))
                 fund["next_dividend"] = amount
