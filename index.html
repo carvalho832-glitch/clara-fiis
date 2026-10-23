@@ -26,6 +26,22 @@
     .badge{font-size:11px;padding:6px 9px;border-radius:8px;background:#23463d;color:#a5efd0;display:inline-block}.badge.grey{color:#d1cdc3;background:#393b35}
     .news-mini{font-size:12px;color:#accac0;padding-top:9px;border-top:1px solid #24493f;margin-top:13px}.news-mini a{color:#a5efd0;text-decoration:underline;text-underline-offset:3px}
     .foot{color:#83a49a;font-size:12px;text-align:center;margin-top:45px;line-height:1.7}.foot a{color:#a5ecd0}.hidden{display:none!important}.flex-between{display:flex;align-items:center;justify-content:space-between;gap:12px}.source-list{line-height:1.9;color:#aacaBE}.source-list a{color:#97f2c3;text-decoration:underline}
+    .buy-window{border:1px solid #2f6354;border-radius:18px;background:linear-gradient(125deg,#123d33,#0e2a29);padding:20px 21px;margin-bottom:18px}
+    .buy-window h3{font-size:19px;margin:0 0 7px;letter-spacing:-.3px}
+    .buy-window p{font-size:12px;color:#bdd9cc;line-height:1.55;margin:7px 0}
+    .purchase-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0 20px}
+    .purchase-card{border:1px solid #44735d;border-radius:16px;padding:17px;background:#0c2b28;min-width:0}
+    .purchase-card .pc-head{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:9px}
+    .purchase-card .pc-code{font-size:20px;font-weight:850}.purchase-card .pc-date{font-size:24px;font-weight:900;letter-spacing:-.8px;color:#a2f8ca}
+    .purchase-card .pc-details{font-size:12px;line-height:1.7;color:#b7d5c9;margin:12px 0}
+    .purchase-card a{font-size:12px;color:#a3f5cf;text-decoration:underline;text-underline-offset:3px}
+    .wait-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-top:12px}
+    .wait-card{border:1px solid #294e44;background:#0a2423;border-radius:12px;padding:11px 12px;min-width:0}
+    .wait-card strong{font-size:14px}.wait-card span{display:block;color:#c5a97c;font-size:11px;margin-top:5px}
+    .wait-card small{display:block;color:#96b6a9;font-size:10px;line-height:1.5;margin-top:4px}
+    .eligibility-form{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end}
+    .eligibility-result{font-size:13px;margin-top:12px;color:#c5e7d6;line-height:1.6}
+    @media(max-width:650px){.purchase-grid{grid-template-columns:1fr}.wait-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.eligibility-form{grid-template-columns:1fr 1fr}.eligibility-form .btn{grid-column:1/-1}}
     .fund-details{margin-top:13px;border:1px solid #345b50;border-radius:11px;background:#112a27;overflow:hidden}.fund-details summary{list-style:none;cursor:pointer;padding:12px 13px;font-size:12px;font-weight:750;color:#bdf4d7}.fund-details summary::-webkit-details-marker{display:none}.fund-details summary:after{content:"＋";float:right;font-size:15px}.fund-details[open] summary:after{content:"−"}.fund-details .details-body{padding:0 12px 13px}
     .weekly-summary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;border:1px solid #476952;background:linear-gradient(115deg,#163f35,#0d2927);padding:18px 20px;border-radius:18px;margin-bottom:18px}.weekly-summary h3{margin:0 0 7px;font-size:17px}.weekly-summary p{margin:0;color:#b4d1c4;font-size:13px;line-height:1.5}
     .fund-bullets{display:grid;gap:6px;margin-top:15px}.fund-bullets p{margin:0;font-size:12px;line-height:1.5;color:#c8dacf}.fund-bullets p.alert{color:#ead9b7}.fund-bullets strong{color:#a2f4c8}
@@ -101,7 +117,28 @@
     </section>
     <section id="calendario" class="hidden">
       <div class="section-head"><div><h2>Agenda de rendimentos</h2><p>Datas oficialmente divulgadas e últimos pagamentos informados pelas fontes integradas.</p></div></div>
-      <div class="panel"><div id="calendarBody" class="muted">Carregando eventos...</div><div class="disclaimer">A data-com define quem tem direito ao provento anunciado. Prazos passados não são usados para prever datas futuras. Confira sempre o comunicado do administrador.</div></div>
+      <div class="buy-window">
+        <h3>📅 Comprar até quando para receber?</h3>
+        <p><strong>Data-com</strong>: último pregão em que você pode comprar e manter a cota até o fechamento para participar do rendimento anunciado. <strong>Data-ex</strong>: compras realizadas a partir desse pregão não recebem aquele pagamento.</p>
+        <p>Os prazos de compra só serão marcados como confirmados com um anúncio identificado. Se não houver anúncio, a data fica <strong>a confirmar</strong>. Dividendos não são dinheiro extra garantido: o preço da cota pode se ajustar na data-ex.</p>
+      </div>
+      <div class="panel" style="margin-bottom:17px">
+        <div class="flex-between" style="flex-wrap:wrap"><h3 style="margin-bottom:0">🟢 Próximas datas-com confirmadas</h3><span id="eligibleCount" class="badge">0 anunciadas</span></div>
+        <div id="eligibilityBody" aria-live="polite" class="muted" style="margin-top:14px">Carregando prazos...</div>
+        <h3 style="margin:23px 0 7px;font-size:15px">⏳ Aguardando próximo anúncio</h3>
+        <p class="muted" style="font-size:12px;line-height:1.5;margin:0">Fundos sem nova data-com confirmada. A última data-com conhecida é apenas referência histórica, não prazo para uma nova compra.</p>
+        <div id="eligibilityPending" class="wait-grid"></div>
+      </div>
+      <div class="panel" style="margin-bottom:17px">
+        <h3>🔎 Se eu comprar em uma determinada data, recebo?</h3>
+        <div class="eligibility-form">
+          <div class="field"><label for="eligibilityFund">FII</label><select id="eligibilityFund"></select></div>
+          <div class="field"><label for="eligibilityDate">Dia da compra</label><input type="date" id="eligibilityDate" required></div>
+          <button class="btn" id="eligibilityCheck" type="button">Conferir direito</button>
+        </div>
+        <div id="eligibilityAnswer" class="eligibility-result" role="status">Escolha o FII e a data de compra para conferir a elegibilidade de um pagamento anunciado.</div>
+      </div>
+      <div class="panel"><h3>💰 Pagamentos anunciados e anteriores</h3><div id="calendarBody" class="muted">Carregando eventos...</div><div class="disclaimer">A data-com define quem tem direito ao provento anunciado. Prazos passados não são usados para prever datas futuras. Confira sempre o comunicado do administrador.</div></div>
     </section>
     <section id="fontes" class="hidden">
       <div class="section-head"><div><h2>Transparência antes de tudo</h2><p>O radar só vale a pena se você souber de onde vêm os números e o que ainda falta verificar.</p></div></div>
