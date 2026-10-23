@@ -80,9 +80,10 @@ def macro_series(slug):
     return {"value": valid_num(value), "date": date_only(d.get("data", d.get("date")))}
 
 def brapi(endpoint, symbols):
-    if not TOKEN and any(x not in {"MXRF11", "HGLG11"} for x in symbols):
+    allowed = symbols if TOKEN else [x for x in symbols if x in {"MXRF11", "HGLG11"}]
+    if not allowed:
         return {}
-    qs = urllib.parse.urlencode({"symbols": ",".join(symbols)})
+    qs = urllib.parse.urlencode({"symbols": ",".join(allowed)})
     auth = {"Authorization": "Bearer " + TOKEN} if TOKEN else None
     return safe("https://brapi.dev/api/v2/fii/" + endpoint + "?" + qs, auth)
 
