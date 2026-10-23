@@ -1,0 +1,19 @@
+{
+  "name": "Clara FIIs - Radar semanal",
+  "short_name": "Clara FIIs",
+  "description": "Análise semanal de FIIs, notícias, simulação de dividendos e calendário.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071717",
+  "theme_color": "#071c1c",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
