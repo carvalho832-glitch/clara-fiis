@@ -1,0 +1,58 @@
+name: Atualizar radar e publicar aplicativo
+on:
+  workflow_dispatch:
+  schedule:
+    # Toda segunda, 11:15 UTC = 08:15 em Brasilia
+    - cron: "15 11 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "scripts/**"
+      - "data/**"
+      - "manifest.webmanifest"
+      - "sw.js"
+      - "icon.svg"
+      - ".github/workflows/**"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Baixar projeto
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Consultar fontes e atualizar painel
+        env:
+          BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}
+        run: python scripts/update.py
+      - name: Registrar dados atualizados
+        run: |
+          git config user.name "clara-fiis-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/radar.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: atualizar radar semanal"
+            git push
+          fi
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Enviar arquivos da pagina
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Publicar GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
