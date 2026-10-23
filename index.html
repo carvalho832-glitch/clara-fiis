@@ -249,6 +249,58 @@
       else{link.style.display="none";link.removeAttribute("href");}
       renderCompare(amount);
     }
+    const marketDate = () => new Intl.DateTimeFormat("sv-SE",{timeZone:"America/Sao_Paulo",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+    function confirmedPurchase(f, today=marketDate()){
+      const com=f&&f.upcoming_com_date;
+      const valid=/^\d{4}-\d{2}-\d{2}$/.test(com||"") && com>=today;
+      return valid ? com : null;
+    }
+    function renderEligibility(){
+      const today=marketDate(), funds=appData.funds||[];
+      const ready=funds.filter(f=>confirmedPurchase(f,today)).sort((a,b)=>a.upcoming_com_date.localeCompare(b.upcoming_com_date));
+      $("eligibleCount").textContent=ready.length+" "+(ready.length===1?"prazo anunciado":"prazos anunciados");
+      $("eligibilityBody").innerHTML=ready.length?'<div class="purchase-grid">'+ready.map(f=>{
+        const cutoff=f.upcoming_com_date;
+        const todayLabel=cutoff===today;
+        return '<article class="purchase-card"><div class="pc-head"><strong class="pc-code">'+esc(f.ticker)+'</strong><span class="badge">'+(todayLabel?"Data-com hoje":"Prazo confirmado")+'</span></div>'
+          +'<div class="mini-muted">ÚLTIMO PREGÃO PARA COMPRAR E PARTICIPAR</div><div class="pc-date">'+date(cutoff)+'</div>'
+          +'<div class="pc-details">Data-ex: <strong>'+(f.upcoming_ex_date?date(f.upcoming_ex_date):"Primeiro pregão após data-com (dia exato não informado)")+'</strong><br>'
+          +'Pagamento: <strong>'+date(f.upcoming_payment_date)+'</strong><br>Rendimento anunciado: <strong>'+money(f.upcoming_per_share)+' por cota</strong></div>'
+          +(todayLabel?'<div class="disclaimer" style="margin:10px 0">Para uma compra feita hoje, é necessário concluir a operação durante o pregão e manter as cotas até o fechamento.</div>':'')
+          +'<a href="'+safeUrl(f.upcoming_source)+'" target="_blank" rel="noopener noreferrer">Conferir comunicado / fonte ↗</a></article>';
+      }).join("")+'</div>':
+      '<div class="empty">Nenhuma nova <strong>data-com oficialmente confirmada</strong> para os fundos monitorados nesta atualização. As datas dos últimos pagamentos não são automaticamente reaproveitadas. Continue acompanhando os comunicados dos fundos.</div>';
+      const pending=funds.filter(f=>!confirmedPurchase(f,today));
+      $("eligibilityPending").innerHTML=pending.map(f=>'<div class="wait-card"><strong>'+esc(f.ticker)+'</strong><span>Nova data-com: a confirmar</span><small>'+(f.latest_com_date?"Última confirmada: "+date(f.latest_com_date):"Sem data-com recente registrada")+'</small><a style="font-size:10px;color:#adedd3;display:inline-block;margin-top:5px" target="_blank" rel="noopener noreferrer" href="'+safeUrl(f.source_url)+'">Consultar fundo ↗</a></div>').join("");
+      $("eligibilityFund").innerHTML=funds.map(f=>'<option value="'+esc(f.ticker)+'">'+esc(f.ticker)+" • "+esc(f.sector)+'</option>').join("");
+      if(funds.some(f=>f.ticker==="BTLG11"))$("eligibilityFund").value="BTLG11";
+      $("eligibilityDate").value=today;
+      checkPurchase();
+    }
+    function checkPurchase(){
+      const ticker=$("eligibilityFund").value;
+      const selected=$("eligibilityDate").value;
+      const today=marketDate();
+      const fund=(appData.funds||[]).find(f=>f.ticker===ticker);
+      let message="";
+      if(!fund||!selected){
+        message="Selecione um FII e uma data de compra válida.";
+      } else if(!confirmedPurchase(fund,today)){
+        message="⏳ "+ticker+": a próxima data-com ainda não foi confirmada. Não é possível assegurar que a compra em "+date(selected)+" dará direito ao próximo rendimento. "+(fund.latest_com_date?"Última data-com registrada: "+date(fund.latest_com_date)+" (histórico, não é prazo novo).":"Acompanhe o próximo comunicado oficial.");
+      } else if(selected>fund.upcoming_com_date){
+        message="🔴 Não para o rendimento anunciado. A data-com deste evento é "+date(fund.upcoming_com_date)+". Compras realizadas depois desse pregão não recebem essa distribuição, mesmo que o pagamento seja posterior.";
+      } else {
+        const todayCopy=selected===fund.upcoming_com_date;
+        message=(todayCopy?"🟡 Compra na data-com: ":"🟢 Em princípio, sim: ")
+          +"se a operação for concluída em um pregão até "+date(fund.upcoming_com_date)
+          +" e você permanecer com as cotas ao final da data-com, terá direito ao rendimento anunciado de "+money(fund.upcoming_per_share)+"/cota. "
+          +(todayCopy?"Se o pregão já encerrou, é tarde para esse evento. ":"")
+          +"Isso não garante valorização nem ausência de perdas.";
+        if([0,6].includes(new Date(selected+"T12:00:00Z").getUTCDay()))
+          message+=" A data escolhida cai em fim de semana, quando normalmente não há pregão; confirme a data efetiva da negociação.";
+      }
+      $("eligibilityAnswer").textContent=message;
+    }
     function eventHTML(f,kind){
       const upcoming=kind==="next";
       const pay=upcoming?f.next_payment:f.last_payment;
@@ -283,7 +335,7 @@
       $("sectorFilter").innerHTML='<option value="Todos">Todos os segmentos</option>'+[...new Set(f.map(x=>x.sector))].sort().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
       $("fundChoose").innerHTML=f.map(x=>'<option value="'+esc(x.ticker)+'">'+esc(x.ticker)+" • "+esc(x.sector)+'</option>').join("");
       if(f.some(x=>x.ticker==="BTLG11"))$("fundChoose").value="BTLG11";
-      renderPick();renderCards();renderCalendar();calc();
+      renderPick();renderCards();renderEligibility();renderCalendar();calc();
       renderNews(f.flatMap(x=>(x.news||[]).slice(0,1)),"fundNews");
       renderNews(appData.headlines||[],"marketNews");
       $("sourceLinks").innerHTML=(appData.data_providers||[]).map(x=>'<div>↗ <a href="'+safeUrl(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.name)+'</a></div>').join("");
@@ -291,6 +343,9 @@
       $("systemStatus").textContent="Cotação pública: "+(st.capital_agora?"ativa":"indisponível")+". Integração brapi Pro: "+(st.brapi_full?"configurada":"não configurada")+
          ". "+((st.errors||[]).length?((st.errors||[]).length+" consultas com erro."):"Sem falhas de coleta registradas.");
     }
+    $("eligibilityFund").addEventListener("change",checkPurchase);
+    $("eligibilityDate").addEventListener("input",checkPurchase);
+    $("eligibilityCheck").addEventListener("click",checkPurchase);
     $("sectorFilter").addEventListener("change",renderCards);
     $("amount").addEventListener("input",calc);
     $("fundChoose").addEventListener("change",calc);
