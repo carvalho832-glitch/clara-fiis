@@ -1,0 +1,32 @@
+{
+  "description": "Registro manual de anúncios verificados em 23/10/2026. Não representa consulta automática; o coletor expira a janela de validade.",
+  "updated_at": "2026-10-23",
+  "events": [
+    {
+      "ticker": "BTLG11",
+      "type": "RENDIMENTO",
+      "per_share": 0.81,
+      "ex_right_date": "2026-10-15",
+      "payment_date": "2026-10-23",
+      "source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
+      "verified_on": "2026-10-23"
+    },
+    {
+      "ticker": "KNCR11",
+      "type": "RENDIMENTO",
+      "per_share": 1.13,
+      "ex_right_date": "2026-09-30",
+      "payment_date": "2026-10-14",
+      "source": "https://www.fundsexplorer.com.br/noticias/kncr11-dividendos-outubro",
+      "verified_on": "2026-10-23"
+    },
+    {
+      "ticker": "XPML11",
+      "type": "RENDIMENTO",
+      "per_share": 0.92,
+      "ex_right_date": "2026-10-16",
+      "payment_date": "2026-10-23",
+      "source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/"
+    }
+  ]
+}
