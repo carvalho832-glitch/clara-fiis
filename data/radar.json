@@ -1,8 +1,59 @@
 {
-  "generated_at": "2026-10-23T16:00:59+00:00",
+  "generated_at": "2026-10-23T16:02:59+00:00",
   "quote_date": "2026-10-22",
   "weekly_status": "Atualizado",
   "funds": [
+    {
+      "ticker": "HGLG11",
+      "name": "PÁTRIA LOG - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "sector": "Logística",
+      "price": 157.04,
+      "pvp": 0.944,
+      "yield_month_pct": 0.7023,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-10-22",
+      "equity": 7589554105.43,
+      "investors": 608345.0,
+      "source_url": "https://capitalagora.com.br/fiis/HGLG11",
+      "vacancy_pct": 2.41,
+      "vacancy_reference": "2026-06-30",
+      "vacancy_source": "https://brapi.dev/docs/fiis/imoveis",
+      "last_dividend": 1.17,
+      "dividend_reference": "2026-10-15",
+      "last_payment": "2026-10-15",
+      "next_payment": null,
+      "next_ex_date": null,
+      "payment_source": "https://brapi.dev/docs/fiis/dividendos",
+      "news": [
+        {
+          "title": "HGLG11 amplia portfólio com aquisição no Parque Logístico Guarulhos",
+          "url": "https://www.suno.com.br/noticias/hglg11-compra-patio-gru-guarulhos/",
+          "source": "Suno Notícias",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
+          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "HGLG11 reúne 41 imóveis e patrimônio de R$ 7,59 bilhões; conheça o fundo",
+          "url": "https://www.suno.com.br/noticias/hglg11-portfolio-vacancia-e-dividendos/",
+          "source": "Suno Notícias",
+          "date": "2026-10-19"
+        }
+      ],
+      "score": 100,
+      "missing": [],
+      "notes": [
+        "P/VP 0.94",
+        "Rendimento mensal do informe: 0.70%",
+        "Vacância 2.4%",
+        "Informe antigo: 114 dias"
+      ],
+      "classification": "Monitorar"
+    },
     {
       "ticker": "MXRF11",
       "name": "FII MAXI RENDA RL",
@@ -18,12 +69,12 @@
       "vacancy_pct": null,
       "vacancy_reference": null,
       "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
+      "last_dividend": 0.1,
+      "dividend_reference": "2026-10-15",
+      "last_payment": "2026-10-15",
       "next_payment": null,
       "next_ex_date": null,
-      "payment_source": null,
+      "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
           "title": "Dezenas de FIIs pagam dividendos hoje; veja valores de MXRF11, TRXF11 e XPLG11",
@@ -201,58 +252,6 @@
       "notes": [
         "P/VP 0.98",
         "Rendimento mensal do informe: 0.95%",
-        "Informe antigo: 114 dias"
-      ],
-      "classification": "Revisar fontes"
-    },
-    {
-      "ticker": "HGLG11",
-      "name": "PÁTRIA LOG - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
-      "sector": "Logística",
-      "price": 157.04,
-      "pvp": 0.944,
-      "yield_month_pct": 0.7023,
-      "source_reference": "2026-07-01",
-      "quote_date": "2026-10-22",
-      "equity": 7589554105.43,
-      "investors": 608345.0,
-      "source_url": "https://capitalagora.com.br/fiis/HGLG11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
-      "next_payment": null,
-      "next_ex_date": null,
-      "payment_source": null,
-      "news": [
-        {
-          "title": "HGLG11 amplia portfólio com aquisição no Parque Logístico Guarulhos",
-          "url": "https://www.suno.com.br/noticias/hglg11-compra-patio-gru-guarulhos/",
-          "source": "Suno Notícias",
-          "date": "2026-10-23"
-        },
-        {
-          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
-          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-22"
-        },
-        {
-          "title": "HGLG11 reúne 41 imóveis e patrimônio de R$ 7,59 bilhões; conheça o fundo",
-          "url": "https://www.suno.com.br/noticias/hglg11-portfolio-vacancia-e-dividendos/",
-          "source": "Suno Notícias",
-          "date": "2026-10-19"
-        }
-      ],
-      "score": 100,
-      "missing": [
-        "vacância"
-      ],
-      "notes": [
-        "P/VP 0.94",
-        "Rendimento mensal do informe: 0.70%",
         "Informe antigo: 114 dias"
       ],
       "classification": "Revisar fontes"
