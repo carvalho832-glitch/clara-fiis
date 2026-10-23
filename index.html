@@ -30,7 +30,7 @@
     .fund-bullets{display:grid;gap:6px;margin-top:15px}.fund-bullets p{margin:0;font-size:12px;line-height:1.5;color:#c8dacf}.fund-bullets p.alert{color:#ead9b7}.fund-bullets strong{color:#a2f4c8}
     .compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.compare-item{border:1px solid #2a5649;background:#0b2423;border-radius:13px;padding:13px;min-width:0}.compare-item .pair{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin:8px 0;color:#cbded7}.compare-item .value{font-size:19px;font-weight:800;color:#b1f5d2}.compare-item small{font-size:11px;color:#a8bdb5;line-height:1.5;display:block}.event-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.event{border:1px solid #345b51;background:#092421;border-radius:14px;padding:15px;min-width:0}.event-head{display:flex;justify-content:space-between;align-items:center;gap:10px}.event-title{font-size:19px;font-weight:850}.event .event-details{font-size:12px;line-height:1.8;margin-top:12px;color:#d2e7db}.event a{color:#9ef1c5;text-decoration:underline;font-size:12px;display:inline-block;margin-top:10px}.mini-muted{font-size:11px;color:#97b4a8}.badge-risk{padding:5px 8px;border-radius:7px;background:#4e3927;font-size:11px;color:#ffdbab}.btn:focus-visible,.tab:focus-visible,a:focus-visible{outline:2px solid #b6ffda;outline-offset:3px}
     @media(max-width:900px){.hero{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.calculator{grid-template-columns:1fr}.hero-primary{min-height:230px}.metric-grid{grid-template-columns:repeat(4,1fr)}.metric-side{gap:12px}.metric-side .stroke{margin:0}}
-    @media(max-width:650px){.compare-grid,.event-list{grid-template-columns:1fr}.weekly-summary{grid-template-columns:1fr}.card .links{flex-wrap:wrap}.tile-stats .stat-val{font-size:18px}.calc-value{overflow-wrap:anywhere}.top-right .chip{font-size:11px}.top{align-items:flex-start}.shell{padding:16px 14px 65px}.top{margin-bottom:20px}.top-right .chip:first-child{display:none}.hero-primary{padding:25px 21px;min-height:225px}.hero h1{font-size:35px}.metric-side{padding:20px}.metric-grid{grid-template-columns:repeat(2,1fr)}.cards,.cols{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.filter{width:100%}.tab{padding:11px 12px}.calculator .fields{grid-template-columns:1fr}.top-right{justify-content:end}.logo{font-size:19px}.card{padding:18px}.calc-summary{grid-template-columns:1fr 1fr}}
+    @media(max-width:650px){.nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;max-width:100%;overflow:visible;gap:6px}.nav .tab{min-width:0;white-space:normal;text-align:center;line-height:1.25;min-height:44px;overflow-wrap:break-word;padding:10px 5px;font-size:12px}.compare-grid,.event-list{grid-template-columns:1fr}.weekly-summary{grid-template-columns:1fr}.card .links{flex-wrap:wrap}.tile-stats .stat-val{font-size:18px}.calc-value{overflow-wrap:anywhere}.top-right .chip{font-size:11px}.top{align-items:flex-start}.shell{padding:16px 14px 65px}.top{margin-bottom:20px}.top-right .chip:first-child{display:none}.hero-primary{padding:25px 21px;min-height:225px}.hero h1{font-size:35px}.metric-side{padding:20px}.metric-grid{grid-template-columns:repeat(2,1fr)}.cards,.cols{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.filter{width:100%}.tab{padding:11px 12px}.calculator .fields{grid-template-columns:1fr}.top-right{justify-content:end}.logo{font-size:19px}.card{padding:18px}.calc-summary{grid-template-columns:1fr 1fr}}
   </style>
 </head>
 <body>
@@ -49,7 +49,7 @@
         <div class="metric-grid">
           <div><div class="mini-title">Fundos no radar</div><div class="number" id="fundCount">—</div></div>
           <div><div class="mini-title">Com dados de vacância</div><div class="number" id="vacCount">—</div></div>
-          <div><div class="mini-title">Selic-meta</div><div class="number" id="selic" style="font-size:24px">—</div></div>
+          <div><div class="mini-title">Selic-meta</div><div class="number" id="selic" style="font-size:24px">—</div><div id="selicDate" class="mini-title" style="font-size:10px">Fonte: aguardando</div></div>
           <div><div class="mini-title">Dados de cotação</div><div class="number" id="quotation" style="font-size:17px">—</div></div>
         </div>
         <div class="stroke"></div>
@@ -219,8 +219,10 @@
       return '<article class="event"><div class="event-head"><span class="event-title">'+esc(f.ticker)+'</span><span class="badge '+(upcoming?"":"grey")+'">'+(upcoming?"Anunciado":"Último registro")+'</span></div><div class="event-details">Data-com: <strong>'+date(cutoff)+'</strong><br>Pagamento informado: <strong>'+date(pay)+'</strong><br>Rendimento por cota: <strong>'+money(amount)+'</strong></div>'+(cutoff&&dayAge(cutoff)>=0?'<div class="disclaimer" style="margin-top:9px">A data-com já passou: novas compras não têm direito a esta distribuição.</div>':'')+'<a href="'+safeUrl(f.payment_source)+'" target="_blank" rel="noopener noreferrer">Ver fonte ↗</a></article>';
     }
     function renderCalendar(){
-      const future=(appData.funds||[]).filter(f=>f.next_payment).sort((a,b)=>a.next_payment.localeCompare(b.next_payment));
-      const historic=(appData.funds||[]).filter(f=>recentPayout(f)).sort((a,b)=>b.last_payment.localeCompare(a.last_payment));
+      const marketToday=new Intl.DateTimeFormat("sv-SE",{timeZone:"America/Sao_Paulo",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+      // Pagamentos do dia entram exclusivamente no histórico, nunca nas duas seções.
+      const future=(appData.funds||[]).filter(f=>f.next_payment && f.next_payment>marketToday && f.next_payment!==f.last_payment).sort((a,b)=>a.next_payment.localeCompare(b.next_payment));
+      const historic=(appData.funds||[]).filter(f=>recentPayout(f) && f.last_payment<=marketToday).sort((a,b)=>b.last_payment.localeCompare(a.last_payment));
       const upcoming=future.length?'<div class="event-list">'+future.map(f=>eventHTML(f,"next")).join("")+'</div>':'<div class="empty">Nenhum pagamento futuro com data verificada na atualização. Isso não significa que o fundo deixará de distribuir rendimentos; significa apenas que ainda não temos o anúncio confirmado.</div>';
       const previous=historic.length?'<h3 style="margin-top:26px">Últimos rendimentos divulgados</h3><div class="event-list">'+historic.map(f=>eventHTML(f,"last")).join("")+'</div>':"";
       $("calendarBody").innerHTML=upcoming+previous;
@@ -234,6 +236,7 @@
       $("vacCount").textContent=f.filter(x=>x.vacancy_pct!=null).length;
       const selic=appData.macro&&appData.macro.selic;
       $("selic").textContent=selic&&selic.value!=null?pct(selic.value):"—";
+      $("selicDate").textContent=selic&&selic.value!=null?"Ref. "+date(selic.date)+" • % a.a.":"Fonte temporariamente indisponível";
       $("quotation").textContent=date(appData.quote_date);
       $("stamp").textContent=appData.generated_at?"Atualização: "+date(appData.generated_at):"Aguardando atualização";
       const age=dayAge(appData.generated_at);
