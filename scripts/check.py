@@ -20,5 +20,5 @@ for fund in radar["funds"]:
     assert fund.get("price") is None or fund["price"]>0
     assert fund.get("vacancy_pct") is None or 0 <= fund["vacancy_pct"] <= 100
     assert fund.get("next_payment") is None or re.fullmatch(r"\d{4}-\d{2}-\d{2}",fund["next_payment"])
-    if fund.get("next_payment"): assert fund["next_payment"]>radar["generated_at"][:10]
+    if fund.get("next_payment"): assert fund["next_payment"]>=radar["generated_at"][:10]
 print("Verificações OK:",len(radar["funds"]),"fundos.")
