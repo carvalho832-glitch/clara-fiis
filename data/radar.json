@@ -1,0 +1,32 @@
+{
+  "generated_at": null,
+  "quote_date": null,
+  "weekly_status": "Aguardando primeira atualização",
+  "funds": [],
+  "headlines": [],
+  "macro": {
+    "selic": {
+      "value": null,
+      "date": null
+    },
+    "inflation": {
+      "value": null,
+      "date": null
+    }
+  },
+  "data_providers": [
+    {
+      "name": "Capital Agora",
+      "url": "https://capitalagora.com.br/api"
+    },
+    {
+      "name": "CVM",
+      "url": "https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal"
+    }
+  ],
+  "provider_status": {
+    "capital_agora": false,
+    "brapi_full": false,
+    "errors": []
+  }
+}
