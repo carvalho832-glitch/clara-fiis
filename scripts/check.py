@@ -43,3 +43,16 @@ with mock.patch.object(collector, "safe", return_value={"ultimo":{"valor":13.75,
     result = collector.macro_series("selic-meta")
 assert result["value"] == 13.75 and result["date"] == collector.TODAY.isoformat()
 print("Regressão Selic aninhada: OK")
+
+# Snapshot pós-eleição deve ser datado, rastreável e consistente.
+snapshot=json.loads((root / "data" / "analise-pos-eleicao-2026-10-26.json").read_text(encoding="utf-8"))
+assert snapshot["source_url"].startswith("https://")
+assert snapshot["observed_date"] == snapshot["observed_at"][:10]
+seen=set()
+for row in snapshot["prices"]:
+    assert row["ticker"] not in seen
+    assert row["before"]>0 and row["after"]>0
+    seen.add(row["ticker"])
+assert "BTLG11" in seen and "XPML11" in seen and "KNCR11" in seen
+assert 'id="refreshData"' in page and 'id="marketResults"' in page
+print("Comparação e recarga: OK")
