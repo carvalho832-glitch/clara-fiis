@@ -42,6 +42,18 @@
     .eligibility-form{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end}
     .eligibility-result{font-size:13px;margin-top:12px;color:#c5e7d6;line-height:1.6}
     @media(max-width:650px){.purchase-grid{grid-template-columns:1fr}.wait-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.eligibility-form{grid-template-columns:minmax(0,1fr)}.eligibility-form .field{min-width:0}.eligibility-form input,.eligibility-form select{width:100%;max-width:100%}.eligibility-form .btn{grid-column:auto}}
+    .after-election{border:1px solid #436052;border-radius:22px;background:linear-gradient(115deg,#12302e,#0d2526);padding:22px 22px 17px;margin:0 0 24px}
+    .after-election .market-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
+    .after-election h2{font-size:20px;margin:0 0 7px;letter-spacing:-.5px}
+    .after-election p{font-size:12px;color:#b3cfc1;line-height:1.6;margin:6px 0}
+    .market-grid{display:grid;gap:7px;margin:14px 0}
+    .market-line{display:grid;grid-template-columns:1.05fr 1fr 1fr .9fr;gap:7px;align-items:center;border:1px solid #2d5048;border-radius:11px;padding:12px 13px;background:#0c2826;font-size:13px}
+    .market-line strong{color:#eafff4}.market-line .market-down{color:#ffbb9f;font-weight:850}
+    .market-grid .market-line:first-child{background:transparent;border:0;color:#8eaca2;font-size:11px;letter-spacing:.15px;padding-top:5px;padding-bottom:1px}
+    .refresh-btn{background:#193f38;color:#baf4d8;border:1px solid #3c735d;border-radius:12px;padding:10px 14px;font-weight:750;font-size:12px}
+    .refresh-btn:disabled{opacity:.65;cursor:wait}
+    .refresh-note{font-size:11px;color:#a5c9b8;line-height:1.45}
+    @media(max-width:650px){.after-election{padding:17px 13px}.market-line{padding:11px 8px;font-size:11px;gap:3px}.market-line strong{font-size:12px}.market-grid .market-line:first-child{font-size:9px}.refresh-btn{font-size:11px;padding:9px 11px}}
     .fund-details{margin-top:13px;border:1px solid #345b50;border-radius:11px;background:#112a27;overflow:hidden}.fund-details summary{list-style:none;cursor:pointer;padding:12px 13px;font-size:12px;font-weight:750;color:#bdf4d7}.fund-details summary::-webkit-details-marker{display:none}.fund-details summary:after{content:"＋";float:right;font-size:15px}.fund-details[open] summary:after{content:"−"}.fund-details .details-body{padding:0 12px 13px}
     .weekly-summary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;border:1px solid #476952;background:linear-gradient(115deg,#163f35,#0d2927);padding:18px 20px;border-radius:18px;margin-bottom:18px}.weekly-summary h3{margin:0 0 7px;font-size:17px}.weekly-summary p{margin:0;color:#b4d1c4;font-size:13px;line-height:1.5}
     .fund-bullets{display:grid;gap:6px;margin-top:15px}.fund-bullets p{margin:0;font-size:12px;line-height:1.5;color:#c8dacf}.fund-bullets p.alert{color:#ead9b7}.fund-bullets strong{color:#a2f4c8}
@@ -54,7 +66,7 @@
   <main class="shell">
     <header class="top">
       <div class="logo"><span class="mark">C</span><div>clara<span style="color:#85ecc1">.fiis</span><span class="brand-sub">inteligência para investir</span></div></div>
-      <div class="top-right"><span class="chip"><span class="dot"></span> Radar semanal</span><span class="chip" id="stamp">Carregando...</span></div>
+      <div class="top-right"><button class="refresh-btn" id="refreshData" type="button" title="Recarrega o último arquivo publicado no GitHub; não cria cotação em tempo real">↻ Recarregar dados</button><span class="chip" id="stamp">Carregando...</span></div>
     </header>
     <section class="hero">
       <div class="hero-primary">
@@ -72,6 +84,11 @@
         <div class="stroke"></div>
         <div class="notice" id="freshness">Dados sujeitos à disponibilidade e aos atrasos das fontes. Nenhuma cota é comprada automaticamente.</div>
       </aside>
+    </section>
+    <section class="after-election" id="postElection" aria-label="Comparação dos fundos após a eleição">
+      <div class="market-head"><div><h2>📉 FIIs depois da eleição</h2><p id="marketCaption">Carregando comparação do primeiro pregão...</p></div><span class="badge grey" id="marketTag">Comparação histórica</span></div>
+      <div id="marketResults" class="market-grid" aria-live="polite"></div>
+      <p id="marketContext"></p><p id="marketReference" class="refresh-note"></p>
     </section>
     <nav class="nav" aria-label="Seções">
       <button class="tab" data-tab="radar" aria-selected="true">✦ Radar semanal</button>
@@ -176,6 +193,56 @@
       if (tab==="calculadora") calc();
     }
     document.querySelectorAll(".tab").forEach(el=>el.addEventListener("click",()=>showTab(el.dataset.tab)));
+    let marketData=null;
+    function renderMarket(){
+      const pane=$("postElection");
+      if(!marketData||!Array.isArray(marketData.prices)){
+        pane.classList.add("hidden");
+        return;
+      }
+      pane.classList.remove("hidden");
+      const today=marketDate(), day=marketData.observed_date||"";
+      const historic=day!==today;
+      $("marketTag").textContent=historic?"Registro de "+date(day):"Pregão em andamento • amostra";
+      $("marketCaption").textContent="Sexta-feira 23/10 vs. segunda-feira 26/10, às 13h55 (Brasília). "+(historic?"Esta é uma comparação histórica, não os preços atuais.":"Cotações intradiárias, sujeitas a mudança.");
+      $("marketResults").innerHTML='<div class="market-line"><span>FII</span><span>23/10</span><span>26/10, 13h55</span><span>Variação</span></div>'+
+        marketData.prices.map(x=>{
+          const pctChange=x.before>0?(x.after/x.before-1)*100:null;
+          const formatted=pctChange==null?"—":(pctChange>0?"+":"")+pct(pctChange);
+          return '<div class="market-line"><strong>'+esc(x.ticker)+'</strong><span>'+money(x.before)+'</span><span>'+money(x.after)+'</span><span class="market-down">'+formatted+'</span></div>';
+        }).join("");
+      $("marketContext").textContent="IFIX na amostra: "+fmt(marketData.ifix.price_26,"decimal")+" pontos ("+pct(marketData.ifix.change_26_pct)+"). Juros futuros mais altos pressionaram as cotações. Queda no preço não garante bom momento de compra.";
+      $("marketReference").innerHTML='<strong>Fonte e horário:</strong> '+esc(marketData.price_basis||"")+'. <a style="color:#9bf0c5;text-decoration:underline" href="'+safeUrl(marketData.source_url)+'" target="_blank" rel="noopener noreferrer">Conferir referência ↗</a>. Esta comparação não substitui uma cotação atual.';
+    }
+    let refreshing=false;
+    async function loadPublishedData(){
+      if(refreshing)return;
+      refreshing=true;
+      const btn=$("refreshData");
+      btn.disabled=true;btn.textContent="↻ Consultando...";
+      try{
+        const token=Date.now();
+        const response=await fetch("./data/radar.json?refresh="+token,{cache:"no-store"});
+        if(!response.ok)throw Error("A última coleta não está disponível");
+        appData=await response.json();
+        try{
+          const marketResponse=await fetch("./data/analise-pos-eleicao-2026-10-26.json?refresh="+token,{cache:"no-store"});
+          marketData=marketResponse.ok?await marketResponse.json():null;
+        }catch(e){marketData=null;}
+        render();
+        renderMarket();
+        btn.textContent="✓ Dados recarregados";
+        const last=appData.quote_date;
+        $("freshness").textContent+=" Arquivos recarregados agora; isso não significa cotação em tempo real. Para preços do pregão de hoje, verifique a B3 ou a corretora.";
+      }catch(e){
+        btn.textContent="Falha ao recarregar";
+        $("freshness").textContent="Não foi possível consultar os arquivos publicados: "+String(e.message)+".";
+      }finally{
+        refreshing=false;
+        btn.disabled=false;
+        if(btn.textContent==="✓ Dados recarregados")btn.title="Recarrega o último snapshot publicado, não dispara uma nova coleta na B3.";
+      }
+    }
     function renderPick(){
       const f=(appData.funds||[]).filter(x=>x.price>0 && x.score!=null).slice(0,3);
       const old=dayAge(appData.generated_at)>9;
@@ -330,7 +397,8 @@
       $("quotation").textContent=date(appData.quote_date);
       $("stamp").textContent=appData.generated_at?"Atualização: "+date(appData.generated_at):"Aguardando atualização";
       const age=dayAge(appData.generated_at);
-      $("freshness").textContent=(age>9?"⚠ Coleta com mais de 9 dias. ":"")+
+      const staleClose=marketDate()>appData.quote_date;
+      $("freshness").textContent=(staleClose?"⚠ O mercado já avançou desde a última cotação disponível; não é preço intradiário. ":"")+(age>9?"⚠ Coleta com mais de 9 dias. ":"")+
         "Cotação de "+date(appData.quote_date)+". Relatórios e dados de vacância podem ser anteriores; cada fundo mostra sua referência.";
       $("sectorFilter").innerHTML='<option value="Todos">Todos os segmentos</option>'+[...new Set(f.map(x=>x.sector))].sort().map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join("");
       $("fundChoose").innerHTML=f.map(x=>'<option value="'+esc(x.ticker)+'">'+esc(x.ticker)+" • "+esc(x.sector)+'</option>').join("");
@@ -352,11 +420,8 @@
     $("calcMode").addEventListener("change",calc);
     $("manualDiv").addEventListener("input",calc);
     document.querySelectorAll("[data-amount]").forEach(b=>b.addEventListener("click",()=>{$("amount").value=b.dataset.amount;calc();}));
-    fetch("./data/radar.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Arquivo de dados indisponível");return r.json();}).then(data=>{appData=data;render();}).catch(e=>{
-      $("fundCards").innerHTML='<div class="empty">Os dados ainda não estão disponíveis. Consulte a última execução do GitHub Actions. '+esc(e.message)+'</div>';
-      $("freshness").textContent="Erro ao carregar atualização semanal.";
-      $("weeklyPick").textContent="Sem dados atuais para classificar os fundos.";
-    });
+    $("refreshData").addEventListener("click",loadPublishedData);
+    loadPublishedData();
     if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
 
   </script>
