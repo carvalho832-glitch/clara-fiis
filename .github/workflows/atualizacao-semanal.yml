@@ -4,7 +4,7 @@ on:
   schedule:
     # Coleta em dias úteis, 11:15 UTC = 08:15 em Brasília.
     # A análise fundamental permanece uma triagem, com referências datadas.
-    - cron: "15 11 * * 1-5"
+    - cron: "15 11,23 * * 1-5"
   push:
     branches: [main]
     paths:
