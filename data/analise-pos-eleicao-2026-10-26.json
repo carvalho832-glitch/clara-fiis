@@ -1,0 +1,46 @@
+{
+  "label": "Primeiro pregão após o segundo turno",
+  "observed_at": "2026-10-26T13:55:00-03:00",
+  "observed_date": "2026-10-26",
+  "price_basis": "Cotação intradiária de 26/10/2026 às 13h55 (horário de Brasília), não fechamento",
+  "comparison_basis": "Fechamento de 23/10/2026 registrado no Clara FIIs",
+  "source_name": "Fundos Imobiliários FIIs — Movimento do dia",
+  "source_url": "https://fundosimobiliariosfiis.com/",
+  "ifix": {
+    "price_23": "3990.57",
+    "price_26": "3736.92",
+    "change_26_pct": -6.36
+  },
+  "prices": [
+    {
+      "ticker": "BTLG11",
+      "before": 104.8,
+      "after": 99.05
+    },
+    {
+      "ticker": "KNCR11",
+      "before": 105.55,
+      "after": 104.92
+    },
+    {
+      "ticker": "XPML11",
+      "before": 104.61,
+      "after": 99.25
+    },
+    {
+      "ticker": "HGLG11",
+      "before": 159.66,
+      "after": 149.36
+    },
+    {
+      "ticker": "MXRF11",
+      "before": 9.44,
+      "after": 8.95
+    }
+  ],
+  "notes": [
+    "Movimento de mercado atribuído à reação do mercado financeiro à eleição presidencial e à elevação dos juros futuros; não significa automaticamente deterioração dos aluguéis ou créditos.",
+    "A cotação intradiária pode mudar até o fechamento do pregão. Não trate a amostra como preço atual após 26/10.",
+    "Não comprar ou vender com base apenas em uma queda; analisar relatório, crédito, vacância, liquidez e valor patrimonial."
+  ]
+}
