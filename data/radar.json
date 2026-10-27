@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T02:06:53+00:00",
+  "generated_at": "2026-10-27T16:42:32+00:00",
   "quote_date": "2026-10-26",
   "weekly_status": "Atualizado",
   "funds": [
@@ -671,6 +671,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "Fundo imobiliário compra 60% de shopping da Allos (ALOS3) por R$ 331 milhões; IFIX despenca após eleição",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-compra-shopping-da-allos-alos3-e-preve-ganho-de-r-048-por-cota-ifix-despenca-apos-eleicao-igdl/",
+          "source": "Money Times",
+          "date": "2026-10-27"
+        },
+        {
           "title": "XPML11 conclui compra de 60% de shopping em São Bernardo do Campo",
           "url": "https://www.suno.com.br/noticias/xpml11-conclui-compra-de-60-de-shopping-em-sao-bernardo-do-campo/",
           "source": "Suno Notícias",
@@ -681,12 +687,6 @@
           "url": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
           "source": "InfoMoney",
           "date": "2026-10-23"
-        },
-        {
-          "title": "XPML11 reúne 26 shoppings e mais de 733 mil cotistas; conheça o fundo",
-          "url": "https://www.suno.com.br/noticias/xpml11-carteira-numeros-dividendos-fii/",
-          "source": "Suno Notícias",
-          "date": "2026-10-21"
         }
       ],
       "news_topics": [],
@@ -951,21 +951,21 @@
   ],
   "headlines": [
     {
-      "title": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes",
+      "title": "Renegociação das dívidas agrícolas soma R$ 14,34 bilhões, diz FPA",
+      "url": "https://www.cnnbrasil.com.br/agro/renegociacao-das-dividas-agricolas-soma-r-1434-bilhoes-diz-fpa/",
+      "source": "CNN Brasil • Brasil",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
       "source": "Agência Brasil · Economia • Brasil",
       "date": "2026-10-27"
     },
     {
-      "title": "Mercado financeiro reage com pessimismo após resultado das eleições presidenciais",
-      "url": "https://www.gazetadopovo.com.br/economia/mercado-financeiro-reage-com-pessimismo-apos-resultado-das-eleicoes-presidenciais/",
-      "source": "Gazeta do Povo · Economia • Brasil",
-      "date": "2026-10-27"
-    },
-    {
-      "title": "Lucro presumido, regime fundamental para formalização de diversos setores da economia, perde espaço",
-      "url": "https://www.estadao.com.br/economia/lucro-presumido-regime-fundamental-para-formalizacao-de-diversos-setores-da-economia-perde-espaco/",
-      "source": "Estadão • Brasil",
+      "title": "Governo prorroga por um mês subvenção de R$ 2,12 ao diesel",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
+      "source": "Agência Brasil · Economia • Brasil",
       "date": "2026-10-27"
     },
     {
@@ -975,27 +975,27 @@
       "date": "2026-10-26"
     },
     {
-      "title": "Mercado aposta em novas altas dos juros nos EUA - Monitor Mercantil",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcGdPeUtoNHk3WElGYWotaXhMamdwaWtldjViSVhrU0t0SzZnX0E2NDVBcFJIZUg2OEdmX19GUFBobkRJSzZGbHpNWWZCa2JpU29uT0NkYXpqbkdRWkQ5UXZON0JrYUZzVGFPYkZrX2Q0Z01tYlMtZlNjY3lDMWxQQ3RjTjY1WlE?oc=5",
-      "source": "Monitor Mercantil • Exterior",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "Ações da SK Hynix sobem à máxima de duas semanas com dividendo de US$ 12 bilhões",
-      "url": "https://br.investing.com/news/stock-market-news/acoes-da-sk-hynix-sobem-a-maxima-de-duas-semanas-com-dividendo-de-us-12-bilhoes-2103392",
-      "source": "Investing.com Brasil",
+      "title": "Fed deve manter juros estáveis nesta quarta-feira, projeta ASA - BPMoney",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMVBrVV9keWZGRkgxb21mN2pya0h3Q3VkaFZnaHA0eS10V2ZRY2xQZzZsRVhiaWlUU192cnZ3ejNLdlNDQjd4U1BFVWNPdlhpNU4zVlI3TWJyTkNBTmIydHN2UWczcnpoeUVDMmNYX2ZISXVKdHNBb1BNTHdpTndzT1RxQ2dSRmFXSFhvUVZaMTBGQUlmZkxkM0ln?oc=5",
+      "source": "BPMoney • Exterior",
       "date": "2026-10-27"
     },
     {
-      "title": "‘Cara de culpado’ dos cachorros pode dizer mais sobre você do que sobre eles, indica estudo",
-      "url": "https://www.cnnbrasil.com.br/curiosidades/cara-de-culpado-dos-cachorros-pode-dizer-mais-sobre-voce-do-que-sobre-eles-indica-estudo/",
-      "source": "CNN Brasil",
+      "title": "Período de restrição à prisão de eleitores termina nesta terça (27)",
+      "url": "https://www.infomoney.com.br/politica/periodo-de-restricao-a-prisao-de-eleitores-termina-nesta-terca-27/",
+      "source": "InfoMoney",
       "date": "2026-10-27"
     },
     {
-      "title": "Mercado vê oferta de ações voltarem apenas após sinalização de ajuste",
-      "url": "https://www.estadao.com.br/economia/coluna-da-broad/mercado-ve-oferta-de-acoes-voltarem-apenas-apos-sinalizacao-de-ajuste/",
-      "source": "Estadão",
+      "title": "Lula se reúne com ministro da Defesa, que não deve permanecer em novo governo",
+      "url": "https://www.infomoney.com.br/politica/lula-se-reune-com-ministro-da-defesa-que-nao-deve-permanecer-em-novo-governo/",
+      "source": "InfoMoney",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Agibank usa outdoors em rodovias para atrair profissionais: ‘Chega de enfrentar o caos de São Paulo’",
+      "url": "https://www.moneytimes.com.br/agibank-outdoors-rodovias-para-atrair-profissionais-caos-sao-paulo-cbcb/",
+      "source": "Money Times",
       "date": "2026-10-27"
     }
   ],
