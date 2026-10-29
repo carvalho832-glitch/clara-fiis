@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T02:28:34+00:00",
+  "generated_at": "2026-10-29T17:27:35+00:00",
   "quote_date": "2026-10-28",
   "weekly_status": "Atualizado",
   "funds": [
@@ -526,6 +526,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "Fundo imobiliário recebe aval para comprar ativos de RPRI11, RBRR11 e VCJR11; Ifix recua",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-recebe-aval-para-comprar-ativos-de-rpri11-rbrr11-e-vcjr11-ifix-recua-jcav/",
+          "source": "Money Times",
+          "date": "2026-10-29"
+        },
+        {
           "title": "Gigante à vista: Patria fica a um passo de unir quatro fundos imobiliários (FIIs) em um só",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/gigante-vista-patria-fica-um-passo-unir-quatro-fundos-imobiliarios-fiis-em-um-igdl/",
           "source": "Seu Dinheiro",
@@ -536,12 +542,6 @@
           "url": "https://www.suno.com.br/noticias/rbrr11-fundo-imobiliario-divulga-novos-dividendos-confira-valor/",
           "source": "Suno Notícias",
           "date": "2026-10-12"
-        },
-        {
-          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
-          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-01"
         }
       ],
       "news_topics": [],
@@ -951,21 +951,21 @@
   ],
   "headlines": [
     {
-      "title": "Aposta do Mato Grosso leva prêmio de mais de R$ 324 milhões da Mega",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aposta-do-mato-grosso-leva-premio-de-mais-de-r-324-milhoes-da-mega",
-      "source": "Agência Brasil · Economia • Brasil",
+      "title": "Dívida bruta do Brasil se mantém em 82,9% do PIB em setembro, maior nível desde 2021, mostra BC",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/divida-bruta-do-brasil-se-mantem-em-829-do-pib-em-setembro-maior-nivel-desde-2021-mostra-bc.shtml",
+      "source": "Folha · Mercado • Brasil",
       "date": "2026-10-29"
     },
     {
-      "title": "Fed segura juro, mas segue com discurso duro; mercado vê alta em dezembro",
-      "url": "https://www.estadao.com.br/economia/fed-segura-juro-mas-segue-com-discurso-duro-mercado-ve-alta-em-dezembro/",
-      "source": "Estadão • Brasil",
+      "title": "Contas públicas têm déficit de R$ 5,5 bilhões em setembro; dívida segue em 82,9% do PIB, maior nível desde 2021",
+      "url": "https://g1.globo.com/economia/noticia/2026/10/29/contas-publicas-tem-deficit-de-r-55-bilhoes-em-setembro-divida-segue-em-829percent-do-pib-maior-nivel-desde-2021.ghtml",
+      "source": "G1 Economia • Brasil",
       "date": "2026-10-29"
     },
     {
-      "title": "Lula começa novo mandato sob forte pressão para conter gastos e estabilizar dívida",
-      "url": "https://www.gazetadopovo.com.br/economia/ajuste-fiscal-divida-publica-lula/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "Inadimplência e endividamento das famílias são recorde em setembro, informa Banco Central",
+      "url": "https://g1.globo.com/economia/noticia/2026/10/29/inadimplencia-e-endividamento-das-familias-sao-recorde-em-setembro-informa-banco-central.ghtml",
+      "source": "G1 Economia • Brasil",
       "date": "2026-10-29"
     },
     {
@@ -975,27 +975,27 @@
       "date": "2026-10-28"
     },
     {
-      "title": "Warsh, do Fed, diz que economia dos EUA não está superaquecida - CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdERGTkhoREM2OEN0WVVoTGNHaTdaREdxTDhWNy03bUFfTDdlYjhuNDlOMXc0bWt4RFZXZllaZEh3eVpqWjdEZEhZVXpCWG9DYjB4MnJzZXE0VlFVOXZFYzRrd1paeFBUTmlxN1ZfdjRKSE1pRFl5WmZCcGZWZzJGa3pfRTF6SEdGTVRBOWhocEYwa1ZKVzJ6d0IyTmNkNVNyQ1o5ZjVqMGR3Ykk3TkVSUTUtRFRvdnBlOExj?oc=5",
-      "source": "CNN Brasil • Exterior",
-      "date": "2026-10-28"
+      "title": "Fed mantém juros dos EUA entre 3,75% e 4%, mas duas dirigentes defendem alta - Portal do Agronegócio",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT2Y2anhiWDJIdlZKdmJGemdmQVRaZlFOeEFCQzZZVnBjblpyRUpGQ2prMl9fMXRwYVVaR0pOMi0yWWZ6T3VtQ1hLX3NWRDNBQ0FsNmZCQW96MWZNbGE5YnotVGVMR2l4QnVNTmt3REZUeXR6djJsYzRQWDNqdGU0ZGl1ZGJxTXFra1I2NS1nLTNCODZfTjhrOV96d0dhZ1AtMWJOdWVucGpENUZNQjdBMDN5eWVsT2Z2YTdvOW1IcFR3bXphZ1V1S3NfOHFJeG93WXRXSjBlcURLMDJ1TmswVGc5Yw?oc=5",
+      "source": "Portal do Agronegócio • Exterior",
+      "date": "2026-10-29"
     },
     {
-      "title": "Por que as ações da Samsung Electronics estão caindo hoje?",
-      "url": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-samsung-electronics-estao-caindo-hoje-93CH-2107015",
+      "title": "Ações de varejo desabam após as eleições – queda abriu oportunidades na Bolsa?",
+      "url": "https://www.infomoney.com.br/mercados/acoes-de-varejo-desabam-apos-as-eleicoes-queda-abriu-oportunidades-na-bolsa/",
+      "source": "InfoMoney",
+      "date": "2026-10-29"
+    },
+    {
+      "title": "Reino Unido - Ações fecharam o pregão em alta e o Índice Investing.com Reino Unido 100 avançou 0,24%",
+      "url": "https://br.investing.com/news/stock-market-news/reino-unido--acoes-fecharam-o-pregao-em-alta-e-o-indice-investingcom-reino-unido-100-avancou-024-2108536",
       "source": "Investing.com Brasil",
       "date": "2026-10-29"
     },
     {
-      "title": "Empresários de cidade mineira reagem a lista que pede boicote a eleitores de Lula",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/empresarios-de-cidade-mineira-reagem-a-lista-que-pede-boicote-a-eleitores-de-lula.shtml",
-      "source": "Folha · Mercado",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Tributo da reforma maior que o previsto obriga empresas a rever planejamento para 2027",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/10/tributo-da-reforma-maior-que-o-previsto-obriga-empresas-a-rever-planejamento-para-2027.shtml",
-      "source": "Folha · Mercado",
+      "title": "Espanha - Ações fecharam o pregão em queda e o Índice IBEX 35 recuou 0,26%",
+      "url": "https://br.investing.com/news/stock-market-news/espanha--acoes-fecharam-o-pregao-em-queda-e-o-indice-ibex-35-recuou-026-2108535",
+      "source": "Investing.com Brasil",
       "date": "2026-10-29"
     }
   ],
