@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:38:27+00:00",
+  "generated_at": "2026-10-30T17:01:58+00:00",
   "quote_date": "2026-10-29",
   "weekly_status": "Atualizado",
   "funds": [
@@ -132,6 +132,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "Dividendos de FIIs: 173 fundos podem pagar nesta sexta (30); confira",
+          "url": "https://www.suno.com.br/noticias/dividendos-173-fiis-sexta-30/",
+          "source": "Suno Notícias",
+          "date": "2026-10-30"
+        },
+        {
           "title": "Fundo imobiliário compra pátio logístico por R$ 10 milhões; veja detalhes",
           "url": "https://www.moneytimes.com.br/fundo-imobiliario-compra-patio-logistico-por-r-10-milhoes-veja-detalhes-igdl/",
           "source": "Money Times",
@@ -142,16 +148,9 @@
           "url": "https://www.suno.com.br/noticias/hglg11-compra-patio-gru-guarulhos/",
           "source": "Suno Notícias",
           "date": "2026-10-23"
-        },
-        {
-          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
-          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-22"
         }
       ],
       "news_topics": [
-        "vacância",
         "aquisições"
       ],
       "score": 90,
@@ -220,6 +219,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "Dividendos de FIIs: 173 fundos podem pagar nesta sexta (30); confira",
+          "url": "https://www.suno.com.br/noticias/dividendos-173-fiis-sexta-30/",
+          "source": "Suno Notícias",
+          "date": "2026-10-30"
+        },
+        {
           "title": "Dezenas de FIIs pagam dividendos hoje; veja valores de MXRF11, TRXF11 e XPLG11",
           "url": "https://www.infomoney.com.br/onde-investir/dezenas-de-fiis-pagam-dividendos-hoje-veja-valores-de-mxrf11-trxf11-e-xplg11/",
           "source": "InfoMoney",
@@ -230,12 +235,6 @@
           "url": "https://www.suno.com.br/noticias/dividendos-hoje-fundos-imobiliarios-lista-2/",
           "source": "Suno Notícias",
           "date": "2026-10-15"
-        },
-        {
-          "title": "MXRF11, BRCO11 e mais FIIs: semana terá 180 pagamentos de dividendos",
-          "url": "https://www.suno.com.br/noticias/dividendos-de-fiis-outubro-2026/",
-          "source": "Suno Notícias",
-          "date": "2026-10-13"
         }
       ],
       "news_topics": [],
@@ -749,6 +748,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "Dividendos de FIIs: 173 fundos podem pagar nesta sexta (30); confira",
+          "url": "https://www.suno.com.br/noticias/dividendos-173-fiis-sexta-30/",
+          "source": "Suno Notícias",
+          "date": "2026-10-30"
+        },
+        {
           "title": "MXRF11, BRCO11 e mais FIIs: semana terá 180 pagamentos de dividendos",
           "url": "https://www.suno.com.br/noticias/dividendos-de-fiis-outubro-2026/",
           "source": "Suno Notícias",
@@ -758,12 +763,6 @@
           "title": "Dividendo de 11,3%: Estes são os fundos imobiliários (FIIs) recomendados pelo BTG para outubro",
           "url": "https://www.moneytimes.com.br/dividendo-de-113-estes-sao-os-fiis-recomendados-pelo-btg-para-outubro-igdl/",
           "source": "Money Times",
-          "date": "2026-10-01"
-        },
-        {
-          "title": "Dividendos do VISC11 já foram divulgados; descubra quanto",
-          "url": "https://www.suno.com.br/noticias/dividendos-do-visc11-outubro-2026/",
-          "source": "Suno Notícias",
           "date": "2026-10-01"
         }
       ],
@@ -951,21 +950,21 @@
   ],
   "headlines": [
     {
-      "title": "Mega-Sena não tem ganhador e prêmio sobe para R$ 6 milhões",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes",
+      "title": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
       "source": "Agência Brasil · Economia • Brasil",
       "date": "2026-10-30"
     },
     {
-      "title": "IFI: Reajuste do Bolsa Família, fim de bets e pacote de MEIs somam R$ 40 bi de desequilíbrio fiscal",
-      "url": "https://www.estadao.com.br/economia/ifi-reajuste-do-bolsa-familia-fim-de-bets-e-pacote-de-meis-somam-r-40-bi-de-desequilibrio-fiscal/",
-      "source": "Estadão • Brasil",
+      "title": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abre-mercados-de-bangladesh-e-colombia",
+      "source": "Agência Brasil · Economia • Brasil",
       "date": "2026-10-30"
     },
     {
-      "title": "Economista-chefe do BTG cobra plano fiscal de Lula para recuperar confiança do mercado",
-      "url": "https://www.gazetadopovo.com.br/economia/economista-chefe-do-btg-cobra-plano-fiscal-de-lula-para-recuperar-confianca-do-mercado/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "Mercado de trabalho perde fôlego apesar de desemprego recorde, diz pesquisador da FGV",
+      "url": "https://www.estadao.com.br/economia/mercado-trabalho-perde-folego-apesar-desemprego-recorde-pesquisador-fgv/",
+      "source": "Estadão • Brasil",
       "date": "2026-10-30"
     },
     {
@@ -975,27 +974,27 @@
       "date": "2026-10-28"
     },
     {
-      "title": "Fed mantém juros dos EUA entre 3,75% e 4%, mas duas dirigentes defendem alta - Portal do Agronegócio",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT2Y2anhiWDJIdlZKdmJGemdmQVRaZlFOeEFCQzZZVnBjblpyRUpGQ2prMl9fMXRwYVVaR0pOMi0yWWZ6T3VtQ1hLX3NWRDNBQ0FsNmZCQW96MWZNbGE5YnotVGVMR2l4QnVNTmt3REZUeXR6djJsYzRQWDNqdGU0ZGl1ZGJxTXFra1I2NS1nLTNCODZfTjhrOV96d0dhZ1AtMWJOdWVucGpENUZNQjdBMDN5eWVsT2Z2YTdvOW1IcFR3bXphZ1V1S3NfOHFJeG93WXRXSjBlcURLMDJ1TmswVGc5Yw?oc=5",
-      "source": "Portal do Agronegócio • Exterior",
-      "date": "2026-10-29"
+      "title": "Fed mantém juros nos EUA entre 3,75% e 4% e diz que inflação segue elevada - Suno - Investimentos Inteligentes",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91WXdwZDNwSzR6M0d6RWVwN3ZXS2JYQmRzRk1ZUnRpWkVKZmlKckM0SWg3cGtMMEhIN2tjcWJqVTBINVNqZlNZU2VhMnhTVjAyR3FsYzNUY0J0SUpEeVpKMGlKNHo1TFNUWXRsaEZqU3TSAXZBVV95cUxOcEJkRW1NTmNmZUNIOXYtYjNLWklCckZlbllWUjlWWWk5RE1DcE5MRm5maEpEc1lkNWVMbHotYnczc1NheUVVUXZSYUlMbUJUeTFoUThyZ1hMZnlBZjNWR2F1M3FaMjdJRTJFZTU3bV9QcE8wMHR3?oc=5",
+      "source": "Suno - Investimentos Inteligentes • Exterior",
+      "date": "2026-10-28"
     },
     {
-      "title": "Após boicotes, apoiadores de Lula divulgam listas para prestigiar restaurantes associados à esquerda",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/apos-boicotes-apoiadores-de-lula-divulgam-listas-para-prestigiar-restaurantes-associados-a-esquerda.shtml",
-      "source": "Folha · Mercado",
+      "title": "Justiça bloqueia R$ 10,8 bi em nova frente da Carbono Oculto",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/10/30/pge-sp-bloqueia-r-108-bi-em-nova-frente-da-carbono-oculto.ghtm",
+      "source": "UOL Economia",
       "date": "2026-10-30"
     },
     {
-      "title": "Bancos privados aumentam taxas do crédito da casa própria em resposta à alta nos juros futuros",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/10/bancos-privados-aumentam-taxas-do-credito-da-casa-propria-em-resposta-a-alta-nos-juros-futuros.shtml",
-      "source": "Folha · Mercado",
+      "title": "Nem Nubank, nem XP: veja quem lidera os BDRs mais negociados da Bolsa",
+      "url": "https://www.suno.com.br/noticias/bdr-aura-minerals-aura33-nubank/",
+      "source": "Suno Notícias",
       "date": "2026-10-30"
     },
     {
-      "title": "Tamanho do ajuste nas contas públicas gera impasse no governo Lula, e equipe discute medidas",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/tamanho-do-ajuste-nas-contas-publicas-gera-impasse-no-governo-lula-e-equipe-discute-medidas.shtml",
-      "source": "Folha · Mercado",
+      "title": "Nova regra eleitoral pode mudar força de candidatos como Nikolas e Pavanato",
+      "url": "https://www.infomoney.com.br/politica/nova-regra-eleitoral-pode-mudar-forca-de-candidatos-como-nikolas-e-pavanato/",
+      "source": "InfoMoney",
       "date": "2026-10-30"
     }
   ],
