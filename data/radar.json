@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T02:26:30+00:00",
+  "generated_at": "2026-11-02T20:48:29+00:00",
   "quote_date": "2026-10-30",
   "weekly_status": "Atualizado",
   "funds": [
@@ -71,7 +71,7 @@
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.95%",
         "Vacância 1.2%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -159,7 +159,7 @@
         "P/VP 0.90",
         "Rendimento mensal do informe: 0.70%",
         "Vacância 2.7%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -243,7 +243,7 @@
       "notes": [
         "P/VP 0.96",
         "Rendimento mensal do informe: 0.81%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -320,7 +320,7 @@
       "notes": [
         "P/VP 1.02",
         "Rendimento mensal do informe: 1.22%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -398,7 +398,7 @@
         "P/VP 0.87",
         "Rendimento mensal do informe: 0.78%",
         "Vacância 3.8%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -472,7 +472,7 @@
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.67%",
         "Vacância 1.8%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -549,7 +549,7 @@
       "notes": [
         "P/VP 0.71",
         "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -599,14 +599,7 @@
       "latest_com_date": null,
       "com_date_history": [],
       "payment_source": null,
-      "news": [
-        {
-          "title": "6 FIIs comunicam rebalanceamento de índices internacionais; veja quais",
-          "url": "https://www.suno.com.br/noticias/rebalanceamento-de-indices-fundos-imobiliarios/",
-          "source": "Suno Notícias",
-          "date": "2026-09-18"
-        }
-      ],
+      "news": [],
       "news_topics": [],
       "score": 31,
       "missing": [],
@@ -614,7 +607,7 @@
         "P/VP 0.58",
         "Rendimento mensal do informe: 0.43%",
         "Vacância 20.0%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -695,7 +688,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -774,7 +767,7 @@
       "notes": [
         "P/VP 0.86",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -830,18 +823,6 @@
           "url": "https://www.moneytimes.com.br/carrefour-notifica-ao-cade-venda-de-22-imoveis-a-fundo-de-investimento-imobiliario-patria-igdl/",
           "source": "Money Times",
           "date": "2026-10-21"
-        },
-        {
-          "title": "6 FIIs comunicam rebalanceamento de índices internacionais; veja quais",
-          "url": "https://www.suno.com.br/noticias/rebalanceamento-de-indices-fundos-imobiliarios/",
-          "source": "Suno Notícias",
-          "date": "2026-09-18"
-        },
-        {
-          "title": "HGRU11: FII mantém dividendo de R$ 0,95 mesmo com resultado menor do que o distribuído",
-          "url": "https://www.suno.com.br/noticias/hgru11-fii-mantem-dividendo-de-r-095-mesmo-com-resultado-menor-do-que-o-distribuido/",
-          "source": "Suno Notícias",
-          "date": "2026-09-17"
         }
       ],
       "news_topics": [],
@@ -852,7 +833,7 @@
       "notes": [
         "P/VP 0.89",
         "Rendimento mensal do informe: 0.74%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -932,7 +913,7 @@
       "notes": [
         "P/VP 0.82",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 122 dias"
+        "Informe antigo: 124 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -950,22 +931,22 @@
   ],
   "headlines": [
     {
-      "title": "Leilão do Banco Master oferta móveis de luxo e TVs de 98 polegadas",
-      "url": "https://www.gazetadopovo.com.br/economia/leilao-do-banco-master-oferta-moveis-de-luxo-e-tvs-de-98-polegadas/",
-      "source": "Gazeta do Povo · Economia • Brasil",
-      "date": "2026-10-31"
+      "title": "Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos cortes",
+      "url": "https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/",
+      "source": "Money Times • Brasil",
+      "date": "2026-11-02"
     },
     {
-      "title": "Itaú corta projeção do PIB de 2027 para 0,5% e vê inflação acima da meta",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/itau-corta-projecao-do-pib-de-2027-para-05-e-ve-inflacao-acima-da-meta.shtml",
-      "source": "Folha · Mercado • Brasil",
-      "date": "2026-10-31"
-    },
-    {
-      "title": "Fitch muda perspectiva do rating da França para negativa",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/fitch-muda-perspectiva-do-rating-da-franca-para-negativa/",
+      "title": "Câmbio deve pressionar expectativa de inflação no Copom, diz Pinheiro",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/cambio-deve-pressionar-expectativa-de-inflacao-no-copom-diz-pinheiro/",
       "source": "CNN Brasil • Brasil",
-      "date": "2026-10-31"
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Cortar a Selic pode fazer a inflação cair? Entenda a tese de Lara Resende",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/02/teoria-lara-resende.htm",
+      "source": "UOL Economia • Brasil",
+      "date": "2026-11-02"
     },
     {
       "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
@@ -974,34 +955,34 @@
       "date": "2026-10-28"
     },
     {
-      "title": "Fed mantém juros nos EUA entre 3,75% e 4% e diz que inflação segue elevada - Suno - Investimentos Inteligentes",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91WXdwZDNwSzR6M0d6RWVwN3ZXS2JYQmRzRk1ZUnRpWkVKZmlKckM0SWg3cGtMMEhIN2tjcWJqVTBINVNqZlNZU2VhMnhTVjAyR3FsYzNUY0J0SUpEeVpKMGlKNHo1TFNUWXRsaEZqU3TSAXZBVV95cUxOcEJkRW1NTmNmZUNIOXYtYjNLWklCckZlbllWUjlWWWk5RE1DcE5MRm5maEpEc1lkNWVMbHotYnczc1NheUVVUXZSYUlMbUJUeTFoUThyZ1hMZnlBZjNWR2F1M3FaMjdJRTJFZTU3bV9QcE8wMHR3?oc=5",
-      "source": "Suno - Investimentos Inteligentes • Exterior",
-      "date": "2026-10-28"
+      "title": "Análise: O Federal Reserve cometeu um erro ao manter a taxa de juros? - CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3c2M21vc2dRdFJNQzVSMmRUakxMZnVBU0luNElMb3FRRDJHUzZqNjlvTjNjWE5ZRThZMXVWcFE3N2pER0hSdExBUm01a1kzSVJHTmNJSVlpcm1YMnRNQlU5TjFRbVRydmVsU2hCTTFUS0M1VUdLOXRSRk9Vb3RTaGNpUnlWUDJlRUdfbFU2ZzNnMGltSWh2Ym9yV0RnVEFkNkRDd2U5endpRElMaDNCVHByVEI2TmRoU3NqQw?oc=5",
+      "source": "CNN Brasil • Exterior",
+      "date": "2026-11-01"
     },
     {
-      "title": "Voltados a investidores, imóveis pequenos são 29% dos lançamentos em SP",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/voltados-a-investidores-imoveis-pequenos-sao-29-dos-lancamentos-em-sp.shtml",
-      "source": "Folha · Mercado",
-      "date": "2026-10-31"
+      "title": "‘Viva o equilíbrio fiscal’, diz governador cotado para a Fazenda sobre secretário",
+      "url": "https://www.infomoney.com.br/politica/viva-o-equilibrio-fiscal-diz-governador-cotado-para-a-fazenda-sobre-secretario/",
+      "source": "InfoMoney",
+      "date": "2026-11-02"
     },
     {
-      "title": "Após queda brusca da Bolsa, analistas recomendam cautela aos investidores",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/apos-queda-brusca-da-bolsa-analistas-recomendam-cautela-aos-investidores.shtml",
-      "source": "Folha · Mercado",
-      "date": "2026-10-31"
+      "title": "BAIC Arcfox T1: rodamos na versão topo de linha do elétrico chinês",
+      "url": "https://www.cnnbrasil.com.br/auto/baic-arcfox-t1-rodamos-na-versao-topo-de-linha-do-eletrico-chines/",
+      "source": "CNN Brasil",
+      "date": "2026-11-02"
     },
     {
-      "title": "Empresas ampliam programas de reciclagem de embalagens e buscam fidelizar clientes",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/economia-sustentavel/2026/10/empresas-ampliam-programas-de-reciclagem-de-embalagens-e-buscam-fidelizar-clientes.shtml",
-      "source": "Folha · Mercado",
-      "date": "2026-10-31"
+      "title": "João Lucas posta foto beijando barriga de Sasha após anúncio: “Coisa linda”",
+      "url": "https://www.cnnbrasil.com.br/pop/celebridades/joao-lucas-posta-foto-beijando-barriga-de-sasha-apos-anuncio-coisa-linda/",
+      "source": "CNN Brasil",
+      "date": "2026-11-02"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-10-31",
+      "date": "2026-11-02",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
