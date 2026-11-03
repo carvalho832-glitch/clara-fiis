@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:56:49+00:00",
+  "generated_at": "2026-11-03T18:28:10+00:00",
   "quote_date": "2026-10-30",
   "weekly_status": "Atualizado",
   "funds": [
@@ -219,6 +219,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "Calendário de dividendos em novembro: veja quanto pagam MXRF11, KNRI11 e outros FIIs",
+          "url": "https://www.infomoney.com.br/onde-investir/calendario-de-dividendos-em-novembro-veja-quanto-pagam-mxrf11-knri11-e-outros-fiis/",
+          "source": "InfoMoney",
+          "date": "2026-11-03"
+        },
+        {
           "title": "Dividendos de FIIs: 173 fundos podem pagar nesta sexta (30); confira",
           "url": "https://www.suno.com.br/noticias/dividendos-173-fiis-sexta-30/",
           "source": "Suno Notícias",
@@ -228,12 +234,6 @@
           "title": "Dezenas de FIIs pagam dividendos hoje; veja valores de MXRF11, TRXF11 e XPLG11",
           "url": "https://www.infomoney.com.br/onde-investir/dezenas-de-fiis-pagam-dividendos-hoje-veja-valores-de-mxrf11-trxf11-e-xplg11/",
           "source": "InfoMoney",
-          "date": "2026-10-15"
-        },
-        {
-          "title": "MXRF11 e outros FIIs pagam dividendos hoje (15); veja quais",
-          "url": "https://www.suno.com.br/noticias/dividendos-hoje-fundos-imobiliarios-lista-2/",
-          "source": "Suno Notícias",
           "date": "2026-10-15"
         }
       ],
@@ -296,6 +296,12 @@
       "payment_source": "https://www.fundsexplorer.com.br/noticias/kncr11-dividendos-outubro",
       "news": [
         {
+          "title": "Dividendos de 11,5%: Veja 15 fundos imobiliários (FIIs) para ter na carteira em novembro, segundo o BTG",
+          "url": "https://www.moneytimes.com.br/dividendos-de-115-15-fundos-imobiliarios-fiis-para-ter-na-carteira-em-novembro-segundo-o-btg-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-03"
+        },
+        {
           "title": "Juros em queda: o que pode mudar para o KNCR11 e seus dividendos?",
           "url": "https://www.suno.com.br/noticias/kncr11-renda-cdi-riscos-dados/",
           "source": "Suno Notícias",
@@ -306,12 +312,6 @@
           "url": "https://www.suno.com.br/noticias/kncr11-distribui-r-121-mi/",
           "source": "Suno Notícias",
           "date": "2026-10-21"
-        },
-        {
-          "title": "KNCR11 registra dividendos com retorno acima de 1% em setembro",
-          "url": "https://www.suno.com.br/noticias/kncr11-resultado-setembro-2026-distribuicao/",
-          "source": "Suno Notícias",
-          "date": "2026-10-15"
         }
       ],
       "news_topics": [],
@@ -450,6 +450,12 @@
       "com_date_history": [],
       "payment_source": null,
       "news": [
+        {
+          "title": "Calendário de dividendos em novembro: veja quanto pagam MXRF11, KNRI11 e outros FIIs",
+          "url": "https://www.infomoney.com.br/onde-investir/calendario-de-dividendos-em-novembro-veja-quanto-pagam-mxrf11-knri11-e-outros-fiis/",
+          "source": "InfoMoney",
+          "date": "2026-11-03"
+        },
         {
           "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
           "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
@@ -931,58 +937,58 @@
   ],
   "headlines": [
     {
-      "title": "Piora na percepção de risco pós-eleição pressiona BC a interromper ciclo de cortes de juros",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/piora-na-percepcao-de-risco-pos-eleicao-pressiona-bc-a-interromper-ciclo-de-cortes-de-juros.shtml",
-      "source": "Folha · Mercado • Brasil",
+      "title": "Aumento de R$ 1 no salário mínimo custará R$ 405 mi em 2027, diz Tesouro",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/aumento-de-r-1-no-salario-minimo-custara-r-405-mi-em-2027-diz-tesouro/",
+      "source": "CNN Brasil • Brasil",
       "date": "2026-11-03"
     },
     {
-      "title": "Lula indicará seis diretores do Banco Central até o fim de 2027, e mercado teme mudança de perfil",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/lula-indicara-seis-diretores-do-banco-central-ate-o-fim-de-2027-e-mercado-teme-mudanca-de-perfil.shtml",
-      "source": "Folha · Mercado • Brasil",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Gleisi volta a atacar mercado e recua na defesa do tabelamento de juros",
-      "url": "https://www.gazetadopovo.com.br/republica/gleisi-volta-a-atacar-mercado-e-recua-na-defesa-do-tabelamento-de-juros/",
+      "title": "Mesmos erros: governo estuda tirar dinheiro do campo para financiar buraco das contas",
+      "url": "https://www.gazetadopovo.com.br/economia-cooperativa/cobranca-de-iof-sobre-lca-prejudicara-o-credito-cooperativo/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-03"
     },
     {
-      "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdjM4aWZLNld2QUdBbnBGb0c3TXI3SGtXaE9LUUN6akJxY0JldnE1WUNMRUswTGRLRkxHWV9nZEpIemJrQUlURGZoX0gwT2hCZUNmVXNNa3A5VENCdVNiSmVRa2NtZWV3LVdfX3pGWmRrX1diTVNRR2tiTDXSAYsBQVVfeXFMTmt2QUczMndUN3NENzNCdW9NNWlXajUyQVdMdk5WTWRmdnExbTJVaTdJVi1RUGhHbmRKeXZtWmZxRDVIN2pvbmVTZDY0ZXIybmtkYzZDR0dnRGlHSlhadExIYkRkMklmeG9OTjBlZ0lGSExoOW42Y21nNXkwNHZjQUxKTUVDbVByUXk0MA?oc=5",
-      "source": "G1 • Exterior",
-      "date": "2026-10-28"
-    },
-    {
-      "title": "Análise: O Federal Reserve cometeu um erro ao manter a taxa de juros? - CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3c2M21vc2dRdFJNQzVSMmRUakxMZnVBU0luNElMb3FRRDJHUzZqNjlvTjNjWE5ZRThZMXVWcFE3N2pER0hSdExBUm01a1kzSVJHTmNJSVlpcm1YMnRNQlU5TjFRbVRydmVsU2hCTTFUS0M1VUdLOXRSRk9Vb3RTaGNpUnlWUDJlRUdfbFU2ZzNnMGltSWh2Ym9yV0RnVEFkNkRDd2U5endpRElMaDNCVHByVEI2TmRoU3NqQw?oc=5",
-      "source": "CNN Brasil • Exterior",
-      "date": "2026-11-01"
-    },
-    {
-      "title": "Disney caminha para corte de milhares de empregos, diz Bloomberg",
-      "url": "https://br.investing.com/news/stock-market-news/disney-caminha-para-corte-de-milhares-de-empregos-diz-bloomberg-2112403",
-      "source": "Investing.com Brasil",
+      "title": "Selic pode cair para 13,50% nesta quarta; veja os dados que podem mexer com o mercado",
+      "url": "https://www.suno.com.br/noticias/selic-copom-agenda-semana-mt/",
+      "source": "Suno Notícias • Brasil",
       "date": "2026-11-03"
     },
     {
-      "title": "Bolsa tem novo horário de negociação a partir de hoje; confira o que muda",
-      "url": "https://valorinveste.globo.com/mercados/noticia/2026/11/03/bolsa-tem-novo-horario-de-negociacao-a-partir-de-hoje-confira-o-que-muda.ghtml",
-      "source": "Valor Investe",
+      "title": "Nova rota: BTG Pactual amplia plataforma para investir no exterior por meio de holdings patrimoniais",
+      "url": "https://www.seudinheiro.com/2026/financas-pessoais/nova-rota-btg-pactual-amplia-plataforma-para-investir-no-exterior-por-meio-de-holdings-patrimoniais-davs/",
+      "source": "Seu Dinheiro",
       "date": "2026-11-03"
     },
     {
-      "title": "Mega-Sena pode pagar R$ 46 milhões nesta terça-feira; g1 transmite ao vivo",
-      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/11/03/mega-sena-pode-pagar-r-46-milhoes-nesta-terca-feira-g1-transmite-ao-vivo.ghtml",
-      "source": "G1 Economia",
+      "title": "Rei Charles se diz determinado a construir futuro melhor após vergonha da escravidão",
+      "url": "https://www.infomoney.com.br/mundo/rei-charles-se-diz-determinado-a-construir-futuro-melhor-apos-vergonha-da-escravidao/",
+      "source": "InfoMoney",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Mulheres ampliam presença na direção de empresas, diz OIT",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/mulheres-ampliam-presenca-na-direcao-de-empresas-diz-oit.shtml",
+      "source": "Folha · Mercado",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Bolsas da Europa caem com receio sobre setor tech e eleições nos EUA",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/bolsas-da-europa-caem-com-receio-sobre-setor-tech-e-eleicoes-nos-eua/",
+      "source": "CNN Brasil",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Eleição nos EUA pode mudar futuro político de Flávio Bolsonaro, diz analista",
+      "url": "https://www.infomoney.com.br/mundo/eleicao-nos-eua-pode-mudar-futuro-politico-de-flavio-bolsonaro-diz-analista/",
+      "source": "InfoMoney",
       "date": "2026-11-03"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
@@ -1019,6 +1025,8 @@
   "provider_status": {
     "capital_agora": true,
     "brapi_full": false,
-    "errors": []
+    "errors": [
+      "Google News RSS: HTTPError"
+    ]
   }
 }
