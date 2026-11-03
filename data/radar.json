@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:48:29+00:00",
+  "generated_at": "2026-11-03T03:56:49+00:00",
   "quote_date": "2026-10-30",
   "weekly_status": "Atualizado",
   "funds": [
@@ -71,7 +71,7 @@
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.95%",
         "Vacância 1.2%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -159,7 +159,7 @@
         "P/VP 0.90",
         "Rendimento mensal do informe: 0.70%",
         "Vacância 2.7%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -243,7 +243,7 @@
       "notes": [
         "P/VP 0.96",
         "Rendimento mensal do informe: 0.81%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -320,7 +320,7 @@
       "notes": [
         "P/VP 1.02",
         "Rendimento mensal do informe: 1.22%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -398,7 +398,7 @@
         "P/VP 0.87",
         "Rendimento mensal do informe: 0.78%",
         "Vacância 3.8%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -472,7 +472,7 @@
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.67%",
         "Vacância 1.8%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -549,7 +549,7 @@
       "notes": [
         "P/VP 0.71",
         "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -607,7 +607,7 @@
         "P/VP 0.58",
         "Rendimento mensal do informe: 0.43%",
         "Vacância 20.0%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -688,7 +688,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -767,7 +767,7 @@
       "notes": [
         "P/VP 0.86",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -833,7 +833,7 @@
       "notes": [
         "P/VP 0.89",
         "Rendimento mensal do informe: 0.74%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -913,7 +913,7 @@
       "notes": [
         "P/VP 0.82",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 124 dias"
+        "Informe antigo: 125 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -931,22 +931,22 @@
   ],
   "headlines": [
     {
-      "title": "Até um dos mais otimistas pisou no freio: Inter eleva projeção da Selic e vê pausa nos cortes",
-      "url": "https://www.moneytimes.com.br/ate-um-dos-mais-otimistas-pisou-no-freio-inter-eleva-projecao-da-selic-e-ve-pausa-nos-cortes-jcav/",
-      "source": "Money Times • Brasil",
-      "date": "2026-11-02"
+      "title": "Piora na percepção de risco pós-eleição pressiona BC a interromper ciclo de cortes de juros",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/piora-na-percepcao-de-risco-pos-eleicao-pressiona-bc-a-interromper-ciclo-de-cortes-de-juros.shtml",
+      "source": "Folha · Mercado • Brasil",
+      "date": "2026-11-03"
     },
     {
-      "title": "Câmbio deve pressionar expectativa de inflação no Copom, diz Pinheiro",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/cambio-deve-pressionar-expectativa-de-inflacao-no-copom-diz-pinheiro/",
-      "source": "CNN Brasil • Brasil",
-      "date": "2026-11-02"
+      "title": "Lula indicará seis diretores do Banco Central até o fim de 2027, e mercado teme mudança de perfil",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/lula-indicara-seis-diretores-do-banco-central-ate-o-fim-de-2027-e-mercado-teme-mudanca-de-perfil.shtml",
+      "source": "Folha · Mercado • Brasil",
+      "date": "2026-11-03"
     },
     {
-      "title": "Cortar a Selic pode fazer a inflação cair? Entenda a tese de Lara Resende",
-      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/02/teoria-lara-resende.htm",
-      "source": "UOL Economia • Brasil",
-      "date": "2026-11-02"
+      "title": "Gleisi volta a atacar mercado e recua na defesa do tabelamento de juros",
+      "url": "https://www.gazetadopovo.com.br/republica/gleisi-volta-a-atacar-mercado-e-recua-na-defesa-do-tabelamento-de-juros/",
+      "source": "Gazeta do Povo · Economia • Brasil",
+      "date": "2026-11-03"
     },
     {
       "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
@@ -961,22 +961,22 @@
       "date": "2026-11-01"
     },
     {
-      "title": "‘Viva o equilíbrio fiscal’, diz governador cotado para a Fazenda sobre secretário",
-      "url": "https://www.infomoney.com.br/politica/viva-o-equilibrio-fiscal-diz-governador-cotado-para-a-fazenda-sobre-secretario/",
-      "source": "InfoMoney",
-      "date": "2026-11-02"
+      "title": "Disney caminha para corte de milhares de empregos, diz Bloomberg",
+      "url": "https://br.investing.com/news/stock-market-news/disney-caminha-para-corte-de-milhares-de-empregos-diz-bloomberg-2112403",
+      "source": "Investing.com Brasil",
+      "date": "2026-11-03"
     },
     {
-      "title": "BAIC Arcfox T1: rodamos na versão topo de linha do elétrico chinês",
-      "url": "https://www.cnnbrasil.com.br/auto/baic-arcfox-t1-rodamos-na-versao-topo-de-linha-do-eletrico-chines/",
-      "source": "CNN Brasil",
-      "date": "2026-11-02"
+      "title": "Bolsa tem novo horário de negociação a partir de hoje; confira o que muda",
+      "url": "https://valorinveste.globo.com/mercados/noticia/2026/11/03/bolsa-tem-novo-horario-de-negociacao-a-partir-de-hoje-confira-o-que-muda.ghtml",
+      "source": "Valor Investe",
+      "date": "2026-11-03"
     },
     {
-      "title": "João Lucas posta foto beijando barriga de Sasha após anúncio: “Coisa linda”",
-      "url": "https://www.cnnbrasil.com.br/pop/celebridades/joao-lucas-posta-foto-beijando-barriga-de-sasha-apos-anuncio-coisa-linda/",
-      "source": "CNN Brasil",
-      "date": "2026-11-02"
+      "title": "Mega-Sena pode pagar R$ 46 milhões nesta terça-feira; g1 transmite ao vivo",
+      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/11/03/mega-sena-pode-pagar-r-46-milhoes-nesta-terca-feira-g1-transmite-ao-vivo.ghtml",
+      "source": "G1 Economia",
+      "date": "2026-11-03"
     }
   ],
   "macro": {
