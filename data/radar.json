@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-03T18:28:10+00:00",
-  "quote_date": "2026-10-30",
+  "generated_at": "2026-11-04T03:01:49+00:00",
+  "quote_date": "2026-11-03",
   "weekly_status": "Atualizado",
   "funds": [
     {
       "ticker": "BTLG11",
       "name": "BTGP LOGISTICA FII",
       "sector": "Logística",
-      "price": 97.92,
-      "pvp": 0.916,
+      "price": 96.85,
+      "pvp": 0.906,
       "yield_month_pct": 0.9476,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 7580921710.93,
       "investors": 515243.0,
       "source_url": "https://capitalagora.com.br/fiis/BTLG11",
@@ -68,10 +68,10 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.92",
+        "P/VP 0.91",
         "Rendimento mensal do informe: 0.95%",
         "Vacância 1.2%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -92,11 +92,11 @@
       "ticker": "HGLG11",
       "name": "PÁTRIA LOG - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
       "sector": "Logística",
-      "price": 149.5,
-      "pvp": 0.898,
+      "price": 144.62,
+      "pvp": 0.869,
       "yield_month_pct": 0.7023,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 7589554105.43,
       "investors": 608345.0,
       "source_url": "https://capitalagora.com.br/fiis/HGLG11",
@@ -156,10 +156,10 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.90",
+        "P/VP 0.87",
         "Rendimento mensal do informe: 0.70%",
         "Vacância 2.7%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -179,11 +179,11 @@
       "ticker": "MXRF11",
       "name": "FII MAXI RENDA RL",
       "sector": "Recebíveis",
-      "price": 8.88,
-      "pvp": 0.959,
+      "price": 8.47,
+      "pvp": 0.914,
       "yield_month_pct": 0.808,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 5253747540.01,
       "investors": 1509087.0,
       "source_url": "https://capitalagora.com.br/fiis/MXRF11",
@@ -241,12 +241,13 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.96",
+        "P/VP 0.91",
         "Rendimento mensal do informe: 0.81%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Monitorar",
       "observations": [
+        "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade",
         "Valor por cota divulgado: R$ 0,10"
       ],
       "cautions": [
@@ -261,11 +262,11 @@
       "ticker": "KNCR11",
       "name": "KINEA RENDIMENTOS IMOBILIARIOS FII RESPONSABILIDADE LIMITADA",
       "sector": "Recebíveis",
-      "price": 104.98,
-      "pvp": 1.024,
+      "price": 101.66,
+      "pvp": 0.992,
       "yield_month_pct": 1.2197,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 10978689824.66,
       "investors": 578802.0,
       "source_url": "https://capitalagora.com.br/fiis/KNCR11",
@@ -315,12 +316,12 @@
         }
       ],
       "news_topics": [],
-      "score": 69,
+      "score": 82,
       "missing": [],
       "notes": [
-        "P/VP 1.02",
+        "P/VP 0.99",
         "Rendimento mensal do informe: 1.22%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -338,11 +339,11 @@
       "ticker": "XPLG11",
       "name": "XP LOG FII RL",
       "sector": "Logística",
-      "price": 91.19,
-      "pvp": 0.869,
+      "price": 87.56,
+      "pvp": 0.835,
       "yield_month_pct": 0.7807,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 5390513988.23,
       "investors": 370912.0,
       "source_url": "https://capitalagora.com.br/fiis/XPLG11",
@@ -395,10 +396,10 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.87",
+        "P/VP 0.83",
         "Rendimento mensal do informe: 0.78%",
         "Vacância 3.8%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -418,11 +419,11 @@
       "ticker": "KNRI11",
       "name": "KINEA RENDA IMOBILIARIA FII RESPONSABILIDADE LIMITADA",
       "sector": "Híbrido",
-      "price": 150.5,
-      "pvp": 0.921,
+      "price": 145.67,
+      "pvp": 0.892,
       "yield_month_pct": 0.6727,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 4608084808.54,
       "investors": 313347.0,
       "source_url": "https://capitalagora.com.br/fiis/KNRI11",
@@ -475,10 +476,10 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.92",
+        "P/VP 0.89",
         "Rendimento mensal do informe: 0.67%",
         "Vacância 1.8%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -498,11 +499,11 @@
       "ticker": "RBRR11",
       "name": "PATRIA HIGH G FII",
       "sector": "Recebíveis",
-      "price": 65.01,
-      "pvp": 0.707,
+      "price": 62.0,
+      "pvp": 0.675,
       "yield_month_pct": 0.0,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 1498092893.79,
       "investors": 143338.0,
       "source_url": "https://capitalagora.com.br/fiis/RBRR11",
@@ -550,12 +551,12 @@
         }
       ],
       "news_topics": [],
-      "score": 46,
+      "score": 32,
       "missing": [],
       "notes": [
-        "P/VP 0.71",
+        "P/VP 0.68",
         "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -574,11 +575,11 @@
       "ticker": "PVBI11",
       "name": "VBI PRIME FII RL",
       "sector": "Lajes corporativas",
-      "price": 61.0,
-      "pvp": 0.584,
+      "price": 56.3,
+      "pvp": 0.539,
       "yield_month_pct": 0.4291,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 2835393868.28,
       "investors": 181927.0,
       "source_url": "https://capitalagora.com.br/fiis/PVBI11",
@@ -610,10 +611,10 @@
       "score": 31,
       "missing": [],
       "notes": [
-        "P/VP 0.58",
+        "P/VP 0.54",
         "Rendimento mensal do informe: 0.43%",
         "Vacância 20.0%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -634,11 +635,11 @@
       "ticker": "XPML11",
       "name": "PENINSULA FII RL",
       "sector": "Shoppings",
-      "price": 96.8,
+      "price": 94.15,
       "pvp": null,
       "yield_month_pct": 0.6393,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 5072222384.55,
       "investors": 11.0,
       "source_url": "https://capitalagora.com.br/fiis/XPML11",
@@ -694,7 +695,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -714,11 +715,11 @@
       "ticker": "VISC11",
       "name": "VINCI SHOPPING CENTERS FUNDO DE INVESTIMENTO IMOBILIÁRIO-FII",
       "sector": "Shoppings",
-      "price": 99.2,
-      "pvp": 0.859,
+      "price": 95.81,
+      "pvp": 0.83,
       "yield_month_pct": 0.7298,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 3327943047.27,
       "investors": 346986.0,
       "source_url": "https://capitalagora.com.br/fiis/VISC11",
@@ -771,9 +772,9 @@
         "vacância física"
       ],
       "notes": [
-        "P/VP 0.86",
+        "P/VP 0.83",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -792,11 +793,11 @@
       "ticker": "HGRU11",
       "name": "PÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
       "sector": "Renda urbana",
-      "price": 114.0,
-      "pvp": 0.889,
+      "price": 111.3,
+      "pvp": 0.868,
       "yield_month_pct": 0.7392,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 3183738355.82,
       "investors": 231215.0,
       "source_url": "https://capitalagora.com.br/fiis/HGRU11",
@@ -837,9 +838,9 @@
         "vacância física"
       ],
       "notes": [
-        "P/VP 0.89",
+        "P/VP 0.87",
         "Rendimento mensal do informe: 0.74%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -858,11 +859,11 @@
       "ticker": "VILG11",
       "name": "VINCI LOGISTICA FUNDO DE INVESTIMENTO IMOBILIARIO",
       "sector": "Logística",
-      "price": 89.6,
-      "pvp": 0.82,
+      "price": 86.19,
+      "pvp": 0.788,
       "yield_month_pct": 0.7501,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-10-30",
+      "quote_date": "2026-11-03",
       "equity": 1639545786.55,
       "investors": 149265.0,
       "source_url": "https://capitalagora.com.br/fiis/VILG11",
@@ -912,14 +913,14 @@
       "news_topics": [
         "vacância"
       ],
-      "score": 70,
+      "score": 53,
       "missing": [
         "vacância física"
       ],
       "notes": [
-        "P/VP 0.82",
+        "P/VP 0.79",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 125 dias"
+        "Informe antigo: 126 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -937,52 +938,52 @@
   ],
   "headlines": [
     {
-      "title": "Aumento de R$ 1 no salário mínimo custará R$ 405 mi em 2027, diz Tesouro",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/aumento-de-r-1-no-salario-minimo-custara-r-405-mi-em-2027-diz-tesouro/",
-      "source": "CNN Brasil • Brasil",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Mesmos erros: governo estuda tirar dinheiro do campo para financiar buraco das contas",
-      "url": "https://www.gazetadopovo.com.br/economia-cooperativa/cobranca-de-iof-sobre-lca-prejudicara-o-credito-cooperativo/",
+      "title": "Senador Eduardo Braga será o relator-geral do projeto de lei do Orçamento 2027",
+      "url": "https://www.gazetadopovo.com.br/economia/senador-eduardo-braga-sera-o-relator-geral-do-projeto-de-lei-do-orcamento-2027/",
       "source": "Gazeta do Povo · Economia • Brasil",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Economista citado por Lara Resende diz que ideia do brasileiro não foi testada",
+      "url": "https://www.estadao.com.br/economia/economista-citado-por-lara-resende-diz-que-ideia-do-brasileiro-nao-foi-testada/",
+      "source": "Estadão • Brasil",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Brasilcom pede corte de 15% nas metas do RenovaBio ao governo",
+      "url": "https://www.cnnbrasil.com.br/agro/distribuidoras-de-combustiveis-querem/",
+      "source": "CNN Brasil • Brasil",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Mercado fica dividido com a decisão do Federal Reserve de manter juros - CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXMyQkhVelN2Ty1GR0tUY2V1SWJ5WEFYa0F1dWQ5aHVPZjhETUJJQ3dOQnlsV2k2aUtxZXZhbmFTaW5YWHQzVDg5b01zR0htNzg4VlZCU2ctS2lqMXFEb29PR3dxTFMyb05KZDRsSExpN1dTVHp1cmRKSXMteXMySUh2VjNYV2pWWDZhVHB1QW5SVWtZampleWpheTNoeUJMeWFhZUh5Nlp1UHBxYnZmOXl1LVc5dXpJdXZ1eDZ1eUlrZG1TNTVjckdB?oc=5",
+      "source": "CNN Brasil • Exterior",
       "date": "2026-11-03"
     },
     {
-      "title": "Selic pode cair para 13,50% nesta quarta; veja os dados que podem mexer com o mercado",
-      "url": "https://www.suno.com.br/noticias/selic-copom-agenda-semana-mt/",
-      "source": "Suno Notícias • Brasil",
-      "date": "2026-11-03"
+      "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdjM4aWZLNld2QUdBbnBGb0c3TXI3SGtXaE9LUUN6akJxY0JldnE1WUNMRUswTGRLRkxHWV9nZEpIemJrQUlURGZoX0gwT2hCZUNmVXNNa3A5VENCdVNiSmVRa2NtZWV3LVdfX3pGWmRrX1diTVNRR2tiTDXSAYsBQVVfeXFMTmt2QUczMndUN3NENzNCdW9NNWlXajUyQVdMdk5WTWRmdnExbTJVaTdJVi1RUGhHbmRKeXZtWmZxRDVIN2pvbmVTZDY0ZXIybmtkYzZDR0dnRGlHSlhadExIYkRkMklmeG9OTjBlZ0lGSExoOW42Y21nNXkwNHZjQUxKTUVDbVByUXk0MA?oc=5",
+      "source": "G1 • Exterior",
+      "date": "2026-10-28"
     },
     {
-      "title": "Nova rota: BTG Pactual amplia plataforma para investir no exterior por meio de holdings patrimoniais",
-      "url": "https://www.seudinheiro.com/2026/financas-pessoais/nova-rota-btg-pactual-amplia-plataforma-para-investir-no-exterior-por-meio-de-holdings-patrimoniais-davs/",
-      "source": "Seu Dinheiro",
-      "date": "2026-11-03"
+      "title": "Goodman mira crescimento de 9% nos lucros anuais com alta demanda por data centers",
+      "url": "https://br.investing.com/news/stock-market-news/goodman-mira-crescimento-de-9-nos-lucros-anuais-com-alta-demanda-por-data-centers-2114067",
+      "source": "Investing.com Brasil",
+      "date": "2026-11-04"
     },
     {
-      "title": "Rei Charles se diz determinado a construir futuro melhor após vergonha da escravidão",
-      "url": "https://www.infomoney.com.br/mundo/rei-charles-se-diz-determinado-a-construir-futuro-melhor-apos-vergonha-da-escravidao/",
-      "source": "InfoMoney",
-      "date": "2026-11-03"
+      "title": "+49,6% desde março: a fabricante de chips escolhida pela nossa IA segue em alta após a queda da semana passada",
+      "url": "https://br.investing.com/news/stock-market-news/496-desde-marco-a-fabricante-de-chips-escolhida-pela-nossa-ia-segue-em-alta-apos-a-queda-da-semana-passada-2114065",
+      "source": "Investing.com Brasil",
+      "date": "2026-11-04"
     },
     {
-      "title": "Mulheres ampliam presença na direção de empresas, diz OIT",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/mulheres-ampliam-presenca-na-direcao-de-empresas-diz-oit.shtml",
+      "title": "Nova regra abre mercado de vale-refeição a partir de sábado sob resistência de grandes empresas",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/nova-regra-abre-mercado-de-vale-refeicao-a-partir-de-sabado-sob-resistencia-de-grandes-empresas.shtml",
       "source": "Folha · Mercado",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Bolsas da Europa caem com receio sobre setor tech e eleições nos EUA",
-      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/bolsas-da-europa-caem-com-receio-sobre-setor-tech-e-eleicoes-nos-eua/",
-      "source": "CNN Brasil",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "Eleição nos EUA pode mudar futuro político de Flávio Bolsonaro, diz analista",
-      "url": "https://www.infomoney.com.br/mundo/eleicao-nos-eua-pode-mudar-futuro-politico-de-flavio-bolsonaro-diz-analista/",
-      "source": "InfoMoney",
-      "date": "2026-11-03"
+      "date": "2026-11-04"
     }
   ],
   "macro": {
@@ -1025,8 +1026,6 @@
   "provider_status": {
     "capital_agora": true,
     "brapi_full": false,
-    "errors": [
-      "Google News RSS: HTTPError"
-    ]
+    "errors": []
   }
 }
