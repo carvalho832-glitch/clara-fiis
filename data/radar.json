@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T03:01:49+00:00",
+  "generated_at": "2026-11-04T18:39:50+00:00",
   "quote_date": "2026-11-03",
   "weekly_status": "Atualizado",
   "funds": [
@@ -42,6 +42,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "Fundo imobiliário BTLG11 embolsa R$ 56 milhões com venda de fatia de galpão; veja lucro por cota e detalhes da operação",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fundo-imobiliario-btlg11-embolsa-r-56-milhoes-com-venda-de-fatia-de-galpao-veja-lucro-por-cota-e-detalhes-da-operacao-igdl/",
+          "source": "Seu Dinheiro",
+          "date": "2026-11-04"
+        },
+        {
           "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
           "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
           "source": "Money Times",
@@ -52,18 +58,10 @@
           "url": "https://www.suno.com.br/noticias/btlg11-distribui-rendimentos-outubro-2026/",
           "source": "Suno Notícias",
           "date": "2026-10-16"
-        },
-        {
-          "title": "FII BTLG11 aprova 17ª emissão e pode captar até R$ 1,2 bilhão para novas aquisições",
-          "url": "https://www.infomoney.com.br/onde-investir/fii-btlg11-aprova-17a-emissao-e-pode-captar-ate-r-12-bilhao-para-novas-aquisicoes/",
-          "source": "InfoMoney",
-          "date": "2026-10-08"
         }
       ],
       "news_topics": [
-        "emissão de cotas",
-        "vacância",
-        "aquisições"
+        "vacância"
       ],
       "score": 90,
       "missing": [],
@@ -82,7 +80,6 @@
       "cautions": [
         "17ª emissão de cotas e aquisições em discussão; acompanhar diluição, caixa e novos contratos.",
         "Informe de patrimônio/rendimentos com mais de 90 dias",
-        "Notícia sobre emissão: avaliar diluição e uso do capital",
         "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
       ],
       "evidence_count": 6,
@@ -748,6 +745,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "VISC11 revela acordo para vender participações em shopping; confira",
+          "url": "https://www.suno.com.br/noticias/visc11-ganho-capital-48-mi/",
+          "source": "Suno Notícias",
+          "date": "2026-11-04"
+        },
+        {
           "title": "Dividendos de FIIs: 173 fundos podem pagar nesta sexta (30); confira",
           "url": "https://www.suno.com.br/noticias/dividendos-173-fiis-sexta-30/",
           "source": "Suno Notícias",
@@ -758,12 +761,6 @@
           "url": "https://www.suno.com.br/noticias/dividendos-de-fiis-outubro-2026/",
           "source": "Suno Notícias",
           "date": "2026-10-13"
-        },
-        {
-          "title": "Dividendo de 11,3%: Estes são os fundos imobiliários (FIIs) recomendados pelo BTG para outubro",
-          "url": "https://www.moneytimes.com.br/dividendo-de-113-estes-sao-os-fiis-recomendados-pelo-btg-para-outubro-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-01"
         }
       ],
       "news_topics": [],
@@ -938,28 +935,28 @@
   ],
   "headlines": [
     {
-      "title": "Senador Eduardo Braga será o relator-geral do projeto de lei do Orçamento 2027",
-      "url": "https://www.gazetadopovo.com.br/economia/senador-eduardo-braga-sera-o-relator-geral-do-projeto-de-lei-do-orcamento-2027/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "Economia perde força, emprego resiste: os dados que vão pesar na decisão do Copom",
+      "url": "https://www.moneytimes.com.br/economia-perde-forca-emprego-resiste-os-dados-que-vao-pesar-na-decisao-do-copom-nesta-quarta-feira-4-jcav/",
+      "source": "Money Times • Brasil",
       "date": "2026-11-04"
     },
     {
-      "title": "Economista citado por Lara Resende diz que ideia do brasileiro não foi testada",
-      "url": "https://www.estadao.com.br/economia/economista-citado-por-lara-resende-diz-que-ideia-do-brasileiro-nao-foi-testada/",
+      "title": "Após quebra de banco digital e bloqueio de contas, paraguaios protestam e pedem prisão de presidente",
+      "url": "https://www.estadao.com.br/economia/apos-quebra-de-banco-digital-paraguaios-protestam-e-pedem-prisao-de-santiago-pena-npr/",
       "source": "Estadão • Brasil",
       "date": "2026-11-04"
     },
     {
-      "title": "Brasilcom pede corte de 15% nas metas do RenovaBio ao governo",
-      "url": "https://www.cnnbrasil.com.br/agro/distribuidoras-de-combustiveis-querem/",
-      "source": "CNN Brasil • Brasil",
+      "title": "Caged: Brasil cria 121,3 mil vagas formais em setembro, abaixo do esperado",
+      "url": "https://www.moneytimes.com.br/caged-brasil-cria-1213-mil-vagas-formais-em-setembro-abaixo-do-esperado/",
+      "source": "Money Times • Brasil",
       "date": "2026-11-04"
     },
     {
-      "title": "Mercado fica dividido com a decisão do Federal Reserve de manter juros - CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXMyQkhVelN2Ty1GR0tUY2V1SWJ5WEFYa0F1dWQ5aHVPZjhETUJJQ3dOQnlsV2k2aUtxZXZhbmFTaW5YWHQzVDg5b01zR0htNzg4VlZCU2ctS2lqMXFEb29PR3dxTFMyb05KZDRsSExpN1dTVHp1cmRKSXMteXMySUh2VjNYV2pWWDZhVHB1QW5SVWtZampleWpheTNoeUJMeWFhZUh5Nlp1UHBxYnZmOXl1LVc5dXpJdXZ1eDZ1eUlrZG1TNTVjckdB?oc=5",
+      "title": "Análise: O Federal Reserve cometeu um erro ao manter a taxa de juros? - CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3c2M21vc2dRdFJNQzVSMmRUakxMZnVBU0luNElMb3FRRDJHUzZqNjlvTjNjWE5ZRThZMXVWcFE3N2pER0hSdExBUm01a1kzSVJHTmNJSVlpcm1YMnRNQlU5TjFRbVRydmVsU2hCTTFUS0M1VUdLOXRSRk9Vb3RTaGNpUnlWUDJlRUdfbFU2ZzNnMGltSWh2Ym9yV0RnVEFkNkRDd2U5endpRElMaDNCVHByVEI2TmRoU3NqQw?oc=5",
       "source": "CNN Brasil • Exterior",
-      "date": "2026-11-03"
+      "date": "2026-11-01"
     },
     {
       "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
@@ -968,28 +965,28 @@
       "date": "2026-10-28"
     },
     {
-      "title": "Goodman mira crescimento de 9% nos lucros anuais com alta demanda por data centers",
-      "url": "https://br.investing.com/news/stock-market-news/goodman-mira-crescimento-de-9-nos-lucros-anuais-com-alta-demanda-por-data-centers-2114067",
-      "source": "Investing.com Brasil",
+      "title": "MPRS denuncia seis por desvio de doações dos EUA para vítimas das enchentes",
+      "url": "https://www.cnnbrasil.com.br/nacional/sul/rs/mprs-denuncia-seis-por-desvio-de-doacoes-dos-eua-para-vitimas-das-enchentes/",
+      "source": "CNN Brasil",
       "date": "2026-11-04"
     },
     {
-      "title": "+49,6% desde março: a fabricante de chips escolhida pela nossa IA segue em alta após a queda da semana passada",
-      "url": "https://br.investing.com/news/stock-market-news/496-desde-marco-a-fabricante-de-chips-escolhida-pela-nossa-ia-segue-em-alta-apos-a-queda-da-semana-passada-2114065",
-      "source": "Investing.com Brasil",
+      "title": "Meta busca arrecadar 8,25 bi de euros em sua estreia na emissão de títulos na moeda europeia",
+      "url": "https://www.moneytimes.com.br/meta-busca-arrecadar-825-bi-de-euros-em-sua-estreia-na-emissao-de-titulos-na-moeda-europeia-rens/",
+      "source": "Money Times",
       "date": "2026-11-04"
     },
     {
-      "title": "Nova regra abre mercado de vale-refeição a partir de sábado sob resistência de grandes empresas",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/nova-regra-abre-mercado-de-vale-refeicao-a-partir-de-sabado-sob-resistencia-de-grandes-empresas.shtml",
-      "source": "Folha · Mercado",
+      "title": "Regra falta e mudança de escola: entenda PL que altera carreira de professor em SP",
+      "url": "https://www.infomoney.com.br/brasil/regra-falta-e-mudanca-de-escola-entenda-pl-que-altera-carreira-de-professor-em-sp/",
+      "source": "InfoMoney",
       "date": "2026-11-04"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
