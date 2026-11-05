@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T03:31:13+00:00",
+  "generated_at": "2026-11-05T18:46:42+00:00",
   "quote_date": "2026-11-04",
   "weekly_status": "Atualizado",
   "funds": [
@@ -745,6 +745,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "Fundo imobiliário vende fatias de shoppings por R$ 160 milhões; ganho pode chegar a R$ 1,66 por cota",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-vende-fatias-de-shoppings-por-r-160-milhoes-ganho-pode-chegar-a-r-166-por-cota-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-05"
+        },
+        {
           "title": "VISC11 revela acordo para vender participações em shopping; confira",
           "url": "https://www.suno.com.br/noticias/visc11-ganho-capital-48-mi/",
           "source": "Suno Notícias",
@@ -755,12 +761,6 @@
           "url": "https://www.suno.com.br/noticias/dividendos-173-fiis-sexta-30/",
           "source": "Suno Notícias",
           "date": "2026-10-30"
-        },
-        {
-          "title": "MXRF11, BRCO11 e mais FIIs: semana terá 180 pagamentos de dividendos",
-          "url": "https://www.suno.com.br/noticias/dividendos-de-fiis-outubro-2026/",
-          "source": "Suno Notícias",
-          "date": "2026-10-13"
         }
       ],
       "news_topics": [],
@@ -935,21 +935,21 @@
   ],
   "headlines": [
     {
-      "title": "Imóvel sobe mais que a inflação em 2026; veja onde o m² mais valorizou",
-      "url": "https://valorinveste.globo.com/mercados/renda-variavel/empresas/noticia/2026/11/05/imovel-sobe-mais-que-a-inflacao-em-2026-veja-onde-o-m-mais-valorizou.ghtml",
-      "source": "Valor Investe • Brasil",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Governo envia ao Congresso MP que regulamenta “imposto do pecado”",
-      "url": "https://www.gazetadopovo.com.br/economia/governo-envia-ao-congresso-mp-que-regulamenta-imposto-do-pecado/",
+      "title": "Alckmin recebe prefeita e executivos para discutir paralisação da Gerdau em Divinópolis",
+      "url": "https://www.gazetadopovo.com.br/economia/alckmin-recebe-prefeita-e-executivos-para-discutir-paralisacao-da-gerdau-em-divinopolis/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-05"
     },
     {
-      "title": "Futuro da Selic depende do governo Lula após Copom manter taxa em 13,75%, dizem analistas",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/futuro-da-selic-depende-do-governo-lula-apos-copom-manter-taxa-em-1375-dizem-analistas.shtml",
-      "source": "Folha · Mercado • Brasil",
+      "title": "Queda industrial em setembro ante agosto é mais intensa desde 2022",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/queda-industrial-em-setembro-ante-agosto-e-mais-intensa-desde-2022/",
+      "source": "CNN Brasil • Brasil",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Selic parada: por que Alberto Ramos, do Goldman Sachs, só vê novos cortes de juros em 2028",
+      "url": "https://www.seudinheiro.com/2026/economia/alberto-ramos-do-goldman-sachs-so-espera-novos-cortes-na-taxa-selic-em-2028-mlim/",
+      "source": "Seu Dinheiro • Brasil",
       "date": "2026-11-05"
     },
     {
@@ -965,21 +965,21 @@
       "date": "2026-10-28"
     },
     {
-      "title": "Alta de 37% desde março: a ação de TI escolhida por IA continua subindo",
-      "url": "https://br.investing.com/news/stock-market-news/alta-de-37-desde-marco-a-acao-de-ti-escolhida-por-ia-continua-subindo-2116412",
-      "source": "Investing.com Brasil",
+      "title": "Crises políticas relâmpago são marca da política paraguaia; entenda",
+      "url": "https://www.infomoney.com.br/politica/crises-politicas-relampago-sao-marca-da-politica-paraguaia-entenda/",
+      "source": "InfoMoney",
       "date": "2026-11-05"
     },
     {
-      "title": "Ações da Samsung despencam quase 6% em meio a pressões do setor",
-      "url": "https://br.investing.com/news/stock-market-news/acoes-da-samsung-despencam-quase-6-em-meio-a-pressoes-do-setor-93CH-2116405",
-      "source": "Investing.com Brasil",
+      "title": "Lula se reúne com Alckmin, Haddad, Mantega, ministros e economistas no Alvorada",
+      "url": "https://www.infomoney.com.br/politica/lula-se-reune-com-alckmin-haddad-mantega-ministros-e-economistas-no-alvorada/",
+      "source": "InfoMoney",
       "date": "2026-11-05"
     },
     {
-      "title": "PMI de serviços do Japão cresce pelo quinto mês consecutivo em outubro",
-      "url": "https://br.investing.com/news/stock-market-news/pmi-de-servicos-do-japao-cresce-pelo-quinto-mes-consecutivo-em-outubro-93CH-2116404",
-      "source": "Investing.com Brasil",
+      "title": "Morre aos 50 anos Kimmarie Johnson, de “Beverly Hills: 90210”, diz site",
+      "url": "https://www.cnnbrasil.com.br/pop/celebridades/morre-aos-50-anos-kimmarie-johnson-de-beverly-hills-90210-diz-site/",
+      "source": "CNN Brasil",
       "date": "2026-11-05"
     }
   ],
