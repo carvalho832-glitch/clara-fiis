@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T03:27:56+00:00",
+  "generated_at": "2026-11-06T18:00:16+00:00",
   "quote_date": "2026-11-05",
   "weekly_status": "Atualizado",
   "funds": [
@@ -294,6 +294,12 @@
       "payment_source": "https://www.fundsexplorer.com.br/noticias/kncr11-dividendos-outubro",
       "news": [
         {
+          "title": "A Selic estacionou, e este é o fundo imobiliário mais indicado por analistas para surfar a pausa",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/a-selic-estacionou-e-este-e-o-fundo-imobiliario-mais-indicado-por-analistas-para-surfar-a-pausa-igdl/",
+          "source": "Seu Dinheiro",
+          "date": "2026-11-06"
+        },
+        {
           "title": "Dividendos de 11,5%: Veja 15 fundos imobiliários (FIIs) para ter na carteira em novembro, segundo o BTG",
           "url": "https://www.moneytimes.com.br/dividendos-de-115-15-fundos-imobiliarios-fiis-para-ter-na-carteira-em-novembro-segundo-o-btg-igdl/",
           "source": "Money Times",
@@ -304,12 +310,6 @@
           "url": "https://www.suno.com.br/noticias/kncr11-renda-cdi-riscos-dados/",
           "source": "Suno Notícias",
           "date": "2026-10-22"
-        },
-        {
-          "title": "Dividendos do KNCR11 superam lucro de setembro e rendem 1,11% no mês",
-          "url": "https://www.suno.com.br/noticias/kncr11-distribui-r-121-mi/",
-          "source": "Suno Notícias",
-          "date": "2026-10-21"
         }
       ],
       "news_topics": [],
@@ -935,21 +935,27 @@
   ],
   "headlines": [
     {
-      "title": "IBGE abre inscrições para concurso com mais de 27 mil vagas e salários que podem superar R$ 4 mil",
-      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/11/06/ibge-abre-inscricoes-para-concurso-com-mais-de-27-mil-vagas-e-salarios-que-podem-superar-r-4-mil.ghtml",
-      "source": "G1 Economia • Brasil",
+      "title": "Concurso do IBGE: edital é publicado e são mais de 27 mil vagas temporárias",
+      "url": "https://www.infomoney.com.br/carreira/ibge-abre-vagas-temporarias-edital/",
+      "source": "InfoMoney • Brasil",
       "date": "2026-11-06"
     },
     {
-      "title": "Lula defende responsabilidade fiscal em meio à desconfiança do mercado",
-      "url": "https://www.gazetadopovo.com.br/economia/lula-defende-responsabilidade-fiscal-em-meio-a-desconfianca-do-mercado/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%",
+      "url": "https://www.infomoney.com.br/economia/xp-projecao-pib-2027-selic-dolar/",
+      "source": "InfoMoney • Brasil",
       "date": "2026-11-06"
     },
     {
-      "title": "'Não falei com Lula nem tenho nada marcado. Isso foi plantado para queimar alguém que defendeu a proposta', diz economista André Lara Resende",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/nao-falei-com-lula-nem-tenho-nada-marcado-isso-foi-plantado-para-queimar-alguem-que-defendeu-a-proposta-diz-economista-andre-lara-resende.shtml",
-      "source": "Folha · Mercado • Brasil",
+      "title": "CNPE cria grupo para elaborar estratégia nacional de eletromobilidade",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cnpe-cria-grupo-para-elaborar-estrategia-nacional-de-eletromobilidade",
+      "source": "Agência Brasil · Economia • Brasil",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Emprego forte nos EUA reduz espaço para corte de juros com inflação elevada - Economic News Brasil",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTUpoUEszaTVfYXNPdzU5VzlXTlZZcDNJWU5nN1BHVkFvVHJaN2NDQ29DMWx6UW9HVmE1T1kyWXVTa09XYlFXRVVTbFVyMDBkMkZhRmtCanBfRVNsQjZkYnh3QldId0VUWmlOdkpXZnZmUVJMMnRFQy1pTVBLaDZ2NF9zZzNlanpTa0JpMm8tUXFtTWM?oc=5",
+      "source": "Economic News Brasil • Exterior",
       "date": "2026-11-06"
     },
     {
@@ -959,34 +965,28 @@
       "date": "2026-11-03"
     },
     {
-      "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdjM4aWZLNld2QUdBbnBGb0c3TXI3SGtXaE9LUUN6akJxY0JldnE1WUNMRUswTGRLRkxHWV9nZEpIemJrQUlURGZoX0gwT2hCZUNmVXNNa3A5VENCdVNiSmVRa2NtZWV3LVdfX3pGWmRrX1diTVNRR2tiTDXSAYsBQVVfeXFMTmt2QUczMndUN3NENzNCdW9NNWlXajUyQVdMdk5WTWRmdnExbTJVaTdJVi1RUGhHbmRKeXZtWmZxRDVIN2pvbmVTZDY0ZXIybmtkYzZDR0dnRGlHSlhadExIYkRkMklmeG9OTjBlZ0lGSExoOW42Y21nNXkwNHZjQUxKTUVDbVByUXk0MA?oc=5",
-      "source": "G1 • Exterior",
-      "date": "2026-10-28"
-    },
-    {
-      "title": "Crise no Paraguai afetará correntistas, aposentados e saúde, diz professora",
-      "url": "https://www.cnnbrasil.com.br/internacional/crise-no-paraguai-afetara-correntistas-aposentados-e-saude-diz-professora/",
-      "source": "CNN Brasil",
+      "title": "WePink, da Virginia Fonseca, inaugura primeira loja física em Belo Horizonte",
+      "url": "https://www.infomoney.com.br/consumo/wepink-inaugura-primeira-loja-fisica-belo-horizonte/",
+      "source": "InfoMoney",
       "date": "2026-11-06"
     },
     {
-      "title": "Mega-Sena pode pagar R$ 55 milhões nesta sexta-feira; g1 transmite ao vivo",
-      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/11/06/mega-sena-pode-pagar-r-55-milhoes-nesta-sexta-feira-g1-transmite-ao-vivo.ghtml",
-      "source": "G1 Economia",
+      "title": "‘O pobre não pagará a conta’: a resposta de Lula às críticas sobre responsabilidade fiscal",
+      "url": "https://www.moneytimes.com.br/pobre-nao-pagara-a-conta-a-resposta-de-lula-as-criticas-sobre-responsabilidade-fiscal-ml/",
+      "source": "Money Times",
       "date": "2026-11-06"
     },
     {
-      "title": "'Quase todo meu dinheiro está preso no banco': brasileiros que foram para o Paraguai são afetados pela crise no país",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/06/brasileiros-que-foram-para-o-paraguai-sao-afetados-pela-crise-no-pais.ghtml",
-      "source": "G1 Economia",
+      "title": "Ações da Hims & Hers sobem com parceria direta com Eli Lilly para medicamentos contra obesidade",
+      "url": "https://br.investing.com/news/stock-market-news/acoes-da-hims--hers-sobem-com-parceria-direta-com-eli-lilly-para-medicamentos-contra-obesidade-2119480",
+      "source": "Investing.com Brasil",
       "date": "2026-11-06"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
