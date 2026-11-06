@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-05T18:46:42+00:00",
-  "quote_date": "2026-11-04",
+  "generated_at": "2026-11-06T03:27:56+00:00",
+  "quote_date": "2026-11-05",
   "weekly_status": "Atualizado",
   "funds": [
     {
       "ticker": "BTLG11",
       "name": "BTGP LOGISTICA FII",
       "sector": "Logística",
-      "price": 96.62,
-      "pvp": 0.904,
+      "price": 97.51,
+      "pvp": 0.912,
       "yield_month_pct": 0.9476,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 7580921710.93,
       "investors": 515243.0,
       "source_url": "https://capitalagora.com.br/fiis/BTLG11",
@@ -66,10 +66,10 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.90",
+        "P/VP 0.91",
         "Rendimento mensal do informe: 0.95%",
         "Vacância 1.2%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -89,11 +89,11 @@
       "ticker": "HGLG11",
       "name": "PÁTRIA LOG - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
       "sector": "Logística",
-      "price": 145.05,
-      "pvp": 0.872,
+      "price": 146.85,
+      "pvp": 0.882,
       "yield_month_pct": 0.7023,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 7589554105.43,
       "investors": 608345.0,
       "source_url": "https://capitalagora.com.br/fiis/HGLG11",
@@ -153,10 +153,10 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.87",
+        "P/VP 0.88",
         "Rendimento mensal do informe: 0.70%",
         "Vacância 2.7%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -176,11 +176,11 @@
       "ticker": "MXRF11",
       "name": "FII MAXI RENDA RL",
       "sector": "Recebíveis",
-      "price": 8.39,
-      "pvp": 0.906,
+      "price": 8.64,
+      "pvp": 0.933,
       "yield_month_pct": 0.808,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 5253747540.01,
       "investors": 1509087.0,
       "source_url": "https://capitalagora.com.br/fiis/MXRF11",
@@ -238,9 +238,9 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.91",
+        "P/VP 0.93",
         "Rendimento mensal do informe: 0.81%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -259,11 +259,11 @@
       "ticker": "KNCR11",
       "name": "KINEA RENDIMENTOS IMOBILIARIOS FII RESPONSABILIDADE LIMITADA",
       "sector": "Recebíveis",
-      "price": 102.45,
-      "pvp": 0.999,
+      "price": 102.16,
+      "pvp": 0.997,
       "yield_month_pct": 1.2197,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 10978689824.66,
       "investors": 578802.0,
       "source_url": "https://capitalagora.com.br/fiis/KNCR11",
@@ -318,7 +318,7 @@
       "notes": [
         "P/VP 1.00",
         "Rendimento mensal do informe: 1.22%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -336,11 +336,11 @@
       "ticker": "XPLG11",
       "name": "XP LOG FII RL",
       "sector": "Logística",
-      "price": 88.44,
-      "pvp": 0.843,
+      "price": 88.78,
+      "pvp": 0.846,
       "yield_month_pct": 0.7807,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 5390513988.23,
       "investors": 370912.0,
       "source_url": "https://capitalagora.com.br/fiis/XPLG11",
@@ -393,10 +393,10 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.84",
+        "P/VP 0.85",
         "Rendimento mensal do informe: 0.78%",
         "Vacância 3.8%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -416,11 +416,11 @@
       "ticker": "KNRI11",
       "name": "KINEA RENDA IMOBILIARIA FII RESPONSABILIDADE LIMITADA",
       "sector": "Híbrido",
-      "price": 146.02,
-      "pvp": 0.894,
+      "price": 147.89,
+      "pvp": 0.905,
       "yield_month_pct": 0.6727,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 4608084808.54,
       "investors": 313347.0,
       "source_url": "https://capitalagora.com.br/fiis/KNRI11",
@@ -473,10 +473,10 @@
       "score": 90,
       "missing": [],
       "notes": [
-        "P/VP 0.89",
+        "P/VP 0.91",
         "Rendimento mensal do informe: 0.67%",
         "Vacância 1.8%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -496,11 +496,11 @@
       "ticker": "RBRR11",
       "name": "PATRIA HIGH G FII",
       "sector": "Recebíveis",
-      "price": 61.38,
-      "pvp": 0.668,
+      "price": 63.0,
+      "pvp": 0.685,
       "yield_month_pct": 0.0,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 1498092893.79,
       "investors": 143338.0,
       "source_url": "https://capitalagora.com.br/fiis/RBRR11",
@@ -551,9 +551,9 @@
       "score": 32,
       "missing": [],
       "notes": [
-        "P/VP 0.67",
+        "P/VP 0.69",
         "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -572,11 +572,11 @@
       "ticker": "PVBI11",
       "name": "VBI PRIME FII RL",
       "sector": "Lajes corporativas",
-      "price": 58.8,
-      "pvp": 0.563,
+      "price": 60.76,
+      "pvp": 0.581,
       "yield_month_pct": 0.4291,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 2835393868.28,
       "investors": 181927.0,
       "source_url": "https://capitalagora.com.br/fiis/PVBI11",
@@ -608,10 +608,10 @@
       "score": 31,
       "missing": [],
       "notes": [
-        "P/VP 0.56",
+        "P/VP 0.58",
         "Rendimento mensal do informe: 0.43%",
         "Vacância 20.0%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -632,11 +632,11 @@
       "ticker": "XPML11",
       "name": "PENINSULA FII RL",
       "sector": "Shoppings",
-      "price": 94.65,
+      "price": 96.0,
       "pvp": null,
       "yield_month_pct": 0.6393,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 5072222384.55,
       "investors": 11.0,
       "source_url": "https://capitalagora.com.br/fiis/XPML11",
@@ -692,7 +692,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -712,11 +712,11 @@
       "ticker": "VISC11",
       "name": "VINCI SHOPPING CENTERS FUNDO DE INVESTIMENTO IMOBILIÁRIO-FII",
       "sector": "Shoppings",
-      "price": 97.37,
-      "pvp": 0.843,
+      "price": 98.98,
+      "pvp": 0.857,
       "yield_month_pct": 0.7298,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 3327943047.27,
       "investors": 346986.0,
       "source_url": "https://capitalagora.com.br/fiis/VISC11",
@@ -769,9 +769,9 @@
         "vacância física"
       ],
       "notes": [
-        "P/VP 0.84",
+        "P/VP 0.86",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -790,11 +790,11 @@
       "ticker": "HGRU11",
       "name": "PÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO",
       "sector": "Renda urbana",
-      "price": 113.13,
-      "pvp": 0.882,
+      "price": 113.75,
+      "pvp": 0.887,
       "yield_month_pct": 0.7392,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 3183738355.82,
       "investors": 231215.0,
       "source_url": "https://capitalagora.com.br/fiis/HGRU11",
@@ -835,9 +835,9 @@
         "vacância física"
       ],
       "notes": [
-        "P/VP 0.88",
+        "P/VP 0.89",
         "Rendimento mensal do informe: 0.74%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -856,11 +856,11 @@
       "ticker": "VILG11",
       "name": "VINCI LOGISTICA FUNDO DE INVESTIMENTO IMOBILIARIO",
       "sector": "Logística",
-      "price": 87.2,
-      "pvp": 0.798,
+      "price": 88.0,
+      "pvp": 0.805,
       "yield_month_pct": 0.7501,
       "source_reference": "2026-07-01",
-      "quote_date": "2026-11-04",
+      "quote_date": "2026-11-05",
       "equity": 1639545786.55,
       "investors": 149265.0,
       "source_url": "https://capitalagora.com.br/fiis/VILG11",
@@ -910,14 +910,14 @@
       "news_topics": [
         "vacância"
       ],
-      "score": 53,
+      "score": 70,
       "missing": [
         "vacância física"
       ],
       "notes": [
-        "P/VP 0.80",
+        "P/VP 0.81",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 127 dias"
+        "Informe antigo: 128 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -935,28 +935,28 @@
   ],
   "headlines": [
     {
-      "title": "Alckmin recebe prefeita e executivos para discutir paralisação da Gerdau em Divinópolis",
-      "url": "https://www.gazetadopovo.com.br/economia/alckmin-recebe-prefeita-e-executivos-para-discutir-paralisacao-da-gerdau-em-divinopolis/",
+      "title": "IBGE abre inscrições para concurso com mais de 27 mil vagas e salários que podem superar R$ 4 mil",
+      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/11/06/ibge-abre-inscricoes-para-concurso-com-mais-de-27-mil-vagas-e-salarios-que-podem-superar-r-4-mil.ghtml",
+      "source": "G1 Economia • Brasil",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Lula defende responsabilidade fiscal em meio à desconfiança do mercado",
+      "url": "https://www.gazetadopovo.com.br/economia/lula-defende-responsabilidade-fiscal-em-meio-a-desconfianca-do-mercado/",
       "source": "Gazeta do Povo · Economia • Brasil",
-      "date": "2026-11-05"
+      "date": "2026-11-06"
     },
     {
-      "title": "Queda industrial em setembro ante agosto é mais intensa desde 2022",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/queda-industrial-em-setembro-ante-agosto-e-mais-intensa-desde-2022/",
-      "source": "CNN Brasil • Brasil",
-      "date": "2026-11-05"
+      "title": "'Não falei com Lula nem tenho nada marcado. Isso foi plantado para queimar alguém que defendeu a proposta', diz economista André Lara Resende",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/nao-falei-com-lula-nem-tenho-nada-marcado-isso-foi-plantado-para-queimar-alguem-que-defendeu-a-proposta-diz-economista-andre-lara-resende.shtml",
+      "source": "Folha · Mercado • Brasil",
+      "date": "2026-11-06"
     },
     {
-      "title": "Selic parada: por que Alberto Ramos, do Goldman Sachs, só vê novos cortes de juros em 2028",
-      "url": "https://www.seudinheiro.com/2026/economia/alberto-ramos-do-goldman-sachs-so-espera-novos-cortes-na-taxa-selic-em-2028-mlim/",
-      "source": "Seu Dinheiro • Brasil",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Análise: O Federal Reserve cometeu um erro ao manter a taxa de juros? - CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3c2M21vc2dRdFJNQzVSMmRUakxMZnVBU0luNElMb3FRRDJHUzZqNjlvTjNjWE5ZRThZMXVWcFE3N2pER0hSdExBUm01a1kzSVJHTmNJSVlpcm1YMnRNQlU5TjFRbVRydmVsU2hCTTFUS0M1VUdLOXRSRk9Vb3RTaGNpUnlWUDJlRUdfbFU2ZzNnMGltSWh2Ym9yV0RnVEFkNkRDd2U5endpRElMaDNCVHByVEI2TmRoU3NqQw?oc=5",
+      "title": "Mercado fica dividido com a decisão do Federal Reserve de manter juros - CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXMyQkhVelN2Ty1GR0tUY2V1SWJ5WEFYa0F1dWQ5aHVPZjhETUJJQ3dOQnlsV2k2aUtxZXZhbmFTaW5YWHQzVDg5b01zR0htNzg4VlZCU2ctS2lqMXFEb29PR3dxTFMyb05KZDRsSExpN1dTVHp1cmRKSXMteXMySUh2VjNYV2pWWDZhVHB1QW5SVWtZampleWpheTNoeUJMeWFhZUh5Nlp1UHBxYnZmOXl1LVc5dXpJdXZ1eDZ1eUlrZG1TNTVjckdB?oc=5",
       "source": "CNN Brasil • Exterior",
-      "date": "2026-11-01"
+      "date": "2026-11-03"
     },
     {
       "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
@@ -965,22 +965,22 @@
       "date": "2026-10-28"
     },
     {
-      "title": "Crises políticas relâmpago são marca da política paraguaia; entenda",
-      "url": "https://www.infomoney.com.br/politica/crises-politicas-relampago-sao-marca-da-politica-paraguaia-entenda/",
-      "source": "InfoMoney",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Lula se reúne com Alckmin, Haddad, Mantega, ministros e economistas no Alvorada",
-      "url": "https://www.infomoney.com.br/politica/lula-se-reune-com-alckmin-haddad-mantega-ministros-e-economistas-no-alvorada/",
-      "source": "InfoMoney",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Morre aos 50 anos Kimmarie Johnson, de “Beverly Hills: 90210”, diz site",
-      "url": "https://www.cnnbrasil.com.br/pop/celebridades/morre-aos-50-anos-kimmarie-johnson-de-beverly-hills-90210-diz-site/",
+      "title": "Crise no Paraguai afetará correntistas, aposentados e saúde, diz professora",
+      "url": "https://www.cnnbrasil.com.br/internacional/crise-no-paraguai-afetara-correntistas-aposentados-e-saude-diz-professora/",
       "source": "CNN Brasil",
-      "date": "2026-11-05"
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Mega-Sena pode pagar R$ 55 milhões nesta sexta-feira; g1 transmite ao vivo",
+      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/11/06/mega-sena-pode-pagar-r-55-milhoes-nesta-sexta-feira-g1-transmite-ao-vivo.ghtml",
+      "source": "G1 Economia",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "'Quase todo meu dinheiro está preso no banco': brasileiros que foram para o Paraguai são afetados pela crise no país",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/06/brasileiros-que-foram-para-o-paraguai-sao-afetados-pela-crise-no-pais.ghtml",
+      "source": "G1 Economia",
+      "date": "2026-11-06"
     }
   ],
   "macro": {
