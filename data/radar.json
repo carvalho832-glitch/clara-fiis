@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T02:50:52+00:00",
+  "generated_at": "2026-11-09T21:27:30+00:00",
   "quote_date": "2026-11-06",
   "weekly_status": "Atualizado",
   "funds": [
@@ -42,34 +42,32 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "BTLG11 atualiza portfólio, lucros e planos de expansão; confira",
+          "url": "https://www.suno.com.br/noticias/btlg11-lucro-setembro-compra-galpoes-logisticos/",
+          "source": "Suno Notícias",
+          "date": "2026-11-09"
+        },
+        {
+          "title": "KNCR11, BTLG11 e mais: estes são os FIIs mais recomendados pelos analistas para novembro",
+          "url": "https://www.moneytimes.com.br/kncr11-btlg11-e-mais-estes-sao-os-fiis-mais-recomendados-pelos-analistas-para-novembro-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-09"
+        },
+        {
           "title": "Fundo imobiliário BTLG11 embolsa R$ 56 milhões com venda de fatia de galpão; veja lucro por cota e detalhes da operação",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fundo-imobiliario-btlg11-embolsa-r-56-milhoes-com-venda-de-fatia-de-galpao-veja-lucro-por-cota-e-detalhes-da-operacao-igdl/",
           "source": "Seu Dinheiro",
           "date": "2026-11-04"
-        },
-        {
-          "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
-          "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-22"
-        },
-        {
-          "title": "BTLG11 anuncia novos dividendos para outubro; veja quem recebe",
-          "url": "https://www.suno.com.br/noticias/btlg11-distribui-rendimentos-outubro-2026/",
-          "source": "Suno Notícias",
-          "date": "2026-10-16"
         }
       ],
-      "news_topics": [
-        "vacância"
-      ],
+      "news_topics": [],
       "score": 90,
       "missing": [],
       "notes": [
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.95%",
         "Vacância 1.2%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -156,7 +154,7 @@
         "P/VP 0.88",
         "Rendimento mensal do informe: 0.70%",
         "Vacância 2.7%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -240,7 +238,7 @@
       "notes": [
         "P/VP 0.95",
         "Rendimento mensal do informe: 0.81%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -294,6 +292,12 @@
       "payment_source": "https://www.fundsexplorer.com.br/noticias/kncr11-dividendos-outubro",
       "news": [
         {
+          "title": "KNCR11, BTLG11 e mais: estes são os FIIs mais recomendados pelos analistas para novembro",
+          "url": "https://www.moneytimes.com.br/kncr11-btlg11-e-mais-estes-sao-os-fiis-mais-recomendados-pelos-analistas-para-novembro-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-09"
+        },
+        {
           "title": "A Selic estacionou, e este é o fundo imobiliário mais indicado por analistas para surfar a pausa",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/a-selic-estacionou-e-este-e-o-fundo-imobiliario-mais-indicado-por-analistas-para-surfar-a-pausa-igdl/",
           "source": "Seu Dinheiro",
@@ -304,12 +308,6 @@
           "url": "https://www.moneytimes.com.br/dividendos-de-115-15-fundos-imobiliarios-fiis-para-ter-na-carteira-em-novembro-segundo-o-btg-igdl/",
           "source": "Money Times",
           "date": "2026-11-03"
-        },
-        {
-          "title": "Juros em queda: o que pode mudar para o KNCR11 e seus dividendos?",
-          "url": "https://www.suno.com.br/noticias/kncr11-renda-cdi-riscos-dados/",
-          "source": "Suno Notícias",
-          "date": "2026-10-22"
         }
       ],
       "news_topics": [],
@@ -318,7 +316,7 @@
       "notes": [
         "P/VP 1.00",
         "Rendimento mensal do informe: 1.22%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -396,7 +394,7 @@
         "P/VP 0.84",
         "Rendimento mensal do informe: 0.78%",
         "Vacância 3.8%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -449,6 +447,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "KNRI11: como funciona o fundo imobiliário da Kinea",
+          "url": "https://www.suno.com.br/noticias/knri11-imoveis-inquilinos-dividendos-fundo/",
+          "source": "Suno Notícias",
+          "date": "2026-11-09"
+        },
+        {
           "title": "Calendário de dividendos em novembro: veja quanto pagam MXRF11, KNRI11 e outros FIIs",
           "url": "https://www.infomoney.com.br/onde-investir/calendario-de-dividendos-em-novembro-veja-quanto-pagam-mxrf11-knri11-e-outros-fiis/",
           "source": "InfoMoney",
@@ -459,12 +463,6 @@
           "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
           "source": "Money Times",
           "date": "2026-10-22"
-        },
-        {
-          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
-          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-01"
         }
       ],
       "news_topics": [
@@ -476,7 +474,7 @@
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.67%",
         "Vacância 1.8%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -535,7 +533,7 @@
         "P/VP 0.60",
         "Rendimento mensal do informe: 0.43%",
         "Vacância 20.0%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -616,7 +614,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -695,7 +693,7 @@
       "notes": [
         "P/VP 0.87",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -747,6 +745,18 @@
       "payment_source": null,
       "news": [
         {
+          "title": "Fundo imobiliário espera embolsar R$ 21,5 milhões com venda de lojas da Pernambucanas; veja quanto isso rende por cota",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fundo-imobiliario-espera-embolsar-r-215-milhoes-com-venda-de-lojas-da-pernambucanas-veja-quanto-isso-rende-por-cota-igdl/",
+          "source": "Seu Dinheiro",
+          "date": "2026-11-09"
+        },
+        {
+          "title": "Fundo imobiliário garante lucro de R$ 0,85 por cota com venda de lojas da Pernambucanas; IFIX cai em novembro",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-garante-lucro-de-r-085-por-cota-com-venda-de-lojas-da-pernambucanas-ifix-cai-em-novembro-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-09"
+        },
+        {
           "title": "Carrefour notifica ao Cade venda de 22 imóveis a fundo imobiliário do Patria",
           "url": "https://www.moneytimes.com.br/carrefour-notifica-ao-cade-venda-de-22-imoveis-a-fundo-de-investimento-imobiliario-patria-igdl/",
           "source": "Money Times",
@@ -761,7 +771,7 @@
       "notes": [
         "P/VP 0.90",
         "Rendimento mensal do informe: 0.74%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -841,7 +851,7 @@
       "notes": [
         "P/VP 0.82",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -918,7 +928,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 129 dias"
+        "Informe antigo: 131 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [],
@@ -934,58 +944,58 @@
   ],
   "headlines": [
     {
-      "title": "Juros: combinação de fatores compõe cenário em que dificilmente Copom evitará novas altas na Selic",
-      "url": "https://www.estadao.com.br/economia/jose-marcio-camargo/juros-combinacao-de-fatores-compoe-cenario-em-que-dificilmente-copom-evitara-novas-altas-na-selic/",
-      "source": "Estadão • Brasil",
-      "date": "2026-11-07"
-    },
-    {
-      "title": "Não basta defender juros menores; é preciso criar as condições para que sua queda seja sustentável",
-      "url": "https://www.estadao.com.br/economia/fabio-gallo/nao-basta-defender-juros-menores-e-preciso-criar-as-condicoes-para-que-sua-queda-seja-sustentavel/",
-      "source": "Estadão • Brasil",
-      "date": "2026-11-07"
-    },
-    {
-      "title": "Presidente do TRF3 suspende liminar que autorizava volta de bets",
-      "url": "https://www.gazetadopovo.com.br/economia/presidente-do-trf3-suspende-liminar-que-autorizava-volta-de-bets/",
+      "title": "O que é o “mercado”, que Lula insiste em atacar, e por que ele cobra ajuste fiscal",
+      "url": "https://www.gazetadopovo.com.br/economia/mercado-ajuste-fiscal-lula/",
       "source": "Gazeta do Povo · Economia • Brasil",
-      "date": "2026-11-07"
+      "date": "2026-11-09"
     },
     {
-      "title": "Operadores ampliam aposta de alta de juros nos EUA após dados de emprego - CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT1JMdTE3X0Z5ZlFoWUc1RktjN0NEbERqdjNyVE11R1hWTUVlMHRWOEdNX3JjOG9wY2QweV9TelBMV01fcENtNFdXSXVyNlQySDdQaHdQQ2dOVVBOT1FXbmlxRERhTVpybGNTdXg1U01fXzdqZTFOdTJ5cjlmM2QwX0pYNkJ1WVdSUUJqd2hIb09kX3BYRnplcFR1b0pNR3NpYVdzZVZoR0Iwbm1rb2RVV1BDSHpZZ0NJR1NHMnRlZlpTZDNfYU9fYU1sYw?oc=5",
+      "title": "Discurso contraditório de Lula não convence economistas e frustra mercado",
+      "url": "https://www.gazetadopovo.com.br/economia/discurso-contraditorio-de-lula-nao-convence-economistas-e-frustra-mercado/",
+      "source": "Gazeta do Povo · Economia • Brasil",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "BC passa a divulgar lista de empresas aptas a operar com criptoativos",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-passa-divulgar-lista-de-empresas-aptas-operar-com-criptoativos",
+      "source": "Agência Brasil · Economia • Brasil",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "Mercado fica dividido com a decisão do Federal Reserve de manter juros - CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXMyQkhVelN2Ty1GR0tUY2V1SWJ5WEFYa0F1dWQ5aHVPZjhETUJJQ3dOQnlsV2k2aUtxZXZhbmFTaW5YWHQzVDg5b01zR0htNzg4VlZCU2ctS2lqMXFEb29PR3dxTFMyb05KZDRsSExpN1dTVHp1cmRKSXMteXMySUh2VjNYV2pWWDZhVHB1QW5SVWtZampleWpheTNoeUJMeWFhZUh5Nlp1UHBxYnZmOXl1LVc5dXpJdXZ1eDZ1eUlrZG1TNTVjckdB?oc=5",
       "source": "CNN Brasil • Exterior",
-      "date": "2026-11-06"
+      "date": "2026-11-09"
     },
     {
-      "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdjM4aWZLNld2QUdBbnBGb0c3TXI3SGtXaE9LUUN6akJxY0JldnE1WUNMRUswTGRLRkxHWV9nZEpIemJrQUlURGZoX0gwT2hCZUNmVXNNa3A5VENCdVNiSmVRa2NtZWV3LVdfX3pGWmRrX1diTVNRR2tiTDXSAYsBQVVfeXFMTmt2QUczMndUN3NENzNCdW9NNWlXajUyQVdMdk5WTWRmdnExbTJVaTdJVi1RUGhHbmRKeXZtWmZxRDVIN2pvbmVTZDY0ZXIybmtkYzZDR0dnRGlHSlhadExIYkRkMklmeG9OTjBlZ0lGSExoOW42Y21nNXkwNHZjQUxKTUVDbVByUXk0MA?oc=5",
-      "source": "G1 • Exterior",
-      "date": "2026-10-28"
+      "title": "Dirigente do Fed reconhece que BC dos EUA está falhando em conter a inflação - Money Times",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVUZvVk50eFJIaEJSRXp1WFQ0STBUNU13WTZvVDNVMXJkbTRBaWw2MVZ3aVVTVWFsZXdIUHJOT3B2UVVXNW5KNG1nZ3N1LTB6ZS1SdkJRcDNteUhPRzBZV0w5bmYycDV4Q2hpRnQ1aEdMdkh0c2xTTVBJR2JZSFZqWUNXTjM4SHIzOUFHTXVnQTlEMmhMZTRxWTFGamdTVmRlMFFrSnVmSEl4eHFqd09nZ29n?oc=5",
+      "source": "Money Times • Exterior",
+      "date": "2026-11-09"
     },
     {
-      "title": "Agricultura familiar precisa de apoio que vá além do discurso",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/laura-machado/2026/11/agricultura-familiar-precisa-de-apoio-que-va-alem-do-discurso.shtml",
-      "source": "Folha · Mercado",
-      "date": "2026-11-07"
+      "title": "IFIX abre semana com queda de 1,05% e encerra sessão em 3.590 pontos",
+      "url": "https://www.suno.com.br/noticias/ifix-cai-nesta-segunda-feira-pregao/",
+      "source": "Suno Notícias",
+      "date": "2026-11-09"
     },
     {
-      "title": "Livro reúne método de empreendedor para escalar negócios",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/livro-reune-metodo-de-empreendedor-para-escalar-negocios.shtml",
-      "source": "Folha · Mercado",
-      "date": "2026-11-07"
+      "title": "The Trade Desk enfrenta dificuldades para retomar o crescimento após queda na receita trimestral",
+      "url": "https://br.investing.com/news/stock-market-news/the-trade-desk-enfrenta-dificuldades-para-retomar-o-crescimento-apos-queda-na-receita-trimestral-2121274",
+      "source": "Investing.com Brasil",
+      "date": "2026-11-09"
     },
     {
-      "title": "Governo prevê R$ 12 bi para passe livre nos fins de semana, mas setor estima custo maior",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/governo-preve-r-12-bi-para-passe-livre-nos-fins-de-semana-mas-setor-estima-custo-maior.shtml",
-      "source": "Folha · Mercado",
-      "date": "2026-11-07"
+      "title": "Ibovespa fecha em alta puxada por Vale e bancos e endossada por NY",
+      "url": "https://br.investing.com/news/stock-market-news/ibovespa-fecha-em-alta-puxada-por-vale-e-bancos-e-endossada-por-ny-2121268",
+      "source": "Investing.com Brasil",
+      "date": "2026-11-09"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
