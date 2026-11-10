@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:38:31+00:00",
+  "generated_at": "2026-11-10T18:41:09+00:00",
   "quote_date": "2026-11-09",
   "weekly_status": "Atualizado",
   "funds": [
@@ -42,22 +42,22 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "CPLG11 vende ativos ao BTG Pactual Logística e estima R$140,6 mi",
+          "url": "https://www.suno.com.br/noticias/cplg11-venda-ativos-resultado-btg-pactual-logistica/",
+          "source": "Suno Notícias",
+          "date": "2026-11-10"
+        },
+        {
+          "title": "BTLG11 fecha compra de galpões logísticos da Capitânia",
+          "url": "https://www.suno.com.br/noticias/btlg11-adquire-galpoes-logisticos-capitania/",
+          "source": "Suno Notícias",
+          "date": "2026-11-10"
+        },
+        {
           "title": "BTLG11 atualiza portfólio, lucros e planos de expansão; confira",
           "url": "https://www.suno.com.br/noticias/btlg11-lucro-setembro-compra-galpoes-logisticos/",
           "source": "Suno Notícias",
           "date": "2026-11-09"
-        },
-        {
-          "title": "KNCR11, BTLG11 e mais: estes são os FIIs mais recomendados pelos analistas para novembro",
-          "url": "https://www.moneytimes.com.br/kncr11-btlg11-e-mais-estes-sao-os-fiis-mais-recomendados-pelos-analistas-para-novembro-igdl/",
-          "source": "Money Times",
-          "date": "2026-11-09"
-        },
-        {
-          "title": "Fundo imobiliário BTLG11 embolsa R$ 56 milhões com venda de fatia de galpão; veja lucro por cota e detalhes da operação",
-          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fundo-imobiliario-btlg11-embolsa-r-56-milhoes-com-venda-de-fatia-de-galpao-veja-lucro-por-cota-e-detalhes-da-operacao-igdl/",
-          "source": "Seu Dinheiro",
-          "date": "2026-11-04"
         }
       ],
       "news_topics": [],
@@ -127,6 +127,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "LVBI11 supera barreira regulatória e avança rumo ao HGLG11",
+          "url": "https://www.suno.com.br/noticias/lvbi11-incorporacao-hglg11-aprovada-cvm/",
+          "source": "Suno Notícias",
+          "date": "2026-11-10"
+        },
+        {
           "title": "Dividendos de FIIs: 173 fundos podem pagar nesta sexta (30); confira",
           "url": "https://www.suno.com.br/noticias/dividendos-173-fiis-sexta-30/",
           "source": "Suno Notícias",
@@ -137,17 +143,9 @@
           "url": "https://www.moneytimes.com.br/fundo-imobiliario-compra-patio-logistico-por-r-10-milhoes-veja-detalhes-igdl/",
           "source": "Money Times",
           "date": "2026-10-26"
-        },
-        {
-          "title": "HGLG11 amplia portfólio com aquisição no Parque Logístico Guarulhos",
-          "url": "https://www.suno.com.br/noticias/hglg11-compra-patio-gru-guarulhos/",
-          "source": "Suno Notícias",
-          "date": "2026-10-23"
         }
       ],
-      "news_topics": [
-        "aquisições"
-      ],
+      "news_topics": [],
       "score": 90,
       "missing": [],
       "notes": [
@@ -524,7 +522,14 @@
       "latest_com_date": null,
       "com_date_history": [],
       "payment_source": null,
-      "news": [],
+      "news": [
+        {
+          "title": "FIIs de escritórios seguem descontados na bolsa, aponta BTG; veja os favoritos do banco",
+          "url": "https://www.moneytimes.com.br/dividendos-de-ate-12-btg-recomenda-6-fundos-imobiliarios-fiis-de-escritorios-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-10"
+        }
+      ],
       "news_topics": [],
       "score": 31,
       "missing": [],
@@ -943,58 +948,58 @@
   ],
   "headlines": [
     {
-      "title": "China supera US$ 1 trilhão em superávit com impulso da IA",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/10/china-supera-us-1-trilhao-em-superavit-com-impulso-da-ia.ghtml",
-      "source": "G1 Economia • Brasil",
+      "title": "Mais de R$ 6 bilhões aguardam resgate no sistema financeiro, diz Banco Central; veja como sacar",
+      "url": "https://www.seudinheiro.com/2026/economia/mais-de-r-6-bilhoes-aguardam-resgate-no-sistema-financeiro-diz-banco-central-veja-como-sacar-mlem/",
+      "source": "Seu Dinheiro • Brasil",
       "date": "2026-11-10"
     },
     {
-      "title": "Crise no Ueno Bank e impeachment de Peña geram cautela entre brasileiros no Paraguai",
-      "url": "https://www.gazetadopovo.com.br/economia/crise-no-ueno-bank-e-impeachment-de-pena-geram-cautela-entre-brasileiros-no-paraguai/",
+      "title": "Banco Central diz que dinheiro esquecido no sistema financeiro ultrapassa R$ 6 bilhões",
+      "url": "https://www.moneytimes.com.br/banco-central-diz-que-dinheiro-esquecido-no-sistema-financeiro-ultrapassa-r-6-bilhoes-mlem/",
+      "source": "Money Times • Brasil",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Vieira de Mello Filho defende aplicação imediata do fim da escala 6×1 no varejo",
+      "url": "https://www.gazetadopovo.com.br/economia/vieira-de-mello-filho-defende-aplicacao-imediata-do-fim-da-escala-6x1-no-varejo/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-10"
     },
     {
-      "title": "Subsídios do governo Lula garantem oferta de óleo diesel mas preço sobe no Brasil",
-      "url": "https://www.gazetadopovo.com.br/economia/subsidios-do-governo-lula-garantem-oferta-de-oleo-diesel-mas-preco-sobe-no-brasil/",
-      "source": "Gazeta do Povo · Economia • Brasil",
-      "date": "2026-11-10"
-    },
-    {
-      "title": "Mercado fica dividido com a decisão do Federal Reserve de manter juros - CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXMyQkhVelN2Ty1GR0tUY2V1SWJ5WEFYa0F1dWQ5aHVPZjhETUJJQ3dOQnlsV2k2aUtxZXZhbmFTaW5YWHQzVDg5b01zR0htNzg4VlZCU2ctS2lqMXFEb29PR3dxTFMyb05KZDRsSExpN1dTVHp1cmRKSXMteXMySUh2VjNYV2pWWDZhVHB1QW5SVWtZampleWpheTNoeUJMeWFhZUh5Nlp1UHBxYnZmOXl1LVc5dXpJdXZ1eDZ1eUlrZG1TNTVjckdB?oc=5",
-      "source": "CNN Brasil • Exterior",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "Dirigente do Fed reconhece que BC dos EUA está falhando em conter a inflação - Money Times",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVUZvVk50eFJIaEJSRXp1WFQ0STBUNU13WTZvVDNVMXJkbTRBaWw2MVZ3aVVTVWFsZXdIUHJOT3B2UVVXNW5KNG1nZ3N1LTB6ZS1SdkJRcDNteUhPRzBZV0w5bmYycDV4Q2hpRnQ1aEdMdkh0c2xTTVBJR2JZSFZqWUNXTjM4SHIzOUFHTXVnQTlEMmhMZTRxWTFGamdTVmRlMFFrSnVmSEl4eHFqd09nZ29n?oc=5",
+      "title": "Juros nos EUA: dirigente do Fed avalia serem necessárias mais 2 altas de 0,25 p.p. - Money Times",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZXJmUHBqWTNxNnR1dVdiUWpvTTVidjM2WkZWN2JFTERpdE9FWnp1NUs5c0pBNThkSExONFNBQkRYbkxVWENOVzBSbEw2VEhTMFpfVnBxd3dmSDlTeV9Ld3JucGpGZEtzSkFxd256MDh1N2JEUEZ4dWlTM1gwRHBJeEZaTzZLekw4QkplcnR1UmRtLVhHcmlITFo0ZTl6WjF6YkdUeHZ5ZUFwX3JKSVNtenBhc3drczFDVEpN?oc=5",
       "source": "Money Times • Exterior",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "Ações asiáticas disparam com chips coreanos e recuo do petróleo",
-      "url": "https://br.investing.com/news/stock-market-news/acoes-asiaticas-disparam-com-chips-coreanos-e-recuo-do-petroleo-2121635",
-      "source": "Investing.com Brasil",
       "date": "2026-11-10"
     },
     {
-      "title": "O futuro da economia brasileira no quarto mandato de Lula - O Assunto #1842",
-      "url": "https://g1.globo.com/podcast/o-assunto/noticia/2026/11/10/o-futuro-da-economia-brasileira-no-quarto-mandato-de-lula-o-assunto-1842.ghtml",
-      "source": "G1 Economia",
+      "title": "Juros altos no Brasil e nos EUA ampliam risco de recessão - Poder360",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlNTbWRMT2MtdU55RGg1ZW90YkNNSTBlZlZpRGdQMFY1VmtVMlIyUnhzYzE1REp3MV9adlFSaUpIRlhBa3BuY09Rbm1XMUlEME9HdVhUNzRnMnNjR2RaTDhTQWZ2Z2NqbzlucEpGbXZ4RlBKQVl2UkNTTE9HU29pWkx0ZkxieUQ2YUNnVkNaNEt5WW9LM3MwdUhB?oc=5",
+      "source": "Poder360 • Exterior",
       "date": "2026-11-10"
     },
     {
-      "title": "Trump diz que FBI investiga CEO da Nvidia por escândalo com espiã chinesa",
-      "url": "https://br.investing.com/news/stock-market-news/trump-diz-que-fbi-investiga-ceo-da-nvidia-por-escandalo-com-espia-chinesa-2121631",
-      "source": "Investing.com Brasil",
+      "title": "Comissão aprova relatório da MP do endividamento rural",
+      "url": "https://www.cnnbrasil.com.br/agro/comissao-aprova-relatorio-da-mp-do-endividamento-rural/",
+      "source": "CNN Brasil",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Enem: jogos de tabuleiro e ábaco podem ajudar na preparação para 2º dia",
+      "url": "https://www.cnnbrasil.com.br/educacao/enem-jogos-de-tabuleiro-e-abaco-podem-ajudar-na-preparacao-para-2o-dia/",
+      "source": "CNN Brasil",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Papa Leão XIV pode visitar o Brasil e se reunir com Lula em 2027",
+      "url": "https://www.cnnbrasil.com.br/internacional/papa-leao-xiv-pode-visitar-o-brasil-e-se-reunir-com-lula-em-2027/",
+      "source": "CNN Brasil",
       "date": "2026-11-10"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
