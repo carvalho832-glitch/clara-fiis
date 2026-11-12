@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T03:49:38+00:00",
+  "generated_at": "2026-11-12T18:57:38+00:00",
   "quote_date": "2026-11-11",
   "weekly_status": "Atualizado",
   "funds": [
@@ -42,6 +42,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "BTLG11: inquilinos, contratos e payout em outubro",
+          "url": "https://www.suno.com.br/noticias/btlg11-carteira-logistica-contratos-dividendos/",
+          "source": "Suno Notícias",
+          "date": "2026-11-12"
+        },
+        {
           "title": "CPLG11 vende ativos ao BTG Pactual Logística e estima R$140,6 mi",
           "url": "https://www.suno.com.br/noticias/cplg11-venda-ativos-resultado-btg-pactual-logistica/",
           "source": "Suno Notícias",
@@ -52,12 +58,6 @@
           "url": "https://www.suno.com.br/noticias/btlg11-adquire-galpoes-logisticos-capitania/",
           "source": "Suno Notícias",
           "date": "2026-11-10"
-        },
-        {
-          "title": "BTLG11 atualiza portfólio, lucros e planos de expansão; confira",
-          "url": "https://www.suno.com.br/noticias/btlg11-lucro-setembro-compra-galpoes-logisticos/",
-          "source": "Suno Notícias",
-          "date": "2026-11-09"
         }
       ],
       "news_topics": [],
@@ -289,6 +289,12 @@
       "payment_source": "https://www.fundsexplorer.com.br/noticias/kncr11-dividendos-outubro",
       "news": [
         {
+          "title": "Como ficou a carteira e o dividendo do KNCR11 em outubro?",
+          "url": "https://www.suno.com.br/noticias/kncr11-dividendos-resultado-outubro-2026/",
+          "source": "Suno Notícias",
+          "date": "2026-11-12"
+        },
+        {
           "title": "KNCR11, BTLG11 e mais: estes são os FIIs mais recomendados pelos analistas para novembro",
           "url": "https://www.moneytimes.com.br/kncr11-btlg11-e-mais-estes-sao-os-fiis-mais-recomendados-pelos-analistas-para-novembro-igdl/",
           "source": "Money Times",
@@ -299,12 +305,6 @@
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/a-selic-estacionou-e-este-e-o-fundo-imobiliario-mais-indicado-por-analistas-para-surfar-a-pausa-igdl/",
           "source": "Seu Dinheiro",
           "date": "2026-11-06"
-        },
-        {
-          "title": "Dividendos de 11,5%: Veja 15 fundos imobiliários (FIIs) para ter na carteira em novembro, segundo o BTG",
-          "url": "https://www.moneytimes.com.br/dividendos-de-115-15-fundos-imobiliarios-fiis-para-ter-na-carteira-em-novembro-segundo-o-btg-igdl/",
-          "source": "Money Times",
-          "date": "2026-11-03"
         }
       ],
       "news_topics": [],
@@ -948,21 +948,21 @@
   ],
   "headlines": [
     {
-      "title": "Senado aprova renegociação de dívidas rurais e exclui jabutis sobre vapes e free shops",
-      "url": "https://www.gazetadopovo.com.br/economia/senado-aprova-renegociacao-de-dividas-rurais-e-exclui-jabutis-sobre-vapes-e-free-shops/",
+      "title": "Governo Lula propõe pacote fiscal insuficiente para cobrir gastos eleitorais",
+      "url": "https://www.gazetadopovo.com.br/economia/governo-lula-propoe-pacote-fiscal-insuficiente-para-cobrir-gastos-eleitorais/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-12"
     },
     {
-      "title": "Lucro do BB cai 66,5% no 3º trimestre com inadimplência do agro",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/lucro-do-bb-cai-665-no-3o-trimestre-com-inadimplencia-do-agro",
-      "source": "Agência Brasil · Economia • Brasil",
+      "title": "Dino libera jornada diária de 8h24 sem hora extra durante transição para o fim da 6×1",
+      "url": "https://www.gazetadopovo.com.br/republica/dino-libera-jornada-diaria-de-8-24-sem-hora-extra-durante-transicao-para-o-fim-da-6-1/",
+      "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-12"
     },
     {
-      "title": "Banco do Brasil registra tombo no lucro com disparada da inadimplência do agro",
-      "url": "https://www.gazetadopovo.com.br/economia/banco-do-brasil-tem-tombo-no-lucro-com-disparada-da-inadimplencia-do-agro/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "CBF fatura R$ 139 milhões em amistosos pós-Copa e mira europeus para 2027",
+      "url": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/cbf-fatura-r-139-milhoes-em-amistosos-pos-copa-e-mira-europeus-para-2027/",
+      "source": "CNN Brasil • Brasil",
       "date": "2026-11-12"
     },
     {
@@ -978,20 +978,20 @@
       "date": "2026-10-28"
     },
     {
-      "title": "Rússia e Ucrânia trocam ataques às capitais em meio a negociações de paz",
-      "url": "https://www.cnnbrasil.com.br/internacional/russia-e-ucrania-trocam-ataques-as-capitais-em-meio-a-negociacoes-de-paz/",
-      "source": "CNN Brasil",
+      "title": "Vacina para herpes: após aval do Senado, projeto que inclui dose no SUS vai à Câmara",
+      "url": "https://www.infomoney.com.br/politica/vacina-para-herpes-apos-aval-do-senado-projeto-que-inclui-dose-no-sus-vai-a-camara/",
+      "source": "InfoMoney",
       "date": "2026-11-12"
     },
     {
-      "title": "Por que as ações da Yunnan Lincang Xinyuan Germanium Industrial estão subindo hoje?",
-      "url": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-yunnan-lincang-xinyuan-germanium-industrial-estao-subindo-hoje-93CH-2124495",
-      "source": "Investing.com Brasil",
+      "title": "Microsoft confirma falha global que impacta Outlook; entenda",
+      "url": "https://www.infomoney.com.br/consumo/microsoft-falha-global-outlook-entenda/",
+      "source": "InfoMoney",
       "date": "2026-11-12"
     },
     {
-      "title": "Por que as ações da PLS estão caindo hoje?",
-      "url": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-pls-estao-caindo-hoje-93CH-2124494",
+      "title": "Por que as ações da Celestica estão disparando hoje?",
+      "url": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-celestica-estao-disparando-hoje-93CH-2125614",
       "source": "Investing.com Brasil",
       "date": "2026-11-12"
     }
@@ -999,7 +999,7 @@
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
