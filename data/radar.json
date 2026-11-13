@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T03:26:12+00:00",
+  "generated_at": "2026-11-13T18:33:16+00:00",
   "quote_date": "2026-11-12",
   "weekly_status": "Atualizado",
   "funds": [
@@ -594,6 +594,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "FII XPML11 prepara corte de até 20% nos dividendos após pagamentos “turbinados”, e gestor abre o jogo sobre os motivos",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fii-xp-malls-xpml11-prepara-corte-de-ate-20-no-dividendo-apos-pagamentos-turbinados-e-gestor-abre-o-jogo-sobre-os-motivos-igdl/",
+          "source": "Seu Dinheiro",
+          "date": "2026-11-13"
+        },
+        {
           "title": "FII XPML11 conclui compra de fatia de shopping da Allos (ALOS3) por R$ 331 milhões",
           "url": "https://www.infomoney.com.br/onde-investir/fii-xpml11-conclui-compra-de-fatia-de-shopping-da-allos-alos3-por-r-331-milhoes/",
           "source": "InfoMoney",
@@ -604,12 +610,6 @@
           "url": "https://www.moneytimes.com.br/fundo-imobiliario-compra-shopping-da-allos-alos3-e-preve-ganho-de-r-048-por-cota-ifix-despenca-apos-eleicao-igdl/",
           "source": "Money Times",
           "date": "2026-10-27"
-        },
-        {
-          "title": "XPML11 conclui compra de 60% de shopping em São Bernardo do Campo",
-          "url": "https://www.suno.com.br/noticias/xpml11-conclui-compra-de-60-de-shopping-em-sao-bernardo-do-campo/",
-          "source": "Suno Notícias",
-          "date": "2026-10-26"
         }
       ],
       "news_topics": [],
@@ -949,28 +949,22 @@
   ],
   "headlines": [
     {
-      "title": "Senado aprova texto-base de projeto fiscal com impacto de até R$ 60 bi em 2027",
-      "url": "https://www.moneytimes.com.br/senado-aprova-texto-base-de-projeto-fiscal-com-impacto-de-ate-r60-bi-em-2027-gaep/",
-      "source": "Money Times • Brasil",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Brasil precisa de choque de credibilidade, e não voluntarismo nem redução forçada dos juros",
-      "url": "https://www.estadao.com.br/economia/fabio-giambiagi/brasil-precisa-de-choque-de-credibilidade-e-nao-voluntarismo-nem-reducao-forcada-dos-juros/",
+      "title": "Metade do ganho do pacote fiscal do governo deve vir de aumento de arrecadação",
+      "url": "https://www.estadao.com.br/economia/pacote-fiscal-governo-aumento-arrecadacao/",
       "source": "Estadão • Brasil",
       "date": "2026-11-13"
     },
     {
-      "title": "Como votou cada senador no projeto de ajuste fiscal de Lula",
-      "url": "https://www.gazetadopovo.com.br/republica/como-votou-cada-senador-no-projeto-de-ajuste-fiscal-de-lula/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "Galípolo critica gestores que perdem para o CDI: ‘o papel não é gostar do Banco Central’",
+      "url": "https://www.moneytimes.com.br/galipolo-critica-gestores-que-perdem-para-o-cdi-o-papel-nao-e-gostar-do-banco-central/",
+      "source": "Money Times • Brasil",
       "date": "2026-11-13"
     },
     {
-      "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdjM4aWZLNld2QUdBbnBGb0c3TXI3SGtXaE9LUUN6akJxY0JldnE1WUNMRUswTGRLRkxHWV9nZEpIemJrQUlURGZoX0gwT2hCZUNmVXNNa3A5VENCdVNiSmVRa2NtZWV3LVdfX3pGWmRrX1diTVNRR2tiTDXSAYsBQVVfeXFMTmt2QUczMndUN3NENzNCdW9NNWlXajUyQVdMdk5WTWRmdnExbTJVaTdJVi1RUGhHbmRKeXZtWmZxRDVIN2pvbmVTZDY0ZXIybmtkYzZDR0dnRGlHSlhadExIYkRkMklmeG9OTjBlZ0lGSExoOW42Y21nNXkwNHZjQUxKTUVDbVByUXk0MA?oc=5",
-      "source": "G1 • Exterior",
-      "date": "2026-10-28"
+      "title": "Juiz proíbe Uber de cobrar assinatura obrigatória para motoristas aceitarem corridas",
+      "url": "https://www.gazetadopovo.com.br/economia/juiz-proibe-uber-de-cobrar-assinatura-obrigatoria-para-motoristas-aceitarem-corridas/",
+      "source": "Gazeta do Povo · Economia • Brasil",
+      "date": "2026-11-13"
     },
     {
       "title": "Dirigente do Fed reconhece que BC dos EUA está falhando em conter a inflação - Money Times",
@@ -979,28 +973,34 @@
       "date": "2026-11-09"
     },
     {
-      "title": "Singapura indicia quinta pessoa em investigação sobre chips da Nvidia Corp",
-      "url": "https://br.investing.com/news/stock-market-news/singapura-indicia-quinta-pessoa-em-investigacao-sobre-chips-da-nvidia-corp-2126050",
-      "source": "Investing.com Brasil",
+      "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdjM4aWZLNld2QUdBbnBGb0c3TXI3SGtXaE9LUUN6akJxY0JldnE1WUNMRUswTGRLRkxHWV9nZEpIemJrQUlURGZoX0gwT2hCZUNmVXNNa3A5VENCdVNiSmVRa2NtZWV3LVdfX3pGWmRrX1diTVNRR2tiTDXSAYsBQVVfeXFMTmt2QUczMndUN3NENzNCdW9NNWlXajUyQVdMdk5WTWRmdnExbTJVaTdJVi1RUGhHbmRKeXZtWmZxRDVIN2pvbmVTZDY0ZXIybmtkYzZDR0dnRGlHSlhadExIYkRkMklmeG9OTjBlZ0lGSExoOW42Y21nNXkwNHZjQUxKTUVDbVByUXk0MA?oc=5",
+      "source": "G1 • Exterior",
+      "date": "2026-10-28"
+    },
+    {
+      "title": "Ações da Nvidia caem 3,3%, mas índices de Wall Street revertem ganhos iniciais",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/13/wall-street-cai-apos-saida-de-presidente-da-nvidia-diz-agencia.ghtm",
+      "source": "UOL Economia",
       "date": "2026-11-13"
     },
     {
-      "title": "Por que as ações da SMIC estão disparando hoje?",
-      "url": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-smic-estao-disparando-hoje-93CH-2126042",
-      "source": "Investing.com Brasil",
+      "title": "Empresa é condenada a indenizar em R$ 30 mil garçom chamado de 'Gru'",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/13/trt-2-mantem-indenizacao-de-r-30-mil-a-garcom-chamado-de-gru.ghtm",
+      "source": "UOL Economia",
       "date": "2026-11-13"
     },
     {
-      "title": "O que pesquisadores propõem para acabar com a pobreza extrema no Brasil?",
-      "url": "https://www.estadao.com.br/economia/o-que-pesquisadores-propoem-para-acabar-com-a-pobreza-extrema-no-brasil/",
-      "source": "Estadão",
+      "title": "Flávio rejeita apoiar Motta em meio à embate no PL sobre presidência da Câmara",
+      "url": "https://www.infomoney.com.br/politica/flavio-rejeita-apoiar-motta-em-meio-a-embate-no-pl-sobre-presidencia-da-camara/",
+      "source": "InfoMoney",
       "date": "2026-11-13"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
