@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T03:20:39+00:00",
+  "generated_at": "2026-11-16T21:03:59+00:00",
   "quote_date": "2026-11-13",
   "weekly_status": "Atualizado",
   "funds": [
@@ -67,7 +67,7 @@
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.95%",
         "Vacância 1.2%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -95,19 +95,19 @@
       "equity": 7589554105.43,
       "investors": 608345.0,
       "source_url": "https://capitalagora.com.br/fiis/HGLG11",
-      "vacancy_pct": 2.7,
+      "vacancy_pct": 2.45,
       "vacancy_reference": "2026-09-30",
-      "vacancy_source": "https://www.clubefii.com.br/fundo_comunicados_embed?cod=0&cod_neg=HGLG11&id=1348097&tipo_comunicado=relatorio_gerencial_relatorios",
+      "vacancy_source": "https://brapi.dev/docs/fiis/imoveis",
       "vacancy_kind": "Física",
       "report_risk_note": "Em setembro, resultado de R$ 0,89/cota ficou abaixo da distribuição de R$ 1,17/cota; alavancagem financeira de 8,7% (10,3% com SPE).",
       "report_url": "https://www.clubefii.com.br/fundo_comunicados_embed?cod=0&cod_neg=HGLG11&id=1348097&tipo_comunicado=relatorio_gerencial_relatorios",
       "last_dividend": 1.17,
-      "dividend_reference": "2026-10-15",
-      "last_payment": "2026-10-15",
-      "last_com_date": "2026-09-30",
-      "next_payment": "2026-11-16",
-      "next_ex_date": "2026-10-30",
-      "next_dividend": 1.17,
+      "dividend_reference": "2026-11-16",
+      "last_payment": "2026-11-16",
+      "last_com_date": "2026-10-30",
+      "next_payment": null,
+      "next_ex_date": null,
+      "next_dividend": null,
       "dividend_source_type": "Base de proventos brapi",
       "upcoming_com_date": null,
       "upcoming_ex_date": null,
@@ -127,6 +127,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "HGLG11: quanto investir para garantir R$ 1.000 por mês?",
+          "url": "https://www.suno.com.br/noticias/hglg11-valor-investimento-renda-mensal/",
+          "source": "Suno Notícias",
+          "date": "2026-11-16"
+        },
+        {
           "title": "Fundos imobiliários recebem dispensa da CVM para reembolso",
           "url": "https://www.suno.com.br/noticias/fundos-imobiliarios-dispensa-reembolso-cvm-fusoes/",
           "source": "Suno Notícias",
@@ -137,12 +143,6 @@
           "url": "https://www.suno.com.br/noticias/hglg11-cvm-libera-fusao-lvbi11/",
           "source": "Suno Notícias",
           "date": "2026-11-10"
-        },
-        {
-          "title": "LVBI11 supera barreira regulatória e avança rumo ao HGLG11",
-          "url": "https://www.suno.com.br/noticias/lvbi11-incorporacao-hglg11-aprovada-cvm/",
-          "source": "Suno Notícias",
-          "date": "2026-11-10"
         }
       ],
       "news_topics": [],
@@ -151,14 +151,14 @@
       "notes": [
         "P/VP 0.88",
         "Rendimento mensal do informe: 0.70%",
-        "Vacância 2.7%",
-        "Informe antigo: 136 dias"
+        "Vacância 2.5%",
+        "Informe antigo: 138 dias"
       ],
       "classification": "Monitorar",
       "observations": [
         "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade",
         "Valor por cota divulgado: R$ 1,17",
-        "Vacância física informada: 2.7%"
+        "Vacância física informada: 2.5%"
       ],
       "cautions": [
         "Em setembro, resultado de R$ 0,89/cota ficou abaixo da distribuição de R$ 1,17/cota; alavancagem financeira de 8,7% (10,3% com SPE).",
@@ -186,13 +186,13 @@
       "vacancy_kind": null,
       "report_risk_note": null,
       "report_url": null,
-      "last_dividend": 0.1,
-      "dividend_reference": "2026-10-15",
-      "last_payment": "2026-10-15",
-      "last_com_date": "2026-09-30",
-      "next_payment": "2026-11-16",
-      "next_ex_date": "2026-10-30",
-      "next_dividend": 0.095,
+      "last_dividend": 0.095,
+      "dividend_reference": "2026-11-16",
+      "last_payment": "2026-11-16",
+      "last_com_date": "2026-10-30",
+      "next_payment": null,
+      "next_ex_date": null,
+      "next_dividend": null,
       "dividend_source_type": "Base de proventos brapi",
       "upcoming_com_date": null,
       "upcoming_ex_date": null,
@@ -236,7 +236,7 @@
       "notes": [
         "P/VP 0.94",
         "Rendimento mensal do informe: 0.81%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -314,7 +314,7 @@
       "notes": [
         "P/VP 1.02",
         "Rendimento mensal do informe: 1.22%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -375,12 +375,6 @@
           "url": "https://www.infomoney.com.br/onde-investir/dezenas-de-fiis-pagam-dividendos-hoje-veja-valores-de-mxrf11-trxf11-e-xplg11/",
           "source": "InfoMoney",
           "date": "2026-10-15"
-        },
-        {
-          "title": "Fundos imobiliários (FIIs): Veja os 15 recomendados pela XP para outubro",
-          "url": "https://www.moneytimes.com.br/fundos-imobiliarios-fiis-veja-os-15-recomendados-pela-xp-para-outubro-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-01"
         }
       ],
       "news_topics": [
@@ -392,7 +386,7 @@
         "P/VP 0.87",
         "Rendimento mensal do informe: 0.78%",
         "Vacância 3.8%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -472,7 +466,7 @@
         "P/VP 0.93",
         "Rendimento mensal do informe: 0.67%",
         "Vacância 1.8%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -538,7 +532,7 @@
         "P/VP 0.60",
         "Rendimento mensal do informe: 0.43%",
         "Vacância 20.0%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -594,6 +588,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "XPML11 mantém dividendos e vende fatia do Shopping Cidade Jardim",
+          "url": "https://www.suno.com.br/noticias/xpml11-dividendos-venda-shopping-cidade-jardim/",
+          "source": "Suno Notícias",
+          "date": "2026-11-16"
+        },
+        {
           "title": "FII XPML11 prepara corte de até 20% nos dividendos após pagamentos “turbinados”, e gestor abre o jogo sobre os motivos",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fii-xp-malls-xpml11-prepara-corte-de-ate-20-no-dividendo-apos-pagamentos-turbinados-e-gestor-abre-o-jogo-sobre-os-motivos-igdl/",
           "source": "Seu Dinheiro",
@@ -604,12 +604,6 @@
           "url": "https://www.infomoney.com.br/onde-investir/fii-xpml11-conclui-compra-de-fatia-de-shopping-da-allos-alos3-por-r-331-milhoes/",
           "source": "InfoMoney",
           "date": "2026-10-27"
-        },
-        {
-          "title": "Fundo imobiliário compra 60% de shopping da Allos (ALOS3) por R$ 331 milhões; IFIX despenca após eleição",
-          "url": "https://www.moneytimes.com.br/fundo-imobiliario-compra-shopping-da-allos-alos3-e-preve-ganho-de-r-048-por-cota-ifix-despenca-apos-eleicao-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-27"
         }
       ],
       "news_topics": [],
@@ -619,7 +613,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -698,7 +692,7 @@
       "notes": [
         "P/VP 0.85",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -776,7 +770,7 @@
       "notes": [
         "P/VP 0.90",
         "Rendimento mensal do informe: 0.74%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -832,18 +826,6 @@
           "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
           "source": "Money Times",
           "date": "2026-10-22"
-        },
-        {
-          "title": "FII da Vinci adiciona galpão de R$ 140 mi à carteira; Shopee está entre locatários",
-          "url": "https://www.infomoney.com.br/onde-investir/fii-da-vinci-conclui-compra-de-galpao-em-campinas-locado-para-shopee-por-r-140-mi/",
-          "source": "InfoMoney",
-          "date": "2026-10-02"
-        },
-        {
-          "title": "Fundo imobiliário desembolsa R$ 140 milhões por complexo logístico locado à MBRF (MBRF3) e Shopee",
-          "url": "https://www.moneytimes.com.br/fundo-imobiliario-desembolsa-r-140-milhoes-por-complexo-logistico-locado-a-mbrf-mbrf3-e-shopee-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-02"
         }
       ],
       "news_topics": [
@@ -856,7 +838,7 @@
       "notes": [
         "P/VP 0.81",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -933,7 +915,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 136 dias"
+        "Informe antigo: 138 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [],
@@ -949,52 +931,52 @@
   ],
   "headlines": [
     {
-      "title": "STF tem 4 votos para manter o fim da escala 6×1 em dezembro",
-      "url": "https://www.gazetadopovo.com.br/economia/stf-tem-4-votos-para-manter-o-fim-da-escala-6x1-em-dezembro/",
+      "title": "Lula 4 começa com economia dividida entre poucos ganhadores e muitos perdedores",
+      "url": "https://www.gazetadopovo.com.br/economia/ajuste-fiscal-lula-4-mercado-interno-exportador/",
       "source": "Gazeta do Povo · Economia • Brasil",
-      "date": "2026-11-14"
+      "date": "2026-11-16"
     },
     {
-      "title": "S&P mantém rating da Itália em “BBB+” e perspectiva positiva",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/sp-mantem-rating-da-italia-em-bbb-e-perspectiva-positiva/",
-      "source": "CNN Brasil • Brasil",
-      "date": "2026-11-14"
+      "title": "Dólar atinge maior valor desde abril de 2025 com incerteza sobre ajuste fiscal de Lula",
+      "url": "https://www.gazetadopovo.com.br/economia/dolar-atinge-maior-valor-desde-abril-de-2025-com-incerteza-sobre-ajuste-fiscal-de-lula/",
+      "source": "Gazeta do Povo · Economia • Brasil",
+      "date": "2026-11-16"
     },
     {
-      "title": "Desancoragem e risco de reinflação",
-      "url": "https://www.estadao.com.br/economia/fernando-dantas/desancoragem-e-risco-de-reinflacao/",
-      "source": "Estadão • Brasil",
-      "date": "2026-11-14"
+      "title": "Senado trava compensação tributária e joga ajuste fiscal no caixa das empresas",
+      "url": "https://www.gazetadopovo.com.br/economia/senado-trava-compensacao-tributaria-e-joga-ajuste-fiscal-no-caixa-das-empresas/",
+      "source": "Gazeta do Povo · Economia • Brasil",
+      "date": "2026-11-16"
     },
     {
-      "title": "Fed mantém juros dos EUA na faixa de 3,75% a 4% ao ano a poucos dias das eleições para o Congresso - G1",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdjM4aWZLNld2QUdBbnBGb0c3TXI3SGtXaE9LUUN6akJxY0JldnE1WUNMRUswTGRLRkxHWV9nZEpIemJrQUlURGZoX0gwT2hCZUNmVXNNa3A5VENCdVNiSmVRa2NtZWV3LVdfX3pGWmRrX1diTVNRR2tiTDXSAYsBQVVfeXFMTmt2QUczMndUN3NENzNCdW9NNWlXajUyQVdMdk5WTWRmdnExbTJVaTdJVi1RUGhHbmRKeXZtWmZxRDVIN2pvbmVTZDY0ZXIybmtkYzZDR0dnRGlHSlhadExIYkRkMklmeG9OTjBlZ0lGSExoOW42Y21nNXkwNHZjQUxKTUVDbVByUXk0MA?oc=5",
-      "source": "G1 • Exterior",
-      "date": "2026-10-28"
+      "title": "Comitê aprova regulamento 2.0 da reforma e adia entrega de declaração para setor financeiro",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/blogs/que-imposto-e-esse/2026/11/comite-aprova-regulamento-20-da-reforma-e-adia-entrega-de-declaracao-para-setor-financeiro.shtml",
+      "source": "Folha · Mercado",
+      "date": "2026-11-16"
     },
     {
-      "title": "Dirigente do Fed reconhece que BC dos EUA está falhando em conter a inflação - Money Times",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVUZvVk50eFJIaEJSRXp1WFQ0STBUNU13WTZvVDNVMXJkbTRBaWw2MVZ3aVVTVWFsZXdIUHJOT3B2UVVXNW5KNG1nZ3N1LTB6ZS1SdkJRcDNteUhPRzBZV0w5bmYycDV4Q2hpRnQ1aEdMdkh0c2xTTVBJR2JZSFZqWUNXTjM4SHIzOUFHTXVnQTlEMmhMZTRxWTFGamdTVmRlMFFrSnVmSEl4eHFqd09nZ29n?oc=5",
-      "source": "Money Times • Exterior",
-      "date": "2026-11-09"
+      "title": "‘Estamos nos afogando em um copo d’água’, diz André Esteves, do BTG",
+      "url": "https://www.moneytimes.com.br/estamos-nos-afogando-em-um-copo-dagua-diz-andre-esteves-do-btg-rnda/",
+      "source": "Money Times",
+      "date": "2026-11-16"
     },
     {
-      "title": "Rio confirma morte por mpox; estado já tem 382 casos este ano",
-      "url": "https://www.infomoney.com.br/saude/rio-confirma-morte-por-mpox-estado-ja-tem-382-casos-este-ano/",
+      "title": "Falha não detectada desde julho causou apagão global da Microsoft",
+      "url": "https://www.infomoney.com.br/business/falha-nao-detectada-desde-julho-causou-apagao-global-da-microsoft/",
       "source": "InfoMoney",
-      "date": "2026-11-14"
+      "date": "2026-11-16"
     },
     {
-      "title": "Trump descarta ataque hacker e IA em apagão que parou voos nos EUA",
-      "url": "https://www.infomoney.com.br/mercados/trump-descarta-ataque-hacker-e-ia-em-apagao-que-parou-voos-nos-eua/",
-      "source": "InfoMoney",
-      "date": "2026-11-14"
+      "title": "Brasil - Ações fecharam o pregão em queda e o Índice Bovespa recuou 2,05%",
+      "url": "https://br.investing.com/news/stock-market-news/brasil--acoes-fecharam-o-pregao-em-queda-e-o-indice-bovespa-recuou-205-2128787",
+      "source": "Investing.com Brasil",
+      "date": "2026-11-16"
     },
     {
-      "title": "Mercado financeiro prevê juros de dois dígitos até 2030, ao longo dos dois mandatos de Lula",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/14/mercado-financeiro-preve-juros-de-dois-digitos-ate-2030-ao-longo-dos-dois-mandatos-de-lula.ghtml",
-      "source": "G1 Economia",
-      "date": "2026-11-14"
+      "title": "Colisão entre navio-tanque e cruzeiro nos EUA: O que se sabe sobre acidente",
+      "url": "https://www.cnnbrasil.com.br/internacional/colisao-entre-navio-tanque-e-cruzeiro-nos-eua-o-que-se-sabe-sobre-acidente/",
+      "source": "CNN Brasil",
+      "date": "2026-11-16"
     }
   ],
   "macro": {
@@ -1037,6 +1019,8 @@
   "provider_status": {
     "capital_agora": true,
     "brapi_full": false,
-    "errors": []
+    "errors": [
+      "Google News RSS: HTTPError"
+    ]
   }
 }
