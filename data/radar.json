@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T04:26:03+00:00",
-  "quote_date": "2026-11-17",
+  "generated_at": "2026-11-18T19:25:33+00:00",
+  "quote_date": null,
   "weekly_status": "Atualizado",
   "funds": [
     {
@@ -483,6 +483,82 @@
       "data_quality": "Parcial"
     },
     {
+      "ticker": "RBRR11",
+      "name": "PATRIA HIGH G FII",
+      "sector": "Recebíveis",
+      "price": 63.0,
+      "pvp": 0.685,
+      "yield_month_pct": 0.0,
+      "source_reference": "2026-07-01",
+      "quote_date": "2026-11-05",
+      "equity": 1498092893.79,
+      "investors": 143338.0,
+      "source_url": "https://capitalagora.com.br/fiis/RBRR11",
+      "vacancy_pct": null,
+      "vacancy_reference": null,
+      "vacancy_source": null,
+      "vacancy_kind": null,
+      "report_risk_note": null,
+      "report_url": null,
+      "last_dividend": null,
+      "dividend_reference": null,
+      "last_payment": null,
+      "last_com_date": null,
+      "next_payment": null,
+      "next_ex_date": null,
+      "next_dividend": null,
+      "dividend_source_type": null,
+      "upcoming_com_date": null,
+      "upcoming_ex_date": null,
+      "upcoming_payment_date": null,
+      "upcoming_per_share": null,
+      "upcoming_source": null,
+      "upcoming_source_type": null,
+      "latest_com_date": null,
+      "com_date_history": [],
+      "payment_source": null,
+      "news": [
+        {
+          "title": "RBRR11 paga R$ 0,59 por cota em dividendos em novembro",
+          "url": "https://www.suno.com.br/noticias/rbrr11-paga-dividendos-novembro/",
+          "source": "Suno Notícias",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Fundo imobiliário recebe aval para comprar ativos de RPRI11, RBRR11 e VCJR11; Ifix recua",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-recebe-aval-para-comprar-ativos-de-rpri11-rbrr11-e-vcjr11-ifix-recua-jcav/",
+          "source": "Money Times",
+          "date": "2026-10-29"
+        },
+        {
+          "title": "Gigante à vista: Patria fica a um passo de unir quatro fundos imobiliários (FIIs) em um só",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/gigante-vista-patria-fica-um-passo-unir-quatro-fundos-imobiliarios-fiis-em-um-igdl/",
+          "source": "Seu Dinheiro",
+          "date": "2026-10-21"
+        }
+      ],
+      "news_topics": [],
+      "score": 32,
+      "missing": [],
+      "notes": [
+        "P/VP 0.69",
+        "Rendimento mensal do informe: 0.00%",
+        "Informe antigo: 140 dias"
+      ],
+      "classification": "Monitorar",
+      "observations": [
+        "Cota abaixo do valor patrimonial, mas desconto não garante oportunidade"
+      ],
+      "cautions": [
+        "Rendimento recente por cota ainda não verificado",
+        "Conferir inadimplência, garantias e concentração dos CRIs",
+        "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
+      ],
+      "evidence_count": 5,
+      "data_quality": "Parcial"
+    },
+    {
       "ticker": "PVBI11",
       "name": "VBI PRIME FII RL",
       "sector": "Lajes corporativas",
@@ -852,130 +928,55 @@
       ],
       "evidence_count": 5,
       "data_quality": "Em revisão"
-    },
-    {
-      "ticker": "RBRR11",
-      "name": "PATRIA HIGH G FII",
-      "sector": "Recebíveis",
-      "price": null,
-      "pvp": null,
-      "yield_month_pct": 0.0,
-      "source_reference": "2026-07-01",
-      "quote_date": "2026-11-17",
-      "equity": 1498092893.79,
-      "investors": 143338.0,
-      "source_url": "https://capitalagora.com.br/fiis/RBRR11",
-      "vacancy_pct": null,
-      "vacancy_reference": null,
-      "vacancy_source": null,
-      "vacancy_kind": null,
-      "report_risk_note": null,
-      "report_url": null,
-      "last_dividend": null,
-      "dividend_reference": null,
-      "last_payment": null,
-      "last_com_date": null,
-      "next_payment": null,
-      "next_ex_date": null,
-      "next_dividend": null,
-      "dividend_source_type": null,
-      "upcoming_com_date": null,
-      "upcoming_ex_date": null,
-      "upcoming_payment_date": null,
-      "upcoming_per_share": null,
-      "upcoming_source": null,
-      "upcoming_source_type": null,
-      "latest_com_date": null,
-      "com_date_history": [],
-      "payment_source": null,
-      "news": [
-        {
-          "title": "RBRR11 paga R$ 0,59 por cota em dividendos em novembro",
-          "url": "https://www.suno.com.br/noticias/rbrr11-paga-dividendos-novembro/",
-          "source": "Suno Notícias",
-          "date": "2026-11-11"
-        },
-        {
-          "title": "Fundo imobiliário recebe aval para comprar ativos de RPRI11, RBRR11 e VCJR11; Ifix recua",
-          "url": "https://www.moneytimes.com.br/fundo-imobiliario-recebe-aval-para-comprar-ativos-de-rpri11-rbrr11-e-vcjr11-ifix-recua-jcav/",
-          "source": "Money Times",
-          "date": "2026-10-29"
-        },
-        {
-          "title": "Gigante à vista: Patria fica a um passo de unir quatro fundos imobiliários (FIIs) em um só",
-          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/gigante-vista-patria-fica-um-passo-unir-quatro-fundos-imobiliarios-fiis-em-um-igdl/",
-          "source": "Seu Dinheiro",
-          "date": "2026-10-21"
-        }
-      ],
-      "news_topics": [],
-      "score": 24,
-      "missing": [
-        "cotação"
-      ],
-      "notes": [
-        "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 140 dias"
-      ],
-      "classification": "Revisar fontes",
-      "observations": [],
-      "cautions": [
-        "Rendimento recente por cota ainda não verificado",
-        "Conferir inadimplência, garantias e concentração dos CRIs",
-        "Informe de patrimônio/rendimentos com mais de 90 dias",
-        "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
-      ],
-      "evidence_count": 3,
-      "data_quality": "Em revisão"
     }
   ],
   "headlines": [
     {
-      "title": "Câmara aprova mais R$ 6,5 bilhões para exportadores e subsídios a combustíveis",
-      "url": "https://www.gazetadopovo.com.br/economia/camara-aprova-mais-r-65-bilhoes-para-exportadores-e-subsidios-a-combustiveis/",
+      "title": "Durigan diz que governo não discute mudança na meta de inflação",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/durigan-diz-que-governo-nao-discute-mudanca-na-meta-de-inflacao/",
+      "source": "CNN Brasil • Brasil",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Mercado exige o maior prêmio contra inflação desde Dilma e cobra mais para financiar o Brasil",
+      "url": "https://www.moneytimes.com.br/mercado-exige-o-maior-premio-contra-inflacao-desde-dilma-e-cobra-mais-para-financiar-o-brasil/",
+      "source": "Money Times • Brasil",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Granja de 90 mil suínos tira dos dejetos mais de metade da energia que consome",
+      "url": "https://www.gazetadopovo.com.br/economia-cooperativa/granja-de-90-mil-suinos-tira-dos-dejetos-mais-de-metade-da-energia-que-consome/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-18"
     },
     {
-      "title": "Custo Brasil é de R$ 3,5 trilhões por ano, 27,5% do PIB, estima novo estudo; veja o que pesa mais",
-      "url": "https://www.estadao.com.br/economia/custo-brasil-e-de-r-35-trilhoes-por-ano-275-do-pib-estima-novo-estudo-veja-o-que-pesa-mais/",
-      "source": "Estadão • Brasil",
+      "title": "Ibovespa cai com impasse fiscal no Senado e temor de “choque de juros” nos EUA - VEJA",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQako5OHZ1Mlo4a3ozdDczOXM3ZjJLRThmVy1hT1pXdEVXU2RFY2hkY293QXllenJ0a2V4MlRBQmFRNE1DUzcyVVRNTDN6Y0I4cXNBZ1B4dlczdzVXbGZCR1RERmdhRnNGakJwazVneGlpZzdtX0d4MWxyeWdfem5DaUJlN0VLeUJFVzIwRmxTelhfamJUMVBYMVJTdmJVVFVkek85N2JJT0s2MnU4RW51X3d3?oc=5",
+      "source": "VEJA • Exterior",
       "date": "2026-11-18"
     },
     {
-      "title": "Custo Brasil chega a R$ 3,5 trilhões por ano, aponta estudo",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/custo-brasil-chega-a-r-35-trilhoes-por-ano-aponta-estudo.shtml",
-      "source": "Folha · Mercado • Brasil",
-      "date": "2026-11-18"
-    },
-    {
-      "title": "Dirigentes do Fed citam inflação e risco de estresse e admitem alta de juros - UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaWxEa1RqbE5rVjFxcEdwNlhzdXFZZnlKZFZscDZKOHFqM2w0Mmo4M0hzSmVwZUJrZVpRV2JxWUw5dzMtZW10dXRRSDBSYjhrWVhnZmlleERyWDFmdmhaTVZiX1hlM2tUVVp3SHVxdF9hOGQweWJvNmI2UEtTVUVvOFRJTUIzSjI4c25jWTdybENiaTNRbV9VUXNLUzVNNGpDT044Y29GV3VCaGFoN09ra0xRRng0cFVPcG5yUFptUUR6YVJnVEtucjliZkpQM3c1bFZn?oc=5",
-      "source": "UOL Economia • Exterior",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "Presidente do Fed de St. Louis diz que EUA devem precisar de várias altas nos juros para controlar a inflação - Money Times",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcnBGN1FiWmR3Ml9abGR5M3pRRWZ5QzEwZnhkWjlJdVhHZ1RodE5WU3YzMFJUZVowNG5EWXA2VWJmNkRoWVJDMG12amxpcWF3X3pGTE1CM2lQQWhKS0NoZURMMjhlSjF4cmEySWZxUVAyakVWU0pYQ25ja3gzb0JoQkw5S2MyRGZnUFNwM2ZfZnVoSEYzYmQ5UjZ3c0pDdkZKb3FOV3BvdEk4bmZRZVR5ZjZES0dmTG1kOUlZb2FNcEtyUjRuaTZ6Y19LdDJmR1Etd2xodXUwcDVuT2Zt?oc=5",
+      "title": "Diretor do Fed defende alta de 0,5 ponto percentual nos juros dos EUA: 'precisa tomar medidas agressivas' - Money Times",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS3F0eW91a3RjbFNDdFVic3pxVUFsSDV4R1lWam9XSkxSOVY1Si0wWm1wM0cyNXIyVWs5NU9jSklUZmVueGNTbUIyb1JzLXlvakxBMGtjVVBiSFZlV1pOcVY1bnNJU2hpd0lwSGxvTVNkMzJ4Z1EwampfRTRFUGV6eUpBNGg5YVZYcTRtUVk3MmpLOThXLWZhTG5vNWpCcUZRdW4wVVZORHN1SmlOTjh2S2t1YWlQX0huZ0FzUkwwSGRuT19BRGRJYlRxbjg5c2VFMWtTQlB0QmI?oc=5",
       "source": "Money Times • Exterior",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "Por que as ações da JD.com estão caindo hoje?",
-      "url": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-jdcom-estao-caindo-hoje-93CH-2130645",
-      "source": "Investing.com Brasil",
       "date": "2026-11-18"
     },
     {
-      "title": "Repórter do CNN Sinais Vitais é reconhecida pelo Prêmio Einstein +Admirados",
-      "url": "https://www.cnnbrasil.com.br/saude/reporter-do-cnn-sinais-vitais-e-reconhecida-pelo-premio-einstein-admirados/",
+      "title": "Moradores fazem corrente humana para resgatar vítimas de temporal na Bahia",
+      "url": "https://www.cnnbrasil.com.br/nacional/nordeste/ba/moradores-fazem-corrente-humana-para-resgatar-vitimas-de-temporal-na-bahia/",
       "source": "CNN Brasil",
       "date": "2026-11-18"
     },
     {
-      "title": "Jensen Huang concorda em depor perante o Senado dos EUA",
-      "url": "https://br.investing.com/news/stock-market-news/jensen-huang-concorda-em-depor-perante-o-senado-dos-eua-2130632",
-      "source": "Investing.com Brasil",
+      "title": "Mário Gomes é condenado a pagar 13 anos de aluguel por ocupação irregular de mansão",
+      "url": "https://www.infomoney.com.br/brasil/mario-gomes-condenado-a-pagar-13-anos-de-aluguel/",
+      "source": "InfoMoney",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "França confirma envio de pequeno contingente militar à Ucrânia; entenda",
+      "url": "https://www.cnnbrasil.com.br/internacional/franca-confirma-envio-de-pequeno-contingente-militar-a-ucrania-entenda/",
+      "source": "CNN Brasil",
       "date": "2026-11-18"
     }
   ],
@@ -1019,6 +1020,8 @@
   "provider_status": {
     "capital_agora": true,
     "brapi_full": false,
-    "errors": []
+    "errors": [
+      "https://capitalagora.com.br/api/fiis: TimeoutError"
+    ]
   }
 }
