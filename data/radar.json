@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T04:13:59+00:00",
+  "generated_at": "2026-11-19T19:29:49+00:00",
   "quote_date": "2026-11-18",
   "weekly_status": "Atualizado",
   "funds": [
@@ -42,6 +42,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "BTLG11 capta R$ 807 mi em 17ª emissão de cotas na B3",
+          "url": "https://www.suno.com.br/noticias/btlg11-capta-807-milhoes-emissao-cotas/",
+          "source": "Suno Notícias",
+          "date": "2026-11-19"
+        },
+        {
           "title": "CPLG11 distribui dividendos e fecha venda de ativos ao BTLG11",
           "url": "https://www.suno.com.br/noticias/cplg11-dividendos-117-venda-ativos-btlg11/",
           "source": "Suno Notícias",
@@ -52,15 +58,11 @@
           "url": "https://www.suno.com.br/noticias/btlg11-paga-dividendos-novembro-dividend-yield/",
           "source": "Suno Notícias",
           "date": "2026-11-13"
-        },
-        {
-          "title": "BTLG11: inquilinos, contratos e payout em outubro",
-          "url": "https://www.suno.com.br/noticias/btlg11-carteira-logistica-contratos-dividendos/",
-          "source": "Suno Notícias",
-          "date": "2026-11-12"
         }
       ],
-      "news_topics": [],
+      "news_topics": [
+        "emissão de cotas"
+      ],
       "score": 90,
       "missing": [],
       "notes": [
@@ -78,6 +80,7 @@
       "cautions": [
         "17ª emissão de cotas e aquisições em discussão; acompanhar diluição, caixa e novos contratos.",
         "Informe de patrimônio/rendimentos com mais de 90 dias",
+        "Notícia sobre emissão: avaliar diluição e uso do capital",
         "Antes de comprar: ler relatório gerencial, contratos e alavancagem"
       ],
       "evidence_count": 6,
@@ -931,58 +934,58 @@
   ],
   "headlines": [
     {
-      "title": "O que é a Lei Kandir e como ela influenciou a votação do ajuste fiscal de Lula",
-      "url": "https://www.gazetadopovo.com.br/economia/o-que-e-a-lei-kandir-e-como-ela-influenciou-a-votacao-do-ajuste-fiscal-de-lula/",
+      "title": "Ouro fecha em queda com expectativas de alta dos juros",
+      "url": "https://www.moneytimes.com.br/ouro-fecha-em-queda-com-expectativas-de-alta-dos-juros-davs/",
+      "source": "Money Times • Brasil",
+      "date": "2026-11-19"
+    },
+    {
+      "title": "Ministro admite novos cortes para conter dívida pública e equilibrar contas do governo",
+      "url": "https://www.gazetadopovo.com.br/republica/ministro-admite-novos-cortes-conter-divida-equilibrar-contas-governo/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-19"
     },
     {
-      "title": "Valorização da moeda americana pressiona custos de produção e inflação no Brasil",
-      "url": "https://www.gazetadopovo.com.br/economia/valorizacao-da-moeda-americana-pressiona-custos-de-producao-e-inflacao-no-brasil/",
+      "title": "Anthropic faz maior abertura de capital da história e chega a US$ 2 trilhões em valor de mercado",
+      "url": "https://www.gazetadopovo.com.br/mundo/anthropic-faz-maior-abertura-de-capital-da-historia-e-chega-a-us-2-trilhoes-em-valor-de-mercado/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-19"
     },
     {
-      "title": "Durigan descarta recessão, mas vê crescimento em “patamar menor” em 2027",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/durigan-descarta-recessao-mas-ve-crescimento-em-patamar-menor-em-2027/",
-      "source": "CNN Brasil • Brasil",
-      "date": "2026-11-19"
+      "title": "Dirigentes do Fed citam inflação e risco de estresse e admitem alta de juros - UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaWxEa1RqbE5rVjFxcEdwNlhzdXFZZnlKZFZscDZKOHFqM2w0Mmo4M0hzSmVwZUJrZVpRV2JxWUw5dzMtZW10dXRRSDBSYjhrWVhnZmlleERyWDFmdmhaTVZiX1hlM2tUVVp3SHVxdF9hOGQweWJvNmI2UEtTVUVvOFRJTUIzSjI4c25jWTdybENiaTNRbV9VUXNLUzVNNGpDT044Y29GV3VCaGFoN09ra0xRRng0cFVPcG5yUFptUUR6YVJnVEtucjliZkpQM3c1bFZn?oc=5",
+      "source": "UOL Economia • Exterior",
+      "date": "2026-11-17"
     },
     {
-      "title": "Fed alerta para dívida ligada à IA e propõe novas altas de juros - Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWDczbUx5X2t3Z1JwTEViMWtqNTc4TjNQVXFfLXdWQWtPaDEzNGQyVnVCbG9RYUdPMkQ0MmVPcUdfd2ZoQmxEd2hxT0VrZ0U4V3hzcHJrb194N1MxcVNWY2ZEZDR5NkxYUEwzN3FPd0hWMkxBNzJMZWRrQzQ4Y3VybG1WOWxqTmRSZUZrS29NaU1fTDI1X0tuS0pxRXliSEt1VTgxODhFaERLYTVK?oc=5",
-      "source": "Poder360 • Exterior",
+      "title": "Por que a ata do Fed trava o corte de juros no Brasil - TV Sim Brasil",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3Y0dk5PeEhiTHRHTUtDVmtucGl6WmtmSUE1UFJtUXVhdHgxdGpDTG1fRWViZDI5RDJMbk5yOU10Mk53ZEw0R3pFWFo4d004UmNTTDJVYkpZUzV2c2dIWWdFV2VCUGxWUGljRkY2MFVQWFE1VFphaUp0enNxQ2lsOXZpZTVRU1JGdkc0c2Q4MDFhQzlFY2ZBcXQtV1RQek5IbEJBWg?oc=5",
+      "source": "TV Sim Brasil • Exterior",
       "date": "2026-11-18"
     },
     {
-      "title": "Ata do Fed: comitê considera alta de juros superior a 0,25 ponto em dezembro; veja detalhes - Money Times",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMEJYVUlYUUVBMjhobVJFR0txVkJ1LXBRSDdETHFfMmY2WVJHN0h6amhoZEhvbll0Z3ZXRi1zQzMtdFFPcUZ4emdMRVh0VFBmR3hYMGVpZlNaaHpRaUx0cGlnVEtObzNBLVJOSWl6WmNfZW8wX2lGSUE1Ty01N3NwQ3RpbHF6STdFbkhIc3lPMWZhRDl6TE05LWNqbmQ2TU5LRDBIQXdxOFpLQTJxcHlXQV9raXlKQWJXNTM4?oc=5",
-      "source": "Money Times • Exterior",
-      "date": "2026-11-18"
-    },
-    {
-      "title": "Ações da Tencent caem ao menor nível em quase 3 anos; entenda o motivo",
-      "url": "https://br.investing.com/news/stock-market-news/acoes-da-tencent-caem-ao-menor-nivel-em-quase-3-anos-entenda-o-motivo-93CH-2132126",
-      "source": "Investing.com Brasil",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "Andreas pede mobilização do Palmeiras contra o Flamengo: “Rival no Brasil”",
-      "url": "https://www.cnnbrasil.com.br/esportes/futebol/palmeiras/andreas-pede-mobilizacao-do-palmeiras-contra-o-flamengo-rival-no-brasil/",
+      "title": "Primavera Sound: veja horários das apresentações do line-up 2026",
+      "url": "https://www.cnnbrasil.com.br/pop/musica/primavera-sound-veja-horarios-das-apresentacoes-do-line-up-2026/",
       "source": "CNN Brasil",
       "date": "2026-11-19"
     },
     {
-      "title": "+27%, +20%, +17%: as empresas que lucram quando o Fed agita o mercado",
-      "url": "https://br.investing.com/news/stock-market-news/27-20-17-as-empresas-que-lucram-quando-o-fed-agita-o-mercado-2132116",
-      "source": "Investing.com Brasil",
+      "title": "Corinthians: André Castro quer parceiro para pagar Memphis e contratar Kaio",
+      "url": "https://www.cnnbrasil.com.br/esportes/futebol/corinthians/corinthians-andre-castro-quer-parceiro-para-pagar-memphis-e-contratar-kaio/",
+      "source": "CNN Brasil",
+      "date": "2026-11-19"
+    },
+    {
+      "title": "Fachin nega soltura de primo de Vorcaro apontado como ‘ponte’ para propina a senador",
+      "url": "https://www.infomoney.com.br/brasil/fachin-nega-soltura-de-primo-de-vorcaro-apontado-como-ponte-para-propina-a-senador/",
+      "source": "InfoMoney",
       "date": "2026-11-19"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
