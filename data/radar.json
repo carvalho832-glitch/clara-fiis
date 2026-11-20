@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T04:00:00+00:00",
+  "generated_at": "2026-11-20T19:07:52+00:00",
   "quote_date": "2026-11-19",
   "weekly_status": "Atualizado",
   "funds": [
@@ -130,22 +130,22 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "Pátria Log (HGLG11) abre a carteira e desembolsa R$ 31,28 milhões em imóvel logístico",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/patria-log-hglg11-abre-a-carteira-e-desembolsa-r-3128-milhoes-em-imovel-logistico-cbcb/",
+          "source": "Seu Dinheiro",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "FII desembolsa R$ 31,3 milhões por fatia de imóvel logístico; IFIX acumula perda de quase 8% em 2026",
+          "url": "https://www.moneytimes.com.br/fii-desembolsa-r-313-milhoes-por-fatia-de-imovel-logistico-ifix-acumula-perda-de-quase-8-em-2026-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-20"
+        },
+        {
           "title": "HGLG11 fecha compra de imóvel em Itupeva, mas aluguel só vem em 2027",
           "url": "https://www.suno.com.br/noticias/hglg11-compra-fatia-imovel-itupeva-aluguel-2027/",
           "source": "Suno Notícias",
           "date": "2026-11-20"
-        },
-        {
-          "title": "HGLG11: quanto investir para garantir R$ 1.000 por mês?",
-          "url": "https://www.suno.com.br/noticias/hglg11-valor-investimento-renda-mensal/",
-          "source": "Suno Notícias",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "Fundos imobiliários recebem dispensa da CVM para reembolso",
-          "url": "https://www.suno.com.br/noticias/fundos-imobiliarios-dispensa-reembolso-cvm-fusoes/",
-          "source": "Suno Notícias",
-          "date": "2026-11-11"
         }
       ],
       "news_topics": [],
@@ -591,6 +591,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "XPML11 reduz dividendo mensal ao menor nível desde 2023; entenda",
+          "url": "https://www.suno.com.br/noticias/xpml11-fii-dividendo-queda-2026/",
+          "source": "Suno Notícias",
+          "date": "2026-11-20"
+        },
+        {
           "title": "XPML11 mantém dividendos e vende fatia do Shopping Cidade Jardim",
           "url": "https://www.suno.com.br/noticias/xpml11-dividendos-venda-shopping-cidade-jardim/",
           "source": "Suno Notícias",
@@ -601,12 +607,6 @@
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fii-xp-malls-xpml11-prepara-corte-de-ate-20-no-dividendo-apos-pagamentos-turbinados-e-gestor-abre-o-jogo-sobre-os-motivos-igdl/",
           "source": "Seu Dinheiro",
           "date": "2026-11-13"
-        },
-        {
-          "title": "FII XPML11 conclui compra de fatia de shopping da Allos (ALOS3) por R$ 331 milhões",
-          "url": "https://www.infomoney.com.br/onde-investir/fii-xpml11-conclui-compra-de-fatia-de-shopping-da-allos-alos3-por-r-331-milhoes/",
-          "source": "InfoMoney",
-          "date": "2026-10-27"
         }
       ],
       "news_topics": [],
@@ -934,21 +934,27 @@
   ],
   "headlines": [
     {
-      "title": "Mega-Sena acumula e prêmio vai para R$ 45 milhões",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-sena-acumula-e-premio-vai-para-r-45-milhoes",
-      "source": "Agência Brasil · Economia • Brasil",
-      "date": "2026-11-20"
-    },
-    {
-      "title": "Bancos se voltam para grandes empresas contra piora do crédito",
-      "url": "https://www.estadao.com.br/economia/coluna-da-broad/bancos-se-voltam-para-grandes-empresas-contra-piora-do-credito/",
-      "source": "Estadão • Brasil",
-      "date": "2026-11-20"
-    },
-    {
-      "title": "Relator do ajuste fiscal mantém texto do Senado para agilizar votação na Câmara",
-      "url": "https://www.gazetadopovo.com.br/economia/relator-do-ajuste-fiscal-mantem-texto-do-senado-para-agilizar-votacao-na-camara/",
+      "title": "Decreto sobre 6×1 mantém lacunas a menos de um mês da implementação e Lula admite judicialização",
+      "url": "https://www.gazetadopovo.com.br/economia/decreto-sobre-6x1-mantem-lacunas-a-menos-de-um-mes-da-implementacao-e-lula-admite-judicializacao/",
       "source": "Gazeta do Povo · Economia • Brasil",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Sentimento do consumidor dos EUA sobe a 51,5 em novembro",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/sentimento-do-consumidor-dos-eua-sobe-a-515-em-novembro/",
+      "source": "CNN Brasil • Brasil",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Lagarde, do BCE, diz que ameaças cibernéticas ampliadas pela IA são sua principal preocupação",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/lagarde-do-bce-diz-que-ameacas-ciberneticas-ampliadas-pela-ia-sao-sua-principal-preocupacao.shtml",
+      "source": "Folha · Mercado • Brasil",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "‘Não temos esse luxo’, diz diretora do Fed sobre esperar mais para combater inflação - Money Times",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWW1CdmJWcndielpIRTJsNDVoR2MxOVJkNDBST2NRZW5VQ0ROR1Bod1NwVTkxcjhYWHVVNnROZWZYc2RjQnc1bDM1dk1POHJjd1hyaVhYTG9JVU8wTDlyRVB3cnBKSXdWd2dTNFlFMGZRQS00cFZyQnN5N09kYm41NjM3THRhSHFEVm5PUThveUtycWV4dVVYd1VUNnktcVdnc1FEMkk2OXI0WlV4akhialE5b1hGM2dQ?oc=5",
+      "source": "Money Times • Exterior",
       "date": "2026-11-20"
     },
     {
@@ -958,26 +964,20 @@
       "date": "2026-11-17"
     },
     {
-      "title": "Ata do Fed: comitê considera alta de juros superior a 0,25 ponto em dezembro; veja detalhes - Money Times",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMEJYVUlYUUVBMjhobVJFR0txVkJ1LXBRSDdETHFfMmY2WVJHN0h6amhoZEhvbll0Z3ZXRi1zQzMtdFFPcUZ4emdMRVh0VFBmR3hYMGVpZlNaaHpRaUx0cGlnVEtObzNBLVJOSWl6WmNfZW8wX2lGSUE1Ty01N3NwQ3RpbHF6STdFbkhIc3lPMWZhRDl6TE05LWNqbmQ2TU5LRDBIQXdxOFpLQTJxcHlXQV9raXlKQWJXNTM4?oc=5",
-      "source": "Money Times • Exterior",
-      "date": "2026-11-18"
-    },
-    {
-      "title": "Ações da Alibaba em Hong Kong sobem após resultado do 2º tri superar expectativas",
-      "url": "https://br.investing.com/news/stock-market-news/acoes-da-alibaba-em-hong-kong-sobem-apos-resultado-do-2o-tri-superar-expectativas-2133563",
-      "source": "Investing.com Brasil",
+      "title": "A tecnologia prometeu facilidade. Agora está deixando muitos americanos apreensivos",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/a-tecnologia-prometeu-facilidade-agora-esta-deixando-muitos-americanos-apreensivos.shtml",
+      "source": "Folha · Mercado",
       "date": "2026-11-20"
     },
     {
-      "title": "Calleri reconhece atuação ruim e dá razão à torcida: “Vaias certas”",
-      "url": "https://www.cnnbrasil.com.br/esportes/futebol/sao-paulo/calleri-reconhece-atuacao-ruim-e-da-razao-a-torcida-vaias-certas/",
-      "source": "CNN Brasil",
+      "title": "Ações da Nvidia têm pior sequência de quedas na bolsa desde 2008",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/20/acoes-da-nvidia-tem-pior-sequencia-de-quedas-na-bolsa-desde-2008.ghtml",
+      "source": "G1 Economia",
       "date": "2026-11-20"
     },
     {
-      "title": "Bolsas asiáticas caem a mínimos de 7 meses com Coreia do Sul e Taiwan liderando perdas",
-      "url": "https://br.investing.com/news/stock-market-news/bolsas-asiaticas-caem-a-minimos-de-7-meses-com-coreia-do-sul-e-taiwan-liderando-perdas-2133548",
+      "title": "Trump diz que EUA querem vender apenas chips mais antigos à China",
+      "url": "https://br.investing.com/news/stock-market-news/trump-diz-que-eua-querem-vender-apenas-chips-mais-antigos-a-china-2134407",
       "source": "Investing.com Brasil",
       "date": "2026-11-20"
     }
