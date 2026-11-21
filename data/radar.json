@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:07:52+00:00",
+  "generated_at": "2026-11-21T03:59:50+00:00",
   "quote_date": "2026-11-19",
   "weekly_status": "Atualizado",
   "funds": [
@@ -69,7 +69,7 @@
         "P/VP 0.89",
         "Rendimento mensal do informe: 0.95%",
         "Vacância 1.2%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -155,7 +155,7 @@
         "P/VP 0.85",
         "Rendimento mensal do informe: 0.70%",
         "Vacância 2.5%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -239,7 +239,7 @@
       "notes": [
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.81%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -317,7 +317,7 @@
       "notes": [
         "P/VP 1.00",
         "Rendimento mensal do informe: 1.22%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -389,7 +389,7 @@
         "P/VP 0.83",
         "Rendimento mensal do informe: 0.78%",
         "Vacância 3.8%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -469,7 +469,7 @@
         "P/VP 0.88",
         "Rendimento mensal do informe: 0.67%",
         "Vacância 1.8%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -535,7 +535,7 @@
         "P/VP 0.57",
         "Rendimento mensal do informe: 0.43%",
         "Vacância 20.0%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -616,7 +616,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -695,7 +695,7 @@
       "notes": [
         "P/VP 0.83",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -773,7 +773,7 @@
       "notes": [
         "P/VP 0.88",
         "Rendimento mensal do informe: 0.74%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -841,7 +841,7 @@
       "notes": [
         "P/VP 0.80",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -918,7 +918,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 142 dias"
+        "Informe antigo: 143 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [],
@@ -934,21 +934,27 @@
   ],
   "headlines": [
     {
-      "title": "Decreto sobre 6×1 mantém lacunas a menos de um mês da implementação e Lula admite judicialização",
-      "url": "https://www.gazetadopovo.com.br/economia/decreto-sobre-6x1-mantem-lacunas-a-menos-de-um-mes-da-implementacao-e-lula-admite-judicializacao/",
+      "title": "Nova pesquisa do IBGE pode ajudar a combater a pobreza",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/laura-machado/2026/11/nova-pesquisa-do-ibge-pode-ajudar-a-combater-a-pobreza.shtml",
+      "source": "Folha · Mercado • Brasil",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Chinesas já dominam quase um quarto do mercado automotivo brasileiro e pressionam rivais",
+      "url": "https://www.gazetadopovo.com.br/automoveis/montadoras-chinesas-dominam-quase-um-quarto-mercado-automotivo-brasileiro/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-20"
     },
     {
-      "title": "Sentimento do consumidor dos EUA sobe a 51,5 em novembro",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/sentimento-do-consumidor-dos-eua-sobe-a-515-em-novembro/",
+      "title": "Diretora do Fed defende ação contra inflação: “Não temos esse luxo”",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/diretora-do-fed-defende-acao-contra-inflacao-nao-temos-esse-luxo/",
       "source": "CNN Brasil • Brasil",
       "date": "2026-11-20"
     },
     {
-      "title": "Lagarde, do BCE, diz que ameaças cibernéticas ampliadas pela IA são sua principal preocupação",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/lagarde-do-bce-diz-que-ameacas-ciberneticas-ampliadas-pela-ia-sao-sua-principal-preocupacao.shtml",
-      "source": "Folha · Mercado • Brasil",
+      "title": "Trump chama Fed de “político” e reclama de juros altos - Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOek5jTldlTDdpWk9YcVZiekxTNy1XbExoY0k1LVlmWU1YWHBQbHFIVjNHUEI0akVBZzRxQTFyd3U3NUdTMVFLUUk2WlFlUVN0RWxjQzQyVDdqRmI1eHM5b2pYeDVQSERvQXlBeUlUTVdvYjEwQ1RONWdVRTZaS0hBWG40MmJGWUVzeG9vamN1bndnVUxvMGpzZnNiblVTam40M2tB?oc=5",
+      "source": "Poder360 • Exterior",
       "date": "2026-11-20"
     },
     {
@@ -958,28 +964,22 @@
       "date": "2026-11-20"
     },
     {
-      "title": "Dirigentes do Fed citam inflação e risco de estresse e admitem alta de juros - UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaWxEa1RqbE5rVjFxcEdwNlhzdXFZZnlKZFZscDZKOHFqM2w0Mmo4M0hzSmVwZUJrZVpRV2JxWUw5dzMtZW10dXRRSDBSYjhrWVhnZmlleERyWDFmdmhaTVZiX1hlM2tUVVp3SHVxdF9hOGQweWJvNmI2UEtTVUVvOFRJTUIzSjI4c25jWTdybENiaTNRbV9VUXNLUzVNNGpDT044Y29GV3VCaGFoN09ra0xRRng0cFVPcG5yUFptUUR6YVJnVEtucjliZkpQM3c1bFZn?oc=5",
-      "source": "UOL Economia • Exterior",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "A tecnologia prometeu facilidade. Agora está deixando muitos americanos apreensivos",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/a-tecnologia-prometeu-facilidade-agora-esta-deixando-muitos-americanos-apreensivos.shtml",
+      "title": "Equipe econômica vai levar a Lula nomes para substituir presidente do Banco do Brasil",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/equipe-economica-vai-levar-a-lula-nomes-para-substituir-presidente-do-banco-do-brasil.shtml",
       "source": "Folha · Mercado",
-      "date": "2026-11-20"
+      "date": "2026-11-21"
     },
     {
-      "title": "Ações da Nvidia têm pior sequência de quedas na bolsa desde 2008",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/20/acoes-da-nvidia-tem-pior-sequencia-de-quedas-na-bolsa-desde-2008.ghtml",
-      "source": "G1 Economia",
-      "date": "2026-11-20"
-    },
-    {
-      "title": "Trump diz que EUA querem vender apenas chips mais antigos à China",
-      "url": "https://br.investing.com/news/stock-market-news/trump-diz-que-eua-querem-vender-apenas-chips-mais-antigos-a-china-2134407",
+      "title": "UBS vê oportunidades em commodities apesar da queda no prêmio do petróleo",
+      "url": "https://br.investing.com/news/stock-market-news/ubs-ve-oportunidades-em-commodities-apesar-da-queda-no-premio-do-petroleo-2134666",
       "source": "Investing.com Brasil",
-      "date": "2026-11-20"
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Ministro do TSE vota para barrar eleição de Ney Santos por ligação com PCC",
+      "url": "https://www.cnnbrasil.com.br/politica/ministro-do-tse-vota-para-barrar-eleicao-de-ney-santos-por-ligacao-com-pcc/",
+      "source": "CNN Brasil",
+      "date": "2026-11-21"
     }
   ],
   "macro": {
