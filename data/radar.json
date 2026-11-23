@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:59:50+00:00",
+  "generated_at": "2026-11-23T22:41:22+00:00",
   "quote_date": "2026-11-19",
   "weekly_status": "Atualizado",
   "funds": [
@@ -69,7 +69,7 @@
         "P/VP 0.89",
         "Rendimento mensal do informe: 0.95%",
         "Vacância 1.2%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -155,7 +155,7 @@
         "P/VP 0.85",
         "Rendimento mensal do informe: 0.70%",
         "Vacância 2.5%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -239,7 +239,7 @@
       "notes": [
         "P/VP 0.92",
         "Rendimento mensal do informe: 0.81%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -317,7 +317,7 @@
       "notes": [
         "P/VP 1.00",
         "Rendimento mensal do informe: 1.22%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -368,6 +368,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "ALZR11 e XPLG11: qual fundo imobiliário rende mais?",
+          "url": "https://www.suno.com.br/noticias/alzr11-e-xplg11-indicadores-fiis-comparados/",
+          "source": "Suno Notícias",
+          "date": "2026-11-23"
+        },
+        {
           "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
           "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
           "source": "Money Times",
@@ -389,7 +395,7 @@
         "P/VP 0.83",
         "Rendimento mensal do informe: 0.78%",
         "Vacância 3.8%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -469,7 +475,7 @@
         "P/VP 0.88",
         "Rendimento mensal do informe: 0.67%",
         "Vacância 1.8%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -535,7 +541,7 @@
         "P/VP 0.57",
         "Rendimento mensal do informe: 0.43%",
         "Vacância 20.0%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Monitorar",
       "observations": [
@@ -591,22 +597,22 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "Fim do ‘dividendo turbinado’: FII reduz pagamento após 29 meses; veja novo valor e o que levou ao corte",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fim-do-dividendo-turbinado-fii-reduz-pagamento-apos-29-meses-veja-novo-valor-e-o-que-levou-ao-corte-igdl/",
+          "source": "Seu Dinheiro",
+          "date": "2026-11-23"
+        },
+        {
+          "title": "Fundo imobiliário anuncia menor dividendo em 29 meses; veja valor e motivo do corte",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-anuncia-menor-dividendo-em-29-meses-veja-valor-e-motivo-do-corte-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-23"
+        },
+        {
           "title": "XPML11 reduz dividendo mensal ao menor nível desde 2023; entenda",
           "url": "https://www.suno.com.br/noticias/xpml11-fii-dividendo-queda-2026/",
           "source": "Suno Notícias",
           "date": "2026-11-20"
-        },
-        {
-          "title": "XPML11 mantém dividendos e vende fatia do Shopping Cidade Jardim",
-          "url": "https://www.suno.com.br/noticias/xpml11-dividendos-venda-shopping-cidade-jardim/",
-          "source": "Suno Notícias",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "FII XPML11 prepara corte de até 20% nos dividendos após pagamentos “turbinados”, e gestor abre o jogo sobre os motivos",
-          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fii-xp-malls-xpml11-prepara-corte-de-ate-20-no-dividendo-apos-pagamentos-turbinados-e-gestor-abre-o-jogo-sobre-os-motivos-igdl/",
-          "source": "Seu Dinheiro",
-          "date": "2026-11-13"
         }
       ],
       "news_topics": [],
@@ -616,7 +622,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.64%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -695,7 +701,7 @@
       "notes": [
         "P/VP 0.83",
         "Rendimento mensal do informe: 0.73%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -747,6 +753,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "HGRU11 anuncia venda de ativos em SP e vacância de apenas 0,8%",
+          "url": "https://www.suno.com.br/noticias/hgru11-vacancia-baixa-dividendos-outubro/",
+          "source": "Suno Notícias",
+          "date": "2026-11-23"
+        },
+        {
           "title": "Fundo imobiliário espera embolsar R$ 21,5 milhões com venda de lojas da Pernambucanas; veja quanto isso rende por cota",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fundo-imobiliario-espera-embolsar-r-215-milhoes-com-venda-de-lojas-da-pernambucanas-veja-quanto-isso-rende-por-cota-igdl/",
           "source": "Seu Dinheiro",
@@ -757,15 +769,11 @@
           "url": "https://www.moneytimes.com.br/fundo-imobiliario-garante-lucro-de-r-085-por-cota-com-venda-de-lojas-da-pernambucanas-ifix-cai-em-novembro-igdl/",
           "source": "Money Times",
           "date": "2026-11-09"
-        },
-        {
-          "title": "Carrefour notifica ao Cade venda de 22 imóveis a fundo imobiliário do Patria",
-          "url": "https://www.moneytimes.com.br/carrefour-notifica-ao-cade-venda-de-22-imoveis-a-fundo-de-investimento-imobiliario-patria-igdl/",
-          "source": "Money Times",
-          "date": "2026-10-21"
         }
       ],
-      "news_topics": [],
+      "news_topics": [
+        "vacância"
+      ],
       "score": 70,
       "missing": [
         "vacância física"
@@ -773,7 +781,7 @@
       "notes": [
         "P/VP 0.88",
         "Rendimento mensal do informe: 0.74%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -841,7 +849,7 @@
       "notes": [
         "P/VP 0.80",
         "Rendimento mensal do informe: 0.75%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [
@@ -918,7 +926,7 @@
       ],
       "notes": [
         "Rendimento mensal do informe: 0.00%",
-        "Informe antigo: 143 dias"
+        "Informe antigo: 145 dias"
       ],
       "classification": "Revisar fontes",
       "observations": [],
@@ -934,58 +942,58 @@
   ],
   "headlines": [
     {
-      "title": "Nova pesquisa do IBGE pode ajudar a combater a pobreza",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/laura-machado/2026/11/nova-pesquisa-do-ibge-pode-ajudar-a-combater-a-pobreza.shtml",
-      "source": "Folha · Mercado • Brasil",
-      "date": "2026-11-21"
+      "title": "CVM suspende registro do BRB e de mais quatro empresas",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cvm-suspende-registro-do-brb-e-de-outras-quatro-empresas",
+      "source": "Agência Brasil · Economia • Brasil",
+      "date": "2026-11-23"
     },
     {
-      "title": "Chinesas já dominam quase um quarto do mercado automotivo brasileiro e pressionam rivais",
-      "url": "https://www.gazetadopovo.com.br/automoveis/montadoras-chinesas-dominam-quase-um-quarto-mercado-automotivo-brasileiro/",
+      "title": "“Se nada for feito, vamos para uma recessão”, diz Mendonça de Barros",
+      "url": "https://www.gazetadopovo.com.br/economia/se-nada-for-feito-vamos-para-uma-recessao-diz-mendonca-de-barros/",
       "source": "Gazeta do Povo · Economia • Brasil",
-      "date": "2026-11-20"
+      "date": "2026-11-23"
     },
     {
-      "title": "Diretora do Fed defende ação contra inflação: “Não temos esse luxo”",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/diretora-do-fed-defende-acao-contra-inflacao-nao-temos-esse-luxo/",
-      "source": "CNN Brasil • Brasil",
-      "date": "2026-11-20"
+      "title": "Câmara pode votar ajuste fiscal nesta segunda-feira (23)",
+      "url": "https://www.moneytimes.com.br/camara-pode-votar-ajuste-fiscal-nesta-segunda-feira-23/",
+      "source": "Money Times • Brasil",
+      "date": "2026-11-23"
     },
     {
-      "title": "Trump chama Fed de “político” e reclama de juros altos - Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOek5jTldlTDdpWk9YcVZiekxTNy1XbExoY0k1LVlmWU1YWHBQbHFIVjNHUEI0akVBZzRxQTFyd3U3NUdTMVFLUUk2WlFlUVN0RWxjQzQyVDdqRmI1eHM5b2pYeDVQSERvQXlBeUlUTVdvYjEwQ1RONWdVRTZaS0hBWG40MmJGWUVzeG9vamN1bndnVUxvMGpzZnNiblVTam40M2tB?oc=5",
-      "source": "Poder360 • Exterior",
-      "date": "2026-11-20"
+      "title": "Bill Ackman diz que Fed pode gerar recessão com alta de juros - CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTmJ0cjFGc2FEUW8zcWYzcWdYVEFsUVdrU1Zkd3d4aVhyQmxsZGMxWXdqM2tZNXlDRnhudzZvaVJtTnVUdE95dDRudjQ2Z0IxOFpPTU9QOXNlaVg3Y1dnSTgwVFNiWkJDQjN4ejM4S2pEVm8wVXlUV1ljUTJidHFWWXBZTEpyRkJvSURHMFJwT29hdlc3dU5YZmVoRFNWdUxhbHNMRWpEbGxpYzlCb3hDa3F5bkVHam9VRUEtZg?oc=5",
+      "source": "CNN Brasil • Exterior",
+      "date": "2026-11-23"
     },
     {
-      "title": "‘Não temos esse luxo’, diz diretora do Fed sobre esperar mais para combater inflação - Money Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWW1CdmJWcndielpIRTJsNDVoR2MxOVJkNDBST2NRZW5VQ0ROR1Bod1NwVTkxcjhYWHVVNnROZWZYc2RjQnc1bDM1dk1POHJjd1hyaVhYTG9JVU8wTDlyRVB3cnBKSXdWd2dTNFlFMGZRQS00cFZyQnN5N09kYm41NjM3THRhSHFEVm5PUThveUtycWV4dVVYd1VUNnktcVdnc1FEMkk2OXI0WlV4akhialE5b1hGM2dQ?oc=5",
-      "source": "Money Times • Exterior",
-      "date": "2026-11-20"
+      "title": "Ele avisou sobre a inflação em 2022. Agora, ex-Fed faz novo alerta sobre os juros americanos - Seu Dinheiro",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNEV5bTF5OXVWR1BLVm1uaGdkVFVGenkweXlIMTlqVXFEdllleVVjd1FUZEVUUDdxNlo0TE93ZzlTdkFsS2pYMVZFdUQ1TW1faE9qODliMDFkVzFPS2JXNlBWUHZBaWZzU082QkZocFhaTk9FWldHSTljelpKUXdpZjdSbWtLSVphc1ZWaGg5Mm1DemdtTXdER2RSWXVOMzc2bjNaNkQ1d0NzLW1rSWxDZ2lTS2xlUHk4bmJ4V1JWeklhQjR3SEhfM0oxNGlfU3h0VG41cg?oc=5",
+      "source": "Seu Dinheiro • Exterior",
+      "date": "2026-11-23"
     },
     {
-      "title": "Equipe econômica vai levar a Lula nomes para substituir presidente do Banco do Brasil",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/equipe-economica-vai-levar-a-lula-nomes-para-substituir-presidente-do-banco-do-brasil.shtml",
+      "title": "Por que a transparência é um novo indicador de segurança na mineração",
+      "url": "https://www.infomoney.com.br/mercados/por-que-a-transparencia-e-um-novo-indicador-de-seguranca-na-mineracao/",
+      "source": "InfoMoney",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Projeto C-Level recebe Prêmio Aberje de Mídia do Ano",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/projeto-c-level-recebe-premio-aberje-de-midia-do-ano.shtml",
       "source": "Folha · Mercado",
-      "date": "2026-11-21"
+      "date": "2026-11-23"
     },
     {
-      "title": "UBS vê oportunidades em commodities apesar da queda no prêmio do petróleo",
-      "url": "https://br.investing.com/news/stock-market-news/ubs-ve-oportunidades-em-commodities-apesar-da-queda-no-premio-do-petroleo-2134666",
-      "source": "Investing.com Brasil",
-      "date": "2026-11-21"
-    },
-    {
-      "title": "Ministro do TSE vota para barrar eleição de Ney Santos por ligação com PCC",
-      "url": "https://www.cnnbrasil.com.br/politica/ministro-do-tse-vota-para-barrar-eleicao-de-ney-santos-por-ligacao-com-pcc/",
-      "source": "CNN Brasil",
-      "date": "2026-11-21"
+      "title": "Moedas Globais: dólar avança com impulso nas ações reforçando alta nos juros pelo Fed",
+      "url": "https://www.infomoney.com.br/mercados/moedas-globais-dolar-avanca-com-impulso-nas-acoes-reforcando-alta-nos-juros-pelo-fed/",
+      "source": "InfoMoney",
+      "date": "2026-11-23"
     }
   ],
   "macro": {
     "selic": {
       "value": 13.75,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "source": "https://capitalagora.com.br/api/indicador/selic-meta"
     },
     "inflation": {
