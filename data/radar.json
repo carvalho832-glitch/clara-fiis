@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T06:58:01+00:00",
+  "generated_at": "2026-11-24T21:16:04+00:00",
   "quote_date": "2026-11-23",
   "weekly_status": "Atualizado",
   "funds": [
@@ -130,6 +130,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "LVBI11 planeja pagar dividendo extra antes de fusão com HGLG11",
+          "url": "https://www.suno.com.br/noticias/lvbi11-dividendo-extra-fusao-hglg11/",
+          "source": "Suno Notícias",
+          "date": "2026-11-24"
+        },
+        {
           "title": "Pátria Log (HGLG11) abre a carteira e desembolsa R$ 31,28 milhões em imóvel logístico",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/patria-log-hglg11-abre-a-carteira-e-desembolsa-r-3128-milhoes-em-imovel-logistico-cbcb/",
           "source": "Seu Dinheiro",
@@ -139,12 +145,6 @@
           "title": "FII desembolsa R$ 31,3 milhões por fatia de imóvel logístico; IFIX acumula perda de quase 8% em 2026",
           "url": "https://www.moneytimes.com.br/fii-desembolsa-r-313-milhoes-por-fatia-de-imovel-logistico-ifix-acumula-perda-de-quase-8-em-2026-igdl/",
           "source": "Money Times",
-          "date": "2026-11-20"
-        },
-        {
-          "title": "HGLG11 fecha compra de imóvel em Itupeva, mas aluguel só vem em 2027",
-          "url": "https://www.suno.com.br/noticias/hglg11-compra-fatia-imovel-itupeva-aluguel-2027/",
-          "source": "Suno Notícias",
           "date": "2026-11-20"
         }
       ],
@@ -215,6 +215,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "MXRF11: por que o fundo imobiliário não tem pressa para investir?",
+          "url": "https://www.infomoney.com.br/onde-investir/mxrf11-fundo-imobiliario-estrategia-investimentos/",
+          "source": "InfoMoney",
+          "date": "2026-11-24"
+        },
+        {
           "title": "MXRF11 é o fundo imobiliário mais negociado da B3 em outubro",
           "url": "https://www.suno.com.br/noticias/mxrf11-lidera-negociacoes-fundos-imobiliarios/",
           "source": "Suno Notícias",
@@ -225,12 +231,6 @@
           "url": "https://www.infomoney.com.br/onde-investir/calendario-de-dividendos-em-novembro-veja-quanto-pagam-mxrf11-knri11-e-outros-fiis/",
           "source": "InfoMoney",
           "date": "2026-11-03"
-        },
-        {
-          "title": "Dividendos de FIIs: 173 fundos podem pagar nesta sexta (30); confira",
-          "url": "https://www.suno.com.br/noticias/dividendos-173-fiis-sexta-30/",
-          "source": "Suno Notícias",
-          "date": "2026-10-30"
         }
       ],
       "news_topics": [],
@@ -753,6 +753,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "TRXF11 ou HGRU11: o que mostram os indicadores dos FIIs",
+          "url": "https://www.suno.com.br/noticias/trxf11-ou-hgru11-dividendos-indicadores-fiis/",
+          "source": "Suno Notícias",
+          "date": "2026-11-24"
+        },
+        {
           "title": "HGRU11 anuncia venda de ativos em SP e vacância de apenas 0,8%",
           "url": "https://www.suno.com.br/noticias/hgru11-vacancia-baixa-dividendos-outubro/",
           "source": "Suno Notícias",
@@ -762,12 +768,6 @@
           "title": "Fundo imobiliário espera embolsar R$ 21,5 milhões com venda de lojas da Pernambucanas; veja quanto isso rende por cota",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fundo-imobiliario-espera-embolsar-r-215-milhoes-com-venda-de-lojas-da-pernambucanas-veja-quanto-isso-rende-por-cota-igdl/",
           "source": "Seu Dinheiro",
-          "date": "2026-11-09"
-        },
-        {
-          "title": "Fundo imobiliário garante lucro de R$ 0,85 por cota com venda de lojas da Pernambucanas; IFIX cai em novembro",
-          "url": "https://www.moneytimes.com.br/fundo-imobiliario-garante-lucro-de-r-085-por-cota-com-venda-de-lojas-da-pernambucanas-ifix-cai-em-novembro-igdl/",
-          "source": "Money Times",
           "date": "2026-11-09"
         }
       ],
@@ -942,27 +942,27 @@
   ],
   "headlines": [
     {
-      "title": "Deputados aprovam medidas de contenção de gastos do governo Lula",
-      "url": "https://www.gazetadopovo.com.br/economia/deputados-aprovam-medidas-de-contencao-de-gastos-do-governo-lula/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "Entenda o pacote fiscal que prevê ajuste de até R$ 56 bilhões",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/entenda-o-pacote-fiscal-que-preve-ajuste-de-ate-r-56-bilhoes",
+      "source": "Agência Brasil · Economia • Brasil",
       "date": "2026-11-24"
     },
     {
-      "title": "Especialistas apontam falhas na gestão de riscos por trás da queda do lucro no Banco do Brasil",
-      "url": "https://www.gazetadopovo.com.br/economia/especialistas-apontam-falhas-na-gestao-de-riscos-por-tras-da-queda-do-lucro-no-banco-do-brasil/",
-      "source": "Gazeta do Povo · Economia • Brasil",
+      "title": "Alerj prepara votação de reajuste para governador, vice e secretários",
+      "url": "https://www.infomoney.com.br/politica/alerj-prepara-votacao-de-reajuste-para-governador-vice-e-secretarios/",
+      "source": "InfoMoney • Brasil",
       "date": "2026-11-24"
     },
     {
-      "title": "‘Market Friendly’: Equipe econômica sugere a Lula nomes para o BC que sejam amigáveis ao mercado",
-      "url": "https://www.estadao.com.br/economia/market-friendly-equipe-economica-sugere-a-lula-nomes-para-o-bc-que-sejam-amigaveis-ao-mercado/",
-      "source": "Estadão • Brasil",
+      "title": "Banco Central autoriza Binance a operar no mercado de câmbio no Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/banco-central-autoriza-binance-a-operar-no-mercado-de-cambio-no-brasil/",
+      "source": "CNN Brasil • Brasil",
       "date": "2026-11-24"
     },
     {
-      "title": "Fed mantém juros, mas dois votos por alta mostram que o aperto não acabou - Nord Investimentos",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9OVmtvNmUtQVVmU25DQ1NrMnRlbk90eDdRLW4tOGVjalh4V1ItcTVjX0l0V3lUV2dvNmlKRTZicVBCdkxDWEItNUJab1NZUXJtNHRvTXh2VkxJTUJKalZEMzVpekVjcjcxSGtUTXVPWHVOMmgzMDcw0gF8QVVfeXFMTzkxMTlVYjYxSlZUelctWGFiMGVESkRkUks3el91bmlQYXM5LXFBY2N2dmN6ellQNzZpZ3R6Ymx5emphLTJLUW9jMjF3MGlWQnZndG1GcjBLZHowTnF4S0E5MnM2c1lHX0ZiX2ljSms2SzQwakxuV2VQUHhPVg?oc=5",
-      "source": "Nord Investimentos • Exterior",
+      "title": "Petróleo cai apesar da guerra e juros podem subir ainda mais nos Estados Unidos - Gente Seguradora",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd18yM1JnM2RZd0tWWG9rOC1hSG1TNUNlT21YclpwY0ZWSlpjVUlmREF3VmpweDN2MUYzUktXVTlhdVMzNDBUSENoZmxJSzFSbmMzRm9zVDZvS19jMDk1emdxb25FOXFVSlUyTVY1Xzh0Zk1JQnRzV0s1aXNxdEVPM09YdENOSlR5aERXNnV6YlR3anVOc0RXVWVxdTNZZGJ3UjBEQV9KTDF2Y3BkUi1pMA?oc=5",
+      "source": "Gente Seguradora • Exterior",
       "date": "2026-11-24"
     },
     {
@@ -972,21 +972,21 @@
       "date": "2026-11-22"
     },
     {
-      "title": "PM da Malásia diz que China é mais fácil de lidar do que os EUA",
-      "url": "https://br.investing.com/news/stock-market-news/pm-da-malasia-diz-que-china-e-mais-facil-de-lidar-do-que-os-eua-93CH-2136304",
-      "source": "Investing.com Brasil",
+      "title": "Justiça da Itália coloca em liberdade ex-capitão de navio que naufragou em 2012",
+      "url": "https://www.infomoney.com.br/mundo/justica-da-italia-coloca-em-liberdade-ex-capitao-de-navio-que-naufragou-em-2012/",
+      "source": "InfoMoney",
       "date": "2026-11-24"
     },
     {
-      "title": "Valneva registra queda de 32% nas vendas em nove meses e mantém guidance",
-      "url": "https://br.investing.com/news/stock-market-news/valneva-registra-queda-de-32-nas-vendas-em-nove-meses-e-mantem-guidance-93CH-2136301",
-      "source": "Investing.com Brasil",
+      "title": "Corinthians: Justiça cobra MP e adia decisão sobre intervenção judicial",
+      "url": "https://www.cnnbrasil.com.br/esportes/futebol/corinthians/corinthians-justica-cobra-mp-e-adia-decisao-sobre-intervencao-judicial/",
+      "source": "CNN Brasil",
       "date": "2026-11-24"
     },
     {
-      "title": "Tomra Systems define meta de margem de 16-18% até 2030-2032",
-      "url": "https://br.investing.com/news/stock-market-news/tomra-systems-define-meta-de-margem-de-1618-ate-20302032-93CH-2136296",
-      "source": "Investing.com Brasil",
+      "title": "Alcolumbre, sobre PEC de ajuste: dá tempo se líderes partidários estiverem dispostos",
+      "url": "https://www.infomoney.com.br/politica/alcolumbre-sobre-pec-de-ajuste-da-tempo-se-lideres-partidarios-estiverem-dispostos/",
+      "source": "InfoMoney",
       "date": "2026-11-24"
     }
   ],
