@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T05:27:38+00:00",
+  "generated_at": "2026-11-25T20:29:24+00:00",
   "quote_date": "2026-11-24",
   "weekly_status": "Atualizado",
   "funds": [
@@ -130,25 +130,27 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "Fundo imobiliário anuncia distribuição extraordinária de dividendos; veja o porquê",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-anuncia-distribuicao-extraordinaria-de-dividendos-veja-o-porque-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-25"
+        },
+        {
+          "title": "HGLG11 eleva lucro em 22,3%; veja dividendos do mês",
+          "url": "https://www.suno.com.br/noticias/hglg11-lucro-outubro-dividendos-incorporacao-lvbi11/",
+          "source": "Suno Notícias",
+          "date": "2026-11-25"
+        },
+        {
           "title": "LVBI11 planeja pagar dividendo extra antes de fusão com HGLG11",
           "url": "https://www.suno.com.br/noticias/lvbi11-dividendo-extra-fusao-hglg11/",
           "source": "Suno Notícias",
           "date": "2026-11-24"
-        },
-        {
-          "title": "Pátria Log (HGLG11) abre a carteira e desembolsa R$ 31,28 milhões em imóvel logístico",
-          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/patria-log-hglg11-abre-a-carteira-e-desembolsa-r-3128-milhoes-em-imovel-logistico-cbcb/",
-          "source": "Seu Dinheiro",
-          "date": "2026-11-20"
-        },
-        {
-          "title": "FII desembolsa R$ 31,3 milhões por fatia de imóvel logístico; IFIX acumula perda de quase 8% em 2026",
-          "url": "https://www.moneytimes.com.br/fii-desembolsa-r-313-milhoes-por-fatia-de-imovel-logistico-ifix-acumula-perda-de-quase-8-em-2026-igdl/",
-          "source": "Money Times",
-          "date": "2026-11-20"
         }
       ],
-      "news_topics": [],
+      "news_topics": [
+        "distribuição"
+      ],
       "score": 90,
       "missing": [],
       "notes": [
@@ -597,6 +599,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "FIIs ALZR11, SNEL11 e XPML11 pagam dividendos hoje; veja valores e yields",
+          "url": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-snel11-e-xpml11-pagam-dividendos-hoje-veja-valores-e-yields/",
+          "source": "InfoMoney",
+          "date": "2026-11-25"
+        },
+        {
           "title": "Fim do ‘dividendo turbinado’: FII reduz pagamento após 29 meses; veja novo valor e o que levou ao corte",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fim-do-dividendo-turbinado-fii-reduz-pagamento-apos-29-meses-veja-novo-valor-e-o-que-levou-ao-corte-igdl/",
           "source": "Seu Dinheiro",
@@ -607,12 +615,6 @@
           "url": "https://www.moneytimes.com.br/fundo-imobiliario-anuncia-menor-dividendo-em-29-meses-veja-valor-e-motivo-do-corte-igdl/",
           "source": "Money Times",
           "date": "2026-11-23"
-        },
-        {
-          "title": "XPML11 reduz dividendo mensal ao menor nível desde 2023; entenda",
-          "url": "https://www.suno.com.br/noticias/xpml11-fii-dividendo-queda-2026/",
-          "source": "Suno Notícias",
-          "date": "2026-11-20"
         }
       ],
       "news_topics": [],
@@ -942,51 +944,51 @@
   ],
   "headlines": [
     {
-      "title": "Reforma tributária e fim da escala 6x1 podem pressionar inflação em 2027; BC e equipe econômica monitoram impactos",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/25/reforma-tributaria-e-fim-da-escala-6x1-podem-pressionar-inflacao-em-2027-bc-e-equipe-economica-monitoram-impactos.ghtml",
+      "title": "Inscrições para concurso do IBGE com 27 mil vagas são prorrogadas; veja como participar",
+      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/11/25/inscricoes-concurso-do-ibge-prorrogadas.ghtml",
       "source": "G1 Economia • Brasil",
       "date": "2026-11-25"
     },
     {
-      "title": "Inscrições para concurso do IBGE com 27 mil vagas terminam nesta quarta; veja como participar",
-      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/11/25/inscricoes-concurso-do-ibge-com-27-mil-vagas.ghtml",
-      "source": "G1 Economia • Brasil",
+      "title": "Ouro fecha em queda com perspectiva de alta nos juros do Fed com inflação persistente",
+      "url": "https://www.infomoney.com.br/mercados/ouro-fecha-em-queda-com-perspectiva-de-alta-nos-juros-do-fed-com-inflacao-persistente/",
+      "source": "InfoMoney • Brasil",
       "date": "2026-11-25"
     },
     {
-      "title": "CNI pede ao STF suspensão de regras do governo Lula para escala 5×2",
-      "url": "https://www.gazetadopovo.com.br/economia/cni-pede-suspensao-de-regras-do-governo-lula-para-escala-5x2/",
+      "title": "Segunda parte do ajuste fiscal de Lula mira emendas parlamentares e supersalários",
+      "url": "https://www.gazetadopovo.com.br/republica/segunda-parte-ajuste-fiscal-lula-mira-emendas-parlamentares-supersalarios/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-25"
     },
     {
-      "title": "Petróleo cai apesar da guerra e juros podem subir ainda mais nos Estados Unidos - Gente Seguradora",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd18yM1JnM2RZd0tWWG9rOC1hSG1TNUNlT21YclpwY0ZWSlpjVUlmREF3VmpweDN2MUYzUktXVTlhdVMzNDBUSENoZmxJSzFSbmMzRm9zVDZvS19jMDk1emdxb25FOXFVSlUyTVY1Xzh0Zk1JQnRzV0s1aXNxdEVPM09YdENOSlR5aERXNnV6YlR3anVOc0RXVWVxdTNZZGJ3UjBEQV9KTDF2Y3BkUi1pMA?oc=5",
-      "source": "Gente Seguradora • Exterior",
-      "date": "2026-11-24"
-    },
-    {
-      "title": "Mercado vê 100% de chance de alta dos juros nos EUA. Por que isso seria péssimo - InvestNews",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Fcm03dzRIR0lZRHhiQlFTTGxMUExrYTdyeXY0OTN2TWdrTEFPWF9MdEVXNXczUE1VemFsVXJKZDNHTXdkdkZxd0RyZVpJRlNEODRMd0JpekFFYkNEd3Y3d29FYXZnVURtaHFwMTRvZ2tNZldaUE41V2hVdmLSAYIBQVVfeXFMUHBHRURQWmY5NTNIZHJFY25naUdmaWZVWGJOZzNLVHNaZ0FHOENFbWotLVhkVDNZN3FsS0MwRzR6WFpYLTk4aHJFTmFfYUFjdnBhUzNZNGRqbFJxY1IzdThldHVvOHRwa0lTc1JkYzNZc1Jpd09YM1VuNHpaTWlGVUt0dw?oc=5",
-      "source": "InvestNews • Exterior",
-      "date": "2026-11-22"
-    },
-    {
-      "title": "Por que as ações da SK Hynix estão caindo hoje?",
-      "url": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-sk-hynix-estao-caindo-hoje-93CH-2137557",
-      "source": "Investing.com Brasil",
+      "title": "A inflação americana e os efeitos da alta de juros nos Estados Unidos - VEJA",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTUlWQmFTcTRsRVFCWTBWdGNRMFU0cEpfS3MwTUFCNVNZTHFHcS1TQ0pNMk5PUXhreE91ZHJ0d0tvWGNyWVoyLU83ZGdiMjhORElJNDhGX3c5ZzZaMl9kazZxRWRCMmJhV0pqSXo5TG4wMmhSbU95dEk3Vm9ZbWo4WmhJUDBmVl9nRkxERFdrVm9wZEhvemN2STJMUEtVdFJvRWJiZzZ1Ql8?oc=5",
+      "source": "VEJA • Exterior",
       "date": "2026-11-25"
     },
     {
-      "title": "Por que as ações da Samsung Electronics estão despencando hoje?",
-      "url": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-samsung-electronics-estao-despencando-hoje-93CH-2137556",
-      "source": "Investing.com Brasil",
+      "title": "Livro Bege do Fed: empresários preveem que alta de preços nos EUA siga no curto prazo - InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVWtncXVqUVJaTHZRMFNtQU1PX2x2OWRMZGp1cHIxdmNmVEQyekFOVzVDMXpDOGllSUJ1Wm1yN2hMR1g1Nmg2ektxQl9PRmhsd0x4aTR2TkpCdDV3WDhNZVNpcmRVd0gxZVpGTzBaYkl6OGtjd0dna2lkNnQ1RHJTbFM3aktnNmx4MzVoa0J1X1I2OXFyY2J2VTZWYnNBLXNkLXdPTjYwMGN0WkVWcEdCNXp6V0ZqNktadUhFTnFpU1LSAcYBQVVfeXFMTjJYdGZ5c2lJaW5BakJWM2YtRl9yZm5iNkdlY1hfNXBVMmtSaDYzUW1xeWhkTUxHZ1BwNWJsNFpZUENFWk5JWGM2YU5yQmFKTzY0cWdna0RYc2FwYnpBdVFkbFo4cy1yZTNNdzIyOHRscjhCZ3ZYX2xJdE1Pd3JvdTdpQmZVWi1HYzlYNmp2S3Y5dWVpaF9kUzZ1UDNhRnkzX0s0WWdyQmRpMzJxU0JUYmZDcHlkQjh0dlNMUVRQX1VoY1ZBeHNR?oc=5",
+      "source": "InfoMoney • Exterior",
       "date": "2026-11-25"
     },
     {
-      "title": "Unidade indiana da Foxconn enfrenta disputas de pagamento com fornecedores",
-      "url": "https://br.investing.com/news/stock-market-news/unidade-indiana-da-foxconn-enfrenta-disputas-de-pagamento-com-fornecedores-93CH-2137555",
-      "source": "Investing.com Brasil",
+      "title": "CVM multa trio em R$ 1,5 milhão por fraude contra clientes do BB Investimentos",
+      "url": "https://valorinveste.globo.com/objetivo/de-olho-no-mercado/noticia/2026/11/25/cvm-multa-trio-em-r-15-milhao-por-fraude-contra-clientes-do-bb-investimentos.ghtml",
+      "source": "Valor Investe",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "Dólar cai 1,58% com expectativa fiscal e rumores sobre Trabuco na Fazenda",
+      "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/25/dolar-ibovespa-fechamento-25-novembro-2026.ghtm",
+      "source": "UOL Economia",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "Motiva avalia erguer prédios residenciais em cima de estações de metrô em São Paulo",
+      "url": "https://www.estadao.com.br/economia/negocios/motiva-avalia-erguer-predios-residenciais-em-cima-de-estacoes-de-metro-em-sao-paulo/",
+      "source": "Estadão",
       "date": "2026-11-25"
     }
   ],
