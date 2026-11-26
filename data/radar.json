@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:07:38+00:00",
+  "generated_at": "2026-11-26T20:12:14+00:00",
   "quote_date": "2026-11-25",
   "weekly_status": "Atualizado",
   "funds": [
@@ -42,6 +42,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "BTLG11 convoca cotistas para aprovar compra de R$ 798,5 milhões",
+          "url": "https://www.suno.com.br/noticias/btlg11-aquisicao-galpoes-yield-13-05/",
+          "source": "Suno Notícias",
+          "date": "2026-11-26"
+        },
+        {
           "title": "BTLG11 capta R$ 807 mi em 17ª emissão de cotas na B3",
           "url": "https://www.suno.com.br/noticias/btlg11-capta-807-milhoes-emissao-cotas/",
           "source": "Suno Notícias",
@@ -52,12 +58,6 @@
           "url": "https://www.suno.com.br/noticias/cplg11-dividendos-117-venda-ativos-btlg11/",
           "source": "Suno Notícias",
           "date": "2026-11-17"
-        },
-        {
-          "title": "BTLG11 paga R$0,81 por cota em novembro; confira detalhes",
-          "url": "https://www.suno.com.br/noticias/btlg11-paga-dividendos-novembro-dividend-yield/",
-          "source": "Suno Notícias",
-          "date": "2026-11-13"
         }
       ],
       "news_topics": [
@@ -217,6 +217,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "MXRF11: Quanto rendeu o fundo imobiliário desde o início?",
+          "url": "https://www.suno.com.br/noticias/mxrf11-rentabilidade-desde-estreia-2012/",
+          "source": "Suno Notícias",
+          "date": "2026-11-26"
+        },
+        {
           "title": "MXRF11: por que o fundo imobiliário não tem pressa para investir?",
           "url": "https://www.infomoney.com.br/onde-investir/mxrf11-fundo-imobiliario-estrategia-investimentos/",
           "source": "InfoMoney",
@@ -227,12 +233,6 @@
           "url": "https://www.suno.com.br/noticias/mxrf11-lidera-negociacoes-fundos-imobiliarios/",
           "source": "Suno Notícias",
           "date": "2026-11-13"
-        },
-        {
-          "title": "Calendário de dividendos em novembro: veja quanto pagam MXRF11, KNRI11 e outros FIIs",
-          "url": "https://www.infomoney.com.br/onde-investir/calendario-de-dividendos-em-novembro-veja-quanto-pagam-mxrf11-knri11-e-outros-fiis/",
-          "source": "InfoMoney",
-          "date": "2026-11-03"
         }
       ],
       "news_topics": [],
@@ -835,6 +835,18 @@
       "payment_source": null,
       "news": [
         {
+          "title": "FII estende projeção de dividendos após venda milionária e novos aluguéis no radar; saiba valor",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/fii-estende-projecao-de-dividendos-apos-venda-milionaria-e-novos-alugueis-no-radar-saiba-valor-igdl/",
+          "source": "Seu Dinheiro",
+          "date": "2026-11-26"
+        },
+        {
+          "title": "Fundo imobiliário de logística estende projeção de dividendos até fevereiro de 2027; veja o valor",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-de-logistica-estende-projecao-de-dividendos-ate-fevereiro-de-2027-veja-o-valor-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-26"
+        },
+        {
           "title": "Demanda aquecida e vacância baixa: 6 FIIs de galpões para ter na carteira, segundo o Itaú BBA",
           "url": "https://www.moneytimes.com.br/demanda-alta-e-vacancia-baixa-6-fiis-de-galpoes-para-ter-na-carteira-segundo-o-itau-bba-igdl/",
           "source": "Money Times",
@@ -903,6 +915,12 @@
       "payment_source": null,
       "news": [
         {
+          "title": "RBRR11: entenda o prazo para declarar custo médio e evitar mais IR",
+          "url": "https://www.suno.com.br/noticias/rbrr11-custo-medio-imposto-de-renda-liquidacao/",
+          "source": "Suno Notícias",
+          "date": "2026-11-26"
+        },
+        {
           "title": "RBRR11 paga R$ 0,59 por cota em dividendos em novembro",
           "url": "https://www.suno.com.br/noticias/rbrr11-paga-dividendos-novembro/",
           "source": "Suno Notícias",
@@ -913,12 +931,6 @@
           "url": "https://www.moneytimes.com.br/fundo-imobiliario-recebe-aval-para-comprar-ativos-de-rpri11-rbrr11-e-vcjr11-ifix-recua-jcav/",
           "source": "Money Times",
           "date": "2026-10-29"
-        },
-        {
-          "title": "Gigante à vista: Patria fica a um passo de unir quatro fundos imobiliários (FIIs) em um só",
-          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/gigante-vista-patria-fica-um-passo-unir-quatro-fundos-imobiliarios-fiis-em-um-igdl/",
-          "source": "Seu Dinheiro",
-          "date": "2026-10-21"
         }
       ],
       "news_topics": [],
@@ -944,22 +956,28 @@
   ],
   "headlines": [
     {
-      "title": "Lula planeja indicar seis novos diretores ao Banco Central até o fim de 2027",
-      "url": "https://www.gazetadopovo.com.br/economia/lula-planeja-indicar-seis-novos-diretores-ao-banco-central-ate-o-fim-de-2027/",
-      "source": "Gazeta do Povo · Economia • Brasil",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "Veja como investir o 13º salário com cenário de juros altos e despesas de início de ano",
-      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/veja-como-investir-o-13o-salario-com-cenario-de-juros-altos-e-despesas-de-inicio-de-ano.shtml",
+      "title": "Fed mantém postura dura e deve aumentar juros apesar de queda das ações",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/fed-mantem-postura-dura-e-deve-aumentar-juros-apesar-de-queda-das-acoes.shtml",
       "source": "Folha · Mercado • Brasil",
       "date": "2026-11-26"
     },
     {
-      "title": "Empresários preveem inflação persistente nos EUA no curto prazo, mostra Fed",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/empresarios-preveem-que-alta-de-precos-nos-eua-siga-no-curto-prazo-mostra-livro-bege-do-fed/",
-      "source": "CNN Brasil • Brasil",
+      "title": "PT racha governo e rejeita segunda parte do ajuste fiscal",
+      "url": "https://www.gazetadopovo.com.br/republica/pt-racha-governo-rejeita-segunda-parte-ajuste-fiscal/",
+      "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-26"
+    },
+    {
+      "title": "BB e Google bloqueiam mais de 77 mil chamadas fraudulentas",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-e-google-bloqueiam-mais-de-77-mil-chamadas-fraudulentas",
+      "source": "Agência Brasil · Economia • Brasil",
+      "date": "2026-11-26"
+    },
+    {
+      "title": "Mercado vê 100% de chance de alta dos juros nos EUA. Por que isso seria péssimo - InvestNews",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Fcm03dzRIR0lZRHhiQlFTTGxMUExrYTdyeXY0OTN2TWdrTEFPWF9MdEVXNXczUE1VemFsVXJKZDNHTXdkdkZxd0RyZVpJRlNEODRMd0JpekFFYkNEd3Y3d29FYXZnVURtaHFwMTRvZ2tNZldaUE41V2hVdmLSAYIBQVVfeXFMUHBHRURQWmY5NTNIZHJFY25naUdmaWZVWGJOZzNLVHNaZ0FHOENFbWotLVhkVDNZN3FsS0MwRzR6WFpYLTk4aHJFTmFfYUFjdnBhUzNZNGRqbFJxY1IzdThldHVvOHRwa0lTc1JkYzNZc1Jpd09YM1VuNHpaTWlGVUt0dw?oc=5",
+      "source": "InvestNews • Exterior",
+      "date": "2026-11-22"
     },
     {
       "title": "Fed mantém juros, mas dois votos por alta mostram que o aperto não acabou - Nord Investimentos",
@@ -968,27 +986,21 @@
       "date": "2026-11-25"
     },
     {
-      "title": "A inflação americana e os efeitos da alta de juros nos Estados Unidos - VEJA",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTUlWQmFTcTRsRVFCWTBWdGNRMFU0cEpfS3MwTUFCNVNZTHFHcS1TQ0pNMk5PUXhreE91ZHJ0d0tvWGNyWVoyLU83ZGdiMjhORElJNDhGX3c5ZzZaMl9kazZxRWRCMmJhV0pqSXo5TG4wMmhSbU95dEk3Vm9ZbWo4WmhJUDBmVl9nRkxERFdrVm9wZEhvemN2STJMUEtVdFJvRWJiZzZ1Ql8?oc=5",
-      "source": "VEJA • Exterior",
-      "date": "2026-11-25"
-    },
-    {
-      "title": "+48%, +36%, +32%: as escolhas de IA em saúde que batem o setor em 2026",
-      "url": "https://br.investing.com/news/stock-market-news/48-36-32-as-escolhas-de-ia-em-saude-que-superam-o-setor-em-2026-2138614",
-      "source": "Investing.com Brasil",
+      "title": "Kit de emergência: venda de enlatados dispara após recomendação da Defesa Civil",
+      "url": "https://www.infomoney.com.br/business/kit-de-emergencia-venda-de-enlatados-dispara-apos-recomendacao-da-defesa-civil/",
+      "source": "InfoMoney",
       "date": "2026-11-26"
     },
     {
-      "title": "Dos EUA, Flávio Bolsonaro indica R$ 79 milhões em emendas para 2027",
-      "url": "https://www.cnnbrasil.com.br/politica/dos-eua-flavio-bolsonaro-indica-r-79-milhoes-em-emendas-para-2027/",
-      "source": "CNN Brasil",
+      "title": "Qual é a melhor hora para comprar na Black Friday?",
+      "url": "https://www.infomoney.com.br/consumo/qual-e-a-melhor-hora-para-comprar-na-black-friday/",
+      "source": "InfoMoney",
       "date": "2026-11-26"
     },
     {
-      "title": "Moraes autoriza Débora do Batom a comparecer à apresentação do filho",
-      "url": "https://www.cnnbrasil.com.br/politica/moraes-autoriza-debora-do-batom-a-comparecer-a-apresentacao-do-filho/",
-      "source": "CNN Brasil",
+      "title": "Black Friday da casa própria? BB põe 215 imóveis à venda em leilão sem lance mínimo",
+      "url": "https://www.infomoney.com.br/minhas-financas/black-friday-da-casa-propria-bb-poe-215-imoveis-a-venda-em-leilao-sem-lance-minimo/",
+      "source": "InfoMoney",
       "date": "2026-11-26"
     }
   ],
