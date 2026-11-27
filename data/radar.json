@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T05:05:27+00:00",
+  "generated_at": "2026-11-27T19:59:27+00:00",
   "quote_date": "2026-11-26",
   "weekly_status": "Atualizado",
   "funds": [
@@ -42,6 +42,12 @@
       "payment_source": "https://www.infomoney.com.br/onde-investir/fiis-alzr11-xpml11-e-snel11-pagam-dividendos-nesta-sexta-feira-23-veja-valores/",
       "news": [
         {
+          "title": "FII BTLG11 quer investir R$ 798 milhões em galpões com Mercado Livre entre os inquilinos; cotistas decidem",
+          "url": "https://www.moneytimes.com.br/fii-btlg11-quer-investir-r-798-milhoes-em-galpoes-com-mercado-livre-entre-os-inquilinos-cotistas-decidem-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-27"
+        },
+        {
           "title": "BTLG11 convoca cotistas para aprovar compra de R$ 798,5 milhões",
           "url": "https://www.suno.com.br/noticias/btlg11-aquisicao-galpoes-yield-13-05/",
           "source": "Suno Notícias",
@@ -52,12 +58,6 @@
           "url": "https://www.suno.com.br/noticias/btlg11-capta-807-milhoes-emissao-cotas/",
           "source": "Suno Notícias",
           "date": "2026-11-19"
-        },
-        {
-          "title": "CPLG11 distribui dividendos e fecha venda de ativos ao BTLG11",
-          "url": "https://www.suno.com.br/noticias/cplg11-dividendos-117-venda-ativos-btlg11/",
-          "source": "Suno Notícias",
-          "date": "2026-11-17"
         }
       ],
       "news_topics": [
@@ -130,6 +130,12 @@
       "payment_source": "https://brapi.dev/docs/fiis/dividendos",
       "news": [
         {
+          "title": "Fundo imobiliário amplia participação em complexo logístico em SP; IFIX emenda terceira alta",
+          "url": "https://www.moneytimes.com.br/fundo-imobiliario-amplia-participacao-em-complexo-logistico-em-sp-ifix-emenda-terceira-alta-igdl/",
+          "source": "Money Times",
+          "date": "2026-11-27"
+        },
+        {
           "title": "HGLG11 conclui compra de fatia restante do galpão G400",
           "url": "https://www.suno.com.br/noticias/hglg11-compra-galpao-itupeva-sp/",
           "source": "Suno Notícias",
@@ -140,17 +146,9 @@
           "url": "https://www.suno.com.br/noticias/ggrc11-ou-hglg11-indicadores-fiis-logistica/",
           "source": "Suno Notícias",
           "date": "2026-11-26"
-        },
-        {
-          "title": "Fundo imobiliário anuncia distribuição extraordinária de dividendos; veja o porquê",
-          "url": "https://www.moneytimes.com.br/fundo-imobiliario-anuncia-distribuicao-extraordinaria-de-dividendos-veja-o-porque-igdl/",
-          "source": "Money Times",
-          "date": "2026-11-25"
         }
       ],
-      "news_topics": [
-        "distribuição"
-      ],
+      "news_topics": [],
       "score": 90,
       "missing": [],
       "notes": [
@@ -956,28 +954,28 @@
   ],
   "headlines": [
     {
-      "title": "Luiz Carlos Trabuco assume Ministério da Fazenda com foco em equilíbrio fiscal",
-      "url": "https://www.gazetadopovo.com.br/economia/luiz-carlos-trabuco-assume-ministerio-da-fazenda-com-foco-em-equilibrio-fiscal/",
+      "title": "Tesouro Direto: Prefixados e títulos atrelados à inflação ganham espaço entre investidores",
+      "url": "https://valorinveste.globo.com/produtos/renda-fixa/tesouro-direto/noticia/2026/11/27/tesouro-direto-prefixados-e-titulos-atrelados-a-inflacao-ganham-espaco-entre-investidores.ghtml",
+      "source": "Valor Investe • Brasil",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "Black Friday invisível oferece descontos em serviços que aliviam o orçamento em 2027",
+      "url": "https://www.gazetadopovo.com.br/economia/black-friday-invisivel-oferece-descontos-em-servicos-que-aliviam-o-orcamento-em-2027/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-27"
     },
     {
-      "title": "Escolha de Trabuco para a Fazenda irrita parte da esquerda e gera críticas da oposição",
-      "url": "https://www.gazetadopovo.com.br/republica/trabuco-na-fazenda-agrada-cupula-congresso-mas-irrita-esquerda-e-oposicao/",
+      "title": "Lula nomeia Luiz Carlos Trabuco para o comando do Ministério da Fazenda",
+      "url": "https://www.gazetadopovo.com.br/economia/lula-nomeia-luiz-carlos-trabuco-para-o-comando-do-ministerio-da-fazenda/",
       "source": "Gazeta do Povo · Economia • Brasil",
       "date": "2026-11-27"
     },
     {
-      "title": "Mega-Sena não tem ganhador e prêmio acumula para R$ 82 milhões",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-sena-nao-tem-ganhador-e-premio-acumula-para-r-82-milhoes",
-      "source": "Agência Brasil · Economia • Brasil",
-      "date": "2026-11-27"
-    },
-    {
-      "title": "PIB dos EUA cresce 4,3% no terceiro trimestre de 2026 e registra maior avanço em três anos - Portal do Agronegócio",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNczRINlQ1N1d3RE5WeGNPa2lkNjZfLTdRRXBWekw1Q1Iwdjc1cWgxWGN1THo2TU9ULURCTUcxNnppNWJHNy03bjQ0S19LS2NGR3hDX2RFckowS09kYWgwMEYtZEl5RHgxbGxxZ2U5RWNTNTRkOEw0VDV5cEhNamttRFZ4aXlnemlBWkFZWFFBX1ZyZ3V4cDcweU15SEpjc09SX0lqZGZDSjVVUmFFb3kwSWwzSVg5bU1HRE1wTVJWTGdqNW1iSXlGLVhsenNDam5VU1U0MkVmaTZyR3E3WEt5NVB4VHoxdFlCNUViRERMZmlNQQ?oc=5",
-      "source": "Portal do Agronegócio • Exterior",
-      "date": "2026-11-26"
+      "title": "Fed mantém juros, mas dois votos por alta mostram que o aperto não acabou - Nord Investimentos",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9OVmtvNmUtQVVmU25DQ1NrMnRlbk90eDdRLW4tOGVjalh4V1ItcTVjX0l0V3lUV2dvNmlKRTZicVBCdkxDWEItNUJab1NZUXJtNHRvTXh2VkxJTUJKalZEMzVpekVjcjcxSGtUTXVPWHVOMmgzMDcw0gF8QVVfeXFMTzkxMTlVYjYxSlZUelctWGFiMGVESkRkUks3el91bmlQYXM5LXFBY2N2dmN6ellQNzZpZ3R6Ymx5emphLTJLUW9jMjF3MGlWQnZndG1GcjBLZHowTnF4S0E5MnM2c1lHX0ZiX2ljSms2SzQwakxuV2VQUHhPVg?oc=5",
+      "source": "Nord Investimentos • Exterior",
+      "date": "2026-11-25"
     },
     {
       "title": "Mercado vê 100% de chance de alta dos juros nos EUA. Por que isso seria péssimo - InvestNews",
@@ -986,21 +984,21 @@
       "date": "2026-11-22"
     },
     {
-      "title": "No dia da Black Friday, 58% dos itens pesquisados têm descontos; 33% estão mais caros; veja lista",
-      "url": "https://g1.globo.com/guia/guia-de-compras/no-dia-da-black-friday-58percent-dos-itens-pesquisados-tem-descontos-33percent-estao-mais-caros.ghtml",
-      "source": "G1 Economia",
-      "date": "2026-11-27"
-    },
-    {
-      "title": "Por que o Dólar Australiano está subindo hoje?",
-      "url": "https://br.investing.com/news/stock-market-news/por-que-o-dolar-australiano-esta-subindo-hoje-93CH-2138954",
+      "title": "OpenAI processa Apple por roubo de segredos comerciais",
+      "url": "https://br.investing.com/news/stock-market-news/openai-processaapple-por-roubo-de-segredos-comerciais-2139394",
       "source": "Investing.com Brasil",
       "date": "2026-11-27"
     },
     {
-      "title": "Jera, do Japão, negocia com Anthropic, Meta e Amazon para construir data centers",
-      "url": "https://br.investing.com/news/stock-market-news/jera-do-japao-negocia-com-anthropic-meta-e-amazon-para-construir-data-centers-93CH-2138953",
+      "title": "Ação escolhida por IA sobe 15% em novembro na B3; ainda pode subir 27%",
+      "url": "https://br.investing.com/news/stock-market-news/acao-escolhida-por-ia-sobe-15-em-novembro-na-b3-ainda-pode-subir-27-2139389",
       "source": "Investing.com Brasil",
+      "date": "2026-11-27"
+    },
+    {
+      "title": "A proteção do consumidor termina na fronteira?",
+      "url": "https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/sergio-zimerman/2026/11/a-protecao-do-consumidor-termina-na-fronteira.shtml",
+      "source": "Folha · Mercado",
       "date": "2026-11-27"
     }
   ],
